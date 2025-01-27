@@ -1,3 +1,139 @@
 * {
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+/* Header Checkbox */
+.menu__wrapper {
+    display: none;
+}
+  
+/* Header */
+header {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__container {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    padding: 14px 69px;
+}
+
+.header__logo-image {
+    width: 465px;
+    height: 75px;
+}
+
+.nav__items-con {
+    display: flex;
+    margin-left: 100px;
+
+    list-style-type: none;
+}
+
+.nav__item {
+    text-decoration: none;
+    list-style: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.nav__item:not(:last-of-type) {
+    margin-right: 64px;
+}
+
+.header-line {
+    border: 1.50px solid #f2f2f2;
+    width: 31px;
+    height: 0px;
+
+    transform: rotate(90deg);
+}
+
+.dropdown__li {
+  position: relative;
+  display: inline-block;
+  margin-right: 64px;
+}
+
+.right__arrow {
+    border: solid black; 
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.dropdown__line {
+  display: none;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown__content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown__content a:hover {background-color: #f1f1f1;}
+
+.dropdown__li:hover .right__arrow {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: linear .1s;
+}
+
+.dropdown__li:hover .dropdown__line {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown__li:hover .dropdown__content {
+  margin-left: -25px;
+  display: block;
+  transition-delay: .3s;
+}
