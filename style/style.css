@@ -151,10 +151,10 @@ header {
   transition-delay: .3s;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 1000px) {
     .header__container {
         display: flex;
-        justify-content: space-between;
         padding: 0 20px;
     }
 
