@@ -1,3 +1,37 @@
 * {
     box-sizing: border-box;
 }
+.whats_happening_section {
+    background-color: rgba(255, 224, 0, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whats_happening_title {
+    width: 100%;
+    display: block;
+    clear: both;
+    font-size: 42px;
+}
+.whats_happening_content {
+    display: flex;
+}
+.event_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    
+}
+.event_block {
+    width: 210px;
+    background-color: white;
+    border-radius: 4%;
+    padding-top: 10px;
+}
+.event_title {
+    font-size: 18px;
+}
+.event_description {
+    font-size: 14px;
+}
+.event_date {
+    font-size: 12px;
+}
