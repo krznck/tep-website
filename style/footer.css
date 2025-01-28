@@ -1,0 +1,87 @@
+footer {
+    background-color: var(--lnu-yellow);
+    color: var(--lnu-gray);
+    padding: 2em 3em;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: right;
+}
+
+.footer-link {
+    color: var(--lnu-gray);
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.column {
+    flex: 1; /* makes sure columns take up the same space */
+}
+
+.footer-header {
+    color: inherit; /* since some footer-headers are links, we want them to have the same color */
+    display: block;
+}
+
+.footer-header-h2 {
+    font-size: 1.5em; /* h2 size */
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer-header-h3 {
+    font-size: 1.25em; /* h3 size */
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right-side-text {
+    text-align: right;
+}
+
+#footer-logotype {
+    max-width: 200px;
+}
+
+.footer-seperator {
+    border: 1.5px solid var(--lnu-gray);
+}
+
+.footer-copyright {
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer-social-media-icon-link {
+    filter: grayscale(100%) contrast(300%);
+}
+
+.footer-social-media-icon-link:hover {
+    filter: none;
+    transition-duration: 0.2s;
+}
+
+
+@media (max-width: 450px) {
+    .footer-row {
+        flex-direction: column; /* switch to vertical stacking */
+        align-items: center; /* and center the two columns (I guess rows now?) */
+    }
+    
+    .column {
+        text-align: center; /* center the columns */
+    }
+
+    .footer-social-media-icon-link {
+        margin-top: 0.5em;
+    }
+
+    #footer-logotype {
+        max-width: 150px;
+    }
+}

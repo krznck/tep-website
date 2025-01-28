@@ -1,3 +1,8 @@
 * {
     box-sizing: border-box;
 }
+
+:root {
+    --lnu-yellow: #ffe000;
+    --lnu-gray: #333333;
+}
