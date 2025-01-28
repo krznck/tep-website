@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+}
+
+.v2_399 {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background: url("../images/v2_399.png") center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.v2_400 {
+  max-width: 90%; /* Adjusts width dynamically */
+  color: rgba(18, 13, 38, 1);
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: clamp(2.5rem, 5vw, 4.5rem); /* Scales with screen size */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.v2_401 {
+  max-width: 90%; /* Adjusts width dynamically */
+  color: rgba(0, 0, 0, 1);
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scales with screen size */
+  line-height: 1.5;
+  text-align: left;
+}
+
+.v2_402 {
+  width: 15vw; /* Make size responsive */
+  height: 15vw; /* Same as width for a square */
+  max-width: 115px;
+  max-height: 116px;
+  background: url("../images/v2_402.png") center center / cover no-repeat;
+  border-radius: 50%;
+}
+
+.v2_433 {
+  max-width: 90%;
+  width: 40vw; /* Responsive size */
+  aspect-ratio: 1; /* Maintain square shape */
+  background: url("../images/v2_433.png") center center / cover no-repeat;
+  border-radius: 15px;
+  margin: 0 auto; /* Center the image */
+}
+
+.v2_435 {
+  width: 90%; /* Adjusts width dynamically */
+  max-width: 449px;
+  aspect-ratio: 449 / 412; /* Maintain original aspect ratio */
+  background: rgba(255, 224, 0, 0.1);
+  border-radius: 15px;
+  margin: 20px auto; /* Center the element */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .v2_399 {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .v2_400 {
+    text-align: center;
+  }
+
+  .v2_401 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .v2_433 {
+    width: 70vw; /* Larger on small screens */
+  }
+}

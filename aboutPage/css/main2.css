@@ -1,0 +1,279 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+}
+
+/* Main Container */
+.team-container {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Header */
+.team-header {
+  background-color: rgba(255,224,0,1); /* Bright yellow background */
+  width: 100%; /* Full width of the screen */
+  padding: 40px 0; /* Increase height by adding more padding */
+  margin-bottom: 30px; /* Space below the rectangle */
+  text-align: center; /* Center-align text inside */
+  box-sizing: border-box; /* Include padding in width calculation */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.team-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #120d26;
+  margin: 0;
+}
+
+.team-description {
+  font-size: 22px;
+  color: #333;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+
+/* Team Member Cards */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  width: 300px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  padding: 15px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #120d26;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #666;
+}
+
+.team-member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px; /* Space above the buttons */
+}
+
+/* Custom Button */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(255, 224, 0, 1); /* Yellow fill */
+  color: #120d26; /* Dark text color */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 20px; /* Curve for the rectangle */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+.custom-button:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+}
+
+/* Main Container */
+.team-container {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.team-header {
+  margin-bottom: 20px;
+}
+
+.team-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #120d26;
+}
+
+.team-description {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+/* Team Members */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Outer Box (bb) */
+
+.bb {
+  width: 300px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  height: auto; /* Dynamically adjust height based on content */
+  min-height: 400px; /* Ensure all boxes have a consistent baseline size */
+  display: flex; /* Use flexbox for better content alignment */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: space-between; /* Space elements evenly within the box */
+}
+
+/* Inner Box (b) */
+.b {
+  width: 100%;
+  height: 200px;
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Member Info */
+.bb h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #120d26;
+  margin-bottom: 10px;
+}
+
+.bb p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Custom Button */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(255, 224, 0, 1);
+  color: #120d26;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+.custom-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* IMage for each member */
+.member1 {
+  background: url('../images/something.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member2 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member3 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member4 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+.member5 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member6 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member7 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.member8 {
+  background: url('../images/member1.jpg') no-repeat center center;
+  background-size: cover;
+}
