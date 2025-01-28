@@ -20,13 +20,14 @@
     grid-template-columns: 1fr 1fr;
     background: #fff;
     place-items: center;
+    gap: 10%;
 
 }
 
 .textContainer {
     display: block;
     word-wrap: break-word;
-    padding-left: 10%  
+    padding-left: 10%;
 }
 
 .headingContainer {
@@ -36,13 +37,13 @@
 
 .pictureContainer {
     display: grid;
-
+    place-items: center;
 }
 
 .heading {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 96px;
+    font-size: 8vw;
     line-height: 94%;
     letter-spacing: 0.08em;
     color: var(--lnu-black);
@@ -52,14 +53,32 @@
 .line {
     stroke-width: 5px;
     stroke: var(--lnu-yellow);
+    width: 90%;
+    height: 6px;
 }
 
 .explanationText {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(11px, 2vw, 150px);
     color: var(--lnu-black);
     flex-direction: column;
     white-space: normal;
+    max-width: 90%;
 }
+
+.responsiveImage {
+    max-width: 80%;
+    height: auto;
+  }
  
+@media (max-width: 768px) {
+.mainContainer {
+    display: block;  
+}
+
+.responsiveImage {
+    margin-top: 20px; 
+    max-width: 50%;
+}
+}
