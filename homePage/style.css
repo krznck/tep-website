@@ -1,0 +1,65 @@
+
+
+
+:root {
+    --lnu-yellow: #ffe000;
+    --lnu-black: #120d26;
+    --lnu-background-shade: #f7f7f7;
+    --font-family: "Poppins", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+    place-items: center;
+
+}
+
+.textContainer {
+    display: block;
+    word-wrap: break-word;
+    padding-left: 10%  
+}
+
+.headingContainer {
+    display: block; 
+    margin-bottom: 8%;
+}
+
+.pictureContainer {
+    display: grid;
+
+}
+
+.heading {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 94%;
+    letter-spacing: 0.08em;
+    color: var(--lnu-black);
+    margin-bottom: -10px;
+} 
+
+.line {
+    stroke-width: 5px;
+    stroke: var(--lnu-yellow);
+}
+
+.explanationText {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--lnu-black);
+    flex-direction: column;
+    white-space: normal;
+}
+ 
