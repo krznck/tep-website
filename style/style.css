@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 :root {
     --lnu-yellow: rgb(255, 224, 0);
     --lnu-gray: #333333;
