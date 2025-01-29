@@ -1,20 +1,4 @@
 
-
-
-:root {
-    --lnu-yellow: #ffe000;
-    --lnu-black: #120d26;
-    --lnu-background-shade: #f7f7f7;
-    --font-family: "Poppins", sans-serif;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-
 .mainContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
