@@ -1,5 +1,8 @@
-footer {
+.footer-wrapper {
     background-color: var(--lnu-yellow);
+}
+
+footer {
     color: var(--lnu-gray);
     padding: 2em 3em;
 }
