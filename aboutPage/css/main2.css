@@ -7,9 +7,18 @@
 
 /* Body Styles */
 body {
-  font-size: 14px;
+  font-size: clamp(12px, 1vw, 16px); /* Scales font size between 12px and 16px */
   font-family: 'Poppins', sans-serif;
   background: #f5f5f5;
+  line-height: 1.6; /* Improves readability */
+  padding: 0 10px; /* Add a bit of padding for smaller screens */
+}
+
+/* Media Query for smaller devices */
+@media (max-width: 768px) {
+  body {
+    padding: 0 5px; /* Reduce padding on smaller devices */
+  }
 }
 
 /* Main Container */
@@ -17,37 +26,46 @@ body {
   width: 100%;
   height: auto;
   background: #fff;
-  padding: 20px;
+  padding: 5%; /* Use relative padding */
   text-align: center;
 }
 
-
 /* Header */
 .team-header {
-  background-color: rgba(255,224,0,1); /* Bright yellow background */
-  width: 100%; /* Full width of the screen */
-  padding: 40px 0; /* Increase height by adding more padding */
-  margin-bottom: 30px; /* Space below the rectangle */
-  text-align: center; /* Center-align text inside */
-  box-sizing: border-box; /* Include padding in width calculation */
-  border-radius: 30px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+  background-color: rgba(255, 224, 0, 1);
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team-title {
-  font-size: 48px;
+  font-size: clamp(32px, 6vw, 48px); /* Adjust font size dynamically */
   font-weight: bold;
   color: #120d26;
   margin: 0;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-header {
+    padding: 20px 0;
+    border-radius: 20px;
+  }
+
+  .team-title {
+    font-size: clamp(24px, 5vw, 32px); /* Smaller font size for smaller screens */
+  }
+}
+
 .team-description {
-  font-size: 22px;
+  font-size: clamp(16px, 4vw, 22px);
   color: #333;
   margin: 10px 0 0;
   text-align: center;
 }
-
 
 /* Team Member Cards */
 .team-members {
@@ -58,7 +76,7 @@ body {
 }
 
 .team-member {
-  width: 300px;
+  width: clamp(220px, 90%, 300px);
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -69,63 +87,88 @@ body {
 }
 
 .team-member h3 {
-  font-size: 24px;
+  font-size: clamp(18px, 4vw, 24px);
   font-weight: bold;
   color: #120d26;
   margin-bottom: 10px;
 }
 
 .team-member p {
-  font-size: 16px;
+  font-size: clamp(14px, 3vw, 16px);
   color: #666;
 }
 
 .team-member img {
   width: 100%;
-  height: 200px;
+  height: auto;
+  max-height: 200px;
   object-fit: cover;
   border-radius: 16px 16px 0 0;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-members {
+    gap: 10px;
+  }
+
+  .team-member {
+    padding: 10px;
+  }
+
+  .team-member img {
+    max-height: 150px;
+  }
+}
+
 /* Button Container */
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between buttons */
-  margin-top: 20px; /* Space above the buttons */
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
 
 /* Custom Button */
 .custom-button {
   display: inline-block;
   padding: 10px 20px;
-  background: rgba(255, 224, 0, 1); /* Yellow fill */
-  color: #120d26; /* Dark text color */
+  background: rgba(255, 224, 0, 1);
+  color: #120d26;
   text-decoration: none;
-  font-size: 18px;
+  font-size: clamp(14px, 4vw, 18px); /* Responsive font size */
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   border: none;
-  border-radius: 20px; /* Curve for the rectangle */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 120px; /* Ensure buttons have a consistent minimum width */
+  text-align: center; /* Center-align text */
 }
 
 /* Button Hover Effect */
 .custom-button:hover {
-  transform: translateY(-3px); /* Slight lift on hover */
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Global Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .button-container {
+    gap: 10px; /* Reduce spacing between buttons */
+  }
+
+  .custom-button {
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Smaller font size */
+    min-width: 100px; /* Reduce minimum width */
+  }
 }
 
 /* Body Styles */
 body {
-  font-size: 14px;
+  font-size: clamp(12px, 1vw, 14px); /* Responsive font size */
   font-family: 'Poppins', sans-serif;
   background: #f5f5f5;
 }
@@ -135,7 +178,7 @@ body {
   width: 100%;
   height: auto;
   background: #fff;
-  padding: 20px;
+  padding: 5%; /* Relative padding for responsiveness */
   text-align: center;
 }
 
@@ -145,13 +188,13 @@ body {
 }
 
 .team-title {
-  font-size: 40px;
+  font-size: clamp(28px, 5vw, 40px); /* Scales dynamically */
   font-weight: bold;
   color: #120d26;
 }
 
 .team-description {
-  font-size: 20px;
+  font-size: clamp(16px, 3vw, 20px);
   color: #000;
   text-align: center;
 }
@@ -165,9 +208,8 @@ body {
 }
 
 /* Outer Box (bb) */
-
 .bb {
-  width: 300px;
+  width: clamp(220px, 90%, 300px); /* Adjust width for different screen sizes */
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -175,11 +217,11 @@ body {
   overflow: hidden;
   padding: 20px;
   text-align: center;
-  height: auto; /* Dynamically adjust height based on content */
-  min-height: 400px; /* Ensure all boxes have a consistent baseline size */
-  display: flex; /* Use flexbox for better content alignment */
-  flex-direction: column; /* Arrange items vertically */
-  justify-content: space-between; /* Space elements evenly within the box */
+  height: auto;
+  min-height: 400px; /* Maintain baseline size */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Inner Box (b) */
@@ -201,17 +243,16 @@ body {
 
 /* Member Info */
 .bb h3 {
-  font-size: 24px;
+  font-size: clamp(18px, 4vw, 24px);
   font-weight: bold;
   color: #120d26;
   margin-bottom: 10px;
 }
 
 .bb p {
-  font-size: 16px;
+  font-size: clamp(14px, 2.5vw, 16px);
   color: #666;
 }
-
 /* Custom Button */
 .custom-button {
   display: inline-block;
@@ -219,13 +260,15 @@ body {
   background: rgba(255, 224, 0, 1);
   color: #120d26;
   text-decoration: none;
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: bold;
   border: none;
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 10px;
+  touch-action: manipulation; /* Ensures faster response on touch devices */
+  -webkit-tap-highlight-color: transparent; /* Removes gray highlight on mobile */
 }
 
 .custom-button:hover {
@@ -233,47 +276,72 @@ body {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Press Effect (More Noticeable) */
 .custom-button:active {
-  transform: translateY(3px);
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(6px); /* Move it further down */
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow for "pressed" effect */
+  background: rgba(255, 200, 0, 1); /* Slightly darker yellow */
 }
 
-/* IMage for each member */
+/* Mobile-Specific Press Effect */
+@media (hover: none) {
+  .custom-button:active {
+    transform: scale(0.92) translateY(8px); /* Stronger press effect */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .custom-button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-members {
+    gap: 10px;
+  }
+
+  .bb {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .custom-button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+}
+
+
+/* Image for each member */
+.member1,
+.member2,
+.member3,
+.member4,
+.member5,
+.member6,
+.member7,
+.member8 {
+  width: 100%;
+  height: 200px; /* Default height for the member image container */
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+
+/* Specific member images */
 .member1 {
   background: url('../images/something.jpg') no-repeat center center;
-  background-size: cover;
 }
 
 .member2 {
   background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
 }
 
 .member3 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-.member4 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
-}
-.member5 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-.member6 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-.member7 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-.member8 {
-  background: url('../images/member1.jpg') no-repeat center center;
-  background-size: cover;
+  background: url('../images/member1.jpg')
 }

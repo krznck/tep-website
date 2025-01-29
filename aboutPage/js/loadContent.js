@@ -42,6 +42,8 @@ function attachLanguageToggle() {
   }
 }
 
+
+
 // Function to load content dynamically
 function loadHTML(filePath, targetElementId) {
   fetch(filePath)
@@ -55,7 +57,6 @@ function loadHTML(filePath, targetElementId) {
           const targetElement = document.getElementById(targetElementId);
           if (targetElement) {
               targetElement.innerHTML = htmlContent;
-              // Reattach event listeners after the content is loaded
               attachLanguageToggle();
           } else {
               console.error(`Target element with ID '${targetElementId}' not found.`);
@@ -67,10 +68,10 @@ function loadHTML(filePath, targetElementId) {
 }
 
 // Load the "About Us" section
-loadHTML('./index.html', 'about-us-section');
+loadHTML('./aboutUs.html', 'about-us-section');
 
 // Load the "Our Team" section
-loadHTML('./index2.html', 'our-team-section');
+loadHTML('./ourTeam.html', 'our-team-section');
 
 // Attach the initial language toggle for any pre-existing content
 attachLanguageToggle();
