@@ -1067,3 +1067,553 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.2 - - [29/Jan/2025 15:56:42] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
 ::ffff:172.20.10.2 - - [29/Jan/2025 15:56:42] code 404, message File not found
 ::ffff:172.20.10.2 - - [29/Jan/2025 15:56:42] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""n"o"t" "d"o"n"e" "1"[?2004l
+[danial2 7e6d01f] not done 1
+ 2 files changed, 102 insertions(+), 324 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 11 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.84 KiB | 1.84 MiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:krznck/tep-website.git
+   7f56587..7e6d01f  danial2 -> danial2
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push [?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done 1"[21Dadd .                [16D[9Dpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 15:59:37] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 15:59:37] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 15:59:37] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:37] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:37] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:37] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:37] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:37] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:37] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:37] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:49] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 15:59:49] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 15:59:49] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:49] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:49] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:49] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:49] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:49] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:49] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:49] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:50] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 15:59:50] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 15:59:50] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:50] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 15:59:50] code 404, message File not found
+::1 - - [29/Jan/2025 15:59:50] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 15:59:59] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:00:08] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:15] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:01:15] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:01:15] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:15] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:15] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:15] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:15] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:15] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:15] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:15] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:19] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:24] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:39] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:01:48] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:53] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:01:53] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:01:53] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:53] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:53] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:53] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:53] code 404, message File not found
+::1 - - [29/Jan/2025 16:01:53] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:53] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:01:53] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:02:04] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:02:47] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:02:47] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:02:47] code 404, message File not found
+::1 - - [29/Jan/2025 16:02:47] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:02:47] code 404, message File not found
+::1 - - [29/Jan/2025 16:02:47] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:27] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:03:27] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:03:28] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:28] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:28] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:28] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:28] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:28] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:28] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:28] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:30] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:03:30] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:03:30] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:30] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:03:30] code 404, message File not found
+::1 - - [29/Jan/2025 16:03:30] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:33] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:34] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:03:34] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:34] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:38] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:08:58] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:08] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:09:17] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:33] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:09:33] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:09:33] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:33] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:33] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:33] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:33] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:33] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:33] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:33] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:35] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:09:35] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:09:35] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:35] code 404, message File not found
+::1 - - [29/Jan/2025 16:09:35] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:09:35] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:09:42] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:05] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:28] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:30] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:34] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:10:42] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:11:10] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/css/main2.css HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /script/loadContent.js HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/aboutUs.html HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/images/v2_433.png HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/images/something.jpg HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:46] "GET /aboutPage/images/member1.jpg HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] code 404, message File not found
+::ffff:172.20.10.3 - - [29/Jan/2025 16:11:48] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:36] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /aboutPage/aboutUs.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:14:39] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:15:25] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:16:37] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:16:37] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:16:37] "GET /script/loadContent.js HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:16:37] code 404, message File not found
+::1 - - [29/Jan/2025 16:16:37] code 404, message File not found
+::1 - - [29/Jan/2025 16:16:37] code 404, message File not found
+::1 - - [29/Jan/2025 16:16:37] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:16:37] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:16:37] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:16:42] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:16:42] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:16:43] code 404, message File not found
+::1 - - [29/Jan/2025 16:16:43] code 404, message File not found
+::1 - - [29/Jan/2025 16:16:43] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:16:43] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:22] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:17:22] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:17:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:22] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:22] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:22] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:22] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:59] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:17:59] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:17:59] "GET /aboutPage/aboutUs.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:17:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:59] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:59] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:17:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:17:59] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:27] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:18:27] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:18:27] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:27] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:27] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:27] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:27] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:27] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:30] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:18:30] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:18:30] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:30] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:30] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:30] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:38] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:18:38] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:18:38] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:38] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:38] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:38] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:38] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:38] code 404, message File not found
+::1 - - [29/Jan/2025 16:18:38] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:18:38] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:19:03] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:19:03] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:19:03] code 404, message File not found
+::1 - - [29/Jan/2025 16:19:03] code 404, message File not found
+::1 - - [29/Jan/2025 16:19:03] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:19:03] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:19:03] code 404, message File not found
+::1 - - [29/Jan/2025 16:19:03] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 16:22:41] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:22:41] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:22:42] "GET /aboutPage/ourTeam.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:22:42] code 404, message File not found
+::1 - - [29/Jan/2025 16:22:42] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:22:42] code 404, message File not found
+::1 - - [29/Jan/2025 16:22:42] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:08] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:23:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:23:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:08] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:08] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:08] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:59] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:23:59] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:23:59] "GET /script/loadContent.js HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:23:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:59] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:59] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:23:59] code 404, message File not found
+::1 - - [29/Jan/2025 16:23:59] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:24:20] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:24:20] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:24:20] code 404, message File not found
+::1 - - [29/Jan/2025 16:24:20] code 404, message File not found
+::1 - - [29/Jan/2025 16:24:20] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:24:20] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:24:20] code 404, message File not found
+::1 - - [29/Jan/2025 16:24:20] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:24:20] code 404, message File not found
+::1 - - [29/Jan/2025 16:24:20] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:30:08] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:30:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 16:30:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:08] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:30:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:08] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:30:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:08] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:30:08] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:08] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 16:30:22] "GET /index.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:30:22] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 16:30:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:22] code 404, message File not found
+::1 - - [29/Jan/2025 16:30:22] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 16:30:22] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:27] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] code 404, message File not found
+::ffff:172.20.10.2 - - [29/Jan/2025 16:30:35] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /index.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /aboutPage/images/v2_399.png HTTP/1.1" 404 -
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] code 404, message File not found
+::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
