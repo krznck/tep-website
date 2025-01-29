@@ -367,16 +367,16 @@ body {
 /* Tablet Adjustments */
 @media (max-width: 1024px) and (min-width: 768px) {
   .v2_433 {
-    top: 75%; /* Push image further down for iPads */
+    top: 75%;
   }
 
   .v2_435 {
-    top: 85%; /* Adjust background further down */
+    top: 85%;
   }
 }
 
 /* Mobile Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .v2_400 {
     top: 15%;
     font-size: clamp(24px, 6vw, 48px);
@@ -406,8 +406,8 @@ body {
     width: 622px;
     height: 622px;
     background: url("../images/v2_433.png") center center / cover no-repeat;
-    top: 41px;
-    left: 740px;
+    top: 400px;
+    left: 800px;
     border-radius: 15px;
   }
 
