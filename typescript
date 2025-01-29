@@ -2612,4 +2612,29 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 17:46:26] "GET /aboutPage/images/v2_433.png HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add 
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""r"e"s"p"o"n"s"i"v"e" "b"u"t" "u"g"l"y"[?2004l
+[danial2 1644a24] responsive but ugly
+ 3 files changed, 274 insertions(+), 31 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hhhih  ggit push [?2004l
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 11 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.32 KiB | 2.32 MiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:krznck/tep-website.git
+   935966f..1644a24  danial2 -> danial2
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"responsive but ugly"[30Dadd .                         [25D[9Dpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 17:50:11] "GET /main.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 17:50:11] code 404, message File not found
+::1 - - [29/Jan/2025 17:50:11] code 404, message File not found
+::1 - - [29/Jan/2025 17:50:11] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:50:11] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:50:11] code 404, message File not found
+::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/images/something.jpg HTTP/1.1" 304 -
