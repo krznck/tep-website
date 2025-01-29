@@ -2638,3 +2638,40 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:50:11] code 404, message File not found
 ::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/images/something.jpg HTTP/1.1" 304 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit me  commit -m""t"e"s"t"[?2004l
+[danial2 4e30856] test
+ 3 files changed, 46 insertions(+), 21 deletions(-)
+ create mode 100644 main.html
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 11 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 853 bytes | 853.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:krznck/tep-website.git
+   1644a24..4e30856  danial2 -> danial2
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hiigt i  ggit pull origin dev    danial2[?2004l
+From github.com:krznck/tep-website
+ * branch            danial2    -> FETCH_HEAD
+Updating 4e30856..80e07b5
+Fast-forward
+ assets/HomePlaceholderPicture.png | Bin [31m0[m -> [32m387247[m bytes
+ assets/Logotype@4x.png            | Bin [31m0[m -> [32m73445[m bytes
+ homePage/home.html                |  33 [32m+++++++++++++++++++++++++++++++++[m
+ homePage/script.js                |   0
+ style/footer.css                  |  87 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ style/home.css                    |  76 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ style/style.css                   |   8 [32m++++++++[m
+ 7 files changed, 204 insertions(+)
+ create mode 100644 assets/HomePlaceholderPicture.png
+ create mode 100644 assets/Logotype@4x.png
+ create mode 100644 homePage/home.html
+ create mode 100644 homePage/script.js
+ create mode 100644 style/footer.css
+ create mode 100644 style/home.css
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
