@@ -30,7 +30,7 @@
 .heading {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 88px;
+    font-size: clamp(3.8rem, calc(8vw + 1rem), 5.5rem);
     line-height: 94%;
     letter-spacing: 0.08em;
     color: var(--lnu-black);
@@ -48,7 +48,7 @@
 .explanationText {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 22px;
+    font-size: clamp(0.9rem, calc(1.8vw + 0.4rem), 1.5rem);
     color: var(--lnu-black);
     flex-direction: column;
     white-space: normal;
