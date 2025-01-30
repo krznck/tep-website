@@ -1,0 +1,49 @@
+.bg {
+    background-color: rgb(255, 224, 0, 0.2);
+    width: 100%;
+}
+
+.row {
+    padding: 20px;
+    align-items: center;
+}
+
+.card{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.project-img {
+    border-radius: 10px;
+    float: left;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+.project-header {
+    font-size: 25px;
+}
+
+.arrow-button {
+    width: 40px;
+    height: auto;
+}
+
+.p-description {
+    font-size: 15px;
+    max-width: 400px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+    .p-description {
+        max-width: 300px;
+    }
+    
+}
