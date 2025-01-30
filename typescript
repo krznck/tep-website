@@ -2674,4 +2674,278 @@ Fast-forward
  create mode 100644 homePage/script.js
  create mode 100644 style/footer.css
  create mode 100644 style/home.css
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commirt    mit -m""f"o"o"t"e"r"[?2004l
+[danial2 4b15aac] footer
+ 2 files changed, 71 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 11 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 2.08 KiB | 2.08 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:krznck/tep-website.git
+   80e07b5..4b15aac  danial2 -> danial2
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"footer"[17Dadd .            [12Dpull origin danial2[17Dsh               [14Dcommit -m"test"[15Dadd .          [10D[9Dpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 17:58:00] "GET /main.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 17:58:00] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 17:58:00] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 17:58:00] code 404, message File not found
+::1 - - [29/Jan/2025 17:58:00] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:58:00] code 404, message File not found
+::1 - - [29/Jan/2025 17:58:00] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:58:00] code 404, message File not found
+::1 - - [29/Jan/2025 17:58:00] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 17:58:00] "GET /aboutPage/images/something.jpg HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:00:39] "GET /main.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:00:39] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:00:39] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:00:39] code 404, message File not found
+::1 - - [29/Jan/2025 18:00:39] code 404, message File not found
+::1 - - [29/Jan/2025 18:00:39] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:00:39] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:12] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:01:12] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:01:12] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:12] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:12] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:12] "GET /css/main2.css HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 18:01:31] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:01:31] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:01:31] "GET /aboutPage/css/main2.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:01:31] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:01:31] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:31] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:31] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:31] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:31] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:31] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:31] "GET /aboutPage/images/something.jpg HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:01:47] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:01:47] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:01:47] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:47] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:01:47] code 404, message File not found
+::1 - - [29/Jan/2025 18:01:47] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:03:42] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:03:42] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:03:42] code 404, message File not found
+::1 - - [29/Jan/2025 18:03:42] code 404, message File not found
+::1 - - [29/Jan/2025 18:03:42] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:03:42] "GET /css/main.css HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 18:05:00] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:05:00] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:05:00] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:05:00] "GET /aboutPage/footer.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:05:00] code 404, message File not found
+::1 - - [29/Jan/2025 18:05:00] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:05:00] code 404, message File not found
+::1 - - [29/Jan/2025 18:05:00] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:27:25] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:27:25] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:27:25] "GET /script/loadContent.js HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:27:25] "GET /aboutPage/footer.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:27:25] code 404, message File not found
+::1 - - [29/Jan/2025 18:27:25] code 404, message File not found
+::1 - - [29/Jan/2025 18:27:25] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:27:25] "GET /css/main2.css HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 18:27:45] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:27:45] code 404, message File not found
+::1 - - [29/Jan/2025 18:27:45] code 404, message File not found
+::1 - - [29/Jan/2025 18:27:45] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:27:45] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:28:18] code 404, message File not found
+::1 - - [29/Jan/2025 18:28:18] code 404, message File not found
+::1 - - [29/Jan/2025 18:28:18] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:28:18] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:28:18] code 404, message File not found
+::1 - - [29/Jan/2025 18:28:18] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:28:18] "GET /aboutPage/images/member1.jpg HTTP/1.1" 304 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[A[50C                           [1B[K[A[50Ccclear[?2004l[1B[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 18:30:51] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:30:51] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:30:51] "GET /aboutPage/footer.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 18:30:51] code 404, message File not found
+::1 - - [29/Jan/2025 18:30:51] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:30:51] code 404, message File not found
+::1 - - [29/Jan/2025 18:30:51] "GET /style/footer.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:30:51] "GET /style/style.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:30:51] "GET /assets/Logotype@4x.png HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 18:30:51] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 18:30:51] code 404, message File not found
+::1 - - [29/Jan/2025 18:30:51] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:44] "GET /index.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] "GET /style/style.css HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] "GET /style/footer.css HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] "GET /script/script.js HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] "GET /assets/Logotype@4x.png HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] code 404, message File not found
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:45] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:48] "GET /index.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /main.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /script/loadContent.js HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /aboutPage/css/main2.css HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /aboutPage/aboutUs.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /aboutPage/ourTeam.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /aboutPage/footer.html HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] code 404, message File not found
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /css/main.css HTTP/1.1" 404 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] code 404, message File not found
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:58] "GET /css/main2.css HTTP/1.1" 404 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] code 404, message File not found
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/v2_433.png HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/v2_399.png HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/something.jpg HTTP/1.1" 200 -
+::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/member1.jpg HTTP/1.1" 200 -
+^Z
+zsh: suspended  python3 -m http.server 8000
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Traceback (most recent call last):
+  File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
+  File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/server.py"[0m, line [35m1320[0m, in [35m<module>[0m
+    [31mtest[0m[1;31m([0m
+    [31m~~~~[0m[1;31m^[0m
+        [1;31mHandlerClass=handler_class,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    ...<3 lines>...
+        [1;31mprotocol=args.protocol,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/server.py"[0m, line [35m1267[0m, in [35mtest[0m
+    with [31mServerClass[0m[1;31m(addr, HandlerClass)[0m as httpd:
+         [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socketserver.py"[0m, line [35m457[0m, in [35m__init__[0m
+    [31mself.server_bind[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/server.py"[0m, line [35m1314[0m, in [35mserver_bind[0m
+    return [31msuper().server_bind[0m[1;31m()[0m
+           [31m~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/server.py"[0m, line [35m136[0m, in [35mserver_bind[0m
+    [31msocketserver.TCPServer.server_bind[0m[1;31m(self)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^[0m
+  File [35m"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socketserver.py"[0m, line [35m473[0m, in [35mserver_bind[0m
+    [31mself.socket.bind[0m[1;31m(self.server_address)[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hsser s  [7mlsof -i :8000[27m
+[K[A[50C[27ml[27ms[27mo[27mf[27m [27m-[27mi[27m [27m:[27m8[27m0[27m0[27m0[1B[K[?2004l
+COMMAND   PID            USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Python  39949 danialgholamian    4u  IPv6 0xe721a94e4862a550      0t0  TCP *:irdmi (LISTEN)
+Python  39949 danialgholamian    5u  IPv6 0x6d3286ddcf8b6f90      0t0  TCP localhost:irdmi->localhost:57448 (CLOSED)
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mkill -9 39949[27m
+[K[A[50C[27mk[27mi[27ml[27ml[27m [27m-[27m9[27m [27m3[27m9[27m9[27m4[27m9[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+[1]  + killed     python3 -m http.server 8000
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [Kkill -9 39949
+[K[K[A[50Clsof[2Ci :8000[1B[A[50Cpython3 -m http.server 8000[1B[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 20:54:53] "GET /index.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:54:53] "GET /script/script.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:54:53] "GET /style/style.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:54:53] "GET /style/footer.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:54:53] "GET /assets/Logotype@4x.png HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/css/main2.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /script/loadContent.js HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/ourTeam.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/aboutUs.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/footer.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] code 404, message File not found
+::1 - - [29/Jan/2025 20:55:10] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:55:10] code 404, message File not found
+::1 - - [29/Jan/2025 20:55:10] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:55:10] "GET /style/footer.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:55:10] code 404, message File not found
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:55:10] "GET /aboutPage/images/v2_433.png HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:56:41] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:56:41] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:41] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:41] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:41] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:41] "GET /style/footer.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:56:43] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:56:43] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:43] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:43] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:43] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:45] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:56:45] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:45] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:45] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:45] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:51] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:51] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:51] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:51] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:56:51] code 404, message File not found
+::1 - - [29/Jan/2025 20:56:51] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:57:09] "GET /main.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:57:09] code 404, message File not found
+::1 - - [29/Jan/2025 20:57:09] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:57:09] code 404, message File not found
+::1 - - [29/Jan/2025 20:57:09] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:57:09] "GET /style/footer.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:57:19] code 404, message File not found
+::1 - - [29/Jan/2025 20:57:19] code 404, message File not found
+::1 - - [29/Jan/2025 20:57:19] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:57:19] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:57:19] code 404, message File not found
+::1 - - [29/Jan/2025 20:57:19] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+[K[K[?2004l
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [29/Jan/2025 20:58:14] "GET /main.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:58:14] "GET /script/loadContent.js HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/css/main2.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/footer.html HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/aboutUs.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/ourTeam.html HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:58:14] "GET /assets/Logotype@4x.png HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] code 404, message File not found
+::1 - - [29/Jan/2025 20:58:14] code 404, message File not found
+::1 - - [29/Jan/2025 20:58:14] "GET /style/footer.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /style/style.css HTTP/1.1" 200 -
+::1 - - [29/Jan/2025 20:58:14] "GET /css/main2.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:58:14] "GET /css/main.css HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:58:14] code 404, message File not found
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/images/v2_433.png HTTP/1.1" 304 -
+::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/images/member1.jpg HTTP/1.1" 304 -
+^C
+Keyboard interrupt received, exiting.
 [1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h

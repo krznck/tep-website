@@ -1,6 +1,10 @@
-footer {
+.footer-wrapper {
     background-color: var(--lnu-yellow);
+}
+
+footer {
     color: var(--lnu-gray);
+    font-family: var(--font-family);
     padding: 2em 3em;
 }
 
@@ -13,7 +17,7 @@ footer {
 
 .footer-link {
     color: var(--lnu-gray);
-    font-weight: lighter;
+    font-weight: 300; /* "normal" is 400, so this is between lighter and normal - I think that looks better with Poppins */
     margin-bottom: 0.5em;
     display: block;
 }
