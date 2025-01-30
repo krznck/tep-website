@@ -7,10 +7,10 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .main-wrapper {
@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
   display: flex;
   padding: 50px 0;
+}
+
+#about-us-section {
+  padding-top: 120px; /* Adjust if needed */
 }
 
 .v2_400 {

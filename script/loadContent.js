@@ -72,30 +72,34 @@ function attachLanguageToggle() {
 
 // Function to load content dynamically
 function loadHTML(filePath, targetElementId) {
-  fetch(filePath)
-      .then((response) => {
-          if (!response.ok) {
-              throw new Error(`Failed to load ${filePath}: ${response.statusText}`);
-          }
-          return response.text();
-      })
-      .then((htmlContent) => {
-          const targetElement = document.getElementById(targetElementId);
-          if (targetElement) {
-              targetElement.innerHTML = htmlContent;
-              attachLanguageToggle();
-          } else {
-              console.error(`Target element with ID '${targetElementId}' not found.`);
-          }
-      })
-      .catch((error) => {
-          console.error("Error loading HTML file:", error);
-      });
+    console.log(`Attempting to load ${filePath} into #${targetElementId}`);
+    
+    fetch(filePath)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error(`Failed to load ${filePath}: ${response.statusText}`);
+            }
+            return response.text();
+        })
+        .then((htmlContent) => {
+            const targetElement = document.getElementById(targetElementId);
+            if (targetElement) {
+                targetElement.innerHTML = htmlContent;
+                console.log(`Successfully loaded ${filePath} into #${targetElementId}`);
+                attachLanguageToggle();
+            } else {
+                console.error(`Target element with ID '${targetElementId}' not found.`);
+            }
+        })
+        .catch((error) => {
+            console.error(`Error loading ${filePath}:`, error);
+        });
 }
+
 
 // Load the "About Us" section
 loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
-loadHTML('./aboutPage/combined.html', 'combained-main-section');
+loadHTML('./aboutPage/main.html', 'combained-main-section');
 
 // Load the "Our Team" section
 loadHTML('./aboutPage/ourTeam.html', 'our-team-section');
