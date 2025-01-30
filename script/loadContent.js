@@ -10,7 +10,15 @@ const translations = {
     "header-aboutUs": "About Us",
     "header-contact": "Contact Us",
     "header-english": "English",
-    "header-swedish": "Swedish"
+    "header-swedish": "Swedish",
+    "TEP-description": "The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.",
+    "event-section-title": "What's happening?",
+    "event1-title": "Project 1",
+    "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
+    "event2-title": "Research",
+    "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
+    "event3-title": "Community Outreach",
+    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?"
 },
 sv: {
     "member1-name": "Medlem 1",
@@ -22,7 +30,15 @@ sv: {
     "header-aboutUs": "Om Oss",
     "header-contact": "Kontakta Oss",
     "header-english": "Svenska",
-    "header-swedish": "Engelska"
+    "header-swedish": "Engelska",
+    "TEP-description": "Det pedagogiska handledningsprogrammet är utformat för att erbjuda studenter möjligheten att arbeta med universitetet som handledare, att få erfarenhet av forskning och att delta i samhällsarbete.",
+    "event-section-title": "Vad händer?",
+    "event1-title": "Projekt 1",
+    "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
+    "event2-title": "Forskning",
+    "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
+    "event3-title": "Samhällsarbete",
+    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?"
 }
 };
 // Function to change the language
@@ -79,6 +95,7 @@ function loadHTML(filePath, targetElementId) {
 
 // Load the "About Us" section
 loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
+loadHTML('./aboutPage/combined.html', 'combained-main-section');
 
 // Load the "Our Team" section
 loadHTML('./aboutPage/ourTeam.html', 'our-team-section');

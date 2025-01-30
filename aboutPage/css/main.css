@@ -18,10 +18,9 @@ body {
 }
 
 .v2_399 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-  gap: 10%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
   padding: 50px 0;
 }
 
@@ -44,7 +43,7 @@ body {
 .v2_433 {
   width: clamp(300px, 50vw, 622px);
   height: clamp(300px, 50vw, 622px);
-  background: url("../images/v2_433.png") center center / cover no-repeat;
+  /* background: url("../images/v2_433.png") center center / cover no-repeat; */
   border-radius: 15px;
   display: flex;
   align-items: center;
