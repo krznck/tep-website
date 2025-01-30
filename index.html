@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/events.css">
+    <link rel="stylesheet" href="./style/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/footer.css">
 </head>
-<body>
+<body> 
     <header>
         <div class="container header__container">
             <a href="./index.html"><img class="header__logo-image" src="./images/Wordmark-en.png" alt="Wordmark"></a>
@@ -42,25 +44,83 @@
        </div>
     </header>
 
-    <footer>
-        <div class="footer-row">
-            <div class="column">
-                <img src="assets/Logotype@4x.png" id="footer-logotype"> <!-- Illustrative, we'll use the logo we all voted on-->
+    <div class="main-wrapper">
+        <div class="mainContainer centered">
+            <div class=textContainer>
+                <div class="headingContainer">
+                    <h1 class="heading">
+                        TEP
+                    </h1>
+                    <svg class="line">
+                        <path d="M0 3.04468L543.532 3.04464" stroke="#FFE000" stroke-width="5" />
+                    </svg>
+                </div>
+                <div class="explanationText">
+                    <p> The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.</p>
+                </div>
             </div>
-            <div class="column">
-                <a href="" class="footer-header footer-header-h2 right-side-text">Contacts</a>
-                <h3 class="footer-header footer-header-h3 right-side-text">Email</h3>
-                <a href="" class="footer-link right-side-text">info@tep.lnu.se</a> <!-- Obviously illustrative, we don't know what domain we'll have -->
+            <div class="pictureContainer">
+                <img src="../assets/HomePlaceholderPicture.png" alt="Placeholder Picture" class="responsiveImage" />
             </div>
         </div>
-        <hr class="footer-seperator">
-        <div class="footer-row">
-            <p class="footer-copyright">© Linnaeus University 2025</p>
-            <a class="footer-social-media-icon-link" href="" title="Department LinkedIn" alt="LinkedIn icon">
-                <svg height="20" viewBox="0 0 72 72" width="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg>
-            </a>
+    </div>
+    <div class="events-wrapper">
+        <div class="event_section centered">
+            <div class="event_section_title">
+                <h2>What's happening?</h2>
+            </div>
+            <div class="event_section_content">
+                <a class="event_link" href="/projects/index.html">
+                    <div class="event_block">
+                        <img class="event_img" src="img/cat.jpg" alt="">
+                        <div class="event_text">
+                            <h3 class="event_title">Project 1</h3>
+                            <h4 class="event_description">Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.</h4>
+                            <h5 class="event_date">2025-01-27</h5>
+                        </div>
+                    </div>
+                </a>
+                <div class="event_block">
+                    <img class="event_img" src="img/cat.jpg" alt="">
+                    <div class="event_text">
+                        <h3 class="event_title">Research</h3>
+                        <h4 class="event_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?</h4>
+                        <h5 class="event_date">2025-01-27</h5>
+                    </div>
+                </div>
+                <div class="event_block">
+                    <img class="event_img" src="img/cat.jpg" alt="">
+                    <div class="event_text">
+                        <h3 class="event_title">Community Outreach</h3>
+                        <h4 class="event_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?</h4>
+                        <h5 class="event_date">2025-01-27</h5>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <div class="footer-wrapper">
+        <footer class="centered">
+            <div class="footer-row">
+                <div class="column">
+                    <img src="assets/Logotype@4x.png" id="footer-logotype"> <!-- Illustrative, we'll use the logo we all voted on-->
+                </div>
+                <div class="column">
+                    <a href="" class="footer-header footer-header-h2 right-side-text">Contacts</a>
+                    <h3 class="footer-header footer-header-h3 right-side-text">Email</h3>
+                    <a href="" class="footer-link right-side-text">info@tep.lnu.se</a> <!-- Obviously illustrative, we don't know what domain we'll have -->
+                </div>
+            </div>
+            <hr class="footer-seperator">
+            <div class="footer-row">
+                <p class="footer-copyright">© Linnaeus University 2025</p>
+                <a class="footer-social-media-icon-link" href="" title="Department LinkedIn" alt="LinkedIn icon">
+                    <svg height="20" viewBox="0 0 72 72" width="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+<!-- hehe, trying my best here -->
 
     <script src="./script/script.js"></script>
     <script src="./script/loadContent.js"></script>

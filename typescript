@@ -1,12 +1,36 @@
 Script started on Wed Jan 29 02:48:40 2025
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccds  s
-[Jscript/  style/[A[0m[27m[24m[50Ccd s[Kcript[1m/[0m[0m [?2004l
-[J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccds  s
+
+[Jscript/  style/[A[0m[27m[24m
+[50Ccd s[Kcript[1m/[0m[0m [?2004l
+
+[J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+
 script.js
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004httouch loadContent.js[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hppwd p  ppwd[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004httouch loadContent.js[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hppwd p  ppwd[?2004l
+
 /Users/danialgholamian/second_year/tep-website/script
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hpwdtouch loadContent.js[20Dls                  [18Dcd script[9Dipconfig getifaddr en0[13D             [14D[8Dif[6C getipaddr en0[22Dgetifaddr en0         [9D[13Difconfig getipaddr en0[22Dnode -v               [15D/opt/homebrew/bin/python3 /Users/danialgholamian/.vscode/extensions/ms-python.python-2024.22.2-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/danialgholamian/.vscode/extensions/ms-python.python-2024.22.2-darwin-arm64/python_files/deactivate/zsh/envVars.txt[K[A[108Dpython3 -m http.server 8000[K[1B[K[A[45C[1B[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hpwdtouch loadContent.js[20Dls                  [18Dcd script[9Dipconfig getifaddr en0[13D             [14D[8Dif[6C getipaddr en0[22Dgetifaddr en0         [9D[13Difconfig getipaddr en0[22Dnode -v               [15D/opt/homebrew/bin/python3 /Users/danialgholamian/.vscode/extensions/ms-python.python-2024.22.2-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/danialgholamian/.vscode/extensions/ms-python.python-2024.22.2-darwin-arm64/python_files/deactivate/zsh/envVars.txt[K[A[108Dpython3 -m http.server 8000[K[1B
+[K[A[45C[1B
+[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 02:53:38] code 404, message File not found
 ::ffff:192.168.0.80 - - [29/Jan/2025 02:53:38] "GET /combined.html HTTP/1.1" 404 -
@@ -26,15 +50,36 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 02:54:21] "GET /favicon.ico HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+
 loadContent.js	script.js
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd c  lls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd c  lls[?2004l
+
 README.md	contactPage	index.html	script		style		venv
 aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hcd aboutPage[12Dls          [10Dcd ..ls   python3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hcd aboutPage[12Dls          [10Dcd ..ls   python3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 02:59:43] "GET /combined.html HTTP/1.1" 200 -
 ::ffff:192.168.0.80 - - [29/Jan/2025 02:59:43] code 404, message File not found
@@ -58,8 +103,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:01:24] "GET /script/loadContent.js HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:01:35] "GET /combined.html HTTP/1.1" 200 -
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:01:35] code 404, message File not found
@@ -71,24 +121,68 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:02:16] "GET /script/loadContent.js HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+
 aboutUs.html	combined.html	css		images		js		ourTeam.html
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..  c  ppwd p  cclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hppwd[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..  c  ppwd p  cclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hppwd[?2004l
+
 /Users/danialgholamian/second_year/tep-website/aboutPage
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+
 aboutUs.html	combined.html	css		images		js		ourTeam.html
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd s
-[Jscript/  style/[A[0m[27m[24m[50Ccd s[Kcript[1m/[0m[0m [?2004l
-[J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd s
+
+[Jscript/  style/[A[0m[27m[24m
+[50Ccd s[Kcript[1m/[0m[0m [?2004l
+
+[J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+
 loadContent.js	script.js
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hs lls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hs lls[?2004l
+
 README.md	contactPage	index.html	script		style		venv
 aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000[27m
-[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000[27m
+
+[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B
+[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:05:35] "GET /script/loadContent.js HTTP/1.1" 200 -
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:05:39] "GET /script/loadContent.js HTTP/1.1" 200 -
@@ -96,15 +190,35 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:07:18] "GET /script/loadContent.js HTTP/1.1" 200 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+
 README.md	contactPage	index.html	script		style		venv
 aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hppwd[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hppwd[?2004l
+
 /Users/danialgholamian/second_year/tep-website
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpwd  clear     [7mcd /Users/danialgholamian/second_year/tep-website[27m
-[7mpython -m http.server 8000[27m[K
-[K[A[A[50C[27mc[27md[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27md[27ma[27mn[27mi[27ma[27ml[27mg[27mh[27mo[27ml[27ma[27mm[27mi[27ma[27mn[27m/[27ms[27me[27mc[27mo[27mn[27md[27m_[27my[27me[27ma[27mr[27m/[27mt[27me[27mp[27m-[27mw[27me[27mb[27ms[27mi[27mt[27me[1B[27mp[27my[27mt[27mh[27mo[27mn[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpwd  clear     [7mcd /Users/danialgholamian/second_year/tep-website[27m
+
+[7mpython -m http.server 8000[27m[K
+
+[K[A[A[50C[27mc[27md[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27md[27ma[27mn[27mi[27ma[27ml[27mg[27mh[27mo[27ml[27ma[27mm[27mi[27ma[27mn[27m/[27ms[27me[27mc[27mo[27mn[27md[27m_[27my[27me[27ma[27mr[27m/[27mt[27me[27mp[27m-[27mw[27me[27mb[27ms[27mi[27mt[27me[1B
+[27mp[27my[27mt[27mh[27mo[27mn[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B
+[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:08:47] "GET /script/loadContent.js HTTP/1.1" 200 -
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:08:47] "GET /script/loadContent.js HTTP/1.1" 200 -
@@ -114,24 +228,69 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.205 - - [29/Jan/2025 03:09:02] "GET /combined.html HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+
 README.md	contactPage	index.html	script		style		venv
 aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hppwd[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hppwd[?2004l
+
 /Users/danialgholamian/second_year/tep-website
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd s
-[Jscript/  style/[A[0m[27m[24m[50Ccd s[Kcript[1m/[0m[0m [?2004l
-[J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd s
+
+[Jscript/  style/[A[0m[27m[24m
+[50Ccd s[Kcript[1m/[0m[0m [?2004l
+
+[J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hlls[?2004l
+
 loadContent.js	script.js
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro script % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+
 aboutUs.html	combined.html	css		images		js		ourTeam.html
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcd ..ls   cd aboutPage[9D..       ls   cd script[9Dpwd      ls clearcd /Users/danialgholamian/second_year/tep-website
-python -m http.server 8000[K
-[K[K[A[A[50Cclear                                            [1B[K[1B[K[A[A[55Cpwd  ls python3 -m http.server 8000[1B[K[K[?2004l[1BServing HTTP on :: port 8000 (http://[::]:8000/) ...
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcd ..ls   cd aboutPage[9D..       ls   cd script[9Dpwd      ls clearcd /Users/danialgholamian/second_year/tep-website
+
+python -m http.server 8000[K
+
+[K[K[A[A[50Cclear                                            [1B
+[K[1B[K[A[A[55Cpwd  ls python3 -m http.server 8000[1B
+[K[K[?2004l[1BServing HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:30:42] "GET /script/loadContent.js HTTP/1.1" 200 -
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:31:03] code 404, message File not found
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:31:03] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
@@ -201,8 +360,13 @@ python -m http.server 8000[K
 ::ffff:192.168.0.80 - - [29/Jan/2025 03:42:06] "GET /css/main2.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 03:42:30] code 404, message File not found
 ::1 - - [29/Jan/2025 03:42:30] "GET /combined.html HTTP/1.1" 404 -
@@ -221,25 +385,69 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 03:42:52] "GET /favicon.ico HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[A[77C                      p  lls[?2004l[1BREADME.md	contactPage	index.html	script		style		venv
-aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
-aboutUs.html	combined.html	css		images		js		ourTeam.html
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd 
-[Jcss/     images/  js/[A[0m[27m[24m[48Ccd[K[1Ca cd ss[?2004l
-[J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hlls[?2004l
-main.css	main2.css	styleprev.css
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hppwd[?2004l
-/Users/danialgholamian/second_year/tep-website/aboutPage/css
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[A[77C                      p  lls[?2004l[1B
 README.md	contactPage	index.html	script		style		venv
 aboutPage	core		projects	sender.php	typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlscd ..pwd  ls cd cssls    cd aboutPage[12Dls          [10Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hccd aboutPage[1m/[0m[0m [?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hlls[?2004l
+
+aboutUs.html	combined.html	css		images		js		ourTeam.html
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd 
+
+[Jcss/     images/  js/[A[0m[27m[24m
+[48Ccd[K[1Ca cd ss[?2004l
+
+[J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hlls[?2004l
+
+main.css	main2.css	styleprev.css
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hppwd[?2004l
+
+/Users/danialgholamian/second_year/tep-website/aboutPage/css
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro css % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro aboutPage % [K[?2004hccd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlls[?2004l
+
+README.md	contactPage	index.html	script		style		venv
+aboutPage	core		projects	sender.php	typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hlscd ..pwd  ls cd cssls    cd aboutPage[12Dls          [10Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 03:47:04] "GET /index.html HTTP/1.1" 200 -
 ::1 - - [29/Jan/2025 03:47:04] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -258,16 +466,40 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 03:47:04] "GET /aboutPage/images/v2_433.png HTTP/1.1" 200 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .     g  python3 -m http.server 8000
-[Kc[K[K[A[77C [?2004l[1B[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .     g  python3 -m http.server 8000
+
+[Kc
+[K[K[A[77C [?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ^Z
 zsh: suspended  python3 -m http.server 8000
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Traceback (most recent call last):
   File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
   File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
@@ -297,8 +529,13 @@ Traceback (most recent call last):
     [31mself.socket.bind[0m[1;31m(self.server_address)[0m
     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
 [1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Traceback (most recent call last):
   File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
   File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
@@ -328,9 +565,18 @@ Traceback (most recent call last):
     [31mself.socket.bind[0m[1;31m(self.server_address)[0m
     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
 [1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Traceback (most recent call last):
   File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
   File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
@@ -360,8 +606,21 @@ Traceback (most recent call last):
     [31mself.socket.bind[0m[1;31m(self.server_address)[0m
     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
 [1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[A[50Cclear                      [1B[K[A[55Cpython3 -m http.server 8000[1B[K[K[A[50C[1B[A[50Cclear                      [1B[K[A[55Cpython3 -m http.server 8000[1B[K[K[A[50C[1B[A[50Cls                         [1B[K[A[52Ccd ..pwd  ls cd cssls    cd aboutPage[12Dls          [10Dpython3 -m http.server 8000[1B[K[K[A[50C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[A[50Cclear                      [1B
+[K[A[55Cpython3 -m http.server 8000[1B
+[K[K[A[50C[1B
+[A[50Cclear                      [1B
+[K[A[55Cpython3 -m http.server 8000[1B
+[K[K[A[50C[1B
+[A[50Cls                         [1B
+[K[A[52Ccd ..pwd  ls cd cssls    cd aboutPage[12Dls          [10Dpython3 -m http.server 8000[1B
+[K[K[A[50C[?2004l[1B
+
 Traceback (most recent call last):
   File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
   File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
@@ -391,16 +650,39 @@ Traceback (most recent call last):
     [31mself.socket.bind[0m[1;31m(self.server_address)[0m
     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
 [1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hllsof -i :8000[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hllsof -i :8000[?2004l
+
 COMMAND   PID            USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 Python  34646 danialgholamian    4u  IPv6 0xe721a94e4862a550      0t0  TCP *:irdmi (LISTEN)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hkkill -9 34646[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hkkill -9 34646[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+
 [1]  + killed     python3 -m http.server 8000
-[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [Kkill -9 34646[13Dlsof[2Ci :8000[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000[27m
-[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B[K[?2004l
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [Kkill -9 34646[13Dlsof[2Ci :8000[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000[27m
+
+[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[1B
+[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 13:08:52] code 404, message File not found
 ::1 - - [29/Jan/2025 13:08:52] "GET /combined.html HTTP/1.1" 404 -
@@ -425,8 +707,14 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 13:08:58] "GET /aboutPage/images/member1.jpg HTTP/1.1" 200 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000 --bind 0.0.0.0[27m
-[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[27m [27m-[27m-[27mb[27mi[27mn[27md[27m [27m0[27m.[27m0[27m.[27m0[27m.[27m0[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mpython3 -m http.server 8000 --bind 0.0.0.0[27m
+
+[K[A[50C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mt[27mt[27mp[27m.[27ms[27me[27mr[27mv[27me[27mr[27m [27m8[27m0[27m0[27m0[27m [27m-[27m-[27mb[27mi[27mn[27md[27m [27m0[27m.[27m0[27m.[27m0[27m.[27m0[1B
+[K[?2004l
+
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 127.0.0.1 - - [29/Jan/2025 13:12:13] "GET /index.html HTTP/1.1" 304 -
 127.0.0.1 - - [29/Jan/2025 13:12:14] code 404, message File not found
@@ -440,8 +728,14 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 127.0.0.1 - - [29/Jan/2025 13:12:16] "GET /css/main.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000 --bind 0.0.0.0
-[K[K[A[50C[28C              [1B[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000 --bind 0.0.0.0
+
+[K[K[A[50C[28C              [1B
+[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 13:15:45] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 13:15:45] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -472,8 +766,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 13:18:33] "GET /css/main2.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 13:19:33] "GET /index.html HTTP/1.1" 200 -
 ::ffff:172.20.10.1 - - [29/Jan/2025 13:19:33] "GET /aboutPage/css/main2.css HTTP/1.1" 200 -
@@ -494,8 +793,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 13:19:33] "GET /aboutPage/images/member1.jpg HTTP/1.1" 200 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:00:54] code 404, message File not found
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:00:54] "GET /favicon.ico HTTP/1.1" 404 -
@@ -648,8 +952,29 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:20:41] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[A[50C[1B[A[50C[1B[A[50C[27C --bind 0.0.0.0[1B[A[50C[28C              [1B[A[50Clsof -i :8000              [1B[K[A[63C[13Dkill[2C9 34646[13Dlsof[2Ci :8000[13Dclear        [8Dpython3 -m http.server 8000[1B[K[K[A[50C[1B[A[50Cclear                      [1B[K[A[55Cpython3 -m http.server 8000[1B[K[K[A[50C[1B[A[50Cclear                      [1B[K[A[55Cpython3 -m http.server 8000[1B[K[K[A[50Cclear                      [1B[K[A[55Cpython3 -m http.server 8000[1B[K[K[A[50Cclear                      [1B[K[A[55C   c  python3 -m http.server 8000[1B[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[A[50C[1B
+[A[50C[1B
+[A[50C[27C --bind 0.0.0.0[1B
+[A[50C[28C              [1B
+[A[50Clsof -i :8000              [1B
+[K[A[63C[13Dkill[2C9 34646[13Dlsof[2Ci :8000[13Dclear        [8Dpython3 -m http.server 8000[1B
+[K[K[A[50C[1B
+[A[50Cclear                      [1B
+[K[A[55Cpython3 -m http.server 8000[1B
+[K[K[A[50C[1B
+[A[50Cclear                      [1B
+[K[A[55Cpython3 -m http.server 8000[1B
+[K[K[A[50Cclear                      [1B
+[K[A[55Cpython3 -m http.server 8000[1B
+[K[K[A[50Cclear                      [1B
+[K[A[55C   c  python3 -m http.server 8000[1B
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:24:06] "GET /index.html HTTP/1.1" 200 -
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:24:06] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -690,9 +1015,18 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 14:34:51] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 15:07:39] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 15:07:39] "GET /script/loadContent.js HTTP/1.1" 304 -
@@ -722,9 +1056,18 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 15:08:27] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 15:32:43] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 15:32:43] "GET /aboutPage/css/main2.css HTTP/1.1" 304 -
@@ -986,26 +1329,96 @@ ConnectionResetError: [Errno 54] Connection reset by peer
 ::ffff:172.20.10.1 - - [29/Jan/2025 15:47:45] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commir t -m""n"o"t" "d"o"n"e" "[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commir t -m""n"o"t" "d"o"n"e" "[?2004l
+
 [danial2 7f56587] not done
  9 files changed, 1151 insertions(+), 98 deletions(-)
  delete mode 100644 aboutPage/css/styleprev.css
  delete mode 100644 aboutPage/indexprev.html
  create mode 100644 script/loadContent.js
  create mode 100644 typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 23, done.
-Counting objects:   4% (1/23)Counting objects:   8% (2/23)Counting objects:  13% (3/23)Counting objects:  17% (4/23)Counting objects:  21% (5/23)Counting objects:  26% (6/23)Counting objects:  30% (7/23)Counting objects:  34% (8/23)Counting objects:  39% (9/23)Counting objects:  43% (10/23)Counting objects:  47% (11/23)Counting objects:  52% (12/23)Counting objects:  56% (13/23)Counting objects:  60% (14/23)Counting objects:  65% (15/23)Counting objects:  69% (16/23)Counting objects:  73% (17/23)Counting objects:  78% (18/23)Counting objects:  82% (19/23)Counting objects:  86% (20/23)Counting objects:  91% (21/23)Counting objects:  95% (22/23)Counting objects: 100% (23/23)Counting objects: 100% (23/23), done.
+Counting objects:   4% (1/23)
+Counting objects:   8% (2/23)
+Counting objects:  13% (3/23)
+Counting objects:  17% (4/23)
+Counting objects:  21% (5/23)
+Counting objects:  26% (6/23)
+Counting objects:  30% (7/23)
+Counting objects:  34% (8/23)
+Counting objects:  39% (9/23)
+Counting objects:  43% (10/23)
+Counting objects:  47% (11/23)
+Counting objects:  52% (12/23)
+Counting objects:  56% (13/23)
+Counting objects:  60% (14/23)
+Counting objects:  65% (15/23)
+Counting objects:  69% (16/23)
+Counting objects:  73% (17/23)
+Counting objects:  78% (18/23)
+Counting objects:  82% (19/23)
+Counting objects:  86% (20/23)
+Counting objects:  91% (21/23)
+Counting objects:  95% (22/23)
+Counting objects: 100% (23/23)
+Counting objects: 100% (23/23), done.
 Delta compression using up to 11 threads
-Compressing objects:   7% (1/13)Compressing objects:  15% (2/13)Compressing objects:  23% (3/13)Compressing objects:  30% (4/13)Compressing objects:  38% (5/13)Compressing objects:  46% (6/13)Compressing objects:  53% (7/13)Compressing objects:  61% (8/13)Compressing objects:  69% (9/13)Compressing objects:  76% (10/13)Compressing objects:  84% (11/13)Compressing objects:  92% (12/13)Compressing objects: 100% (13/13)Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 7.35 KiB | 7.35 MiB/s, done.
+Compressing objects:   7% (1/13)
+Compressing objects:  15% (2/13)
+Compressing objects:  23% (3/13)
+Compressing objects:  30% (4/13)
+Compressing objects:  38% (5/13)
+Compressing objects:  46% (6/13)
+Compressing objects:  53% (7/13)
+Compressing objects:  61% (8/13)
+Compressing objects:  69% (9/13)
+Compressing objects:  76% (10/13)
+Compressing objects:  84% (11/13)
+Compressing objects:  92% (12/13)
+Compressing objects: 100% (13/13)
+Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/13)
+Writing objects:  15% (2/13)
+Writing objects:  23% (3/13)
+Writing objects:  30% (4/13)
+Writing objects:  46% (6/13)
+Writing objects:  53% (7/13)
+Writing objects:  61% (8/13)
+Writing objects:  69% (9/13)
+Writing objects:  76% (10/13)
+Writing objects:  84% (11/13)
+Writing objects:  92% (12/13)
+Writing objects: 100% (13/13)
+Writing objects: 100% (13/13), 7.35 KiB | 7.35 MiB/s, done.
 Total 13 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 4 local objects.[K
+remote: Resolving deltas:  33% (2/6)[K
+remote: Resolving deltas:  50% (3/6)[K
+remote: Resolving deltas:  66% (4/6)[K
+remote: Resolving deltas:  83% (5/6)[K
+remote: Resolving deltas: 100% (6/6)[K
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.[K
 To github.com:krznck/tep-website.git
    83c0238..7f56587  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done "[20Dadd .               [15D[9Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done "[20Dadd .               [15D[9Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 15:55:36] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 15:55:36] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -1069,24 +1482,73 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.2 - - [29/Jan/2025 15:56:42] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""n"o"t" "d"o"n"e" "1"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""n"o"t" "d"o"n"e" "1"[?2004l
+
 [danial2 7e6d01f] not done 1
  2 files changed, 102 insertions(+), 324 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Counting objects:   9% (1/11)
+Counting objects:  18% (2/11)
+Counting objects:  27% (3/11)
+Counting objects:  36% (4/11)
+Counting objects:  45% (5/11)
+Counting objects:  54% (6/11)
+Counting objects:  63% (7/11)
+Counting objects:  72% (8/11)
+Counting objects:  81% (9/11)
+Counting objects:  90% (10/11)
+Counting objects: 100% (11/11)
+Counting objects: 100% (11/11), done.
 Delta compression using up to 11 threads
-Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.84 KiB | 1.84 MiB/s, done.
+Compressing objects:  16% (1/6)
+Compressing objects:  33% (2/6)
+Compressing objects:  50% (3/6)
+Compressing objects:  66% (4/6)
+Compressing objects:  83% (5/6)
+Compressing objects: 100% (6/6)
+Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  66% (4/6)
+Writing objects:  83% (5/6)
+Writing objects: 100% (6/6)
+Writing objects: 100% (6/6), 1.84 KiB | 1.84 MiB/s, done.
 Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+remote: Resolving deltas:   0% (0/4)[K
+remote: Resolving deltas:  25% (1/4)[K
+remote: Resolving deltas:  50% (2/4)[K
+remote: Resolving deltas:  75% (3/4)[K
+remote: Resolving deltas: 100% (4/4)[K
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
 To github.com:krznck/tep-website.git
    7f56587..7e6d01f  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push [?2004l
+
 Everything up-to-date
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done 1"[21Dadd .                [16D[9Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done 1"[21Dadd .                [16D[9Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 15:59:37] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 15:59:37] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -1244,8 +1706,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.2 - - [29/Jan/2025 16:03:34] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /index.html HTTP/1.1" 200 -
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:08:08] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -1525,9 +1992,18 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 16:19:03] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 16:22:41] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 16:22:41] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -1576,8 +2052,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 16:30:22] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 16:30:22] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -1619,22 +2100,68 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:30:39] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""n"o"t" "d"i"n"e"" " " o"n"e"2"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""n"o"t" "d"i"n"e"" " " o"n"e"2"[?2004l
+
 [danial2 66c7c34] not done2
  2 files changed, 576 insertions(+), 9 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Counting objects:   9% (1/11)
+Counting objects:  18% (2/11)
+Counting objects:  27% (3/11)
+Counting objects:  36% (4/11)
+Counting objects:  45% (5/11)
+Counting objects:  54% (6/11)
+Counting objects:  63% (7/11)
+Counting objects:  72% (8/11)
+Counting objects:  81% (9/11)
+Counting objects:  90% (10/11)
+Counting objects: 100% (11/11)
+Counting objects: 100% (11/11), done.
 Delta compression using up to 11 threads
-Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 3.40 KiB | 3.40 MiB/s, done.
+Compressing objects:  16% (1/6)
+Compressing objects:  33% (2/6)
+Compressing objects:  50% (3/6)
+Compressing objects:  66% (4/6)
+Compressing objects:  83% (5/6)
+Compressing objects: 100% (6/6)
+Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  66% (4/6)
+Writing objects:  83% (5/6)
+Writing objects: 100% (6/6)
+Writing objects: 100% (6/6), 3.40 KiB | 3.40 MiB/s, done.
 Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+remote: Resolving deltas:   0% (0/4)[K
+remote: Resolving deltas:  25% (1/4)[K
+remote: Resolving deltas:  50% (2/4)[K
+remote: Resolving deltas:  75% (3/4)[K
+remote: Resolving deltas: 100% (4/4)[K
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
 To github.com:krznck/tep-website.git
    7e6d01f..66c7c34  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done2"[20Dadd .               [15D[9Dpython3 -m http.server 8000
-[K[K[A[50C[1B[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"not done2"[20Dadd .               [15D[9Dpython3 -m http.server 8000
+
+[K[K[A[50C[1B
+[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 16:32:05] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 16:32:05] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2031,8 +2558,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.2 - - [29/Jan/2025 16:50:13] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 16:52:19] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 16:52:19] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2135,8 +2667,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:54:26] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:55:45] "GET /index.html HTTP/1.1" 200 -
 ::ffff:172.20.10.1 - - [29/Jan/2025 16:55:45] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2303,8 +2840,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:04:21] "GET /css/main2.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:07:56] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:07:56] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2344,23 +2886,77 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.2 - - [29/Jan/2025 17:09:43] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""f"o"r" "n"o"w" "d"o"n"e"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""f"o"r" "n"o"w" "d"o"n"e"[?2004l
+
 [danial2 935966f] for now done
  4 files changed, 815 insertions(+), 68 deletions(-)
  rename aboutPage/images/{v7040_214.png => v2_399.png} (100%)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 15, done.
-Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Counting objects:   6% (1/15)
+Counting objects:  13% (2/15)
+Counting objects:  20% (3/15)
+Counting objects:  26% (4/15)
+Counting objects:  33% (5/15)
+Counting objects:  40% (6/15)
+Counting objects:  46% (7/15)
+Counting objects:  53% (8/15)
+Counting objects:  60% (9/15)
+Counting objects:  66% (10/15)
+Counting objects:  73% (11/15)
+Counting objects:  80% (12/15)
+Counting objects:  86% (13/15)
+Counting objects:  93% (14/15)
+Counting objects: 100% (15/15)
+Counting objects: 100% (15/15), done.
 Delta compression using up to 11 threads
-Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 4.66 KiB | 2.33 MiB/s, done.
+Compressing objects:  12% (1/8)
+Compressing objects:  25% (2/8)
+Compressing objects:  37% (3/8)
+Compressing objects:  50% (4/8)
+Compressing objects:  62% (5/8)
+Compressing objects:  75% (6/8)
+Compressing objects:  87% (7/8)
+Compressing objects: 100% (8/8)
+Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)
+Writing objects:  25% (2/8)
+Writing objects:  37% (3/8)
+Writing objects:  50% (4/8)
+Writing objects:  62% (5/8)
+Writing objects:  75% (6/8)
+Writing objects:  87% (7/8)
+Writing objects: 100% (8/8)
+Writing objects: 100% (8/8), 4.66 KiB | 2.33 MiB/s, done.
 Total 8 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+remote: Resolving deltas:   0% (0/5)[K
+remote: Resolving deltas:  20% (1/5)[K
+remote: Resolving deltas:  40% (2/5)[K
+remote: Resolving deltas:  60% (3/5)[K
+remote: Resolving deltas:  80% (4/5)[K
+remote: Resolving deltas: 100% (5/5)[K
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
 To github.com:krznck/tep-website.git
    66c7c34..935966f  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"for now done"[23Dadd .                  [18D[9Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"for now done"[23Dadd .                  [18D[9Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:16:38] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:16:38] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -2455,8 +3051,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 17:23:47] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:25:52] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:25:52] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2470,8 +3071,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:25:52] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:31:28] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:31:28] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2508,8 +3114,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:32:01] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:33:59] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:33:59] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2558,8 +3169,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:36:21] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:37:59] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:37:59] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -2582,8 +3198,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 17:38:44] "GET /aboutPage/images/member1.jpg HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:46:15] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 17:46:15] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2612,22 +3233,72 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:172.20.10.1 - - [29/Jan/2025 17:46:26] "GET /aboutPage/images/v2_433.png HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""r"e"s"p"o"n"s"i"v"e" "b"u"t" "u"g"l"y"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commit -m""r"e"s"p"o"n"s"i"v"e" "b"u"t" "u"g"l"y"[?2004l
+
 [danial2 1644a24] responsive but ugly
  3 files changed, 274 insertions(+), 31 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hhhih  ggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hhhih  ggit push [?2004l
+
 Enumerating objects: 13, done.
-Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Counting objects:   7% (1/13)
+Counting objects:  15% (2/13)
+Counting objects:  23% (3/13)
+Counting objects:  30% (4/13)
+Counting objects:  38% (5/13)
+Counting objects:  46% (6/13)
+Counting objects:  53% (7/13)
+Counting objects:  61% (8/13)
+Counting objects:  69% (9/13)
+Counting objects:  76% (10/13)
+Counting objects:  84% (11/13)
+Counting objects:  92% (12/13)
+Counting objects: 100% (13/13)
+Counting objects: 100% (13/13), done.
 Delta compression using up to 11 threads
-Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
-Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.32 KiB | 2.32 MiB/s, done.
+Compressing objects:  14% (1/7)
+Compressing objects:  28% (2/7)
+Compressing objects:  42% (3/7)
+Compressing objects:  57% (4/7)
+Compressing objects:  71% (5/7)
+Compressing objects:  85% (6/7)
+Compressing objects: 100% (7/7)
+Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)
+Writing objects:  28% (2/7)
+Writing objects:  42% (3/7)
+Writing objects:  57% (4/7)
+Writing objects:  71% (5/7)
+Writing objects:  85% (6/7)
+Writing objects: 100% (7/7)
+Writing objects: 100% (7/7), 2.32 KiB | 2.32 MiB/s, done.
 Total 7 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+remote: Resolving deltas:   0% (0/5)[K
+remote: Resolving deltas:  20% (1/5)[K
+remote: Resolving deltas:  40% (2/5)[K
+remote: Resolving deltas:  60% (3/5)[K
+remote: Resolving deltas:  80% (4/5)[K
+remote: Resolving deltas: 100% (5/5)[K
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
 To github.com:krznck/tep-website.git
    935966f..1644a24  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"responsive but ugly"[30Dadd .                         [25D[9Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"responsive but ugly"[30Dadd .                         [25D[9Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:50:11] "GET /main.html HTTP/1.1" 200 -
 ::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -2640,22 +3311,55 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:50:11] "GET /aboutPage/images/something.jpg HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit me  commit -m""t"e"s"t"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit me  commit -m""t"e"s"t"[?2004l
+
 [danial2 4e30856] test
  3 files changed, 46 insertions(+), 21 deletions(-)
  create mode 100644 main.html
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 7, done.
-Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Counting objects:  14% (1/7)
+Counting objects:  28% (2/7)
+Counting objects:  42% (3/7)
+Counting objects:  57% (4/7)
+Counting objects:  71% (5/7)
+Counting objects:  85% (6/7)
+Counting objects: 100% (7/7)
+Counting objects: 100% (7/7), done.
 Delta compression using up to 11 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 853 bytes | 853.00 KiB/s, done.
+Compressing objects:  33% (1/3)
+Compressing objects:  66% (2/3)
+Compressing objects: 100% (3/3)
+Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)
+Writing objects:  50% (2/4)
+Writing objects:  75% (3/4)
+Writing objects: 100% (4/4)
+Writing objects: 100% (4/4), 853 bytes | 853.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To github.com:krznck/tep-website.git
    1644a24..4e30856  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hiigt i  ggit pull origin dev    danial2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hiigt i  ggit pull origin dev    danial2[?2004l
+
 From github.com:krznck/tep-website
  * branch            danial2    -> FETCH_HEAD
 Updating 4e30856..80e07b5
@@ -2674,22 +3378,57 @@ Fast-forward
  create mode 100644 homePage/script.js
  create mode 100644 style/footer.css
  create mode 100644 style/home.css
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commirt    mit -m""f"o"o"t"e"r"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit add .[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit commirt    mit -m""f"o"o"t"e"r"[?2004l
+
 [danial2 4b15aac] footer
  2 files changed, 71 insertions(+)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hggit push [?2004l
+
 Enumerating objects: 7, done.
-Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Counting objects:  14% (1/7)
+Counting objects:  28% (2/7)
+Counting objects:  42% (3/7)
+Counting objects:  57% (4/7)
+Counting objects:  71% (5/7)
+Counting objects:  85% (6/7)
+Counting objects: 100% (7/7)
+Counting objects: 100% (7/7), done.
 Delta compression using up to 11 threads
-Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 2.08 KiB | 2.08 MiB/s, done.
+Compressing objects:  25% (1/4)
+Compressing objects:  50% (2/4)
+Compressing objects:  75% (3/4)
+Compressing objects: 100% (4/4)
+Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)
+Writing objects:  50% (2/4)
+Writing objects:  75% (3/4)
+Writing objects: 100% (4/4)
+Writing objects: 100% (4/4), 2.08 KiB | 2.08 MiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To github.com:krznck/tep-website.git
    80e07b5..4b15aac  danial2 -> danial2
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"footer"[17Dadd .            [12Dpull origin danial2[17Dsh               [14Dcommit -m"test"[15Dadd .          [10D[9Dpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hgit push commit -m"footer"[17Dadd .            [12Dpull origin danial2[17Dsh               [14Dcommit -m"test"[15Dadd .          [10D[9Dpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 17:58:00] "GET /main.html HTTP/1.1" 200 -
 ::1 - - [29/Jan/2025 17:58:00] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2716,8 +3455,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:01:12] "GET /css/main2.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:01:31] "GET /main.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 18:01:31] "GET /aboutPage/css/main.css HTTP/1.1" 200 -
@@ -2744,8 +3488,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:03:42] "GET /css/main.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:05:00] "GET /main.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 18:05:00] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -2765,9 +3514,18 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:27:25] "GET /css/main2.css HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hcclear[?2004l
+
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:27:45] "GET /main.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 18:27:45] code 404, message File not found
@@ -2783,9 +3541,20 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:28:18] "GET /aboutPage/images/member1.jpg HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[A[50C                           [1B[K[A[50Ccclear[?2004l[1B[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[A[50C                           [1B
+[K[A[50Ccclear[?2004l[1B
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hclearpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 18:30:51] "GET /main.html HTTP/1.1" 304 -
 ::1 - - [29/Jan/2025 18:30:51] "GET /script/loadContent.js HTTP/1.1" 200 -
@@ -2826,8 +3595,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::ffff:192.168.0.205 - - [29/Jan/2025 18:31:59] "GET /aboutPage/images/member1.jpg HTTP/1.1" 200 -
 ^Z
 zsh: suspended  python3 -m http.server 8000
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Traceback (most recent call last):
   File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
   File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
@@ -2857,17 +3631,37 @@ Traceback (most recent call last):
     [31mself.socket.bind[0m[1;31m(self.server_address)[0m
     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^[0m
 [1;35mOSError[0m: [35m[Errno 48] Address already in use[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hsser s  [7mlsof -i :8000[27m
-[K[A[50C[27ml[27ms[27mo[27mf[27m [27m-[27mi[27m [27m:[27m8[27m0[27m0[27m0[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hsser s  [7mlsof -i :8000[27m
+
+[K[A[50C[27ml[27ms[27mo[27mf[27m [27m-[27mi[27m [27m:[27m8[27m0[27m0[27m0[1B
+[K[?2004l
+
 COMMAND   PID            USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 Python  39949 danialgholamian    4u  IPv6 0xe721a94e4862a550      0t0  TCP *:irdmi (LISTEN)
 Python  39949 danialgholamian    5u  IPv6 0x6d3286ddcf8b6f90      0t0  TCP localhost:irdmi->localhost:57448 (CLOSED)
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mkill -9 39949[27m
-[K[A[50C[27mk[27mi[27ml[27ml[27m [27m-[27m9[27m [27m3[27m9[27m9[27m4[27m9[1B[K[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h[7mkill -9 39949[27m
+
+[K[A[50C[27mk[27mi[27ml[27ml[27m [27m-[27m9[27m [27m3[27m9[27m9[27m4[27m9[1B
+[K[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+
 [1]  + killed     python3 -m http.server 8000
-[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [Kkill -9 39949
-[K[K[A[50Clsof[2Ci :8000[1B[A[50Cpython3 -m http.server 8000[1B[?2004l
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [Kkill -9 39949
+
+[K[K[A[50Clsof[2Ci :8000[1B
+[A[50Cpython3 -m http.server 8000[1B
+[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 20:54:53] "GET /index.html HTTP/1.1" 200 -
 ::1 - - [29/Jan/2025 20:54:53] "GET /script/script.js HTTP/1.1" 200 -
@@ -2925,8 +3719,13 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 20:57:19] "GET /aboutPage/images/v2_402.png HTTP/1.1" 404 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
-[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004hpython3 -m http.server 8000
+
+[K[K[?2004l
+
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 20:58:14] "GET /main.html HTTP/1.1" 200 -
 ::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/css/main.css HTTP/1.1" 304 -
@@ -2948,4 +3747,7 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ::1 - - [29/Jan/2025 20:58:14] "GET /aboutPage/images/member1.jpg HTTP/1.1" 304 -
 ^C
 Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                
+ 
+
+[0m[27m[24m[Jdanialgholamian@Danials-MacBook-Pro tep-website % [K[?2004h

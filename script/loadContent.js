@@ -84,7 +84,7 @@ loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
 loadHTML('./aboutPage/ourTeam.html', 'our-team-section');
 loadHTML('./aboutPage/footer.html', 'footer-row')
 // Load the "header" section
-loadHTML('.../index.html', 'header-section');
+loadHTML('../index.html', 'header-section');
 //loadHTML('./aboutPage/footer.html', 'footer-row')
 // Attach the initial language toggle for any pre-existing content
 attachLanguageToggle();

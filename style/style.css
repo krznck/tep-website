@@ -2,12 +2,24 @@
     box-sizing: border-box;
 }
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 :root {
-    --lnu-yellow: #ffe000;
+    --lnu-yellow: rgb(255, 224, 0);
     --lnu-gray: #333333;
     --lnu-black: #120d26;
     --lnu-background-shade: #f7f7f7;
     --font-family: "Poppins", sans-serif;
+}
+
+.centered {
+    max-width: 73.25em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html {
