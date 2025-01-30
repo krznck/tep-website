@@ -18,7 +18,8 @@ const translations = {
     "event2-title": "Research",
     "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
     "event3-title": "Community Outreach",
-    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?"
+    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
+    "team-title": "Our Team"
 },
 sv: {
     "member1-name": "Medlem 1",
@@ -38,7 +39,8 @@ sv: {
     "event2-title": "Forskning",
     "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
     "event3-title": "Samhällsarbete",
-    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?"
+    "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
+    "team-title": "Vår Team"
 }
 };
 // Function to change the language
