@@ -41,15 +41,16 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    position: fixed;
+    z-index: 2;
 }
 
 .header__container {
     margin-top: 50px;
-    margin-left: 0;
     position: relative;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header__logo-image {
@@ -152,7 +153,16 @@ header {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1160px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        height: 80px;
+        width: 100%;
+    }
+
     .header__container {
         display: flex;
         padding: 0 20px;
@@ -160,10 +170,12 @@ header {
 
     .menu__container {
         display: flex;
-        justify-content: end;
+        /* justify-content: end; */
         padding-top: 10px;
         padding-right: 30px;
         position: relative;
+        justify-content: center;
+        align-items: center;
     }
 
     /* Header Checkbox */
@@ -221,7 +233,7 @@ header {
         text-align: center;
         margin-left: 0;
         display: none;
-        position: absolute;
+        position: fixed;
         height: 100vh;
         width: 100%;
         top: 0;
@@ -246,17 +258,16 @@ header {
     .nav__item:not(:last-of-type) {
         margin-right: 0;
     }
+
+    .header-line {
+        display: none;
+    }
     
     .dropdown__li {
         margin-right: 0;
     }
     
-    .dropdown__li .nav__item {
-        display: none;
-    }
-    
     .dropdown__content {
-        display: inline-block;
         z-index: 0;
         position: relative;
         background-color: inherit;
@@ -275,5 +286,20 @@ header {
     
     .dropdown__content a:last-of-type {
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__logo-image {
+        width: 333px;
+        height: 53px;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .header__logo-image {
+        width: 201px;
+        height: 37px;
     }
 }
