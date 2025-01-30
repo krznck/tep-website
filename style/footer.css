@@ -3,6 +3,7 @@
 }
 
 footer {
+    margin-top: 160px; /* so it's not hidden by header in the index.html */
     color: var(--lnu-gray);
     font-family: var(--font-family);
     padding: 2em 3em;

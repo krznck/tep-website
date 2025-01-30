@@ -25,15 +25,15 @@
                 </div>
                 <nav>
                     <ul class="nav__items-con">
-                        <li class="nav__item"><a href="./projects/index.html">Projects</a></li>
-                        <li class="nav__item"><a href="./aboutPage/index.html">About Us</a></li>
-                        <li class="nav__item"><a href="./contactPage/index.html">Contact</a></li>
+                        <li class="nav__item"><a href="./projects/index.html" data-lang="header-projects">Projects</a></li>
+                        <li class="nav__item"><a href="./aboutPage/index.html" data-lang="header-aboutUs">About Us</a></li>
+                        <li class="nav__item"><a href="./contactPage/index.html" data-lang="header-contact">Contact</a></li>
                         <div class="header-line"></div>
                         <div class="dropdown__li">
-                            <li class="bold nav__item"><a target="_self">English</a><span class="right__arrow"></span></li>
+                            <li class="bold nav__item"><a data-lang="header-english">English</a><span class="right__arrow"></span></li>
                             <div class="dropdown__content">
                                 <hr class="dropdown__line">
-                                <a href="#" id="swedish" target="_parent">Swedish</a><br>
+                                <a href="#" id="change-language" data-lang="header-swedish">Swedish</a><br>
                             </div>
                         </div>
                     </ul>
@@ -41,7 +41,6 @@
             </div>
        </div>
     </header>
-    <script src="./script/script.js"></script>
 
     <footer>
         <div class="footer-row">
@@ -62,5 +61,8 @@
             </a>
         </div>
     </footer>
+
+    <script src="./script/script.js"></script>
+    <script src="./script/loadContent.js"></script>
 </body>
 </html>

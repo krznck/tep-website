@@ -5,14 +5,24 @@ const translations = {
     "member1-info": "Program name, year of studies",
     "member1-quote": "Here I am writing in English!",
     "about-title": "About Us",
-    "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming."
+    "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming.",
+    "header-projects": "Projects",
+    "header-aboutUs": "About Us",
+    "header-contact": "Contact Us",
+    "header-english": "English",
+    "header-swedish": "Swedish"
 },
 sv: {
     "member1-name": "Medlem 1",
     "member1-info": "Programnamn, studieår",
     "member1-quote": "Här skriver jag på svenska !!!",
     "about-title": "Om Oss",
-    "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering."
+    "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering.",
+    "header-projects": "Projekt",
+    "header-aboutUs": "Om Oss",
+    "header-contact": "Kontakta Oss",
+    "header-english": "Svenska",
+    "header-swedish": "Engelska"
 }
 };
 // Function to change the language
@@ -73,5 +83,7 @@ loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
 // Load the "Our Team" section
 loadHTML('./aboutPage/ourTeam.html', 'our-team-section');
 loadHTML('./aboutPage/footer.html', 'footer-row')
+// Load the "header" section
+loadHTML('.../index.html', 'header-section');
 // Attach the initial language toggle for any pre-existing content
 attachLanguageToggle();
