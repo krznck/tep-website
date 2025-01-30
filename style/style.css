@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --lnu-yellow: #ffe000;
+    --lnu-gray: #333333;
+    --lnu-black: #120d26;
+    --lnu-background-shade: #f7f7f7;
+    --font-family: "Poppins", sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
