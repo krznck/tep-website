@@ -73,7 +73,7 @@ function attachLanguageToggle() {
 
 
 // Function to load content dynamically
-function loadHTML(filePath, targetElementId) {
+function loadHTML(filePath, targetElementId, callback = null) {
     console.log(`Attempting to load ${filePath} into #${targetElementId}`);
     
     fetch(filePath)
@@ -88,7 +88,9 @@ function loadHTML(filePath, targetElementId) {
             if (targetElement) {
                 targetElement.innerHTML = htmlContent;
                 console.log(`Successfully loaded ${filePath} into #${targetElementId}`);
-                attachLanguageToggle();
+                if (callback) { // this is here so that the header can have the attachLanguageToggle button only when the header is actually loaded
+                    callback();
+                }
             } else {
                 console.error(`Target element with ID '${targetElementId}' not found.`);
             }
@@ -99,16 +101,13 @@ function loadHTML(filePath, targetElementId) {
 }
 
 
+
 // Load the "About Us" section
 loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
 loadHTML('./aboutPage/main.html', 'combained-main-section');
-
 // Load the "Our Team" section
 loadHTML('./aboutPage/ourTeam.html', 'our-team-section');
 loadHTML('./aboutPage/footer.html', 'footer-row')
 // Load the "header" section
-loadHTML('../header.html', 'header-section');
+loadHTML('../header.html', 'header-section', attachLanguageToggle); // header is given the language button
 loadHTML('../footer.html', 'footer-row');
-//loadHTML('./aboutPage/footer.html', 'footer-row')
-// Attach the initial language toggle for any pre-existing content
-attachLanguageToggle();
