@@ -7,6 +7,16 @@ body {
     margin: 0;
 }
 
+.header-wrapper {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -23,17 +33,6 @@ a:hover {
 
 .bold {
     color: #000 !important;
-}
-  
-/* Header */
-header {
-    display: inline-block;
-    background-color: #fff;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 2;
 }
 
 .header__container {
