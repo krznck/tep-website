@@ -1,37 +1,17 @@
-/* Global styles */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-
-.main-wrapper {
-  background-color: white;
+.about-wrapper {
+    background-color: white;
 }
 
 .v2_399 {
   max-width: 1440px;
-  margin: 0 auto;
   display: flex;
-  padding: 50px 0;
-}
-
-#about-us-section {
-  padding-top: 120px; /* Adjust if needed */
+  align-items: center;
+  padding: 150px 5% 0 5%; /* Adjust if needed */
 }
 
 .v2_400 {
   display: block;
   word-wrap: break-word;
-  padding-left: 10%;
 }
 
 .v2_401 {
@@ -47,7 +27,6 @@ body {
 .v2_433 {
   width: clamp(300px, 50vw, 622px);
   height: clamp(300px, 50vw, 622px);
-  /* background: url("../images/v2_433.png") center center / cover no-repeat; */
   border-radius: 15px;
   display: flex;
   align-items: center;
