@@ -41,6 +41,44 @@ sv: {
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?"
 }
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("./header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-section").innerHTML = data;
+
+            // Wait for the header to be inserted, then reattach event listeners
+            initializeMenu();
+        });
+
+    fetch("./footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer-row").innerHTML = data;
+        });
+});
+
+// Function to initialize the hamburger menu after loading
+function initializeMenu() {
+    const menu = document.getElementById("menu");
+    const listContainer = document.getElementsByClassName("nav__items-con")[0];
+    const body = document.querySelector("body");
+    let clickCount = 0;
+
+    menu.onclick = function() {
+        clickCount++;
+        menu.classList.toggle("openmenu");
+        if (clickCount % 2 === 0) {
+            listContainer.style.display = "none";
+            body.style.overflow = "scroll";
+        } else {
+            listContainer.style.display = "block";
+            body.style.overflow = "hidden";
+        }
+    };
+}
+
 // Function to change the language
 function changeLanguage(language) {
   const elements = document.querySelectorAll("[data-lang]");
