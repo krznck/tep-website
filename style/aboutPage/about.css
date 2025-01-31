@@ -2,47 +2,24 @@
     background-color: white;
 }
 
-.v2_399 {
+.about_us_section {
   max-width: 1440px;
   display: flex;
   align-items: center;
   padding: 150px 5% 0 5%; /* Adjust if needed */
+  /* background: url('../../assets/aboutPage/dots_design.svg') no-repeat; TODO: set its position */
 }
 
-.v2_400 {
+.about_us_title {
+  font-size: clamp(3.8rem, calc(8vw + 1rem), 5.5rem);
+  font-weight: 700;
   display: block;
   word-wrap: break-word;
+  padding-left: 10%;
+  text-wrap: nowrap;
 }
 
-.v2_401 {
-  display: block;
-  margin-bottom: 8%;
-}
-
-.v2_402 {
-  display: grid;
-  place-items: center;
-}
-
-.v2_433 {
-  width: clamp(300px, 50vw, 622px);
-  height: clamp(300px, 50vw, 622px);
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-
-.v2_435 {
-  stroke-width: 5px;
-  stroke: var(--lnu-yellow);
-  width: 90%;
-  height: 6px;
-}
-
-.v2_401 {
+.about_us_description {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: clamp(0.9rem, calc(1.8vw + 0.4rem), 1.5rem);
@@ -50,21 +27,35 @@
   flex-direction: column;
   white-space: normal;
   max-width: 90%;
+  display: block;
+  margin-bottom: 8%;
 }
 
-.v2_433 {
+.dot_design_image {
+  stroke-width: 5px;
+  width: 90%;
+  height: 6px;
+}
+
+.about_us_team_image {
+  width: clamp(300px, 50vw, 622px);  
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   max-width: 350px;
   height: auto;
 }
 
 @media (max-width: 768px) {
-  .v2_399 {
+  .about_us_section {
       display: block;  
   }
 }
 
 @media (max-width: 400px) {
-  .v2_433 {
+  .about_us_team_image {
       margin-top: 20px; 
       max-width: 80%;
   }

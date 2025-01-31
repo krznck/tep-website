@@ -189,7 +189,7 @@
 .b {
   width: 100%;
   height: 200px;
-  background: url('../../assets/aboutPage/member1.jpg') no-repeat center center;
+  /* background: url('../../assets/aboutPage/member1.jpg') no-repeat center center; */
   background-size: cover;
   border-radius: 16px;
   /* overflow: hidden; */
@@ -279,26 +279,10 @@
 
 
 /* Image for each member */
-.member1,
-.member2,
-.member3,
-.member4,
-.member5,
-.member6,
-.member7,
-.member8 {
+.member {
   width: 100%;
   height: 200px; /* Default height for the member image container */
   background-size: cover;
   background-position: center;
   border-radius: 16px;
-}
-
-/* Specific member images */
-.member1 {
-  background: url('../../assets/aboutPage/something.jpg') no-repeat center center;
-}
-
-.member2 {
-  background: url('../../assets/aboutPage/something.jpg') no-repeat center center;
 }
