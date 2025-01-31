@@ -100,14 +100,6 @@ function loadHTML(filePath, targetElementId, callback = null) {
         });
 }
 
-
-
-// Load the "About Us" section
-loadHTML('./aboutPage/aboutUs.html', 'about-us-section');
-loadHTML('./aboutPage/main.html', 'combained-main-section');
-// Load the "Our Team" section
-loadHTML('./aboutPage/ourTeam.html', 'our-team-section');
-loadHTML('./aboutPage/footer.html', 'footer-row')
 // Load the "header" section
 loadHTML('../header.html', 'header-section', attachLanguageToggle); // header is given the language button
 loadHTML('../footer.html', 'footer-row');
