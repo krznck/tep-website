@@ -44,34 +44,59 @@ sv: {
 }
 };
 
-// Function to change the language
+// Sets a cookie, ostensibly to remember the chosen language
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000); // calculates when the cookie should expire based on the days parameter
+    document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
+}
+
+// Gets a cookie, ostensibly to check on load what language to use
+function getCookie(name) {
+    const cookies = document.cookie.split("; ");
+    for (const cookie of cookies) {
+        const [key, value] = cookie.split("=");
+        if (key === name) {
+            return value;
+        }
+    }
+    return null;
+}
+
+// Changes the language, and stores the change inside a cookie
 function changeLanguage(language) {
-  const elements = document.querySelectorAll("[data-lang]");
-  elements.forEach((el) => {
-      const key = el.getAttribute("data-lang");
-      if (translations[language][key]) {
-          el.textContent = translations[language][key];
-      }
-  });
+    document.documentElement.lang = language;
+    setCookie("selectedLanguage", language, 30); // we set expiry to 30 days
+
+    const elements = document.querySelectorAll("[data-lang]");
+    elements.forEach((el) => {
+        const key = el.getAttribute("data-lang");
+        if (translations[language][key]) {
+            el.textContent = translations[language][key];
+        }
+    });
 }
 
-// Function to attach the event listener to the button
+// Makes the button for changing language call the changeLanguage function
 function attachLanguageToggle() {
-  const button = document.getElementById("change-language");
-  if (button) {
-      button.addEventListener("click", (e) => {
-          e.preventDefault(); // Prevent scrolling to the top
-          const currentLang = document.documentElement.lang || "en";
-          const newLang = currentLang === "en" ? "sv" : "en";
-          document.documentElement.lang = newLang; // Update the HTML `lang` attribute
-          changeLanguage(newLang); // Update the text
-      });
-  } else {
-      console.error("Language toggle button not found.");
-  }
+    const button = document.getElementById("change-language");
+    if (button) {
+        button.addEventListener("click", (e) => {
+            e.preventDefault(); // prevents scrolling to the top
+            const currentLang = document.documentElement.lang || "en";
+            const newLang = currentLang === "en" ? "sv" : "en";
+            changeLanguage(newLang); // we toggled the language, so we want to change nad remember that change
+        });
+    } else {
+        console.error("Language toggle button not found.");
+    }
 }
 
-
+// Loads the language from a cookie, and defaults to English
+function loadSavedLanguage() {
+    const savedLanguage = getCookie("selectedLanguage") || "en";
+    changeLanguage(savedLanguage);
+}
 
 // Function to load content dynamically
 function loadHTML(filePath, targetElementId, callback = null) {
@@ -89,7 +114,12 @@ function loadHTML(filePath, targetElementId, callback = null) {
             if (targetElement) {
                 targetElement.innerHTML = htmlContent;
                 console.log(`Successfully loaded ${filePath} into #${targetElementId}`);
-                if (callback) { // this is here so that the header can have the attachLanguageToggle button only when the header is actually loaded
+                
+                // the dynamically-added content also needs to be given the appropriate language
+                changeLanguage(document.documentElement.lang || 'en');
+
+                // needed to attach the language toggling after the header has loaded
+                if (callback) {
                     callback();
                 }
             } else {
@@ -101,6 +131,6 @@ function loadHTML(filePath, targetElementId, callback = null) {
         });
 }
 
-// Load the "header" section
+document.addEventListener("DOMContentLoaded", loadSavedLanguage);
 loadHTML('../header.html', 'header-section', attachLanguageToggle); // header is given the language button
 loadHTML('../footer.html', 'footer-row');
