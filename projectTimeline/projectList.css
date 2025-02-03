@@ -1,30 +1,48 @@
-.bg {
+.project-wrapper{
     background-color: rgb(255, 224, 0, 0.2);
-    width: 100%;
-    align-items: center
 }
 
-.row {
+.project-list {
+    /* width: max-content; */
     padding: 20px;
-    align-items: center;
+    margin: 0 auto;
 }
 
-.card{
+.project-entry{
     padding: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .project-img {
     border-radius: 10px;
     float: left;
     max-width: 300px;
-    margin-right: 10px;
+    width: 100%;
+    height: auto;
+    /* margin-right: 30px; */
+}
+
+.project-text-wrapper {
+    padding: 20px;
+    font-family: var(--font-family);
 }
 
 .project-header {
     font-size: 25px;
+}
+
+.p-description {
+    font-size: 15px;
+    max-width: 300px;
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.date {
+    color: color-mix(in srgb, var(--lnu-black) 55%, transparent);
 }
 
 .arrow-button {
@@ -32,19 +50,4 @@
     height: auto;
 }
 
-.p-description {
-    font-size: 15px;
-    max-width: 400px;
-    max-height: 50px;
-    overflow: hidden;
-}
 
-@media (max-width: 500px) {
-    .card {
-        flex-direction: column;
-    }
-    .p-description {
-        max-width: 300px;
-    }
-    
-}
