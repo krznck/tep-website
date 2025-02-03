@@ -1,6 +1,7 @@
 .bg {
     background-color: rgb(255, 224, 0, 0.2);
     width: 100%;
+    align-items: center
 }
 
 .row {
@@ -12,7 +13,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 }
 
 .project-img {
