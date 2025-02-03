@@ -5,7 +5,7 @@
 footer {
     color: var(--lnu-gray);
     font-family: var(--font-family);
-    padding: 2em 3em;
+    padding: 32px 0px;
 }
 
 .footer-row {

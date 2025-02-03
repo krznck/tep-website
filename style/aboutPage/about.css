@@ -1,0 +1,62 @@
+.about-wrapper {
+    background-color: white;
+}
+
+.about_us_section {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  padding: 150px 5% 0 5%; /* Adjust if needed */
+  /* background: url('../../assets/aboutPage/dots_design.svg') no-repeat; TODO: set its position */
+}
+
+.about_us_title {
+  font-size: clamp(3.8rem, calc(8vw + 1rem), 5.5rem);
+  font-weight: 700;
+  display: block;
+  word-wrap: break-word;
+  padding-left: 10%;
+  text-wrap: nowrap;
+}
+
+.about_us_description {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: clamp(0.9rem, calc(1.8vw + 0.4rem), 1.5rem);
+  color: var(--lnu-black);
+  flex-direction: column;
+  white-space: normal;
+  max-width: 90%;
+  display: block;
+  margin-bottom: 8%;
+}
+
+.dot_design_image {
+  stroke-width: 5px;
+  width: 90%;
+  height: 6px;
+}
+
+.about_us_team_image {
+  width: clamp(300px, 50vw, 622px);  
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 350px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about_us_section {
+      display: block;  
+  }
+}
+
+@media (max-width: 400px) {
+  .about_us_team_image {
+      margin-top: 20px; 
+      max-width: 80%;
+  }
+}

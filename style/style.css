@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family: var(--font-family);
 }
-
 
 html, body {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -17,7 +18,7 @@ html, body {
 }
 
 .centered {
-    max-width: 73.25em;
+    max-width: 75em;
     margin-left: auto;
     margin-right: auto;
 }
