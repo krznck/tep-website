@@ -10,10 +10,14 @@
   padding-top: 75px;
   gap: 60px;
   margin: 0 50px;
+  background-image: url('/assets/aboutPage/blob.svg');
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
+  background-size: 375px;
 }
 
 .text-container {
-  width: 40%;
+  width: 50%;
 }
 
 .image-container {
@@ -56,6 +60,8 @@
   .about_us_section {
     flex-direction: column;
     gap: 0;
+    background-position: 0% 20%;
+    background-size: 250px;
   }
 
   .about_us_description {
