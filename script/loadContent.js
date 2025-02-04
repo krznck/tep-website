@@ -165,6 +165,11 @@ function loadHTML(filePath, targetElementId, callback = null) {
         });
 }
 
-document.addEventListener("DOMContentLoaded", loadSavedLanguage);
-loadHTML('../header.html', 'header-section', attachLanguageToggle); // header is given the language button
-loadHTML('../footer.html', 'footer-row');
+document.addEventListener("DOMContentLoaded", function () {
+    loadHTML('../header.html', 'header-section', () => {
+        attachLanguageToggle();
+        loadSavedLanguage();
+    });
+
+    loadHTML('../footer.html', 'footer-row');
+});
