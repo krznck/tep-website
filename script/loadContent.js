@@ -49,18 +49,32 @@ function initializeMenu() {
     const menu = document.getElementById("menu");
     const listContainer = document.getElementsByClassName("nav__items-con")[0];
     const body = document.querySelector("body");
-    let clickCount = 0;
-    menu.onclick = function() {
-        clickCount++;
+
+    menu.onclick = function () {
         menu.classList.toggle("openmenu");
-        if (clickCount % 2 === 0) {
-            listContainer.style.display = "none";
-            body.style.overflow = "scroll";
-        } else {
+        if (menu.classList.contains("openmenu")) {
             listContainer.style.display = "block";
             body.style.overflow = "hidden";
+        } else {
+            listContainer.style.display = "none";
+            body.style.overflow = "scroll";
         }
     };
+
+    // Ensure menu resets properly when resizing screen
+    window.addEventListener("resize", () => {
+        if (window.innerWidth > 1100) { // Adjust the breakpoint if necessary
+            // Reset menu for larger screens
+            menu.classList.remove("openmenu");
+            listContainer.style.display = ""; // Reset to default (CSS should handle visibility)
+            body.style.overflow = "scroll"; 
+        } else {
+            // On small screens, hide menu if not open
+            if (!menu.classList.contains("openmenu")) {
+                listContainer.style.display = "none";
+            }
+        }
+    });
 }
 
 // Sets a cookie, ostensibly to remember the chosen language
