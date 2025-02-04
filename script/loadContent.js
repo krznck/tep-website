@@ -63,10 +63,10 @@ function initializeMenu() {
 
     // Ensure menu resets properly when resizing screen
     window.addEventListener("resize", () => {
-        if (window.innerWidth > 1100) { // Adjust the breakpoint if necessary
+        if (window.innerWidth > 1100) { 
             // Reset menu for larger screens
             menu.classList.remove("openmenu");
-            listContainer.style.display = ""; // Reset to default (CSS should handle visibility)
+            listContainer.style.display = "";
             body.style.overflow = "scroll"; 
         } else {
             // On small screens, hide menu if not open
@@ -159,10 +159,8 @@ function loadHTML(filePath, targetElementId, callback = null) {
                 targetElement.innerHTML = htmlContent;
                 console.log(`Successfully loaded ${filePath} into #${targetElementId}`);
                 
-                // the dynamically-added content also needs to be given the appropriate language
                 changeLanguage(document.documentElement.lang || 'en');
 
-                // needed to attach the language toggling after the header has loaded
                 if (callback) {
                     callback();
                 }
