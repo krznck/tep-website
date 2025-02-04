@@ -44,21 +44,6 @@ sv: {
 }
 };
 
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("./header.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("header-section").innerHTML = data;
-            // Wait for the header to be inserted, then reattach event listeners
-            initializeMenu();
-        });
-    fetch("./footer.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("footer-row").innerHTML = data;
-        });
-});
-
 // Function to initialize the hamburger menu after loading
 function initializeMenu() {
     const menu = document.getElementById("menu");
@@ -114,12 +99,23 @@ function changeLanguage(language) {
 // Makes the button for changing language call the changeLanguage function
 function attachLanguageToggle() {
     const button = document.getElementById("change-language");
+    const menu = document.getElementById("menu");
+    const listContainer = document.getElementsByClassName("nav__items-con")[0];
+    const body = document.querySelector("body");
+
     if (button) {
         button.addEventListener("click", (e) => {
             e.preventDefault(); // prevents scrolling to the top
             const currentLang = document.documentElement.lang || "en";
             const newLang = currentLang === "en" ? "sv" : "en";
-            changeLanguage(newLang); // we toggled the language, so we want to change nad remember that change
+            changeLanguage(newLang); 
+
+            // Close the menu if it's open
+            if (menu.classList.contains("openmenu")) {
+                menu.classList.remove("openmenu");
+                listContainer.style.display = "none";
+                body.style.overflow = "scroll";
+            }
         });
     } else {
         console.error("Language toggle button not found.");
@@ -166,10 +162,12 @@ function loadHTML(filePath, targetElementId, callback = null) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    loadHTML('../header.html', 'header-section', () => {
-        attachLanguageToggle();
-        loadSavedLanguage();
+    loadHTML('./header.html', 'header-section', () => {
+        initializeMenu(); // Ensure menu works after loading
+        attachLanguageToggle(); // Attach language toggle after header is loaded
+        loadSavedLanguage(); // Load the saved language after everything is ready
     });
 
-    loadHTML('../footer.html', 'footer-row');
+    loadHTML('./footer.html', 'footer-row');
 });
+
