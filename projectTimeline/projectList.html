@@ -8,58 +8,64 @@
     <link rel="stylesheet" href="projectList.css">
 </head>
 <body>
+    <div class="carousel">
+        <div class="project-left">
+            <img class="project-image-left"> </img>
+            <p class="project-header-left"> </p>
+        </div>
+        <div class="carousel-shown-project">
+            <p class="p-description-carousel"> </p>
+            <img class="project-img-carousel"></img>
+            <div class="navigation">
+                <button type="button" onclick="changeProjectToLeft()"> < </button>
+                <p class="project-header-carousel"></p>
+                <button type="button" onclick="changeProjectToRight()"> > </button>
+            </div>
+        </div>
+        <div class="project-right">
+            <img class="project-image-right"> </img>
+            <p class="project-header-right"> </p>
+        </div>
+    </div>
+
+    <hr class="black-line">
     <div class="project-wrapper">
         <div class="project-list centered">
             <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project A" class="project-img">
+                <img src="/assets/projectImg.png" alt="Project A" class="project-img1">
                 <div class="project-text-wrapper">
                     <p class="date">October 16, 2024</p>
-                    <h3 class="project-header">Project A</h3>
-                    <p class="p-description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Hic quo dolore repellendus illum tenetur? Harum laborum
-                        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-                        minus repellat nisi illo reiciendis consequatur.
-                    </p>
+                    <h3 class="project-header1"></h3>
+                    <p class="p-description1"></p>
                     <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">              
                 </div>
 
             </div>
             
             <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project B" class="project-img">
+                <img src="/assets/projectImg.png" alt="Project B" class="project-img2">
                 <div class="project-text-wrapper">
                     <p class="date">October 16, 2024</p>
-                    <h3 class="project-header">Project B</h3>
-                    <p class="p-description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Hic quo dolore repellendus illum tenetur? Harum laborum
-                        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-                        minus repellat nisi illo reiciendis consequatur.
-                    </p>     
+                    <h3 class="project-header2">Project B</h3>
+                    <p class="p-description2"></p>     
                     <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">           
                 </div>
 
             </div>
 
             <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project B" class="project-img">
+                <img src="/assets/projectImg.png" alt="Project B" class="project-img3">
                 <div class="project-text-wrapper">
                     <p class="date">October 16, 2024</p>
-                    <h3 class="project-header">Project C</h3>
-                    <p class="p-description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Hic quo dolore repellendus illum tenetur? Harum laborum
-                        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-                        minus repellat nisi illo reiciendis consequatur.
-                    </p>     
+                    <h3 class="project-header3">Project C</h3>
+                    <p class="p-description3"></p>     
                     <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">           
                 </div>
 
             </div>
         </div>        
     </div>
-
+    <script src="/script/projects.js"></script>
 </body>
 </html>
 <!-- ALIGN ALL CENTER AND PADDING -->

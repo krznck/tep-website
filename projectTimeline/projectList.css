@@ -16,7 +16,7 @@
     flex-wrap: wrap;
 }
 
-.project-img {
+.project-img1, .project-img2, .project-img3{
     border-radius: 10px;
     float: left;
     max-width: 300px;
@@ -30,11 +30,11 @@
     font-family: var(--font-family);
 }
 
-.project-header {
+.project-header1, .project-header2, .project-header3{
     font-size: 25px;
 }
 
-.p-description {
+.p-description1, .p-description2, .p-description3{
     font-size: 15px;
     max-width: 300px;
     max-height: 70px;
@@ -50,4 +50,37 @@
     height: auto;
 }
 
+.carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-bottom: 2%;
+}
 
+.p-description-carousel {
+    text-align: center;
+}
+
+.project-header-carousel {
+    text-align: center;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-image-right, .project-image-left {
+    width: 60%;
+}
+
+.project-left, .project-right {
+    text-align: center;
+}
+
+.black-line {
+    border: none; /* Entfernt den Standardrand */
+    height: 6px; /* Dicke der Linie */
+    background-color: black; /* Farbe der Linie */
+    width: 90%;
+}
