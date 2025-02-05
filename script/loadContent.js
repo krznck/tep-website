@@ -44,6 +44,84 @@ sv: {
 }
 };
 
+// Load the saved language as early as possible
+function loadSavedLanguage() {
+    const savedLanguage = getCookie("selectedLanguage") || "en";
+    document.documentElement.lang = savedLanguage; // Set language at document level immediately
+}
+
+// Apply language before DOM is fully loaded
+loadSavedLanguage();
+
+document.addEventListener("DOMContentLoaded", function () {
+    loadHTML('./header.html', 'header-section', () => {
+        initializeMenu(); // Ensure menu works after loading
+        attachLanguageToggle(); // Attach language toggle after header is loaded
+        changeLanguage(document.documentElement.lang); // Apply translations after header loads
+    });
+
+    loadHTML('./footer.html', 'footer-row');
+});
+
+// Function to get a cookie
+function getCookie(name) {
+    const cookies = document.cookie.split("; ");
+    for (const cookie of cookies) {
+        const [key, value] = cookie.split("=");
+        if (key === name) {
+            return value;
+        }
+    }
+    return null;
+}
+
+// Function to set a cookie
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/; SameSite=Lax`;
+}
+
+// Function to change language
+function changeLanguage(language) {
+    document.documentElement.lang = language;
+    setCookie("selectedLanguage", language, 30); // Save language preference
+
+    const elements = document.querySelectorAll("[data-lang]");
+    elements.forEach((el) => {
+        const key = el.getAttribute("data-lang");
+        if (translations[language][key]) {
+            el.textContent = translations[language][key];
+        }
+    });
+}
+
+// Attach language toggle event
+function attachLanguageToggle() {
+    const button = document.getElementById("change-language");
+    const menu = document.getElementById("menu");
+    const listContainer = document.getElementsByClassName("nav__items-con")[0];
+    const body = document.querySelector("body");
+
+    if (button) {
+        button.addEventListener("click", (e) => {
+            e.preventDefault();
+            const currentLang = document.documentElement.lang || "en";
+            const newLang = currentLang === "en" ? "sv" : "en";
+            changeLanguage(newLang);
+
+            // Close menu if open
+            if (menu.classList.contains("openmenu")) {
+                menu.classList.remove("openmenu");
+                listContainer.style.display = "none";
+                body.style.overflow = "scroll";
+            }
+        });
+    } else {
+        console.error("Language toggle button not found.");
+    }
+}
+
 // Function to initialize the hamburger menu after loading
 function initializeMenu() {
     const menu = document.getElementById("menu");
@@ -77,71 +155,6 @@ function initializeMenu() {
     });
 }
 
-// Sets a cookie, ostensibly to remember the chosen language
-function setCookie(name, value, days) {
-    const date = new Date();
-    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000); // calculates when the cookie should expire based on the days parameter
-    document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
-}
-
-// Gets a cookie, ostensibly to check on load what language to use
-function getCookie(name) {
-    const cookies = document.cookie.split("; ");
-    for (const cookie of cookies) {
-        const [key, value] = cookie.split("=");
-        if (key === name) {
-            return value;
-        }
-    }
-    return null;
-}
-
-// Changes the language, and stores the change inside a cookie
-function changeLanguage(language) {
-    document.documentElement.lang = language;
-    setCookie("selectedLanguage", language, 30); // we set expiry to 30 days
-
-    const elements = document.querySelectorAll("[data-lang]");
-    elements.forEach((el) => {
-        const key = el.getAttribute("data-lang");
-        if (translations[language][key]) {
-            el.textContent = translations[language][key];
-        }
-    });
-}
-
-// Makes the button for changing language call the changeLanguage function
-function attachLanguageToggle() {
-    const button = document.getElementById("change-language");
-    const menu = document.getElementById("menu");
-    const listContainer = document.getElementsByClassName("nav__items-con")[0];
-    const body = document.querySelector("body");
-
-    if (button) {
-        button.addEventListener("click", (e) => {
-            e.preventDefault(); // prevents scrolling to the top
-            const currentLang = document.documentElement.lang || "en";
-            const newLang = currentLang === "en" ? "sv" : "en";
-            changeLanguage(newLang); 
-
-            // Close the menu if it's open
-            if (menu.classList.contains("openmenu")) {
-                menu.classList.remove("openmenu");
-                listContainer.style.display = "none";
-                body.style.overflow = "scroll";
-            }
-        });
-    } else {
-        console.error("Language toggle button not found.");
-    }
-}
-
-// Loads the language from a cookie, and defaults to English
-function loadSavedLanguage() {
-    const savedLanguage = getCookie("selectedLanguage") || "en";
-    changeLanguage(savedLanguage);
-}
-
 // Function to load content dynamically
 function loadHTML(filePath, targetElementId, callback = null) {
     console.log(`Attempting to load ${filePath} into #${targetElementId}`);
@@ -173,13 +186,12 @@ function loadHTML(filePath, targetElementId, callback = null) {
         });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    loadHTML('./header.html', 'header-section', () => {
-        initializeMenu(); // Ensure menu works after loading
-        attachLanguageToggle(); // Attach language toggle after header is loaded
-        loadSavedLanguage(); // Load the saved language after everything is ready
-    });
+// document.addEventListener("DOMContentLoaded", function () {
+//     loadHTML('./header.html', 'header-section', () => {
+//         initializeMenu(); // Ensure menu works after loading
+//         attachLanguageToggle(); // Attach language toggle after header is loaded
+//         loadSavedLanguage(); // Load the saved language after everything is ready
+//     });
 
-    loadHTML('./footer.html', 'footer-row');
-});
-
+//     loadHTML('./footer.html', 'footer-row');
+// });
