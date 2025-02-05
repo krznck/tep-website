@@ -307,10 +307,11 @@
   left: 50%;
   background: #fff;
   width: 500px;
-  height: 500px;
+  height: 300px;
   margin-left: -250px; /*Half the value of width to center div*/
   margin-top: -250px; /*Half the value of height to center div*/
   z-index: 200;
+  border-radius: 30px;
 }
 
 #popupclose {
@@ -325,4 +326,9 @@
 
 #project-links {
   cursor: pointer;
+}
+
+.project-name {
+  text-decoration: underline;
+  font-size: 20px;
 }
