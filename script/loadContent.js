@@ -1,9 +1,6 @@
 // Language translations
 const translations = {
   en: {
-    "member1-name": "Member 1",
-    "member1-info": "Program name, year of studies",
-    "member1-quote": "Here I am writing in English!",
     "about-title": "About Us",
     "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming.",
     "header-projects": "Projects",
@@ -20,12 +17,65 @@ const translations = {
     "event3-title": "Community Outreach",
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
     "team-title": "Our Team",
-    "team-description": "Our team consists of students from around the world studying various programs at LNU."
+    "team-description": "Our team consists of students from around the world studying various programs at LNU.",
+    "member1-name": "Member 1",
+    "member1-info": "Program name, year of studies",
+    "member1-quote": "Here I am writing in English!",
+    "member1-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member2-name": "Member 2",
+    "member2-info": "Program name, year of studies",
+    "member2-quote": "Here I am writing in English!",
+    "member2-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member3-name": "Member 3",
+    "member3-info": "Program name, year of studies",
+    "member3-quote": "Here I am writing in English!",
+    "member3-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member4-name": "Member 4",
+    "member4-info": "Program name, year of studies",
+    "member4-quote": "Here I am writing in English!",
+    "member4-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member5-name": "Member 5",
+    "member5-info": "Program name, year of studies",
+    "member5-quote": "Here I am writing in English!",
+    "member5-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member6-name": "Member 6",
+    "member6-info": "Program name, year of studies",
+    "member6-quote": "Here I am writing in English!",
+    "member6-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member7-name": "Member 7",
+    "member7-info": "Program name, year of studies",
+    "member7-quote": "Here I am writing in English!",
+    "member7-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
+    "member8-name": "Member 8",
+    "member8-info": "Program name, year of studies",
+    "member8-quote": "Here I am writing in English!",
+    "member8-projects": [
+      { name: "Project A", link: "#" },
+      { name: "Project B", link: "#" }
+    ],
 },
 sv: {
-    "member1-name": "Medlem 1",
-    "member1-info": "Programnamn, studieår",
-    "member1-quote": "Här skriver jag på svenska !!!",
     "about-title": "Om Oss",
     "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering.",
     "header-projects": "Projekt",
@@ -42,7 +92,63 @@ sv: {
     "event3-title": "Samhällsarbete",
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
     "team-title": "Vår Team",
-    "team-description": "Vårt team består av studenter från hela världen som studerar olika program vid LNU."
+    "team-description": "Vårt team består av studenter från hela världen som studerar olika program vid LNU.",
+    "member1-name": "Medlem 1",
+    "member1-info": "Programnamn, studieår",
+    "member1-quote": "Här skriver jag på svenska!",
+    "member1-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member2-name": "Medlem 2",
+    "member2-info": "Programnamn, studieår",
+    "member2-quote": "Här skriver jag på svenska!",
+    "member2-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member3-name": "Medlem 3",
+    "member3-info": "Programnamn, studieår",
+    "member3-quote": "Här skriver jag på svenska!",
+    "member3-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member4-name": "Medlem 4",
+    "member4-info": "Programnamn, studieår",
+    "member4-quote": "Här skriver jag på svenska!",
+    "member4-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member5-name": "Medlem 5",
+    "member5-info": "Programnamn, studieår",
+    "member5-quote": "Här skriver jag på svenska!",
+    "member5-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member6-name": "Medlem 6",
+    "member6-info": "Programnamn, studieår",
+    "member6-quote": "Här skriver jag på svenska!",
+    "member6-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member7-name": "Medlem 7",
+    "member7-info": "Programnamn, studieår",
+    "member7-quote": "Här skriver jag på svenska!",
+    "member7-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
+    "member8-name": "Medlem 8",
+    "member8-info": "Programnamn, studieår",
+    "member8-quote": "Här skriver jag på svenska!",
+    "member8-projects": [
+      { name: "Projekt A", link: "#" },
+      { name: "Projekt B", link: "#" }
+    ],
 }
 };
 
