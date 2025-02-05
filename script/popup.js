@@ -24,23 +24,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
           popupContent.innerHTML = popupHTML;
 
-          // Show popup
+          // Show popup and disable page scroll
           overlay.style.display = "block";
           popup.style.display = "block";
+          document.body.style.overflow = "hidden";
       });
   });
 
   // Close popup event (Close button)
-  popupClose.addEventListener("click", function () {
-      overlay.style.display = "none";
-      popup.style.display = "none";
-  });
+  popupClose.addEventListener("click", closePopup);
 
   // Close popup when clicking outside (overlay)
   overlay.addEventListener("click", function (event) {
       if (event.target === overlay) {
-          overlay.style.display = "none";
-          popup.style.display = "none";
+          closePopup();
       }
   });
+
+  function closePopup() {
+      overlay.style.display = "none";
+      popup.style.display = "none";
+      document.body.style.overflow = "auto"; // Re-enable page scroll
+  }
 });
