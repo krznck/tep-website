@@ -24,10 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
           popupContent.innerHTML = popupHTML;
 
-          // Show popup and disable page scroll
+          // Show popup
           overlay.style.display = "block";
           popup.style.display = "block";
-          document.body.style.overflow = "hidden";
       });
   });
 
@@ -44,6 +43,5 @@ document.addEventListener("DOMContentLoaded", function () {
   function closePopup() {
       overlay.style.display = "none";
       popup.style.display = "none";
-      document.body.style.overflow = "auto"; // Re-enable page scroll
   }
 });
