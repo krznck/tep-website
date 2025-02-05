@@ -30,9 +30,17 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 
-  // Close popup event
+  // Close popup event (Close button)
   popupClose.addEventListener("click", function () {
       overlay.style.display = "none";
       popup.style.display = "none";
+  });
+
+  // Close popup when clicking outside (overlay)
+  overlay.addEventListener("click", function (event) {
+      if (event.target === overlay) {
+          overlay.style.display = "none";
+          popup.style.display = "none";
+      }
   });
 });
