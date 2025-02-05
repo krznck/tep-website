@@ -19,7 +19,8 @@ const translations = {
     "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
     "event3-title": "Community Outreach",
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
-    "team-title": "Our Team"
+    "team-title": "Our Team",
+    "team-description": "Our team consists of students from around the world studying various programs at LNU."
 },
 sv: {
     "member1-name": "Medlem 1",
@@ -40,7 +41,8 @@ sv: {
     "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
     "event3-title": "Samhällsarbete",
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
-    "team-title": "Vår Team"
+    "team-title": "Vår Team",
+    "team-description": "Vårt team består av studenter från hela världen som studerar olika program vid LNU."
 }
 };
 
