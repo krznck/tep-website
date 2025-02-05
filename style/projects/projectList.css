@@ -1,4 +1,6 @@
-.project-wrapper{
+
+
+.body {
     background-color: rgb(255, 224, 0, 0.2);
 }
 
@@ -50,11 +52,25 @@
     height: auto;
 }
 
+/*Css for carousel */
 .carousel {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     padding-bottom: 2%;
+}
+
+.carousel-shown-project {
+    display: grid;
+    place-items: center;
+    gap: 10px; 
+}
+
+.project-img-carousel {
+    max-width: 90%;
+    height: auto;
+    justify-self: center;
+    align-self: center;    
 }
 
 .p-description-carousel {
@@ -83,4 +99,23 @@
     height: 6px; /* Dicke der Linie */
     background-color: black; /* Farbe der Linie */
     width: 90%;
+}
+
+.navigation {
+    gap: 2%;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        display: block; 
+        text-align: center;
+    }
+
+    .project-image-right, .project-image-left, .project-left, .project-right, .project-header-right, .project-header-left {
+        display: none;
+    }
+
+    .project-img-carousel {
+        width: 70%
+    }
 }
