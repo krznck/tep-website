@@ -141,7 +141,7 @@ function initializeMenu() {
 
     // Ensure menu resets properly when resizing screen
     window.addEventListener("resize", () => {
-        if (window.innerWidth > 1100) { 
+        if (window.innerWidth > 750) { 
             // Reset menu for larger screens
             menu.classList.remove("openmenu");
             listContainer.style.display = "";

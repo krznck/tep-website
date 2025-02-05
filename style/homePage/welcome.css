@@ -1,15 +1,14 @@
 .main-wrapper {
-    margin-top: 100px;
+    margin-top: 95px;
     background-color: white;
 }
-
 
 .mainContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
     gap: 10%;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .textContainer {
