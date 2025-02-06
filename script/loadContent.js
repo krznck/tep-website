@@ -160,17 +160,38 @@ const translations = {
   
   // Apply language before DOM is fully loaded
   loadSavedLanguage();
-  
+
+  // Function to highlight the active navigation link
+  function highlightActiveNav() {
+    let currentPage = window.location.pathname.split("/").pop().split("?")[0].split("#")[0];
+    let navLinks = document.querySelectorAll(".nav__item a");
+
+    console.log("Current page:", currentPage);
+    console.log("Found nav links:", navLinks.length);
+
+    navLinks.forEach(link => {
+        let linkPath = link.getAttribute("href").split("/").pop().split("?")[0].split("#")[0];
+        console.log(`Comparing: ${linkPath} with ${currentPage}`);
+        if (linkPath === currentPage) {
+            link.classList.add("active");
+            console.log(`Activated: ${link.href}`);
+        } else {
+            link.classList.remove("active");
+        }
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
       loadHTML('./header.html', 'header-section', () => {
-          initializeMenu(); // Ensure menu works after loading
-          attachLanguageToggle(); // Attach language toggle after header is loaded
-          changeLanguage(document.documentElement.lang); // Apply translations after header loads
+          initializeMenu(); 
+          attachLanguageToggle(); 
+          changeLanguage(document.documentElement.lang); 
+          highlightActiveNav();
       });
-  
+
       loadHTML('./footer.html', 'footer-row');
   });
-  
+
   // Function to get a cookie
   function getCookie(name) {
       const cookies = document.cookie.split("; ");
@@ -293,13 +314,3 @@ const translations = {
               console.error(`Error loading ${filePath}:`, error);
           });
   }
-  
-  // document.addEventListener("DOMContentLoaded", function () {
-  //     loadHTML('./header.html', 'header-section', () => {
-  //         initializeMenu(); // Ensure menu works after loading
-  //         attachLanguageToggle(); // Attach language toggle after header is loaded
-  //         loadSavedLanguage(); // Load the saved language after everything is ready
-  //     });
-  
-  //     loadHTML('./footer.html', 'footer-row');
-  // });
