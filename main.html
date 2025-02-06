@@ -3,21 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merged Page</title>
+    <title>About Us</title>
     
-    <!-- Link the main.css for aboutUs.html -->
-    <link rel="stylesheet" href="aboutPage/css/main.css">
-    <link rel="stylesheet" href="aboutPage/css/main2.css">
-    <!-- Header css file is loaded any way even when it commented -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/aboutPage/about.css">
+    <link rel="stylesheet" href="style/aboutPage/team.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- SVG favicon, but also png as a fallback for browsers that still don't support that -->
+    <link rel="icon" type="image/png" href="assets/logo/Logomark, black.png">
+    <link rel="icon" type="image/svg+xml" href="assets/logo/Logomark, black.svg">
 
 </head>
 <body>
     <div id="header-section"></div> <!-- Added header placeholder -->
-    <div id="about-us-section"></div>
-    <div id="our-team-section"></div>
-    <!--<div id="footer-row"></div> -->
 
-    <!-- Load the JavaScript -->
+    <!-- About Us Section -->
+    <div class="about-wrapper">
+        <div class="centered">
+            <div class="about_us_section">
+                <div class="text-container">
+                    <!-- Page Title -->
+                    <h1 class="about_us_title" data-lang="about-title">About Us</h1>
+        
+                    <!-- Description -->
+                    <p class="about_us_description" data-lang="about-description">
+                        We are a group of students who take part in different projects at the university. 
+                        We help other students as Teaching Assistants in Lab Sessions, we contribute to 
+                        the current research going on at the university, and support the community work 
+                        that is done to interest more people in computer science and programming.
+                    </p>
+                </div>
+                
+                <!-- Placeholder Divs for Additional Content -->
+                <div class="image-container">
+                    <img class="about_us_team_image" src="/assets/aboutPage/team.png" alt="About Us Image">
+                </div>
+                <!-- Placeholder for Visual Elements -->
+                <!-- <div class="dot_design_image">
+                    <img src="./assets/aboutPage/dots_design.svg" alt="">
+                </div>  -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+     <div class="team-header-wrapper">
+         <div class="team-header">
+             <h1 class="team-title" data-lang="team-title">Our Team</h1>
+             <p class="team-description" data-lang="team-description">
+                 Our team consists of students from around the world studying various programs at LNU.
+             </p>
+         </div>
+     </div>
+    <div class="team-wrapper">
+        <div class="team-container centered">
+            <!-- Member1 -->
+            <div class="team-members">
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member1">
+                </div>
+                <h3 data-lang="member1-name">Member 1</h3>
+                <p data-lang="member1-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member1-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member1">Projects</a>
+            </div>
+    
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member2">
+                </div>
+                <h3 data-lang="member2-name">Member 2</h3>
+                <p data-lang="member2-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member2-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member2">Projects</a>
+            </div>
+
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member3">
+                </div>
+                <h3 data-lang="member3-name">Member 3</h3>
+                <p data-lang="member3-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member3-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member3">Projects</a>
+            </div>
+            
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member4">
+                </div>
+                <h3 data-lang="member4-name">Member 4</h3>
+                <p data-lang="member4-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member4-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member4">Projects</a>
+            </div>
+    
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member5">
+                </div>
+                <h3 data-lang="member5-name">Member 5</h3>
+                <p data-lang="member5-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member5-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member5">Projects</a>
+            </div>
+            
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member6">
+                </div>
+                <h3 data-lang="member6-name">Member 6</h3>
+                <p data-lang="member6-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member6-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member6">Projects</a>
+            </div>
+            
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member7">
+                </div>
+                <h3 data-lang="member7-name">Member 7</h3>
+                <p data-lang="member7-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member7-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member7">Projects</a>
+            </div>
+            
+            <div class="bb">
+                <div class="b member">
+                    <img src="./assets/aboutPage/member1.jpg" alt="Member8">
+                </div>
+                <h3 data-lang="member8-name">Member 8</h3>
+                <p data-lang="member8-info">Program name, year of studies</p>
+                <br>
+                <q data-lang="member8-quote">Your description you want to share</q>
+                <a href="#" class="project-button" data-member="member8">Projects</a>
+            </div>
+            </div>   
+            
+            <!-- Popup structure -->
+            <div id="overlay"></div>
+            <div id="popup">
+                <div class="popupcontrols">
+                    <span id="popupclose"><img src="./assets/aboutPage/Close Circle.png" alt=""></span>
+                </div>
+                <div class="popupcontent">
+                    <h1>Firstname’s projects:</h1>
+                    <p class="project-name">Placeholder Project Name</p>
+                    <p class="project-name">Placeholder Project Name 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-row"></div>
+
     <script src="script/loadContent.js"></script>
+    <script src="./script/popup.js"></script>
 </body>
 </html>
