@@ -5,7 +5,6 @@ const translations = {
         "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming.",
         "header-projects": "Projects",
         "header-aboutUs": "About",
-        "header-contact": "Contact",
         "header-english": "English",
         "header-swedish": "Swedish",
         "TEP-description": "The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.",
@@ -80,7 +79,6 @@ const translations = {
         "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering.",
         "header-projects": "Projekt",
         "header-aboutUs": "Om Oss",
-        "header-contact": "Kontakta Oss",
         "header-english": "Svenska",
         "header-swedish": "Engelska",
         "TEP-description": "Det pedagogiska handledningsprogrammet är utformat för att erbjuda studenter möjligheten att arbeta med universitetet som handledare, att få erfarenhet av forskning och att delta i samhällsarbete.",
@@ -177,7 +175,6 @@ function loadSavedLanguage() {
     document.documentElement.lang = savedLanguage; // Set language at document level immediately
 }
 
-// Function to change language
 function changeLanguage(language) {
     document.documentElement.lang = language;
     setCookie("selectedLanguage", language, 30); // Save language preference
@@ -185,11 +182,15 @@ function changeLanguage(language) {
     const elements = document.querySelectorAll("[data-lang]");
     elements.forEach((el) => {
         const key = el.getAttribute("data-lang");
-        if (translations[language][key]) {
-            el.textContent = translations[language][key];
+        const newText = translations[language][key];
+
+        // only update if the text is different
+        if (newText && el.textContent !== newText) {
+            el.textContent = newText;
         }
     });
 }
+
 
 // Attach language toggle event
 function attachLanguageToggle() {
