@@ -26,6 +26,7 @@
     align-items: center;
     gap: 30px;
     padding: 20px 0;
+    margin-bottom: 10px;
 }
 
 .explanationText {
@@ -40,6 +41,21 @@
     max-width: 90%;
     display: flex;
     flex-basis: 50%;
+    padding-bottom: 30px;
+
+    /* Background design settings */
+    background-image: url('/assets/aboutPage/blob.svg');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: 230px;
+}
+
+.imageContainer {
+    background-image: url('/assets/aboutPage/dots_design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 30px;
+    padding-left: 44px;
 }
 
 .responsiveImage {
@@ -60,9 +76,25 @@
         text-align: center;
         flex-basis: 100%;
         max-width: 80%;
+        background-image: none;
+        padding-bottom: 0px;
+        /* There was too small place for it, so it looked out of place */
+        /* background-position: 0% 20%;
+        background-size: 150px; */
     }
 
     .responsiveImage {
         flex-basis: 100%;
+        margin-left: 25px; /* bring the image back to the center */
+    }
+    .imageContainer {
+        margin-top: 0;
+        background-position: top right;
+        padding-top: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
 }
