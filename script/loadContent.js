@@ -26,21 +26,21 @@ sv: {
     "member1-info": "Programnamn, studieår",
     "member1-quote": "Här skriver jag på svenska !!!",
     "about-title": "Om Oss",
-    "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering.",
+    "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitet. Vi hjälper andra studenter genom vårt arbete som amanuens i olika kurser, deltar i pågående forskningsprojekt på universitetet och bidrar med samhällsuppsökande verksamhet som har som mål att intressera fler i datavetenskap och programmering.",
     "header-projects": "Projekt",
     "header-aboutUs": "Om Oss",
     "header-contact": "Kontakta Oss",
     "header-english": "Svenska",
     "header-swedish": "Engelska",
-    "TEP-description": "Det pedagogiska handledningsprogrammet är utformat för att erbjuda studenter möjligheten att arbeta med universitetet som handledare, att få erfarenhet av forskning och att delta i samhällsarbete.",
-    "event-section-title": "Vad händer?",
+    "TEP-description": "Tutorial Educational Programmet är tänkt att ge en möjlighet för studenter att genom arbete på universitetet få erfarenhet av att jobba som amanuens, få bidra till pågående forskning och delta i samhällsuppsökande verksamhet.",
+    "event-section-title": "Pågående",
     "event1-title": "Projekt 1",
     "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
     "event2-title": "Forskning",
     "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
     "event3-title": "Samhällsarbete",
     "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
-    "team-title": "Vår Team"
+    "team-title": "Vårt Team"
 }
 };
 
