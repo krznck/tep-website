@@ -306,8 +306,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  width: 500px;
-  height: 300px;
+  max-width: 500px;
+  max-height: object-fit;
   z-index: 200;
   border-radius: 30px;
   padding: 20px;
@@ -316,7 +316,6 @@
 
 #popupclose {
   float: right;
-  padding: 10px;
   cursor: pointer;
 }
 
@@ -328,7 +327,52 @@
   cursor: pointer;
 }
 
+.project-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #120d26;
+}
+
 .project-name {
   text-decoration: underline;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .popupclose {
+    width: 20px;
+    height: 20px;
+  }
+
+  .popupcontent {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #popup {
+    width: 300px;
+    padding: 30px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-name {
+    font-size: 16px;
+  }
+
+  .popupclose {
+    width: 15px;
+    height: 15px;
+  }
 }

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const projects = translations[language][memberKey] || [];
 
           // Update popup content
-          let popupHTML = `<h1>${translations[language][button.getAttribute("data-member") + "-name"]}’s Projects:</h1>`;
+          let popupHTML = `<h1 class="project-title">${translations[language][button.getAttribute("data-member") + "-name"]}’s Projects:</h1>`;
           if (projects.length > 0) {
               projects.forEach(project => {
                   popupHTML += `<p class="project-name"><a href="${project.link}" target="_blank">${project.name}</a></p>`;
