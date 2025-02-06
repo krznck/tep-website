@@ -5,7 +5,7 @@ var structure = `
         <footer class="centered">
             <div class="footer-row">
                 <div class="column">
-                    <img src="assets/logo/Combined mark, black.png" id="footer-logotype"> <!-- Illustrative, we'll use the logo we all voted on-->
+                    <img src="assets/logo/Combined mark, black.png" width="200px" height="74px" id="footer-logotype" alt="logo">
                 </div>
                 <div class="column">
                     <a href="" class="footer-header footer-header-h2 right-side-text">Contacts</a>

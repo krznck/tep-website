@@ -4,7 +4,7 @@ var structure = `
     <div class="header-wrapper">
         <header class="centered">
             <div class="container header__container">
-                <a href="./index.html"><img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" alt="Wordmark"></a>
+                <a href="./index.html"><img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" height="74px" alt="logo"></a>
                 <div class="menu__container">
                     <div class="menu__wrapper" id="menu">
                         <div>
