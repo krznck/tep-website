@@ -21,16 +21,14 @@
     gap: 20px;
     padding: 2%;
 }
-.event_link {
-    /* disableing all the text formatting of the link */
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
+.event_link:hover {
+    /* disableing the inherited hovering effect */
+    opacity: 1;
 }
 .event_block {
     max-width: 250px;
     height: 475px;
-    background-color: var(--lnu-background-shade);
+    background-color: white;
     border-radius: 15px;
     padding: 10px;
     display: flex;
@@ -86,14 +84,3 @@
     margin-top: auto;
     margin-bottom: 2%;
 }
-
-
-/* @media (max-width: 450px) {
-    .event_section_title {
-        font-size: 32px;
-    }
-
-    .event_section_title h2 {
-        margin-bottom: 20px;
-    }
-} */
