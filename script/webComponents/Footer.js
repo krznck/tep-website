@@ -1,7 +1,6 @@
-<head>
-    <link rel="stylesheet" href="./style/footer.css">
-</head>
-<body> 
+var htmlName = 'global-footer'; // note: we can't just call it footer, since that is already reserved in HTML
+
+var structure = `
     <div class="footer-wrapper">
         <footer class="centered">
             <div class="footer-row">
@@ -25,6 +24,14 @@
             </div>
         </footer>
     </div>
+    `;
 
-    <script src="./script/loadContent.js"></script>
-</body>
+class Footer extends HTMLElement {
+    constructor() {
+      super();
+  
+      this.innerHTML = structure;
+    }
+  }
+  
+  customElements.define(htmlName, Footer);
