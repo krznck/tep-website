@@ -19,11 +19,13 @@ const translations = {
       "team-title": "Our Team",
       "team-description": "Our team consists of students from around the world studying various programs at LNU.",
       "member1-name": "Member 1",
-      "member1-info": "Program name, year of studies",
+      "member1-info": "Program name, year of studies Program name, year of studies Program name, year of studies Program name, year of studies",
       "member1-quote": "Here I am writing in English!",
       "member1-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "The opposite of artificial intelligence is genuine stupidity", link: "#" },
+        { name: "The opposite of artificial intelligence is genuine stupidity", link: "#" },
+        { name: "The opposite of artificial intelligence is genuine stupidity", link: "#" },
+        { name: "The opposite of artificial intelligence is genuine stupidity", link: "#" }
       ],
       "member2-name": "Member 2",
       "member2-info": "Program name, year of studies",
