@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="/style/projects/projectList.css">
+
+    <!-- Custom web components -->
+    <script src="./script/webComponents/Header.js" defer></script>
+    <script src="./script/webComponents/Footer.js" defer></script>
+
 </head>
 <body class="body">
-    <div id="header-section"></div>
+    <global-header></global-header>
 
-    <div class="carousel">
+    <div class="carousel centered">
         <div class="project-left">
             <img class="project-image-left"> </img>
             <p class="project-header-left"> </p>
@@ -30,8 +35,8 @@
             <p class="project-header-right"> </p>
         </div>
     </div>
-    <hr class="black-line">
-    <div class="project-wrapper">
+    <hr class="black-line centered">
+    <div class="project-wrapper centered">
         <div class="project-list centered">
             <div class="project-entry">
                 <img src="/assets/projectImg.png" alt="Project A" class="project-img1">
@@ -67,7 +72,7 @@
             </div>
         </div>        
     </div>
-    <div id="footer-row"></div>
+    <global-footer></global-footer>
     <script src="/script/projects.js"></script>
 </body>
 </html>
