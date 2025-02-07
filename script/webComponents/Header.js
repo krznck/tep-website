@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./style/header.css">
-</head>
-<body>
+var htmlName = 'global-header'; // note: we can't just call it header, since that is already reserved in HTML
+
+var structure = `
     <div class="header-wrapper">
         <header class="centered">
             <div class="container header__container">
-                <a href="./index.html"><img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" alt="Wordmark"></a>
+                <a href="./index.html"><img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" height="74px" alt="logo"></a>
                 <div class="menu__container">
                     <div class="menu__wrapper" id="menu">
                         <div>
@@ -23,7 +16,7 @@
                     <nav>
                         <ul class="nav__items-con">
                             <li class="nav__item"><a href="#" data-lang="header-projects">Projects</a></li>
-                            <li class="nav__item"><a href="./main.html" data-lang="header-aboutUs">About</a></li>
+                            <li class="nav__item"><a href="./about.html" data-lang="header-aboutUs">About</a></li>
                             <div class="header-line"></div>
                             <div class="dropdown__li">
                                 <li class="nav-lang nav__item"><a data-lang="header-english">English</a><span class="right__arrow"></span></li>
@@ -37,8 +30,14 @@
             </div>
         </header>
     </div>
-    
-    <script src="./script/hamburger.js"></script>
-    <script src="./script/loadContent.js"></script>
-</body>
-</html>
+    `;
+
+class Header extends HTMLElement {
+    constructor() {
+      super();
+  
+      this.innerHTML = structure;
+    }
+  }
+  
+  customElements.define(htmlName, Header);
