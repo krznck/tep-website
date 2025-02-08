@@ -23,7 +23,7 @@ const translations = {
 },
 sv: {
     "member1-name": "Medlem 1",
-    "member1-info": "Programnamn, studieår",
+    "member1-info": "Program, år",
     "member1-quote": "Här skriver jag på svenska !!!",
     "about-title": "Om Oss",
     "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitet. Vi hjälper andra studenter genom vårt arbete som amanuens i olika kurser, deltar i pågående forskningsprojekt på universitetet och bidrar med samhällsuppsökande verksamhet som har som mål att intressera fler i datavetenskap och programmering.",
