@@ -76,72 +76,72 @@ const translations = {
     },
     sv: {
         "about-title": "Om Oss",
-        "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitetet. Vi hjälper andra studenter som handledare i labbsessioner, bidrar till den pågående forskningen på universitetet och stödjer samhällsarbetet som görs för att intressera fler för datavetenskap och programmering.",
+        "about-description": "Vi är en grupp studenter som deltar i olika projekt på universitet. Vi hjälper andra studenter genom vårt arbete som amanuens i olika kurser, deltar i pågående forskningsprojekt på universitetet och bidrar med samhällsuppsökande verksamhet som har som mål att intressera fler i datavetenskap och programmering.",
         "header-projects": "Projekt",
         "header-aboutUs": "Om Oss",
         "header-english": "Svenska",
         "header-swedish": "Engelska",
-        "TEP-description": "Det pedagogiska handledningsprogrammet är utformat för att erbjuda studenter möjligheten att arbeta med universitetet som handledare, att få erfarenhet av forskning och att delta i samhällsarbete.",
-        "event-section-title": "Vad händer?",
+        "TEP-description": "Tutorial Educational Programmet är tänkt att ge en möjlighet för studenter att genom arbete på universitetet få erfarenhet av att jobba som amanuens, få bidra till pågående forskning och delta i samhällsuppsökande verksamhet.",
+        "event-section-title": "Pågående",
         "event1-title": "Projekt 1",
         "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
         "event2-title": "Forskning",
         "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
         "event3-title": "Samhällsarbete",
         "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
-        "team-title": "Vår Team",
+        "team-title": "Vårt Team",
         "team-description": "Vårt team består av studenter från hela världen som studerar olika program vid LNU.",
         "member1-name": "Medlem 1",
-        "member1-info": "Programnamn, studieår",
+        "member1-info": "Program, år",
         "member1-quote": "Här skriver jag på svenska!",
         "member1-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member2-name": "Medlem 2",
-        "member2-info": "Programnamn, studieår",
+        "member2-info": "Program, år",
         "member2-quote": "Här skriver jag på svenska!",
         "member2-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member3-name": "Medlem 3",
-        "member3-info": "Programnamn, studieår",
+        "member3-info": "Program, år",
         "member3-quote": "Här skriver jag på svenska!",
         "member3-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member4-name": "Medlem 4",
-        "member4-info": "Programnamn, studieår",
+        "member4-info": "Program, år",
         "member4-quote": "Här skriver jag på svenska!",
         "member4-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member5-name": "Medlem 5",
-        "member5-info": "Programnamn, studieår",
+        "member5-info": "Program, år",
         "member5-quote": "Här skriver jag på svenska!",
         "member5-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member6-name": "Medlem 6",
-        "member6-info": "Programnamn, studieår",
+        "member6-info": "Program, år",
         "member6-quote": "Här skriver jag på svenska!",
         "member6-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member7-name": "Medlem 7",
-        "member7-info": "Programnamn, studieår",
+        "member7-info": "Program, år",
         "member7-quote": "Här skriver jag på svenska!",
         "member7-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
         "member8-name": "Medlem 8",
-        "member8-info": "Programnamn, studieår",
+        "member8-info": "Program, år",
         "member8-quote": "Här skriver jag på svenska!",
         "member8-projects": [
         { name: "Projekt A", link: "#" },
