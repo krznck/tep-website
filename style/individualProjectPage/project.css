@@ -12,23 +12,21 @@
     padding-top: 75px;
     margin: 0 auto;
     gap: 60px;
-    background-repeat: no-repeat;
-    background-position: 0% 60%;
-    background-size: 375px;
 }
 
 .text-container {
-    width: 50%;
+    width: 100%;
+    padding: 10%;
 }
 
 .image-container {
-    width: 50%; 
+    width: 100%; 
     display: flex;
     justify-content: center;
 }
 
 .project-name {
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: bolder;
     display: block;
     word-wrap: break-word;
@@ -45,11 +43,75 @@
 }
 
 .project-image {
-    width: 350px;
+    width: 500px;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     height: auto;
+    right: 10%;
+}
+
+/*project subtitle*/
+
+.project-text-container {
+    width: 100%;
+    padding: 10%;
+}
+
+/*contributers */
+.title-container {
+    padding-left: 10%;
+}
+
+.contributer-container {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.contributer {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contributer-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*picture gallery*/
+.gallery-container {
+    background-color: rgba(255, 224, 0, 0.05); /*doesn't go all the way to the edges*/
+    width: 100%;
+}
+
+.picture-title-container {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.picture-container { /*pictures are not fully centered*/
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.picture {
+    height: 650px;
+    width: 480px;
 }
