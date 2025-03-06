@@ -4,6 +4,19 @@
     background-color: rgb(255, 224, 0, 0.2);
 }
 
+.header {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.title-desc {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+
 .project-list {
     /* width: max-content; */
     padding: 20px;

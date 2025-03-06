@@ -1,6 +1,6 @@
 
 const project1 = {name: "Project A", description: "Here is a really interesting description of project 1", image: "/assets/projectImg.png"}
-const project2 = {name: "Project B", description: "Here is something for projekt 2", image: "/assets/projectImg.png" }
+const project2 = {name: "Project B", description: "Here", image: "/assets/projectImg.png" }
 const project3 = {name: "Project C", description: "And here is project3. If I make it longer it goes left Why?", image: "/assets/projectImg.png"}
 
 const listOfProjects = [project1, project2, project3]
