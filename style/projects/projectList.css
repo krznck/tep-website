@@ -1,7 +1,8 @@
-
-
-.body {
-    background-color: color-mix(in srgb, var(--lnu-yellow) 10%, transparent);
+.black-line {
+    border: none; /* Entfernt den Standardrand */
+    height: 6px; /* Dicke der Linie */
+    background-color: black; /* Farbe der Linie */
+    width: 70%;
 }
 
 .header {
@@ -16,9 +17,122 @@
     overflow-wrap: break-word;
 }
 
+.slideshow-container {   
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+
+.carousel-container {
+    /* background-color: aquamarine; */
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    transition: transform 250ms ease-in;
+    
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.slide img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: brightness(0.8);
+}
+
+.slide-name {
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+}
+
+.slide-name h4 {
+    font-size: 20px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+.carousel-button img {
+    width: 30px;
+    position: relative;
+}
+
+.carousel-button--left {
+    left: -35px;
+}
+
+.carousel-button--right {
+    right: -10px;
+}
+
+.item-img-container {
+    position: relative;
+    max-width: 200px;
+    height: 100%;
+
+}
+.carousel-navigator {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.carousel-indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carousel-indicator.current-slide {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.is-hidden {
+    display: none;
+}
+
+/* ---------------------------------- */
+/*  PROJECT LIST STYLE */
+/* ---------------------------------- */
+.project-wrapper{
+    background-color: rgb(255, 224, 0, 0.1);
+}
 
 .project-list {
-    /* width: max-content; */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.project-container {
     padding: 20px;
     margin: 0 auto;
 }
@@ -31,25 +145,33 @@
     flex-wrap: wrap;
 }
 
-.project-img1, .project-img2, .project-img3{
-    border-radius: 10px;
-    float: left;
-    max-width: 300px;
+img {
     width: 100%;
     height: auto;
-    /* margin-right: 30px; */
+}
+
+.project-img {
+    border-radius: 10px;
+    float: left;
+    object-fit: cover;
+}
+
+.project-img-cont {
+    padding: 10px;
+    max-width: 300px;
+    /* margin: 0 auto; */
 }
 
 .project-text-wrapper {
-    padding: 20px;
+    padding: 10px;
     font-family: var(--font-family);
 }
 
-.project-header1, .project-header2, .project-header3{
-    font-size: 25px;
+.project-header {
+    font-size: 20px;
 }
 
-.p-description1, .p-description2, .p-description3{
+.p-description {
     font-size: 15px;
     max-width: 300px;
     max-height: 70px;
@@ -57,6 +179,7 @@
 }
 
 .date {
+    font-size: 15px;
     color: color-mix(in srgb, var(--lnu-black) 55%, transparent);
 }
 
@@ -65,72 +188,5 @@
     height: auto;
 }
 
-/*Css for carousel */
-.carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    padding-bottom: 2%;
-    margin-top: 5%;
-}
 
-.carousel-shown-project {
-    display: grid;
-    place-items: center;
-    gap: 10px; 
-}
 
-.project-img-carousel {
-    max-width: 90%;
-    height: auto;
-    justify-self: center;
-    align-self: center;    
-}
-
-.p-description-carousel {
-    text-align: center;
-}
-
-.project-header-carousel {
-    text-align: center;
-}
-
-.navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.project-image-right, .project-image-left {
-    width: 60%;
-}
-
-.project-left, .project-right {
-    text-align: center;
-}
-
-.black-line {
-    border: none; /* Entfernt den Standardrand */
-    height: 6px; /* Dicke der Linie */
-    background-color: black; /* Farbe der Linie */
-    width: 90%;
-}
-
-.navigation {
-    gap: 2%;
-}
-
-@media (max-width: 768px) {
-    .carousel {
-        display: block; 
-        text-align: center;
-        margin-top: 20%;
-    }
-
-    .project-image-right, .project-image-left, .project-left, .project-right, .project-header-right, .project-header-left {
-        display: none;
-    }
-
-    .project-img-carousel {
-        width: 70%
-    }
-}
