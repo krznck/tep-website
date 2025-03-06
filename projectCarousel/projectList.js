@@ -22,21 +22,102 @@ const moveToSlide = (carousel_track, currentSlide, targetSlide) => {
     targetSlide.classList.add("current-slide");
 }
 
+const updateNavDots = (currentDot, targetDot) => {
+    currentDot.classList.remove("current-slide");
+    targetDot.classList.add("current-slide");
+}
+
+const hideShowNavArrow = (slides, prevButton, nextButton, targetIndex) => {
+    if (targetIndex === 0) {
+        prevButton.classList.add("is-hidden");
+        nextButton.classList.remove("is-hidden");
+    } else if (targetIndex === slides.length -1 ) {
+        prevButton.classList.remove("is-hidden");
+        nextButton.classList.add("is-hidden");
+    } else {
+        prevButton.classList.remove("is-hidden");
+        nextButton.classList.remove("is-hidden");
+    }
+}
+
 // shows next image when right button clicked
 nextButton.addEventListener("click", e => {
     // selects the slide withe the css class current-slide
     const currentSlide = carousel_track.querySelector(".current-slide");
     const nextSlide = currentSlide.nextElementSibling;
+    const currentDot = navDots.querySelector(".current-slide");
+    const nextDot = currentDot.nextElementSibling;
+    const nextIndex = slides.findIndex(slide => slide === nextSlide);
+    
     moveToSlide(carousel_track, currentSlide, nextSlide);
+
+    updateNavDots(currentDot, nextDot);
+    hideShowNavArrow(slides, prevButton, nextButton, nextIndex);
 });
 
 // shows prev image when left button cliecked
 prevButton.addEventListener("click", e => {
     const currentSlide = carousel_track.querySelector(".current-slide");
     const prevSlide = currentSlide.previousElementSibling;
+    const currentDot = navDots.querySelector(".current-slide");
+    const prevDot = currentDot.previousElementSibling;
+    const prevIndex = slides.findIndex(slide => slide === prevSlide);
+
     moveToSlide(carousel_track, currentSlide, prevSlide);
+    updateNavDots(currentDot, prevDot);
+    hideShowNavArrow(slides, prevButton, nextButton, prevIndex);
 });
 
+navDots.addEventListener("click", e => {
+    const targetDot = e.target.closest("button");
+    // stop listening if the selected in the navbar is not a dot 
+    if(!targetDot) return;
+
+    const currentSlide = carousel_track.querySelector(".current-slide");
+    const currentDot = navDots.querySelector(".current-slide");
+
+    // returns the corresponding index of the selected dot 
+    const targetIndex = dots.findIndex(dot => dot === targetDot);
+
+    // use the navigation dots to control the slide 
+    const targetSlide = slides[targetIndex];
+    moveToSlide(carousel_track, currentSlide, targetSlide);
+
+    updateNavDots(currentDot, targetDot);
+    hideShowNavArrow(slides, prevButton, nextButton, targetIndex);
+})
+
+
+// Swiping functionality
+let startX;
+let endX;
+
+carousel_track.addEventListener("touchstart", e => {
+    console.log(e.touches)
+    startX = e.touches[0].clientX;
+});
+
+carousel_track.addEventListener("touchmove", e => {
+    endX = e.touches[0].clientX;
+});
+
+carousel_track.addEventListener("touchend", () => {
+    if (startX > endX + 50) {
+        // Swipe left
+        const currentSlide = carousel_track.querySelector(".current-slide");
+        const nextSlide = currentSlide.nextElementSibling;
+        if (nextSlide) {
+            nextButton.click();
+        }
+    } else if (startX + 50 < endX) {
+        // Swipe right
+        const currentSlide = carousel_track.querySelector(".current-slide");
+        const prevSlide = currentSlide.previousElementSibling;
+        if (prevSlide) {
+            prevButton.click();
+        }
+    }
+});
 
 class Project {
     constructor(title, date, imagePath, description) {
@@ -48,19 +129,19 @@ class Project {
 }
 
 const listOfProjects = [
-    new Project("Project A", "October 16, 2024", "/assets/projectImg.png", 
+    new Project("Project A", "October 16, 2024", "/assets/projects/projectImg.png", 
         `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic quo dolore repellendus illum tenetur? Harum laborum
         tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
         minus repellat nisi illo reiciendis consequatur.`
     ),
-    new Project("Project B", "August 6, 2023", "/assets/projectImg.png", 
+    new Project("Project B", "August 6, 2023", "/assets/projects/projectImg.png", 
         `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic quo dolore repellendus illum tenetur? Harum laborum
         tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
         minus repellat nisi illo reiciendis consequatur.`
     ),
-    new Project("Project D", "January 9, 2025", "/assets/projectImg.png", 
+    new Project("Project D", "January 9, 2025", "/assets/projects/projectImg.png", 
         `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic quo dolore repellendus illum tenetur? Harum laborum
         tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
