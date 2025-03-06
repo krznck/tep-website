@@ -15,8 +15,7 @@ slides.forEach(setSlidePostion);
 
 const moveToSlide = (carousel_track, currentSlide, targetSlide) => {
     // amt by which the image to move
-    const amountToMove = targetSlide.style.left
-    carousel_track.style.transform = "translateX(-" + amountToMove + ")";
+    carousel_track.style.transform = "translateX(-" + targetSlide.style.left + ")";
     // change the current slide in the class list of the slide
     currentSlide.classList.remove("current-slide");
     targetSlide.classList.add("current-slide");
