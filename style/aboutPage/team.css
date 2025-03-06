@@ -113,7 +113,7 @@
 }
 
 /* Custom Button */
-.custom-button {
+.project-button {
   display: inline-block;
   padding: 10px 20px;
   background: rgba(255, 224, 0, 1);
@@ -130,7 +130,7 @@
 }
 
 /* Button Hover Effect */
-.custom-button:hover {
+.project-button:hover {
   transform: translateY(-3px);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -141,7 +141,7 @@
     gap: 10px; /* Reduce spacing between buttons */
   }
 
-  .custom-button {
+  .project-button {
     padding: 8px 15px; /* Adjust padding for smaller screens */
     font-size: 16px; /* Smaller font size */
     min-width: 100px; /* Reduce minimum width */
@@ -215,7 +215,7 @@
   color: #666;
 }
 /* Custom Button */
-.custom-button {
+.project-button {
   display: inline-block;
   padding: 10px 20px;
   background: rgba(255, 224, 0, 1);
@@ -232,13 +232,13 @@
   -webkit-tap-highlight-color: transparent; /* Removes gray highlight on mobile */
 }
 
-.custom-button:hover {
+.project-button:hover {
   transform: translateY(-3px);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Press Effect (More Noticeable) */
-.custom-button:active {
+.project-button:active {
   transform: translateY(6px); /* Move it further down */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow for "pressed" effect */
   background: rgba(255, 200, 0, 1); /* Slightly darker yellow */
@@ -246,7 +246,7 @@
 
 /* Mobile-Specific Press Effect */
 @media (hover: none) {
-  .custom-button:active {
+  .project-button:active {
     transform: scale(0.92) translateY(8px); /* Stronger press effect */
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   }
@@ -254,7 +254,7 @@
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-  .custom-button {
+  .project-button {
     padding: 8px 15px;
     font-size: 16px;
   }
@@ -271,7 +271,7 @@
     min-height: auto;
   }
 
-  .custom-button {
+  .project-button {
     padding: 8px 15px;
     font-size: 16px;
   }
@@ -285,4 +285,94 @@
   background-size: cover;
   background-position: center;
   border-radius: 16px;
+}
+
+/* Pop up styles */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  max-width: 500px;
+  max-height: object-fit;
+  z-index: 200;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#popupclose {
+  float: right;
+  cursor: pointer;
+}
+
+.popupcontent {
+  padding: 10px;
+}
+
+#project-links {
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #120d26;
+}
+
+.project-name {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .popupclose {
+    width: 20px;
+    height: 20px;
+  }
+
+  .popupcontent {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #popup {
+    width: 300px;
+    padding: 30px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-name {
+    font-size: 16px;
+  }
+
+  .popupclose {
+    width: 15px;
+    height: 15px;
+  }
 }

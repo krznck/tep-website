@@ -1,31 +1,11 @@
 .main-wrapper {
-    margin-top: 100px;
+    margin-top: 95px;
     background-color: white;
-}
-
-
-.mainContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    gap: 10%;
-    padding: 50px 0;
-}
-
-.textContainer {
-    display: block;
-    word-wrap: break-word;
-    padding-left: 10%;
 }
 
 .headingContainer {
     display: block; 
     margin-bottom: 8%;
-}
-
-.pictureContainer {
-    display: grid;
-    place-items: center;
 }
 
 .heading {
@@ -37,40 +17,84 @@
     color: var(--lnu-black);
     margin-bottom: -10px;
     margin-top: 0;
-} 
+}
 
-.line {
-    stroke-width: 5px;
-    stroke: var(--lnu-yellow);
-    width: 90%;
-    height: 6px;
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    margin-bottom: 10px;
 }
 
 .explanationText {
+    /* Text setting */
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: clamp(0.9rem, calc(1.8vw + 0.4rem), 1.5rem);
+    font-size: clamp(1.1rem, calc(1.1vw + 0.6rem), 1.6rem);
     color: var(--lnu-black);
-    flex-direction: column;
-    white-space: normal;
+    word-wrap: break-word;
+    
+    /* Div settings */
     max-width: 90%;
+    display: flex;
+    flex-basis: 50%;
+    padding-bottom: 30px;
+
+    /* Background design settings */
+    background-image: url('/assets/aboutPage/blob.svg');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: 230px;
+}
+
+.imageContainer {
+    background-image: url('/assets/aboutPage/dots_design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 30px;
+    padding-left: 44px;
 }
 
 .responsiveImage {
-    max-width: 350px;
+    /* 350px was originally, now it is relative to the screen size */
+    max-width: clamp(12rem, calc(12vw + 1rem), 16rem); 
     height: auto;
+    flex-basis: 50%;
   }
  
-@media (max-width: 768px) {
+  @media (max-width: 750px) {
     .mainContainer {
-        display: block;  
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
-}
-
-
-@media (max-width: 400px) {
-    .responsiveImage {
-        margin-top: 20px; 
+    
+    .explanationText {
+        text-align: center;
+        flex-basis: 100%;
         max-width: 80%;
+        background-image: none;
+        padding-bottom: 0px;
+        /* There was too small place for it, so it looked out of place */
+        /* background-position: 0% 20%;
+        background-size: 150px; */
+    }
+
+    .responsiveImage {
+        flex-basis: 100%;
+        margin-left: 25px; /* bring the image back to the center */
+    }
+    .imageContainer {
+        margin-top: 0;
+        background-position: top right;
+        padding-top: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
 }

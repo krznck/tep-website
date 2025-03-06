@@ -1,7 +1,7 @@
 
 
 .body {
-    background-color: rgb(255, 224, 0, 0.2);
+    background-color: color-mix(in srgb, var(--lnu-yellow) 10%, transparent);
 }
 
 .header {
@@ -71,6 +71,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     padding-bottom: 2%;
+    margin-top: 5%;
 }
 
 .carousel-shown-project {
@@ -122,6 +123,7 @@
     .carousel {
         display: block; 
         text-align: center;
+        margin-top: 20%;
     }
 
     .project-image-right, .project-image-left, .project-left, .project-right, .project-header-right, .project-header-left {

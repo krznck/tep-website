@@ -1,12 +1,11 @@
-<head>
-    <link rel="stylesheet" href="./style/footer.css">
-</head>
-<body> 
+var htmlName = 'global-footer'; // note: we can't just call it footer, since that is already reserved in HTML
+
+var structure = `
     <div class="footer-wrapper">
         <footer class="centered">
             <div class="footer-row">
                 <div class="column">
-                    <img src="assets/footer/Logotype@4x.png" id="footer-logotype"> <!-- Illustrative, we'll use the logo we all voted on-->
+                    <img src="assets/logo/Combined mark, black.png" width="200px" height="74px" id="footer-logotype" alt="logo">
                 </div>
                 <div class="column">
                     <a href="" class="footer-header footer-header-h2 right-side-text">Contacts</a>
@@ -25,6 +24,14 @@
             </div>
         </footer>
     </div>
+    `;
 
-    <script src="./script/loadContent.js"></script>
-</body>
+class Footer extends HTMLElement {
+    constructor() {
+      super();
+  
+      this.innerHTML = structure;
+    }
+  }
+  
+  customElements.define(htmlName, Footer);
