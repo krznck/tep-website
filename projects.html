@@ -3,80 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="/style/projects/projectList.css">
-
-    <!-- Custom web components -->
-    <script src="./script/webComponents/Header.js" defer></script>
-    <script src="./script/webComponents/Footer.js" defer></script>
-
 </head>
-<body class="body">
+<body class="project-wrapper centered">
     <div class="header">
         <h2 class="title">Project Description</h2>
         <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus non elit lobortis, quis consequat eni</p>
-    </div>
+        <div>
 
-    <div class="carousel centered">
-        <div class="project-left">
-            <img class="project-image-left"> </img>
-            <p class="project-header-left"> </p>
         </div>
-        <div class="carousel-shown-project">
-            <p class="p-description-carousel"> </p>
-            <img class="project-img-carousel"></img>
-            <div class="navigation">
-                <button type="button" onclick="changeProjectToLeft()"> < </button>
-                <p class="project-header-carousel"></p>
-                <button type="button" onclick="changeProjectToRight()"> > </button>
+        <div class="slideshow-container">
+            <button class="carousel-button carousel-button--left is-hidden">
+                <img src="/assets/projects/arrow_left.svg" alt="">
+            </button>
+            <div class="carousel-container">
+                <ul class="carousel-track">
+                    <li class="slide current-slide">
+                        <img src="/assets/projects/projectImg.png" alt="">
+                        <div class="slide-name">
+                            <h4>Project A</h4>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="/assets/aboutPage/team.png" alt="">
+                        <div class="slide-name">
+                            <h4>Project D</h4>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <img src="/assets/aboutPage/member1.jpg" alt="">
+                        <div class="slide-name">
+                            <h4>Project B</h4>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="project-right">
-            <img class="project-image-right"> </img>
-            <p class="project-header-right"> </p>
+            <button class="carousel-button carousel-button--right">
+                <img src="/assets/projects/arrow_right.svg" alt="">
+            </button>
+            <div class="carousel-navigator">
+              <button class="carousel-indicator current-slide"></button>
+              <button class="carousel-indicator"></button>
+              <button class="carousel-indicator"></button>  
+            </div>
+            <!-- <div class="carousel-slide", id="carousel-slide"></div> -->
+            <!-- <div class="navigation">
+                <button class="nav-left" type="button" onclick="changeProjectToLeft()"> < </button>
+                <button class="nav-right" type="button" onclick="changeProjectToRight()"> > </button>
+            </div> -->
         </div>
     </div>
-    <hr class="black-line centered">
-    <div class="project-wrapper centered">
-        <div class="project-list centered">
-            <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project A" class="project-img1">
-                <div class="project-text-wrapper">
-                    <p class="date">October 16, 2024</p>
-                    <h3 class="project-header1"></h3>
-                    <p class="p-description1"></p>
-                    <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">              
-                </div>
-
-            </div>
-            
-            <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project B" class="project-img2">
-                <div class="project-text-wrapper">
-                    <p class="date">October 16, 2024</p>
-                    <h3 class="project-header2">Project B</h3>
-                    <p class="p-description2"></p>     
-                    <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">           
-                </div>
-
-            </div>
-
-            <div class="project-entry">
-                <img src="/assets/projectImg.png" alt="Project B" class="project-img3">
-                <div class="project-text-wrapper">
-                    <p class="date">October 16, 2024</p>
-                    <h3 class="project-header3">Project C</h3>
-                    <p class="p-description3"></p>     
-                    <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">           
-                </div>
-
-            </div>
-        </div>        
-    </div>
-    <global-footer></global-footer>
+        <hr class="black-line">
+    <!-- Container for the projects -->
+    <div class="project-container" id="project-container"></div>  
+    <!-- PROJECT ENTRIES ARE LOADED USING JAVASCRIPT -->
     <script src="/script/projects.js"></script>
 </body>
 </html>
-<!-- ALIGN ALL CENTER AND PADDING -->
+
