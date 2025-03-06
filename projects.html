@@ -2,64 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/projects/projectList.css">
-</head>
-<body class="project-wrapper centered">
-    <div class="header">
-        <h2 class="title">Project Description</h2>
-        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus non elit lobortis, quis consequat eni</p>
-        <div>
+    
+    <!-- Our font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        </div>
-        <div class="slideshow-container">
-            <button class="carousel-button carousel-button--left is-hidden">
-                <img src="/assets/projects/arrow_left.svg" alt="">
-            </button>
-            <div class="carousel-container">
-                <ul class="carousel-track">
-                    <li class="slide current-slide">
-                        <img src="/assets/projects/projectImg.png" alt="">
-                        <div class="slide-name">
-                            <h4>Project A</h4>
-                        </div>
-                    </li>
-                    <li class="slide">
-                        <img src="/assets/aboutPage/team.png" alt="">
-                        <div class="slide-name">
-                            <h4>Project D</h4>
-                        </div>
-                    </li>
-                    <li class="slide">
-                        <img src="/assets/aboutPage/member1.jpg" alt="">
-                        <div class="slide-name">
-                            <h4>Project B</h4>
-                        </div>
-                    </li>
-                </ul>
+    <!-- SVG favicon, but also png as a fallback for browsers that still don't support that -->
+    <link rel="icon" type="image/png" href="assets/logo/Logomark, black.png">
+    <link rel="icon" type="image/svg+xml" href="assets/logo/Logomark, black.svg">
+
+    <!-- Custom web components -->
+    <script src="./script/webComponents/Header.js" defer></script>
+    <script src="./script/webComponents/Footer.js" defer></script>
+
+    <!-- Other scripts -->
+    <script src="./script/handleLanguage.js" defer></script>
+    <script src="./script/burgerifyMenu.js" defer></script>
+    <script src="./script/highlightActiveView.js" defer></script>
+    <script src="./script/popup.js" defer></script>
+</head>
+<body>
+    <global-header></global-header>
+
+    <div class="project-wrapper">
+        <div class="centered">
+             <!-- Project page section -->
+            <div class="header">
+                <h2 class="title">Project Description</h2>
+                <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus non elit lobortis, quis consequat eni</p>
+                <div>
+
+                </div>
+                <div class="slideshow-container">
+                    <button class="carousel-button carousel-button--left is-hidden">
+                        <img src="/assets/projects/arrow_left.svg" alt="">
+                    </button>
+                    <div class="carousel-container">
+                        <ul class="carousel-track">
+                            <li class="slide current-slide">
+                                <img src="/assets/projects/projectImg.png" alt="">
+                                <div class="slide-name">
+                                    <h4>Project A</h4>
+                                </div>
+                            </li>
+                            <li class="slide">
+                                <img src="/assets/aboutPage/team.png" alt="">
+                                <div class="slide-name">
+                                    <h4>Project D</h4>
+                                </div>
+                            </li>
+                            <li class="slide">
+                                <img src="/assets/aboutPage/member1.jpg" alt="">
+                                <div class="slide-name">
+                                    <h4>Project B</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel-button carousel-button--right">
+                        <img src="/assets/projects/arrow_right.svg" alt="">
+                    </button>
+                    <div class="carousel-navigator">
+                    <button class="carousel-indicator current-slide"></button>
+                    <button class="carousel-indicator"></button>
+                    <button class="carousel-indicator"></button>  
+                    </div>
+                    <!-- <div class="carousel-slide", id="carousel-slide"></div> -->
+                    <!-- <div class="navigation">
+                        <button class="nav-left" type="button" onclick="changeProjectToLeft()"> < </button>
+                        <button class="nav-right" type="button" onclick="changeProjectToRight()"> > </button>
+                    </div> -->
+                </div>
             </div>
-            <button class="carousel-button carousel-button--right">
-                <img src="/assets/projects/arrow_right.svg" alt="">
-            </button>
-            <div class="carousel-navigator">
-              <button class="carousel-indicator current-slide"></button>
-              <button class="carousel-indicator"></button>
-              <button class="carousel-indicator"></button>  
-            </div>
-            <!-- <div class="carousel-slide", id="carousel-slide"></div> -->
-            <!-- <div class="navigation">
-                <button class="nav-left" type="button" onclick="changeProjectToLeft()"> < </button>
-                <button class="nav-right" type="button" onclick="changeProjectToRight()"> > </button>
-            </div> -->
+                <hr class="black-line">
+            <!-- Container for the projects -->
+            <div class="project-container" id="project-container"></div>  
         </div>
     </div>
-        <hr class="black-line">
-    <!-- Container for the projects -->
-    <div class="project-container" id="project-container"></div>  
     <!-- PROJECT ENTRIES ARE LOADED USING JAVASCRIPT -->
     <script src="/script/projects.js"></script>
+
+    <global-footer></global-footer>
 </body>
 </html>
 

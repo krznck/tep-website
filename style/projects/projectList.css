@@ -12,6 +12,10 @@
     place-items: center;
 }
 
+.title {
+    font-size: 30px;
+}
+
 .title-desc {
     text-align: center;
     overflow-wrap: break-word;
@@ -124,7 +128,9 @@
 /*  PROJECT LIST STYLE */
 /* ---------------------------------- */
 .project-wrapper{
-    background-color: rgb(255, 224, 0, 0.1);
+    margin-top: 95px;
+    
+    background-color: rgba(255, 225, 0, 0.048);
 }
 
 .project-list {
@@ -145,12 +151,10 @@
     flex-wrap: wrap;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
 
 .project-img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     float: left;
     object-fit: cover;
@@ -158,7 +162,7 @@ img {
 
 .project-img-cont {
     padding: 10px;
-    max-width: 300px;
+    max-width: 350px;
     /* margin: 0 auto; */
 }
 
@@ -174,7 +178,7 @@ img {
 .p-description {
     font-size: 15px;
     max-width: 300px;
-    max-height: 70px;
+    max-height: 50px;
     overflow: hidden;
 }
 

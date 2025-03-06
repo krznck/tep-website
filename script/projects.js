@@ -169,7 +169,7 @@ function createProjectEntries() {
                 <p class="p-description">
                     ${pitem.description}
                 </p>     
-                <img src="/assets/rightArrow.svg" alt="link to project page" class="arrow-button">           
+                <img src="/assets/projects/rightArrow.svg" alt="link to project page" class="arrow-button">           
             </div>
         `;
 
