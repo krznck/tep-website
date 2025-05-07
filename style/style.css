@@ -1,3 +1,7 @@
+/* All pages will have these, so style can import all of these */
+@import url(header.css);
+@import url(footer.css);
+
 * {
     box-sizing: border-box;
     font-family: var(--font-family);

@@ -94,6 +94,13 @@ a:hover {
     width: 70%;
 }
 
+.nav-lang {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #29253c;
+}
+
 .header-line {
     border: 1.50px solid #f2f2f2;
     width: 30px;
@@ -106,10 +113,14 @@ a:hover {
   position: relative;
   display: inline-block;
   margin-right: 64px;
+  border-radius: 8px;
+  padding: 5px 30px;
+  box-shadow: 0 10px 20px 0 rgba(241, 102, 24, 0.15);
+  background: #fff;
 }
 
 .right__arrow {
-    border: solid #94959a; 
+    border: solid #ff7058;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -119,10 +130,6 @@ a:hover {
     -webkit-transform: rotate(-45deg);
 }
 
-.dropdown__line {
-  display: none;
-}
-
 .dropdown__content {
   display: none;
   position: absolute;
@@ -130,6 +137,7 @@ a:hover {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 
 .dropdown__content a {
@@ -139,17 +147,15 @@ a:hover {
   display: block;
 }
 
-.dropdown__content a:hover {background-color: #f1f1f1;}
+.dropdown__content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
 
 .dropdown__li:hover .right__arrow {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transition: linear .1s;
-}
-
-.dropdown__li:hover .dropdown__line {
-  display: block;
-  margin-top: 0;
 }
 
 .dropdown__li:hover .dropdown__content {
@@ -160,17 +166,15 @@ a:hover {
 
 /* Media Queries */
 @media (hover: hover) {
-    .dropdown__content a:hover {background-color: #f1f1f1;}
+    .dropdown__content a:hover {
+        background-color: #f1f1f1;
+        border-radius: 10px;
+    }
 
     .dropdown__li:hover .right__arrow {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         transition: linear .1s;
-    }
-      
-    .dropdown__li:hover .dropdown__line {
-        display: block;
-        margin-top: 0;
     }
       
     .dropdown__li:hover .dropdown__content {
@@ -181,15 +185,14 @@ a:hover {
 }
 
 @media (hover: none) {
+    .nav-lang {
+        display: none;
+    }
+
     .dropdown__li .right__arrow {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         transition: linear .1s;
-    }
-      
-    .dropdown__li .dropdown__line {
-        display: block;
-        margin-top: 0;
     }
       
     .dropdown__li .dropdown__content {
@@ -299,11 +302,16 @@ a:hover {
         margin-right: 0;
     }
 
+    .nav-lang {
+        display: none;
+    }
+
     .header-line {
         display: none;
     }
     
     .dropdown__li {
+        padding-top: 20px;
         margin-right: 0;
     }
     
