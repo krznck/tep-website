@@ -24,12 +24,12 @@
   background-image: url('/assets/aboutPage/dots_design.svg');
   background-repeat: no-repeat;  /* Prevents tiling */
   background-position: bottom left; /* Moves the image to the bottom-left corner */
-  padding: 40px;
+  padding: 40px 45px;
   margin: 30px 0;
 }
 
 .about_us_title {
-  font-size: xx-large;
+  font-size: clamp(1.5rem, calc(1.4vw + 1rem), 2.5rem);
   font-weight: bolder;
   display: block;
   word-wrap: break-word;
@@ -44,16 +44,20 @@
   display: block;
   margin-top: 0;
   margin-bottom: 100px;
+  font-size: clamp(0.8rem, calc(1vw + 0.3rem), 1.25rem);
+  /* font size from 12.8px to 20px */
 }
 
 .about_us_team_image {
-  width: 350px;
+  /* originally width was 350px */
+  max-width: clamp(12.5rem, calc(20vw + 4rem), 21.875rem);
+  /* font size from 200px to 350px */
+  height: auto;
   border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  height: auto;
 }
 
 @media (max-width: 850px) {
@@ -75,25 +79,11 @@
   .image-container {
     margin-top: 0;
     background-position: top right;
-    padding: 25px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
   }  
 
   .about_us_team_image {
-    margin-top: 0;
-    width: 300px;
-  }
-}
-
-@media (max-width: 400px) {
-  .about_us_section {
-    margin: 0 25px;
-  }
-
-  .image-container {
-    padding: 25px;
-  }  
-
-  .about_us_team_image {
-      width: 200px;
+    margin: 0px;
   }
 }
