@@ -59,9 +59,13 @@
 }
 
 .member_image img {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
-  max-width: 100%;
+  width: 258px;
+  height: 258px;
+  max-width: 258px;
+  max-height: 258px;
+  margin: 0 auto;
   display: block;
   object-fit: cover;
   border-radius: 16px;
@@ -72,7 +76,7 @@
   font-size: clamp(0.8rem, calc(1vw + 0.3rem), 1.25rem);
   font-weight: bold;
   color: #120d26;
-  margin-bottom: auto;
+  margin-bottom: 5px;
 }
 
 .bb p {

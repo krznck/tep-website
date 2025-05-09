@@ -124,27 +124,39 @@ class Project {
         this.date = date;
         this.imagePath = imagePath;
         this.description = description;
+        this.github = null; // Placeholder for GitHub URL
     }
 }
 
 const listOfProjects = [
-    new Project("Project A", "October 16, 2024", "/assets/projects/projectImg.png", 
-        `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Hic quo dolore repellendus illum tenetur? Harum laborum
-        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-        minus repellat nisi illo reiciendis consequatur.`
+    new Project("WebXR4 – Interactive 3D Force Graph in VR", "Ongoing", "/assets/projects/project1.jpeg", 
+        `This project integrates a 3D force-directed graph into a custom WebXR + THREE.js scene. It uses the 3d-force-graph library to enable dynamic, interactive node-link visualizations that can be experienced in immersive VR.`,
+        "https://github.com/Danial-Gholamian/webxr4"
     ),
-    new Project("Project B", "August 6, 2023", "/assets/projects/projectImg.png", 
-        `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Hic quo dolore repellendus illum tenetur? Harum laborum
-        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-        minus repellat nisi illo reiciendis consequatur.`
+    new Project("ZigzagNetVis", "Ongoing", "/assets/projects/project2.jpg", 
+        `A research project that focuses on developing an interactive web-based tool for visualizing temporal graphs`
     ),
-    new Project("Project D", "January 9, 2025", "/assets/projects/projectImg.png", 
-        `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Hic quo dolore repellendus illum tenetur? Harum laborum
-        tenetur ut sunt rem perferendis libero, fugiat, consequuntur 
-        minus repellat nisi illo reiciendis consequatur.`
+    new Project("Work project (currently still unnamed)", "Ongoing", "/assets/projects/project2.jpg", 
+        `I'm currently working on a research project that integrates with the Tobii Pro Spark eye-tracker to streamline the collection and analysis of gaze data. The main objective is to develop user-friendly software that enables the creation of gaze heatmaps in a way that's both highly configurable and easily traceable. This tool aims to support and improve the transparency and reproducibility of gaze-based research.`
+    ),
+    new Project("CopyFlyouts", "October, 2024", "/assets/projects/project4.png", 
+        `CopyFlyouts is a customizable Windows utility that provides visual and optional audio feedback for copy operations. It was developed to address a common frustration: not knowing whether a copy action was actually successful.
+        When activated, CopyFlyouts displays a flyout showing the current clipboard contents, helping users confirm successful copies and detect redundant or failed copy attempts. It works with text, files, and images, and it supports both keyboard and mouse-initiated copy events, as well as clipboard changes from external programs.
+        Designed with customization in mind, CopyFlyouts offers light/dark themes, startup options, tray minimization, and high configurability through a settings panel. It’s also portable, retaining preferences across devices. Though originally created as a summer project, it’s a genuinely useful tool aimed at enhancing the everyday copy-paste workflow on Windows.`,
+        "https://github.com/krznck/CopyFlyouts"
+        
+    ),
+    new Project("DyNetVis2", "Ongoing", "/assets/projects/project5.png", 
+        `A Simple data visualization project using Flask and D3.js and structured as MVC.
+        Working on a research project that focuses on the visualization of dynamic networks. The goal is to impove an existing interactive web-based tool that allows users to explore and analyze temporal graphs, with a particular emphasis on the visualization of temporal changes in network structure and dynamics.`
+    ),
+    new Project("Vulnerability Website Scanner", "December 2024", "/assets/projects/project6.png", 
+        `Built a Go-based vulnerability scanning tool
+        designed to detect common web application
+        security vulnerabilitie. The tool currently
+        supports automated scanning for SQL
+        injections, Cross-Site Scripting, Cross-Site
+        Request Forgery and Directory Traversal.`
     ),
 ];
 
@@ -167,8 +179,9 @@ function createProjectEntries() {
                 <h3 class="project-header">${pitem.title}</h3>
                 <p class="p-description">
                     ${pitem.description}
+                    <a href="${pitem.github}" class="popup-github" id="popup-github" target="_blank">View on GitHub</a>  
                 </p>     
-                <img src="/assets/projects/rightArrow.svg" alt="link to project page" class="arrow-button">           
+                <img src="/assets/projects/rightArrow.svg" alt="link to project page" class="arrow-button">         
             </div>
         `;
 
@@ -221,6 +234,49 @@ function loadProjects() {
     `;
     // carouselSlide.appendChild(buttonBox);  
 };
+
+// Popup functionality
+document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("project-popup");
+    const popupTitle = document.getElementById("popup-title");
+    const popupDescription = document.getElementById("popup-description");
+    const popupImages = document.getElementById("popup-images");
+    const popupGithub = document.getElementById("popup-github");
+    const popupClose = document.getElementById("popup-close");
+
+    // Event listener for when an arrow button (to view project details) is clicked
+    document.body.addEventListener("click", function (e) {
+        if (e.target.classList.contains("arrow-button")) {
+            const projectEl = e.target.closest(".project-entry");
+            const title = projectEl.querySelector(".project-header").textContent;
+            const project = listOfProjects.find(p => p.title === title);
+
+            if (project) {
+                // Update the popup with project details
+                popupTitle.textContent = project.title;
+                popupDescription.textContent = project.description;
+                popupImages.innerHTML = `<img src="${project.imagePath}" alt="${project.title}">`;
+
+                // Set the GitHub link dynamically
+                // popupGithub.href = project.github ? project.github : "#"; // Fallback to "#" if GitHub URL is not provided
+                // popupGithub.textContent = project.github ? "View on GitHub" : "GitHub link unavailable";
+
+                popup.classList.remove("hidden"); // Show the popup
+            }
+        }
+    });
+
+    // Close the popup when the close button is clicked
+    popupClose.addEventListener("click", () => {
+        popup.classList.add("hidden");
+    });
+
+    // Close the popup when clicking outside the popup
+    popup.addEventListener("click", (e) => {
+        if (e.target === popup) popup.classList.add("hidden");
+    });
+});
+
 
 // loadProjects();
 createProjectEntries();

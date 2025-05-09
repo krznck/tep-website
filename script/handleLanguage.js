@@ -7,71 +7,78 @@ const translations = {
         "header-aboutUs": "About",
         "header-english": "English",
         "header-swedish": "Swedish",
-        "TEP-description": "The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.",
+        "TEP-description": "The Tutorial Educational Program (TEP) gives students the opportunity to actively engage with university life beyond their studies. As part of TEP, students can work as Teaching Assistants, contribute to research-related activities, support university events, and take part in outreach initiatives like programming workshops for kids. It's a chance to build skills, explore new interests, and be part of the broader university community.",
         "event-section-title": "What's happening?",
-        "event1-title": "Project 1",
-        "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
-        "event2-title": "Research",
-        "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
-        "event3-title": "Community Outreach",
-        "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
+        "event1-title": "Welcome Fair Visit",
+        "event1-description": "Some of our TEP students recently took part in the university's Welcome Fair, an event for kids and teens interested in applying in the future. Visitors got to interact with a robotic cat, that moved and behaved like a real cat. Our team was there to explain the tech behind it and show what kind of exciting projects you can be part of when you study here.",
+        "event2-title": "Upcoming Kid's Programming Course",
+        "event2-description": "In mid-June, some of our TEP students will be teaching a programming course for kids, using brand new material from Kodcentrum. The course runs from June 16–18, and there's also a plan to offer an additional afternoon session for kids and teens with prior programming experience. Preparations will include team meetings to get familiar with the content before the sessions begin.",
+        "event3-title": "PRAO Week: Teaching Scratch",
+        "event3-description": "Next week, some TEP students will be meeting two 14–15-year-old pupils visiting our university as part of their PRAO (job shadowing) experience. During their stay, we’ll be guiding them through a crash course in programming using Scratch, giving them a glimpse into student life and what it’s like to learn tech at the university.",
         "team-title": "Our Team",
         "team-description": "Our team consists of students from around the world studying various programs at LNU.",
-        "member1-name": "Member 1",
-        "member1-info": "Program name, year of studies",
-        "member1-quote": "Here I am writing in English!",
-        "member1-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
-        ],
-        "member2-name": "Member 2",
-        "member2-info": "Program name, year of studies",
+        "member1-name": "Claudio Linhares",
+        "member1-info": "CEO of the TEP. Dr. Claudio Linhares is a Senior Lecturer at Linnaeus University",
+        "member1-quote": "To Be Updated",
+        // "member1-projects": [
+        // { name: "Project A", link: "#" },
+        // { name: "Project B", link: "#" }
+        // ],
+        "member2-name": "Julia Bergön",
+        "member2-info": "Master of Science in Computer Engineering, Year 2",
         "member2-quote": "Here I am writing in English!",
         "member2-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "DyNetVis2", link: "../projects.html" },
+        // { name: "Project B", link: "#" }
         ],
-        "member3-name": "Member 3",
-        "member3-info": "Program name, year of studies",
-        "member3-quote": "Here I am writing in English!",
+        "member3-name": "Danial Gholamian",
+        "member3-info": "Network Security, Year 2",
+        // "member3-quote": "Here I am writing in English!",
         "member3-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "WebXR4 – Interactive 3D Force Graph in VR", link: "https://github.com/Danial-Gholamian/webxr4" },
+        // { name: "Project B", link: "#" }
         ],
-        "member4-name": "Member 4",
-        "member4-info": "Program name, year of studies",
-        "member4-quote": "Here I am writing in English!",
+        "member4-name": "Petra Horváth",
+        "member4-info": "Software Technology, Year 2",
+        // "member4-quote": "Here I am writing in English!",
         "member4-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Project B", link: "#" }
         ],
-        "member5-name": "Member 5",
-        "member5-info": "Program name, year of studies",
+        "member5-name": "Fatimah Ibrahim",
+        "member5-info": "Network Security, Year 2",
         "member5-quote": "Here I am writing in English!",
         "member5-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Project B", link: "#" }
         ],
-        "member6-name": "Member 6",
-        "member6-info": "Program name, year of studies",
+        "member6-name": "Maciej Jan Korzenecki",
+        "member6-info": "Software Technology, Year 2",
         "member6-quote": "Here I am writing in English!",
         "member6-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "CopyFlyouts", link: "https://github.com/krznck/CopyFlyouts" },
+        // { name: "Project B", link: "#" }
         ],
-        "member7-name": "Member 7",
+        "member7-name": "Martim R de Oliveira",
         "member7-info": "Program name, year of studies",
         "member7-quote": "Here I am writing in English!",
         "member7-projects": [
         { name: "Project A", link: "#" },
         { name: "Project B", link: "#" }
         ],
-        "member8-name": "Member 8",
-        "member8-info": "Program name, year of studies",
+        "member8-name": "Alina Schwertfeger",
+        "member8-info": "Network Security, Year 2",
         "member8-quote": "Here I am writing in English!",
         "member8-projects": [
-        { name: "Project A", link: "#" },
-        { name: "Project B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Project B", link: "#" }
+        ],
+        "member9-name": "Anastasiia Zhelizniak",
+        "member9-info": "Network Security, Year 2",
+        "member9-quote": "Technology is a tool, but the real magic happens when it’s used to make a positive impact in people’s lives",
+        "member9-projects": [
+        { name: "DyNetVis2", link: "../projects.html" },
+        { name: "Vilnerability Website Scanner", link: "https://vulnerability-scanner-f88713ea7401.herokuapp.com" }
         ],
     },
     sv: {
@@ -81,71 +88,78 @@ const translations = {
         "header-aboutUs": "Om Oss",
         "header-english": "Svenska",
         "header-swedish": "Engelska",
-        "TEP-description": "Det pedagogiska handledningsprogrammet är utformat för att erbjuda studenter möjligheten att arbeta med universitetet som handledare, att få erfarenhet av forskning och att delta i samhällsarbete.",
+        "TEP-description": "Den pedagogiska utbildningsprogrammet (TEP) ger studenter möjlighet att aktivt delta i universitetslivet utöver sina studier. Som en del av TEP kan studenter arbeta som handledare, bidra till forskningsrelaterade aktiviteter, stödja universitetsarrangemang och delta i outreach-initiativ som programmeringsworkshops för barn. Det är en chans att bygga färdigheter, utforska nya intressen och vara en del av det bredare universitetsgemenskapen.",
         "event-section-title": "Vad händer?",
-        "event1-title": "Projekt 1",
-        "event1-description": "Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.",
-        "event2-title": "Forskning",
-        "event2-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?",
-        "event3-title": "Samhällsarbete",
-        "event3-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?",
+        "event1-title": "Välkommen mässbesök",
+        "event1-description": "Några av våra TEP-studenter deltog nyligen i universitetets Välkomna mässan, ett evenemang för barn och tonåringar som är intresserade av att söka i framtiden. Besökarna fick interagera med en robotkatt som rörde sig och betedde sig som en riktig katt. Vårt team var där för att förklara tekniken bakom den och visa vilken typ av spännande projekt du kan vara en del av när du studerar här.",
+        "event2-title": "Kommande programmeringskurs för barn",
+        "event2-description": "I mitten av juni kommer några av våra TEP-studenter att undervisa en programmeringskurs för barn, med helt nytt material från Kodcentrum. Kursen pågår från 16–18 juni, och det finns också en plan att erbjuda en extra eftermiddagssession för barn och tonåringar med tidigare programmeringserfarenhet. Förberedelserna kommer att inkludera teammöten för att bekanta sig med innehållet innan sessionerna börjar.",
+        "event3-title": "PRAO Vecka: Undervisa Scratch",
+        "event3-description": "Nästa vecka kommer några TEP-studenter att träffa två 14–15-åriga elever som besöker vårt universitet som en del av deras PRAO-upplevelse (job shadowing). Under vistelsen kommer vi att guida dem genom en snabbkurs i programmering med Scratch, vilket ger dem en inblick i studentlivet och hur det är att lära sig teknik på universitetet.",
         "team-title": "Vår Team",
         "team-description": "Vårt team består av studenter från hela världen som studerar olika program vid LNU.",
-        "member1-name": "Medlem 1",
-        "member1-info": "Programnamn, studieår",
-        "member1-quote": "Här skriver jag på svenska!",
-        "member1-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
-        ],
-        "member2-name": "Medlem 2",
-        "member2-info": "Programnamn, studieår",
-        "member2-quote": "Här skriver jag på svenska!",
+        "member1-name": "Claudio Linhares",
+        "member1-info": "Dr. Claudio Linhares är lektor vid Linnéuniversitetet",
+        "member1-quote": "Att uppdatera",
+        // "member1-projects": [
+        // { name: "Projekt A", link: "#" },
+        // { name: "Projekt B", link: "#" }
+        // ],
+        "member2-name": "Julia Bergön",
+        "member2-info": "Civilingenjör i datateknik, årskurs 2",
+        // "member2-quote": "Här skriver jag på svenska!",
         "member2-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+            { name: "DyNetVis2", link: "../projects.html" },
+            // { name: "Project B", link: "#" }
         ],
-        "member3-name": "Medlem 3",
-        "member3-info": "Programnamn, studieår",
-        "member3-quote": "Här skriver jag på svenska!",
+        "member3-name": "Danial Gholamian",
+        "member3-info": "Nätverkssäkerhet, årskurs 2",
+        // "member3-quote": "Här skriver jag på svenska!",
         "member3-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+        { name: "WebXR4 – Interactive 3D Force Graph i VR", link: "https://github.com/Danial-Gholamian/webxr4" },
+        // { name: "Projekt B", link: "#" }
         ],
-        "member4-name": "Medlem 4",
-        "member4-info": "Programnamn, studieår",
+        "member4-name": "Petra Horváth",
+        "member4-info": "Software Technology, årskurs 2",
         "member4-quote": "Här skriver jag på svenska!",
         "member4-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Projekt B", link: "#" }
         ],
-        "member5-name": "Medlem 5",
-        "member5-info": "Programnamn, studieår",
+        "member5-name": "Fatimah Ibrahim",
+        "member5-info": "Nätverkssäkerhet, årskurs 2",
         "member5-quote": "Här skriver jag på svenska!",
         "member5-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Projekt B", link: "#" }
         ],
-        "member6-name": "Medlem 6",
-        "member6-info": "Programnamn, studieår",
+        "member6-name": "Maciej Jan Korzenecki",
+        "member6-info": "Software Technology, årskurs 2",
         "member6-quote": "Här skriver jag på svenska!",
         "member6-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+        { name: "CopyFlyouts", link: "https://github.com/krznck/CopyFlyouts" },
+        // { name: "Projekt B", link: "#" }
         ],
-        "member7-name": "Medlem 7",
+        "member7-name": "Martim R de Oliveira",
         "member7-info": "Programnamn, studieår",
         "member7-quote": "Här skriver jag på svenska!",
         "member7-projects": [
         { name: "Projekt A", link: "#" },
         { name: "Projekt B", link: "#" }
         ],
-        "member8-name": "Medlem 8",
-        "member8-info": "Programnamn, studieår",
+        "member8-name": "Alina Schwertfeger",
+        "member8-info": "Nätverkssäkerhet, årskurs 2",
         "member8-quote": "Här skriver jag på svenska!",
         "member8-projects": [
-        { name: "Projekt A", link: "#" },
-        { name: "Projekt B", link: "#" }
+        { name: "ZigzagNetVis", link: "../projects.html" },
+        // { name: "Projekt B", link: "#" }
+        ],
+        "member9-name": "Anastasiia Zhelizniak",
+        "member9-info": "Nätverkssäkerhet, årskurs 2",
+        "member9-quote": "Teknik är ett verktyg, men den verkliga magin händer när den används för att göra en positiv inverkan i människors liv",
+        "member9-projects": [
+        { name: "DyNetVis2", link: "../projects.html" },
+        { name: "Vilnerability Website Scanner", link: "https://vulnerability-scanner-f88713ea7401.herokuapp.com" }
         ],
     }
 };

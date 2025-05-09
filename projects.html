@@ -36,8 +36,8 @@
         <div class="centered">
              <!-- Project page section -->
             <div class="header">
-                <h2 class="title">Project Description</h2>
-                <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus non elit lobortis, quis consequat eni</p>
+                <h2 class="title">Our Projects</h2>
+                <p class="title-desc">At TEP, we’re constantly working on a variety of exciting and impactful projects that bridge education, technology, and community engagement. From hands-on coding workshops and teaching assistant roles to collaborative research initiatives, our projects offer real-world experience and a chance to make a difference. Here, you’ll find a showcase of both our ongoing and completed projects, each reflecting our team’s passion for learning, innovation, and helping others. Dive into our work and see the diverse ways TEP students are contributing to the university and beyond!</p>
                 <div>
 
                 </div>
@@ -48,21 +48,33 @@
                     <div class="carousel-container">
                         <ul class="carousel-track">
                             <li class="slide current-slide">
-                                <img src="/assets/projects/projectImg.png" alt="">
+                                <img src="/assets/projects/project1.jpeg" alt="">
                                 <div class="slide-name">
-                                    <h4>Project A</h4>
+                                    <h4>WebXR4 – Interactive 3D Force Graph in VR</h4>
                                 </div>
                             </li>
                             <li class="slide">
-                                <img src="/assets/aboutPage/team.png" alt="">
+                                <img src="/assets/projects/project2.jpg" alt="">
                                 <div class="slide-name">
-                                    <h4>Project D</h4>
+                                    <h4>ZigzagNetVis</h4>
                                 </div>
                             </li>
                             <li class="slide">
-                                <img src="/assets/aboutPage/member1.jpg" alt="">
+                                <img src="/assets/projects/project4.png" alt="">
                                 <div class="slide-name">
-                                    <h4>Project B</h4>
+                                    <h4>CopyFlyouts</h4>
+                                </div>
+                            </li>
+                            <li class="slide">
+                                <img src="/assets/projects/project5.png" alt="">
+                                <div class="slide-name">
+                                    <h4>DyNetVis2</h4>
+                                </div>
+                            </li>
+                            <li class="slide">
+                                <img src="/assets/projects/project6.png" alt="">
+                                <div class="slide-name">
+                                    <h4>Vulnerability Website Scanner</h4>
                                 </div>
                             </li>
                         </ul>
@@ -85,6 +97,20 @@
                 <hr class="black-line">
             <!-- Container for the projects -->
             <div class="project-container" id="project-container"></div>  
+
+            <!-- Popup Modal -->
+            <div id="project-popup" class="project-popup hidden">
+                <div class="popup-content">
+                <button class="popup-close" id="popup-close">✖</button>
+                <h2 class="popup-title" id="popup-title">Project Title</h2>
+                <p class="popup-description" id="popup-description">Project description goes here...</p>
+                <div class="popup-images" id="popup-images">
+                    <!-- Images will be added dynamically -->
+                </div>
+                <!-- <a href="#" class="popup-github" id="popup-github" target="_blank">View on GitHub</a> -->
+                </div>
+            </div>
+  
         </div>
     </div>
     <!-- PROJECT ENTRIES ARE LOADED USING JAVASCRIPT -->

@@ -13,6 +13,71 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.project-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.project-popup.hidden {
+    display: none;
+}
+
+.popup-content {
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.popup-images img {
+    width: 330px;
+    max-width: 330px;
+    height: 403px;
+    max-height: 403px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.popup-github {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0366d6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.popup-github:hover {
+    color: #0056b3;
+}
+
 :root {
     --lnu-yellow: rgb(255, 224, 0);
     --lnu-gray: #333333;
