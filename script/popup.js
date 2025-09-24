@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const popupClose = document.getElementById("popupclose");
   const popupContent = document.querySelector(".popupcontent");
 
+  // Check if popup elements exist before adding event listeners
+  if (!overlay || !popup || !popupClose || !popupContent) {
+    console.log("Popup elements not found on this page");
+    return; // Exit the function if elements don't exist
+  }
+
   buttons.forEach(button => {
       button.addEventListener("click", function (event) {
           event.preventDefault();
@@ -13,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const projects = translations[language][memberKey] || [];
 
           // Update popup content
-          let popupHTML = `<h1 class="project-title">${translations[language][button.getAttribute("data-member") + "-name"]}’s Projects:</h1>`;
+          let popupHTML = `<h1 class="project-title">${translations[language][button.getAttribute("data-member") + "-name"]}'s Projects:</h1>`;
           if (projects.length > 0) {
               projects.forEach(project => {
                   popupHTML += `<p class="project-name"><a href="${project.link}" target="_blank">${project.name}</a></p>`;
