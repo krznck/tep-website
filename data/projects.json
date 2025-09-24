@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Teaching Assistant",
+    "date": "2025-09-01",
+    "description": "Assisting in grading assignments, holding office hours, and supporting students in understanding course material.",
+    "category": "Education",
+    "image": "./assets/projects_pic/ta.jpg"
+  },
+  {
+    "id": 2,
+    "title": "TEP Website Development",
+    "date": "2025-09-19",
+    "description": "Developing and maintaining the TEP website to ensure it is user-friendly, up-to-date, and informative for current and prospective members.",
+    "category": "Development",
+    "image": "./assets/projects_pic/web-development.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Green House Monitoring System",
+    "date": "2025-09-19",
+    "description": "Implementing a smart monitoring system for greenhouses using IoT devices and data analytics.",
+    "category": "Research",
+    "image": "./assets/projects_pic/placeholder.png"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Meichen Ji",
+    "photo": "./assets/members_pic/meichen-ji.png",
+    "programName": "Software Technology",
+    "degreeLevel": "Master",
+    "yearOfStudy": "1",
+    "description": "Hi, I am Meichen Ji, a first-year Master's student in Software Technology at LNU. Now I am TA for the course 1DT301 Computer Technolgy.",
+    "projects": [1, 2]
+  },
+  {
+    "id": 2,
+    "name": "Yan Song",
+    "photo": "./assets/members_pic/yan-song.jpg",
+    "programName": "Software Technology",
+    "degreeLevel": "Master",
+    "yearOfStudy": "1",
+    "description": "Hi! I have completed my bachelor’s program at LNU in 2024, and now I am a master’s student here at LNU. Currently I work as TA for the course 1DT301 Computer Technology 1.",
+    "projects": [1]
+  },
+  {
+    "id": 3,
+    "name": "Abdullah Saeed",
+    "photo": "./assets/members_pic/user-placeholder.jpg",
+    "programName": "program name",
+    "degreeLevel": "Bachelor",
+    "yearOfStudy": "?",
+    "description": "Here I am writing in English!",
+    "projects": [1, 2]
+  },
+  {
+    "id": 4,
+    "name": "Pedro Gagini",
+    "photo": "./assets/members_pic/user-placeholder.jpg",
+    "programName": "Software Technology",
+    "degreeLevel": "Bachelor",
+    "yearOfStudy": "3",
+    "description": "Here I am writing in English!",
+    "projects": [1, 2]
+  },
+  {
+    "id": 5,
+    "name": "Member 5",
+    "photo": "./assets/members_pic/user-placeholder.jpg",
+    "programName": "Computer Science",
+    "degreeLevel": "Master",
+    "yearOfStudy": "1",
+    "description": "Here I am writing in English!",
+    "projects": []
+  },
+  {
+    "id": 6,
+    "name": "Member 6",
+    "photo": "./assets/members_pic/user-placeholder.jpg",
+    "programName": "Data Science",
+    "degreeLevel": "Bachelor",
+    "yearOfStudy": "3",
+    "description": "Here I am writing in English!",
+    "projects": []
+  }
+]
