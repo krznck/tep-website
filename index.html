@@ -8,7 +8,6 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/homePage/events.css">
     <link rel="stylesheet" href="./style/homePage/welcome.css">
     <link rel="stylesheet" href="./style/homePage/mission.css">
 
@@ -37,7 +36,7 @@
         <div class="mainContainer centered">
 
             <div class="explanationText">
-                <p data-lang="TEP-description">The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.</p>
+                <p data-lang="TEP-description">Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.</p>
             </div>
             <div class="imageContainer">
                 <img src="assets/homePage/HomePlaceholderPicture.png" width="200px" height="200px" alt="Placeholder Picture" class="responsiveImage" />
@@ -54,6 +53,9 @@
                         <li data-lang="mission-point-2">Explore applied research in collaboration with faculty.</li>
                         <li data-lang="mission-point-3">Lead outreach that inspires future students.</li>
                     </ul>
+                    <div class="mission-actions">
+                        <a class="primary-button" href="./events.html" data-lang="mission-events-cta">See upcoming events</a>
+                    </div>
                 </div>
                 <div class="mission-col">
                     <div class="mission-card">
@@ -106,25 +108,29 @@
             <div class="centered community-card">
                 <div class="community-text">
                     <h2 class="section-heading" data-lang="community-title">Build the TEP Community</h2>
-                    <p class="section-body" data-lang="community-description">We host meetups, peer-to-peer learning circles, and outreach projects that bring together students, staff, and partners across Kalmar and Växjö.</p>
-                    <p class="section-body" data-lang="community-highlight">Share your interests with us and we’ll help match you to TA roles, research sprints, or outreach teams.</p>
+                    <p class="section-body" data-lang="community-description">We create welcoming spaces where students mentor each other, experiment with new ideas, and open doors for future technologists.</p>
+                    <ul class="community-list">
+                        <li data-lang="community-list-1">Launch peer-learning sessions that make tough courses easier together.</li>
+                        <li data-lang="community-list-2">Co-design outreach workshops with schools and local partners.</li>
+                        <li data-lang="community-list-3">Share research stories that highlight the impact of student projects.</li>
+                    </ul>
                     <div class="community-cta">
                         <a class="primary-button" href="mailto:claudio.linhares@lnu.se" data-lang="community-cta-primary">Contact the TEP coordinators</a>
                         <a class="secondary-button" href="./about.html" data-lang="community-cta-secondary">Meet our members</a>
                     </div>
                 </div>
-                <div class="community-stats">
-                    <div class="stat-card">
-                        <span class="stat-number" data-lang="community-stat-1-number">25%-50%</span>
-                        <span class="stat-label" data-lang="community-stat-1-label">Flexible workload options</span>
+                <div class="community-highlights">
+                    <div class="highlight-card">
+                        <h3 data-lang="community-highlight-title-1">Peer Mentor Circles</h3>
+                        <p data-lang="community-highlight-body-1">Swap study tips, plan review labs, and help new students feel at home from day one.</p>
                     </div>
-                    <div class="stat-card">
-                        <span class="stat-number" data-lang="community-stat-2-number">3</span>
-                        <span class="stat-label" data-lang="community-stat-2-label">Integrated development paths</span>
+                    <div class="highlight-card">
+                        <h3 data-lang="community-highlight-title-2">Outreach Crew</h3>
+                        <p data-lang="community-highlight-body-2">Bring computing to local schools, youth centers, and public tech events across Småland.</p>
                     </div>
-                    <div class="stat-card">
-                        <span class="stat-number" data-lang="community-stat-3-number">Year-round</span>
-                        <span class="stat-label" data-lang="community-stat-3-label">Events, mentoring, and projects</span>
+                    <div class="highlight-card">
+                        <h3 data-lang="community-highlight-title-3">Project Showcases</h3>
+                        <p data-lang="community-highlight-body-3">Curate demos and lightning talks that spotlight student research and creative builds.</p>
                     </div>
                 </div>
             </div>
@@ -154,41 +160,6 @@
             </div>
         </section>
 
-    <div class="events-wrapper">
-        <div class="event_section centered">
-            <div class="event_section_title">
-                <h2 data-lang="event-section-title">What's happening?</h2>
-            </div>
-            <div class="event_section_content">
-                <a class="event_link" href="./projects.html">
-                    <div class="event_block">
-                        <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                        <div class="event_text">
-                            <h3 class="event_title" data-lang="event1-title">Project 1</h3>
-                            <h4 class="event_description" data-lang="event1-description">Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.</h4>
-                            <h5 class="event_date">2025-01-27</h5>
-                        </div>
-                    </div>
-                </a>
-                <div class="event_block">
-                    <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                    <div class="event_text">
-                        <h3 class="event_title" data-lang="event2-title">Research</h3>
-                        <h4 class="event_description" data-lang="event2-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?</h4>
-                        <h5 class="event_date">2025-01-27</h5>
-                    </div>
-                </div>
-                <div class="event_block">
-                    <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                    <div class="event_text">
-                        <h3 class="event_title" data-lang="event3-title">Community Outreach</h3>
-                        <h4 class="event_description" data-lang="event3-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?</h4>
-                        <h5 class="event_date">2025-01-27</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
     <global-footer></global-footer>
 </body>

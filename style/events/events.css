@@ -1,0 +1,152 @@
+.events-page {
+    margin-top: 95px;
+    background-color: #fff;
+}
+
+.events-hero {
+    padding: 80px 0 40px;
+    background: color-mix(in srgb, var(--lnu-yellow) 15%, white 85%);
+}
+
+.events-hero h1 {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    margin: 0 0 16px 0;
+    color: var(--lnu-black);
+}
+
+.events-lead {
+    margin: 0 0 12px 0;
+    max-width: 640px;
+    font-size: clamp(1.05rem, 1.1vw, 1.2rem);
+    color: var(--lnu-gray);
+    line-height: 1.6;
+}
+
+.events-instructions {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--lnu-black);
+    opacity: 0.8;
+}
+
+.events-list {
+    padding: 60px 0 100px;
+    background-color: var(--lnu-background-shade);
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.event-card {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 15px 45px rgba(18, 13, 38, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 60px rgba(18, 13, 38, 0.12);
+}
+
+.event-card summary {
+    list-style: none;
+    padding: 28px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.event-card summary::-webkit-details-marker,
+.event-card summary::marker {
+    display: none;
+}
+
+.event-card summary:focus-visible {
+    outline: 3px solid var(--lnu-black);
+    outline-offset: 4px;
+}
+
+.event-card[open] summary {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.event-summary {
+    display: grid;
+    gap: 6px;
+}
+
+.event-name {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--lnu-black);
+}
+
+.event-date {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--lnu-gray);
+}
+
+.event-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: color-mix(in srgb, var(--lnu-yellow) 30%, white);
+    color: var(--lnu-black);
+    font-weight: 600;
+    font-size: 0.85rem;
+    border-radius: 999px;
+    padding: 6px 14px;
+    white-space: nowrap;
+}
+
+.event-details {
+    padding: 24px 32px 28px;
+    display: grid;
+    gap: 10px;
+}
+
+.event-details p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--lnu-gray);
+    line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+    .events-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 720px) {
+    .events-page {
+        margin-top: 85px;
+    }
+
+    .events-hero {
+        padding: 70px 0 32px;
+    }
+
+    .events-list {
+        padding: 40px 0 70px;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .event-card summary,
+    .event-details {
+        padding: 24px;
+    }
+}
