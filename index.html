@@ -8,8 +8,8 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/homePage/events.css">
     <link rel="stylesheet" href="./style/homePage/welcome.css">
+    <link rel="stylesheet" href="./style/homePage/mission.css">
 
     <!-- Our font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,48 +36,137 @@
         <div class="mainContainer centered">
 
             <div class="explanationText">
-                <p data-lang="TEP-description">The Tutorial Educational Program is designed to offer students the possibility to work with the university as a Teaching Assistant, to gain some experience with research and to take part in community outreach.</p>
+                <p data-lang="TEP-description">Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.</p>
             </div>
             <div class="imageContainer">
                 <img src="assets/homePage/HomePlaceholderPicture.png" width="200px" height="200px" alt="Placeholder Picture" class="responsiveImage" />
             </div>
         </div>
     </div>
-    <div class="events-wrapper">
-        <div class="event_section centered">
-            <div class="event_section_title">
-                <h2 data-lang="event-section-title">What's happening?</h2>
-            </div>
-            <div class="event_section_content">
-                <a class="event_link" href="./projects.html">
-                    <div class="event_block">
-                        <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                        <div class="event_text">
-                            <h3 class="event_title" data-lang="event1-title">Project 1</h3>
-                            <h4 class="event_description" data-lang="event1-description">Id voluptate praesentium voluptatum fugiat quod porro quasi dignissimos aspernatur amet rem nobis eos odio molestias, sequi cupiditate quos, nihil suscipit officiis repellat.</h4>
-                            <h5 class="event_date">2025-01-27</h5>
+        <section class="mission-section">
+            <div class="centered mission-grid">
+                <div class="mission-col">
+                    <h2 class="section-heading" data-lang="mission-title">Our Mission</h2>
+                    <p class="section-body" data-lang="mission-description">TEP empowers students to grow as educators, researchers, and community leaders while contributing to meaningful projects at Linnaeus University.</p>
+                    <ul class="section-list">
+                        <li data-lang="mission-point-1">Develop teaching confidence with guided lab support.</li>
+                        <li data-lang="mission-point-2">Explore applied research in collaboration with faculty.</li>
+                        <li data-lang="mission-point-3">Lead outreach that inspires future students.</li>
+                    </ul>
+                    <div class="mission-actions">
+                        <a class="primary-button" href="./events.html" data-lang="mission-events-cta">See upcoming events</a>
+                    </div>
+                </div>
+                <div class="mission-col">
+                    <div class="mission-card">
+                        <h3 data-lang="what-is-tep-title">What is TEP?</h3>
+                        <p data-lang="what-is-tep-description">The Tutorial Education Program offers flexible, paid roles for students who want to build their CV, strengthen academic skills, and make a campus-wide impact.</p>
+                        <div class="mission-highlights">
+                            <p data-lang="what-is-tep-highlight-1">Structured mentorship and training with experienced staff.</p>
+                            <p data-lang="what-is-tep-highlight-2">Opportunities to connect coursework with real-world projects.</p>
+                            <p data-lang="what-is-tep-highlight-3">Support for both English and Swedish speaking students.</p>
                         </div>
                     </div>
-                </a>
-                <div class="event_block">
-                    <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                    <div class="event_text">
-                        <h3 class="event_title" data-lang="event2-title">Research</h3>
-                        <h4 class="event_description" data-lang="event2-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis saepe cupiditate impedit autem repellat sint velit inventore ipsam nihil?</h4>
-                        <h5 class="event_date">2025-01-27</h5>
-                    </div>
-                </div>
-                <div class="event_block">
-                    <img class="event_img" src="./assets/homePage/cat.jpg" alt="">
-                    <div class="event_text">
-                        <h3 class="event_title" data-lang="event3-title">Community Outreach</h3>
-                        <h4 class="event_description" data-lang="event3-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti accusantium eligendi eius ipsam officia ad magnam similique minus rem iusto velit placeat, repellat veritatis?</h4>
-                        <h5 class="event_date">2025-01-27</h5>
-                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <section class="pillars-section">
+            <div class="centered">
+                <h2 class="section-heading" data-lang="pillars-title">Our Three Pillars</h2>
+                <p class="section-body pillars-intro" data-lang="pillars-description">Every participant blends core responsibilities across teaching, research, and community work. You can focus on one track or rotate between them based on interest and availability.</p>
+                <div class="pillars-grid">
+                    <article class="pillar-card">
+                        <h3 data-lang="pillar-ta-title">Teaching Assistance</h3>
+                        <p data-lang="pillar-ta-description">Guide lab sessions, answer course questions, and help classmates decode complex concepts.</p>
+                        <ul>
+                            <li data-lang="pillar-ta-point-1">Flexible mentorship hours that fit around your studies.</li>
+                            <li data-lang="pillar-ta-point-2">Real classroom experience with feedback from instructors.</li>
+                        </ul>
+                    </article>
+                    <article class="pillar-card">
+                        <h3 data-lang="pillar-research-title">Research Support</h3>
+                        <p data-lang="pillar-research-description">Work alongside faculty on active projects—from data analysis to prototyping and documentation.</p>
+                        <ul>
+                            <li data-lang="pillar-research-point-1">Hands-on practice using academic tools and methods.</li>
+                            <li data-lang="pillar-research-point-2">Co-create results you can proudly showcase in your CV.</li>
+                        </ul>
+                    </article>
+                    <article class="pillar-card">
+                        <h3 data-lang="pillar-community-title">Community Outreach</h3>
+                        <p data-lang="pillar-community-description">Design events and workshops that invite new voices into computing and celebrate diversity.</p>
+                        <ul>
+                            <li data-lang="pillar-community-point-1">Collaborate with schools, associations, and local partners.</li>
+                            <li data-lang="pillar-community-point-2">Inspire future students through interactive activities.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="community-section">
+            <div class="centered community-compact">
+                <div class="community-intro">
+                    <h2 class="section-heading" data-lang="community-title">Ready To Apply?</h2>
+                    <p class="section-body" data-lang="community-description">Join the Tutorial Education Program and help us deliver labs, research support, and outreach across Linnaeus University.</p>
+                </div>
+                <div class="community-requirements">
+                    <div class="requirement-card">
+                        <h3 data-lang="community-requirement-title">Prerequisites</h3>
+                        <ul>
+                            <li data-lang="community-requirement-1">Enrolled at Linnaeus University.</li>
+                            <li data-lang="community-requirement-2">Second-year bachelor or master’s student in CS or Media Technology.</li>
+                            <li data-lang="community-requirement-3">Curious about teaching, research, or outreach.</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-card">
+                        <h3 data-lang="community-workload-title">Choose Your Workload</h3>
+                        <ul>
+                            <li data-lang="community-workload-1">25% part-time (approx. 10 hours/week).</li>
+                            <li data-lang="community-workload-2">50% part-time (approx. 20 hours/week).</li>
+                            <li data-lang="community-workload-3">Schedule tailored around your courses.</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-card">
+                        <h3 data-lang="community-support-title">What You’ll Get</h3>
+                        <ul>
+                            <li data-lang="community-support-1">Mentoring from experienced staff.</li>
+                            <li data-lang="community-support-2">Hands-on experience for your CV.</li>
+                            <li data-lang="community-support-3">Access to events, workshops, and project teams.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="community-cta">
+                    <a class="primary-button" href="mailto:info@tep.lnu.se" data-lang="community-cta-primary">Apply now</a>
+                    <a class="secondary-button" href="./about.html" data-lang="community-cta-secondary">View our members</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="centered">
+                <h2 id="faq-title" class="section-heading" data-lang="faq-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary data-lang="faq1-question">Who can join the Tutorial Education Program?</summary>
+                        <p data-lang="faq1-answer">Undergraduate students from their second year onward and master’s students enrolled in Computer Science or Media Technology at LNU.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary data-lang="faq2-question">Do I need previous teaching experience?</summary>
+                        <p data-lang="faq2-answer">No. We provide mentoring, onboarding workshops, and resources to help you feel confident supporting your peers.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary data-lang="faq3-question">How much time do I have to commit?</summary>
+                        <p data-lang="faq3-answer">You can work part-time at 25% or 50% depending on course load and availability. We schedule activities to fit your studies.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary data-lang="faq4-question">What types of projects will I work on?</summary>
+                        <p data-lang="faq4-answer">Assignments range from lab tutoring and research support to community workshops, coding clubs, and outreach events.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
     
     <global-footer></global-footer>
 </body>

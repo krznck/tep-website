@@ -16,6 +16,7 @@ var structure = `
                     <nav>
                         <ul class="nav__items-con">
                             <li class="nav__item"><a href="./projects.html" data-lang="header-projects">Projects</a></li>
+                            <li class="nav__item"><a href="./events.html" data-lang="header-events">Events</a></li>
                             <li class="nav__item"><a href="./about.html" data-lang="header-aboutUs">About</a></li>
                             <div class="header-line"></div>
                             <div class="dropdown__li">
