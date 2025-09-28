@@ -31,9 +31,6 @@ async function loadTeamMembers() {
       container.appendChild(memberCard);
     });
     
-    // Setup project buttons click handlers
-    setupProjectButtons();
-    
   } catch (error) {
     console.error('Error loading team members:', error);
   }
@@ -45,85 +42,31 @@ function createMemberCard(member) {
   card.className = 'member-card';
   
   // Create the HTML structure for the card
+  const profileUrl = member.slug
+    ? `member.html?slug=${encodeURIComponent(member.slug)}`
+    : `member.html?id=${encodeURIComponent(member.id)}`;
+
   card.innerHTML = `
     <div class="member-image">
-      <img src="${member.photo}" alt="${member.name}">
+      <a href="${profileUrl}">
+        <img src="${member.photo}" alt="${member.name}">
+      </a>
     </div>
     <div class="member-info">
-      <h3 data-lang="member-${member.id}-name">${member.name}</h3>
-      <p class="program-info" data-lang="member-${member.id}-info">${member.degreeLevel} in ${member.programName}, Year ${member.yearOfStudy}</p>
+      <h3 data-lang="member-${member.id}-name">
+        <a href="${profileUrl}">${member.name}</a>
+      </h3>
+      <p class="program-info" data-lang="member-${member.id}-info">
+        ${member.degreeLevel} in ${member.programName}, Year ${member.yearOfStudy}
+      </p>
       <q data-lang="member-${member.id}-quote">${member.description}</q>
       <div class="project-container">
-        <a href="#" class="project-button" data-member="${member.id}">Projects</a>
+        <a href="${profileUrl}" class="project-button" data-member="${member.id}">View profile</a>
       </div>
     </div>
   `;
   
   return card;
-}
-
-// Set up project button click handlers - adapted to work with your existing popup.js
-function setupProjectButtons() {
-  const projectButtons = document.querySelectorAll('.project-button');
-  const projectTitle = document.getElementById('project-title');
-  const projectLinks = document.getElementById('project-links');
-  
-  projectButtons.forEach(button => {
-    button.addEventListener('click', async function(event) {
-      event.preventDefault();
-      const memberId = this.getAttribute('data-member');
-      
-      try {
-        // Fetch member and projects data
-        const membersResponse = await fetch('./data/members.json');
-        const members = await membersResponse.json();
-        
-        const projectsResponse = await fetch('./data/projects.json');
-        const projects = await projectsResponse.json();
-        
-        // Find the member
-        const member = members.find(m => m.id == memberId);
-        
-        if (!member) {
-          console.error('Member not found');
-          return;
-        }
-        
-        // Display member's projects
-        projectTitle.textContent = `${member.name}'s projects:`;
-        
-        // Clear previous project links
-        projectLinks.innerHTML = '';
-        
-        // Filter projects for this member
-        const memberProjects = projects.filter(project => 
-          member.projects.includes(project.id)
-        );
-        
-        // Add project links to popup
-        if (memberProjects.length === 0) {
-          const noProjects = document.createElement('p');
-          noProjects.className = 'project-name';
-          noProjects.textContent = 'No projects available';
-          projectLinks.appendChild(noProjects);
-        } else {
-          memberProjects.forEach(project => {
-            const projectLink = document.createElement('p');
-            projectLink.className = 'project-name';
-            projectLink.textContent = project.title;
-            projectLinks.appendChild(projectLink);
-          });
-        }
-        
-        // Show popup (using your existing popup.js functionality)
-        document.getElementById('overlay').style.display = 'block';
-        document.getElementById('popup').style.display = 'block';
-        
-      } catch (error) {
-        console.error('Error loading projects:', error);
-      }
-    });
-  });
 }
 
 // Load members when page loads

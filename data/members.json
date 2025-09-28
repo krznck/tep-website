@@ -21,12 +21,20 @@
   },
   {
     "id": 3,
+    "slug": "abdullah-saeed",
     "name": "Abdullah Saeed",
-    "photo": "./assets/members_pic/user-placeholder.jpg",
-    "programName": "program name",
+    "photo": "./assets/members_pic/abdullah-saeed.jpg",
+    "title": "Front-End Developer & TA",
+    "programName": "Software Technology",
     "degreeLevel": "Bachelor",
-    "yearOfStudy": "?",
-    "description": "Here I am writing in English!",
+    "yearOfStudy": "3",
+    "description": "Designing the TEP website experience and supporting Computer Technology lab groups.",
+    "bio": "Abdullah leads the visual refresh of the TEP website, focusing on responsive layouts, reusable components, and inclusive content. He also mentors students in the Computer Technology course, helping them troubleshoot hardware and web assignments.",
+    "focusAreas": [
+      "Responsive web design",
+      "Design systems",
+      "Student support"
+    ],
     "projects": [1, 2]
   },
   {

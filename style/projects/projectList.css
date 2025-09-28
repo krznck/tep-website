@@ -50,6 +50,14 @@
     width: 100%;
 }
 
+.slide a {
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
 .slide img {
     height: 100%;
     width: 100%;
@@ -150,6 +158,19 @@
     margin-bottom: 40px;
     width: 100%;
     align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 16px;
+    padding: 18px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.project-entry:hover {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
 }
 
 .project-img {
@@ -172,6 +193,37 @@
     justify-content: flex-start;
     text-align: left;
     font-family: var(--font-family);
+}
+
+.project-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tags li {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project-link {
+    margin-top: auto;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.project-link::after {
+    content: url('/assets/projects/rightArrow.svg');
+    display: inline-block;
+    transform: translateY(1px);
 }
 
 .project-header {

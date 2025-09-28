@@ -9,11 +9,24 @@
   },
   {
     "id": 2,
+    "slug": "tep-website-development",
     "title": "TEP Website Development",
     "date": "2025-09-19",
-    "description": "Developing and maintaining the TEP website to ensure it is user-friendly, up-to-date, and informative for current and prospective members.",
+    "description": "Developing and maintaining the TEP website to keep information fresh, accessible, and easy to navigate.",
+    "overview": "The TEP Website project delivers a modern, responsive site for the Teaching and Engagement Program. The team restructured content, implemented reusable web components, and built a JSON-driven workflow so updates stay simple.",
     "category": "Development",
-    "image": "./assets/projects_pic/web-development.jpg"
+    "image": "./assets/projects_pic/web-development.jpg",
+    "members": [1, 3, 4],
+    "technologies": [
+      "HTML5",
+      "CSS Modules",
+      "JavaScript",
+      "JSON data pipeline"
+    ],
+    "outcomes": [
+      "Designed a reusable component library for navigation and hero sections",
+      "Connected project and member profiles through shared JSON data"
+    ]
   },
   {
     "id": 3,

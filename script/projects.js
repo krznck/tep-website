@@ -12,7 +12,7 @@ function formatDate(dateString) {
 // Fetch projects data from JSON file
 async function fetchProjects() {
     try {
-        const response = await fetch('/data/projects.json');
+        const response = await fetch('./data/projects.json');
         if (!response.ok) {
             throw new Error('Failed to fetch projects data');
         }
@@ -36,8 +36,18 @@ function createProjectEntries(projects) {
     container.innerHTML = "";
 
     projects.forEach(project => {
-        const projectEntry = document.createElement("div");
+        const detailUrl = project.slug
+            ? `project.html?slug=${encodeURIComponent(project.slug)}`
+            : `project.html?id=${encodeURIComponent(project.id)}`;
+
+        const projectEntry = document.createElement("a");
         projectEntry.className = "project-entry";
+        projectEntry.href = detailUrl;
+        projectEntry.setAttribute('aria-label', `Open project detail for ${project.title}`);
+
+        const technologiesHtml = Array.isArray(project.technologies) && project.technologies.length > 0
+            ? `<ul class="project-tags">${project.technologies.map(tech => `<li>${tech}</li>`).join('')}</ul>`
+            : '';
 
         projectEntry.innerHTML = `
             <div class="project-img-cont">
@@ -48,8 +58,9 @@ function createProjectEntries(projects) {
                 <h3 class="project-header">${project.title}</h3>
                 <p class="p-description">
                     ${project.description}
-                </p>     
-                <img src="/assets/projects/rightArrow.svg" alt="link to project page" class="arrow-button">           
+                </p>
+                ${technologiesHtml}
+                <span class="project-link">View project →</span>
             </div>
         `;
 
@@ -75,11 +86,17 @@ function updateCarousel(projects) {
     projects.forEach((project, index) => {
         const slide = document.createElement('li');
         slide.className = 'slide' + (index === 0 ? ' current-slide' : '');
+        const detailUrl = project.slug
+            ? `project.html?slug=${encodeURIComponent(project.slug)}`
+            : `project.html?id=${encodeURIComponent(project.id)}`;
+
         slide.innerHTML = `
-            <img src="${project.image}" alt="${project.title}">
-            <div class="slide-name">
-                <h4>${project.title}</h4>
-            </div>
+            <a href="${detailUrl}">
+                <img src="${project.image}" alt="${project.title}">
+                <div class="slide-name">
+                    <h4>${project.title}</h4>
+                </div>
+            </a>
         `;
         carouselTrack.appendChild(slide);
         
