@@ -4,7 +4,9 @@ var structure = `
     <div class="header-wrapper">
         <header class="centered">
             <div class="container header__container">
-                <a href="./index.html"><img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" height="74px" alt="logo"></a>
+                <a href="./index.html">
+                    <img class="header__logo-image" src="./assets/logo/Combined mark, black.png" width="200px" height="74px" alt="logo">
+                </a>
                 <div class="menu__container">
                     <div class="menu__wrapper" id="menu">
                         <div>
@@ -16,11 +18,15 @@ var structure = `
                     <nav>
                         <ul class="nav__items-con">
                             <li class="nav__item"><a href="./projects.html" data-lang="header-projects">Projects</a></li>
+                            <li class="nav__item"><a href="./research.html" data-lang="header-research">Research</a></li>
                             <li class="nav__item"><a href="./events.html" data-lang="header-events">Events</a></li>
                             <li class="nav__item"><a href="./about.html" data-lang="header-aboutUs">About</a></li>
                             <div class="header-line"></div>
                             <div class="dropdown__li">
-                                <li class="nav-lang nav__item"><a data-lang="header-english">English</a><span class="right__arrow"></span></li>
+                                <li class="nav-lang nav__item">
+                                    <a data-lang="header-english">English</a>
+                                    <span class="right__arrow"></span>
+                                </li>
                                 <div class="dropdown__content">
                                     <a href="#" id="change-language" data-lang="header-swedish">Swedish</a>
                                 </div>
@@ -31,14 +37,13 @@ var structure = `
             </div>
         </header>
     </div>
-    `;
+`;
 
 class Header extends HTMLElement {
     constructor() {
       super();
-  
       this.innerHTML = structure;
     }
-  }
-  
-  customElements.define(htmlName, Header);
+}
+
+customElements.define(htmlName, Header);

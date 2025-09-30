@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Bridging Structure and Attributes: Interpretable Graph Visualization with t-SNE and Embeddings",
+    "date": "2025-09-01 — Ongoing",
+    "description": "asd",
+    "category": "Visualization",
+    "image": "./assets/projects_pic/ta.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Research 2",
+    "date": "2025-09-01 — Ongoing",
+    "description": "Description for Research 2.",
+    "category": "Development",
+    "image": "./assets/projects_pic/web-development.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Research 3",
+    "date": "2025-09-01 — Ongoing",
+    "description": "Description for Research 3.",
+    "category": "Data Science",
+    "image": "./assets/projects_pic/placeholder.png"
+  }
+]
