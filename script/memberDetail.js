@@ -1,3 +1,7 @@
+let membersCache = null;
+let projectsCache = null;
+let selectedMemberBase = null;
+
 async function loadMemberProfile() {
   const params = new URLSearchParams(window.location.search);
   const slugParam = params.get('slug');
@@ -18,6 +22,9 @@ async function loadMemberProfile() {
       projectsResponse.json(),
     ]);
 
+    membersCache = members;
+    projectsCache = projects;
+
     const member = findMember(members, { slug: slugParam, id: idParam });
 
     if (!member) {
@@ -25,14 +32,29 @@ async function loadMemberProfile() {
       return;
     }
 
-    populateHero(member);
-    populateBio(member);
-    populateProjects(member, projects);
-    document.title = `${member.name} | TEP Profile`;
+    selectedMemberBase = member;
+    renderMemberProfile();
   } catch (error) {
     console.error('Error loading member profile:', error);
     renderErrorState();
   }
+}
+
+function renderMemberProfile() {
+  if (!selectedMemberBase) {
+    return;
+  }
+
+  const lang = getCurrentLanguage();
+  const localizedMember = mergeLocalizedFields(selectedMemberBase, lang);
+  const localizedProjects = Array.isArray(projectsCache)
+    ? projectsCache.map(project => mergeLocalizedFields(project, lang))
+    : [];
+
+  populateHero(localizedMember, lang);
+  populateBio(localizedMember);
+  populateProjects(localizedMember, localizedProjects, lang);
+  document.title = `${localizedMember.name} | ${lang === 'sv' ? 'TEP Profil' : 'TEP Profile'}`;
 }
 
 function findMember(members, { slug, id }) {
@@ -53,7 +75,7 @@ function findMember(members, { slug, id }) {
   return undefined;
 }
 
-function populateHero(member) {
+function populateHero(member, lang) {
   const photoEl = document.getElementById('member-photo');
   const nameEl = document.getElementById('member-name');
   const titleEl = document.getElementById('member-title');
@@ -62,7 +84,9 @@ function populateHero(member) {
 
   if (photoEl) {
     photoEl.src = member.photo;
-    photoEl.alt = `Portrait of ${member.name}`;
+    photoEl.alt = lang === 'sv'
+      ? `Porträtt av ${member.name}`
+      : `Portrait of ${member.name}`;
   }
 
   if (nameEl) {
@@ -74,7 +98,7 @@ function populateHero(member) {
   }
 
   if (academicEl) {
-    academicEl.textContent = `${member.degreeLevel} in ${member.programName} · Year ${member.yearOfStudy}`;
+    academicEl.textContent = formatMemberAcademicInfo(member, lang);
   }
 
   if (focusEl) {
@@ -85,6 +109,7 @@ function populateHero(member) {
         li.textContent = area;
         focusEl.appendChild(li);
       });
+      focusEl.style.display = '';
     } else {
       focusEl.style.display = 'none';
     }
@@ -98,7 +123,7 @@ function populateBio(member) {
   }
 }
 
-function populateProjects(member, projects) {
+function populateProjects(member, projects, lang) {
   const container = document.getElementById('member-projects');
   const subtitle = document.getElementById('member-projects-subtitle');
 
@@ -114,17 +139,21 @@ function populateProjects(member, projects) {
 
   if (memberProjects.length === 0) {
     if (subtitle) {
-      subtitle.textContent = `${member.name} is getting ready to join new initiatives.`;
+      subtitle.textContent = formatMemberEmptyProjectsMessage(member.name, lang);
     }
     const emptyState = document.createElement('p');
     emptyState.className = 'member-projects-empty';
-    emptyState.textContent = 'No public projects to display yet.';
+    emptyState.textContent = formatMemberEmptyProjectsBody(lang);
     container.appendChild(emptyState);
     return;
   }
 
   if (subtitle) {
-    subtitle.textContent = `${member.name} currently contributes to ${memberProjects.length} project${memberProjects.length > 1 ? 's' : ''}.`;
+    const projectWord = lang === 'sv' ? 'projekt' : `project${memberProjects.length > 1 ? 's' : ''}`;
+    const verb = lang === 'sv' ? 'bidrar till' : 'contributes to';
+    subtitle.textContent = lang === 'sv'
+      ? `${member.name} ${verb} ${memberProjects.length} ${projectWord}.`
+      : `${member.name} currently contributes to ${memberProjects.length} ${projectWord}.`;
   }
 
   memberProjects.forEach(project => {
@@ -135,7 +164,10 @@ function populateProjects(member, projects) {
     const card = document.createElement('a');
     card.className = 'member-project-card';
     card.href = detailUrl;
-    card.setAttribute('aria-label', `Read more about ${project.title}`);
+    const ariaLabel = lang === 'sv'
+      ? `Läs mer om ${project.title}`
+      : `Read more about ${project.title}`;
+    card.setAttribute('aria-label', ariaLabel);
 
     const technologiesHtml = Array.isArray(project.technologies) && project.technologies.length > 0
       ? `<ul class="member-project-tags">${project.technologies.map(tech => `<li>${tech}</li>`).join('')}</ul>`
@@ -146,7 +178,7 @@ function populateProjects(member, projects) {
         <img src="${project.image}" alt="${project.title}">
       </div>
       <div class="member-project-body">
-        <p class="member-project-date">${formatDate(project.date)}</p>
+        <p class="member-project-date">${formatDate(project.date, lang)}</p>
         <h3>${project.title}</h3>
         <p>${project.description}</p>
         ${technologiesHtml}
@@ -160,10 +192,13 @@ function populateProjects(member, projects) {
 function renderMissingMember() {
   const main = document.querySelector('.member-page');
   if (main) {
+    const lang = getCurrentLanguage();
     main.innerHTML = `
       <section class="member-missing">
-        <h1>Member not found</h1>
-        <p>The profile you are looking for is not available. Please return to the <a href="about.html">team page</a>.</p>
+        <h1>${lang === 'sv' ? 'Medlem hittades inte' : 'Member not found'}</h1>
+        <p>${lang === 'sv'
+          ? 'Profilen du letar efter är inte tillgänglig. Gå tillbaka till <a href="about.html">teamet</a>.'
+          : 'The profile you are looking for is not available. Please return to the <a href="about.html">team page</a>.'}</p>
       </section>
     `;
   }
@@ -172,10 +207,13 @@ function renderMissingMember() {
 function renderErrorState() {
   const main = document.querySelector('.member-page');
   if (main) {
+    const lang = getCurrentLanguage();
     main.innerHTML = `
       <section class="member-missing">
-        <h1>Something went wrong</h1>
-        <p>We could not load this profile. Please refresh the page or return to the <a href="about.html">team page</a>.</p>
+        <h1>${lang === 'sv' ? 'Något gick fel' : 'Something went wrong'}</h1>
+        <p>${lang === 'sv'
+          ? 'Vi kunde inte ladda den här profilen. Uppdatera sidan eller återvänd till <a href="about.html">teamet</a>.'
+          : 'We could not load this profile. Please refresh the page or return to the <a href="about.html">team page</a>.'}</p>
       </section>
     `;
   }
@@ -183,8 +221,12 @@ function renderErrorState() {
 
 document.addEventListener('DOMContentLoaded', loadMemberProfile);
 
+window.addEventListener('languagechange', () => {
+  renderMemberProfile();
+});
+
 // Reuse date formatting from projects view
-function formatDate(dateString) {
+function formatDate(dateString, lang) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(dateString).toLocaleDateString(undefined, options);
+  return new Date(dateString).toLocaleDateString(lang === 'sv' ? 'sv-SE' : undefined, options);
 }
