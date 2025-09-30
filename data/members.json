@@ -24,16 +24,17 @@
     "slug": "abdullah-saeed",
     "name": "Abdullah Saeed",
     "photo": "./assets/members_pic/abdullah-saeed.jpg",
-    "title": "Front-End Developer & TA",
+    "title": "Teaching Assistant & Software Technology Student",
     "programName": "Software Technology",
     "degreeLevel": "Bachelor",
     "yearOfStudy": "3",
-    "description": "Designing the TEP website experience and supporting Computer Technology lab groups.",
-    "bio": "Abdullah leads the visual refresh of the TEP website, focusing on responsive layouts, reusable components, and inclusive content. He also mentors students in the Computer Technology course, helping them troubleshoot hardware and web assignments.",
+    "description": "Working as a Teaching Assistant and building projects within the TEP.",
+    "bio": "Abdullah is a third-year Software Technology student at Linnaeus University. He has been a Teaching Assistant in multiple programming courses, supporting students with coding, labs, and assignments.",
     "focusAreas": [
-      "Responsive web design",
+      "Front-End Development",
       "Design systems",
-      "Student support"
+      "Student support",
+      "Machine Learning"
     ],
     "projects": [1, 2]
   },
