@@ -58,13 +58,12 @@ function createProjectEntries(projects, lang) {
             ? `project.html?slug=${encodeURIComponent(project.slug)}`
             : `project.html?id=${encodeURIComponent(project.id)}`;
 
-        const projectEntry = document.createElement("a");
+        const projectEntry = document.createElement("article");
         projectEntry.className = "project-entry";
-        projectEntry.href = detailUrl;
-        const ariaLabel = lang === 'sv'
+
+        const ctaLabel = lang === 'sv'
             ? `Öppna projektdetaljer för ${project.title}`
             : `Open project detail for ${project.title}`;
-        projectEntry.setAttribute('aria-label', ariaLabel);
 
         const technologiesHtml = Array.isArray(project.technologies) && project.technologies.length > 0
             ? `<ul class="project-tags">${project.technologies.map(tech => `<li>${tech}</li>`).join('')}</ul>`
@@ -81,7 +80,12 @@ function createProjectEntries(projects, lang) {
                     ${project.description}
                 </p>
                 ${technologiesHtml}
-                <span class="project-link">${formatProjectCardCta(lang)}</span>
+                <div class="project-card-cta">
+                    <a class="project-arrow" href="${detailUrl}" aria-label="${ctaLabel}">
+                        <img src="/assets/projects/rightArrow.svg" alt="" aria-hidden="true">
+                        <span class="sr-only">${formatProjectCardCta(lang)}</span>
+                    </a>
+                </div>
             </div>
         `;
 
