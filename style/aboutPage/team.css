@@ -92,46 +92,6 @@
   margin-top: auto;
 }
 
-.project-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: var(--lnu-yellow);
-  color: var(--lnu-black);
-  text-decoration: none;
-  font-size: clamp(0.8rem, calc(1vw + 0.3rem), 1.25rem);
-  font-weight: bold;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-width: 120px; /* Ensure buttons have a consistent minimum width */
-  text-align: center; /* Center-align text */
-  touch-action: manipulation; /* Ensures faster response on touch devices */
-  -webkit-tap-highlight-color: transparent; /* Removes gray highlight on mobile */
-  margin-top: 10px;
-}
-
-/* Button Hover Effect */
-.project-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Press Effect (More Noticeable) */
-.project-button:active {
-  transform: translateY(6px); /* Move it further down */
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow for "pressed" effect */
-  background: rgba(255, 200, 0, 1); /* Slightly darker yellow */
-}
-
-/* Mobile-Specific Press Effect */
-@media (hover: none) {
-  .project-button:active {
-    transform: scale(0.92) translateY(8px); /* Stronger press effect */
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-  }
-}
-
 /* Pop up styles */
 #overlay {
   display: none;
@@ -202,11 +162,6 @@
     margin: 0px 5px;
   }
   
-  .project-button {
-    padding: 8px 15px; /* Adjust padding for smaller screens */
-    min-width: 80px; /* Reduce minimum width */
-  }
-
   .team-container {
     padding: 20px 0px;
   }
@@ -225,6 +180,19 @@
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+.member-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--lnu-black) 40%, transparent);
+  outline-offset: 4px;
 }
 
 .member-image {
@@ -246,6 +214,7 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
+  gap: 12px;
 }
 
 .member-info h3 {
@@ -266,8 +235,12 @@
   font-style: italic;
 }
 
-.project-container {
+.member-card-cta {
   margin-top: auto;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* Responsive adjustments */

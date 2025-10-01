@@ -50,33 +50,30 @@ function renderMembers() {
 
 // Create a horizontal member card
 function createMemberCard(member, lang) {
-  const card = document.createElement('div');
+  const card = document.createElement('a');
   card.className = 'member-card';
 
-  // Create the HTML structure for the card
   const profileUrl = member.slug
     ? `member.html?slug=${encodeURIComponent(member.slug)}`
     : `member.html?id=${encodeURIComponent(member.id)}`;
 
+  card.href = profileUrl;
+  const ariaLabel = lang === 'sv'
+    ? `Öppna ${member.name}s profil`
+    : `Open ${member.name}'s profile`;
+  card.setAttribute('aria-label', ariaLabel);
+
   card.innerHTML = `
     <div class="member-image">
-      <a href="${profileUrl}">
-        <img src="${member.photo}" alt="${member.name}">
-      </a>
+      <img src="${member.photo}" alt="${member.name}">
     </div>
     <div class="member-info">
-      <h3>
-        <a href="${profileUrl}">${member.name}</a>
-      </h3>
+      <h3>${member.name}</h3>
       <p class="program-info">
         ${formatMemberAcademicInfo(member, lang)}
       </p>
       <q>${member.description}</q>
-      <div class="project-container">
-        <a href="${profileUrl}" class="project-button" data-member="${member.id}">
-          ${lang === 'sv' ? 'Visa profil' : 'View profile'}
-        </a>
-      </div>
+      <span class="member-card-cta">${lang === 'sv' ? 'Visa profil →' : 'View profile →'}</span>
     </div>
   `;
 
