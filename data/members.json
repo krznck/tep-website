@@ -6,8 +6,16 @@
     "programName": "Software Technology",
     "degreeLevel": "Master",
     "yearOfStudy": "1",
-    "description": "Hi, I am Meichen Ji, a first-year Master's student in Software Technology at LNU. I'm particularly interested in machine learning and exploring how AI technologies can solve complex problems across various domains.",
-    "projects": [1, 2]
+    "description": "Hi, I am Meichen Ji, a first-year Master's student in Software Technology at LNU. Now I am TA for the course 1DT301 Computer Technolgy.",
+    "projects": [1, 2],
+    "translations": {
+      "sv": {
+        "programName": "Mjukvaruteknik",
+        "degreeLevel": "Masterprogram",
+        "description": "Hej, jag är Meichen Ji, en förstaårs masterstudent i mjukvaruteknik vid LNU. Jag är labbassistent för kursen 1DT301 Datorteknik."
+      }
+    }
+
   },
   {
     "id": 2,
@@ -17,17 +25,48 @@
     "degreeLevel": "Master",
     "yearOfStudy": "1",
     "description": "Hi! I have completed my bachelor’s program at LNU in 2024, and now I am a master’s student here at LNU. Currently I work as TA for the course 1DT301 Computer Technology 1.",
-    "projects": [1]
+    "projects": [1],
+    "translations": {
+      "sv": {
+        "programName": "Mjukvaruteknik",
+        "degreeLevel": "Masterprogram",
+        "description": "Hej! Jag tog min kandidatexamen vid LNU 2024 och nu läser jag master här. Just nu arbetar jag som labbassistent i kursen 1DT301 Datorteknik 1."
+      }
+    }
   },
   {
     "id": 3,
+    "slug": "abdullah-saeed",
     "name": "Abdullah Saeed",
-    "photo": "./assets/members_pic/user-placeholder.jpg",
-    "programName": "program name",
+    "photo": "./assets/members_pic/abdullah-saeed.jpg",
+    "title": "Teaching Assistant & Software Technology Student",
+    "programName": "Software Technology",
     "degreeLevel": "Bachelor",
-    "yearOfStudy": "?",
-    "description": "Here I am writing in English!",
-    "projects": [1, 2]
+    "yearOfStudy": "3",
+    "description": "Working as a Teaching Assistant and building projects within the TEP.",
+    "bio": "Abdullah is a third-year Software Technology student at Linnaeus University. He has been a Teaching Assistant in multiple programming courses, supporting students with coding, labs, and assignments.",
+    "focusAreas": [
+      "Front-End Development",
+      "Design systems",
+      "Student support",
+      "Machine Learning"
+    ],
+    "projects": [1, 2],
+    "translations": {
+      "sv": {
+        "title": "Labbassistent & student i mjukvaruteknik",
+        "programName": "Mjukvaruteknik",
+        "degreeLevel": "Kandidatprogram",
+        "description": "Arbetar som labbassistent och bygger projekt inom TEP.",
+        "bio": "Abdullah går sitt tredje år på mjukvaruteknik vid Linnéuniversitetet. Han har varit labbassistent i flera programmeringskurser och stöttar studenter med kodning, labbar och uppgifter.",
+        "focusAreas": [
+          "Front-endutveckling",
+          "Designsystem",
+          "Studentstöd",
+          "Maskininlärning"
+        ]
+      }
+    }
   },
   {
     "id": 4,
@@ -37,7 +76,14 @@
     "degreeLevel": "Bachelor",
     "yearOfStudy": "3",
     "description": "Here I am writing in English!",
-    "projects": [1, 2]
+    "projects": [1, 2],
+    "translations": {
+      "sv": {
+        "programName": "Mjukvaruteknik",
+        "degreeLevel": "Kandidatprogram",
+        "description": "Här skriver jag på svenska!"
+      }
+    }
   },
   {
     "id": 5,
@@ -47,7 +93,14 @@
     "degreeLevel": "Master",
     "yearOfStudy": "1",
     "description": "Here I am writing in English!",
-    "projects": []
+    "projects": [],
+    "translations": {
+      "sv": {
+        "programName": "Datavetenskap",
+        "degreeLevel": "Masterprogram",
+        "description": "Här skriver jag på svenska!"
+      }
+    }
   },
   {
     "id": 6,
@@ -57,6 +110,13 @@
     "degreeLevel": "Bachelor",
     "yearOfStudy": "3",
     "description": "Here I am writing in English!",
-    "projects": []
+    "projects": [],
+    "translations": {
+      "sv": {
+        "programName": "Data Science",
+        "degreeLevel": "Kandidatprogram",
+        "description": "Här skriver jag på svenska!"
+      }
+    }
   }
 ]
