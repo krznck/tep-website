@@ -395,6 +395,10 @@ function changeLanguage(language) {
             el.textContent = newText;
         }
     });
+
+    window.dispatchEvent(new CustomEvent("languagechange", {
+        detail: { language }
+    }));
 }
 
 

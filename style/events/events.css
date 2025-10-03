@@ -38,9 +38,12 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
+    align-items: start;
 }
 
 .event-card {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.06);
@@ -110,9 +113,19 @@
 }
 
 .event-details {
-    padding: 24px 32px 28px;
+    padding: 0 32px;
     display: grid;
     gap: 10px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.3s ease, opacity 0.25s ease;
+}
+
+.event-card[open] .event-details {
+    padding: 24px 32px 28px;
+    max-height: 260px;
+    opacity: 1;
 }
 
 .event-details p {

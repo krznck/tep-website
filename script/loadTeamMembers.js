@@ -3,128 +3,89 @@
  * Loads team members from JSON and renders them on the page
  */
 
+let cachedMembers = null;
+
 // Load and display members from JSON data
 async function loadTeamMembers() {
-  try {
-    const response = await fetch('./data/members.json');
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    
-    const members = await response.json();
-    const container = document.getElementById('team-members-container');
-    
-    if (!container) {
-      console.error('Team members container not found!');
+  const container = document.getElementById('team-members-container');
+  if (!container) {
+    return;
+  }
+
+  if (!cachedMembers) {
+    try {
+      const response = await fetch('./data/members.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      cachedMembers = await response.json();
+    } catch (error) {
+      console.error('Error loading team members:', error);
       return;
     }
-    
-    // Clear any existing content
-    container.innerHTML = '';
-
-    // sort members by name alphabetically
-    members.sort((a, b) => a.name.localeCompare(b.name));
-    
-    // Create horizontal cards for each member
-    members.forEach(member => {
-      const memberCard = createMemberCard(member);
-      container.appendChild(memberCard);
-    });
-    
-    // Setup project buttons click handlers
-    setupProjectButtons();
-    
-  } catch (error) {
-    console.error('Error loading team members:', error);
   }
+
+  renderMembers();
+}
+
+function renderMembers() {
+  const container = document.getElementById('team-members-container');
+  if (!container || !Array.isArray(cachedMembers)) {
+    return;
+  }
+
+  const lang = getCurrentLanguage();
+  const membersToRender = cachedMembers
+    .map(member => mergeLocalizedFields(member, lang))
+    .sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
+
+  container.innerHTML = '';
+
+  membersToRender.forEach(member => {
+    const memberCard = createMemberCard(member, lang);
+    container.appendChild(memberCard);
+  });
 }
 
 // Create a horizontal member card
-function createMemberCard(member) {
+function createMemberCard(member, lang) {
   const card = document.createElement('div');
   card.className = 'member-card';
-  
+
   // Create the HTML structure for the card
+  const profileUrl = member.slug
+    ? `member.html?slug=${encodeURIComponent(member.slug)}`
+    : `member.html?id=${encodeURIComponent(member.id)}`;
+
   card.innerHTML = `
     <div class="member-image">
-      <img src="${member.photo}" alt="${member.name}">
+      <a href="${profileUrl}">
+        <img src="${member.photo}" alt="${member.name}">
+      </a>
     </div>
     <div class="member-info">
-      <h3 data-lang="member-${member.id}-name">${member.name}</h3>
-      <p class="program-info" data-lang="member-${member.id}-info">${member.degreeLevel} in ${member.programName}, Year ${member.yearOfStudy}</p>
-      <q data-lang="member-${member.id}-quote">${member.description}</q>
+      <h3>
+        <a href="${profileUrl}">${member.name}</a>
+      </h3>
+      <p class="program-info">
+        ${formatMemberAcademicInfo(member, lang)}
+      </p>
+      <q>${member.description}</q>
       <div class="project-container">
-        <a href="#" class="project-button" data-member="${member.id}">Projects</a>
+        <a href="${profileUrl}" class="project-button" data-member="${member.id}">
+          ${lang === 'sv' ? 'Visa profil' : 'View profile'}
+        </a>
       </div>
     </div>
   `;
-  
-  return card;
-}
 
-// Set up project button click handlers - adapted to work with your existing popup.js
-function setupProjectButtons() {
-  const projectButtons = document.querySelectorAll('.project-button');
-  const projectTitle = document.getElementById('project-title');
-  const projectLinks = document.getElementById('project-links');
-  
-  projectButtons.forEach(button => {
-    button.addEventListener('click', async function(event) {
-      event.preventDefault();
-      const memberId = this.getAttribute('data-member');
-      
-      try {
-        // Fetch member and projects data
-        const membersResponse = await fetch('./data/members.json');
-        const members = await membersResponse.json();
-        
-        const projectsResponse = await fetch('./data/projects.json');
-        const projects = await projectsResponse.json();
-        
-        // Find the member
-        const member = members.find(m => m.id == memberId);
-        
-        if (!member) {
-          console.error('Member not found');
-          return;
-        }
-        
-        // Display member's projects
-        projectTitle.textContent = `${member.name}'s projects:`;
-        
-        // Clear previous project links
-        projectLinks.innerHTML = '';
-        
-        // Filter projects for this member
-        const memberProjects = projects.filter(project => 
-          member.projects.includes(project.id)
-        );
-        
-        // Add project links to popup
-        if (memberProjects.length === 0) {
-          const noProjects = document.createElement('p');
-          noProjects.className = 'project-name';
-          noProjects.textContent = 'No projects available';
-          projectLinks.appendChild(noProjects);
-        } else {
-          memberProjects.forEach(project => {
-            const projectLink = document.createElement('p');
-            projectLink.className = 'project-name';
-            projectLink.textContent = project.title;
-            projectLinks.appendChild(projectLink);
-          });
-        }
-        
-        // Show popup (using your existing popup.js functionality)
-        document.getElementById('overlay').style.display = 'block';
-        document.getElementById('popup').style.display = 'block';
-        
-      } catch (error) {
-        console.error('Error loading projects:', error);
-      }
-    });
-  });
+  return card;
 }
 
 // Load members when page loads
 document.addEventListener('DOMContentLoaded', loadTeamMembers);
+
+window.addEventListener('languagechange', () => {
+  renderMembers();
+});

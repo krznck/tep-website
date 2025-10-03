@@ -1,55 +1,91 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Load projects data
-    fetchProjects();
+document.addEventListener('DOMContentLoaded', () => {
+    loadProjects();
 });
 
-// Function to format date for display
-function formatDate(dateString) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString(undefined, options);
+let cachedProjects = null;
+
+async function loadProjects() {
+    if (!cachedProjects) {
+        try {
+            const response = await fetch('./data/projects.json');
+            if (!response.ok) {
+                throw new Error('Failed to fetch projects data');
+            }
+            cachedProjects = await response.json();
+        } catch (error) {
+            console.error('Error loading projects:', error);
+            const container = document.getElementById('project-container');
+            if (container) {
+                const lang = getCurrentLanguage();
+                container.innerHTML = `<p>${lang === 'sv'
+                    ? 'Fel vid laddning av projekt. Försök igen senare.'
+                    : 'Error loading projects. Please try again later.'}</p>`;
+            }
+            return;
+        }
+    }
+
+    renderProjects();
 }
 
-// Fetch projects data from JSON file
-async function fetchProjects() {
-    try {
-        const response = await fetch('/data/projects.json');
-        if (!response.ok) {
-            throw new Error('Failed to fetch projects data');
-        }
-        const projects = await response.json();
-        
-        // Update the DOM with the projects data
-        createProjectEntries(projects);
-        updateCarousel(projects);
-    } catch (error) {
-        console.error('Error loading projects:', error);
-        document.getElementById('project-container').innerHTML = 
-            '<p>Error loading projects. Please try again later.</p>';
+function renderProjects() {
+    if (!Array.isArray(cachedProjects)) {
+        return;
     }
+
+    const lang = getCurrentLanguage();
+    const localizedProjects = cachedProjects.map(project => mergeLocalizedFields(project, lang));
+
+    createProjectEntries(localizedProjects, lang);
+    updateCarousel(localizedProjects, lang);
+}
+
+// Function to format date for display
+function formatDate(dateString, lang) {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(dateString).toLocaleDateString(lang === 'sv' ? 'sv-SE' : undefined, options);
 }
 
 // Create project entries in the main container
-function createProjectEntries(projects) {
+function createProjectEntries(projects, lang) {
     const container = document.getElementById("project-container");
     if (!container) return;
     
     container.innerHTML = "";
 
     projects.forEach(project => {
-        const projectEntry = document.createElement("div");
+        const detailUrl = project.slug
+            ? `project.html?slug=${encodeURIComponent(project.slug)}`
+            : `project.html?id=${encodeURIComponent(project.id)}`;
+
+        const projectEntry = document.createElement("article");
         projectEntry.className = "project-entry";
+
+        const ctaLabel = lang === 'sv'
+            ? `Öppna projektdetaljer för ${project.title}`
+            : `Open project detail for ${project.title}`;
+
+        const technologiesHtml = Array.isArray(project.technologies) && project.technologies.length > 0
+            ? `<ul class="project-tags">${project.technologies.map(tech => `<li>${tech}</li>`).join('')}</ul>`
+            : '';
 
         projectEntry.innerHTML = `
             <div class="project-img-cont">
                 <img src="${project.image}" alt="${project.title}" class="project-img">
             </div>
             <div class="project-text-wrapper">
-                <p class="date">${formatDate(project.date)}</p>
+                <p class="date">${formatDate(project.date, lang)}</p>
                 <h3 class="project-header">${project.title}</h3>
                 <p class="p-description">
                     ${project.description}
-                </p>     
-                <img src="/assets/projects/rightArrow.svg" alt="link to project page" class="arrow-button">           
+                </p>
+                ${technologiesHtml}
+                <div class="project-card-cta">
+                    <a class="project-arrow" href="${detailUrl}" aria-label="${ctaLabel}">
+                        <img src="/assets/projects/rightArrow.svg" alt="" aria-hidden="true">
+                        <span class="sr-only">${formatProjectCardCta(lang)}</span>
+                    </a>
+                </div>
             </div>
         `;
 
@@ -58,7 +94,7 @@ function createProjectEntries(projects) {
 }
 
 // Update the carousel with project data
-function updateCarousel(projects) {
+function updateCarousel(projects, lang) {
     const carouselTrack = document.querySelector('.carousel-track');
     const navDotsContainer = document.querySelector('.carousel-navigator');
     
@@ -75,11 +111,17 @@ function updateCarousel(projects) {
     projects.forEach((project, index) => {
         const slide = document.createElement('li');
         slide.className = 'slide' + (index === 0 ? ' current-slide' : '');
+        const detailUrl = project.slug
+            ? `project.html?slug=${encodeURIComponent(project.slug)}`
+            : `project.html?id=${encodeURIComponent(project.id)}`;
+
         slide.innerHTML = `
-            <img src="${project.image}" alt="${project.title}">
-            <div class="slide-name">
-                <h4>${project.title}</h4>
-            </div>
+            <a href="${detailUrl}">
+                <img src="${project.image}" alt="${project.title}">
+                <div class="slide-name">
+                    <h4>${project.title}</h4>
+                </div>
+            </a>
         `;
         carouselTrack.appendChild(slide);
         
@@ -181,56 +223,53 @@ function setupCarousel() {
         updateArrows(prevIndex);
     });
     
-    // Dot indicators click handler
-    navDots.addEventListener('click', e => {
-        const targetDot = e.target.closest('button');
-        if (!targetDot) return;
-        
-        const currentSlide = carousel_track.querySelector('.current-slide');
-        const currentDot = navDots.querySelector('.current-slide');
-        const targetIndex = dots.indexOf(targetDot);
-        const targetSlide = slides[targetIndex];
-        
-        moveToSlide(currentSlide, targetSlide);
-        updateDots(currentDot, targetDot);
-        updateArrows(targetIndex);
+    // Dot navigation click handler
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            const currentSlide = carousel_track.querySelector('.current-slide');
+            const targetSlide = slides[index];
+            const currentDot = navDots.querySelector('.current-slide');
+
+            moveToSlide(currentSlide, targetSlide);
+            updateDots(currentDot, dot);
+            updateArrows(index);
+        });
     });
-    
+
     // Touch swipe functionality
     let startX;
     let endX;
-    
+
     carousel_track.addEventListener('touchstart', e => {
         startX = e.touches[0].clientX;
     });
-    
+
     carousel_track.addEventListener('touchmove', e => {
         endX = e.touches[0].clientX;
     });
-    
+
     carousel_track.addEventListener('touchend', () => {
-        if (!startX || !endX) return;
-        
+        if (startX == null || endX == null) return;
+
         const currentSlide = carousel_track.querySelector('.current-slide');
-        
+
         if (startX > endX + 50) {
-            // Swipe left - go to next slide
             const nextSlide = currentSlide.nextElementSibling;
             if (nextSlide) {
                 nextButton.click();
             }
         } else if (startX + 50 < endX) {
-            // Swipe right - go to previous slide
             const prevSlide = currentSlide.previousElementSibling;
             if (prevSlide) {
                 prevButton.click();
             }
         }
-        
-        // Reset touch points
+
         startX = null;
         endX = null;
     });
-    
-    console.log("Carousel setup complete");
 }
+
+window.addEventListener('languagechange', () => {
+    renderProjects();
+});
