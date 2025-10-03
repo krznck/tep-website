@@ -70,18 +70,33 @@
   },
   {
     "id": 4,
+    "slug": "pedro-gagini",
     "name": "Pedro Gagini",
-    "photo": "./assets/members_pic/user-placeholder.jpg",
-    "programName": "Software Technology",
+    "photo": "./assets/members_pic/pedro-gagini.jpg",
+    "title": "Teaching Assistant & Computer Science Student",
+    "programName": "Computer Science",
     "degreeLevel": "Bachelor",
-    "yearOfStudy": "3",
-    "description": "Here I am writing in English!",
+    "yearOfStudy": "4",
+    "description": "Hey! I'm currently an exchange student at LNU, originally from Brazil. I work as a TA and do research in Data Visualization, and I'm also building projects at TEP.",
+    "bio": "Hey! I'm currently an exchange student at LNU, originally from Brazil. I work as a TA and do research in Data Visualization, and I'm also building projects at TEP.",
+    "focusAreas": [
+      "Data Visualization",
+      "Data Science",
+      "Student support"
+    ],
     "projects": [1, 2],
     "translations": {
       "sv": {
-        "programName": "Mjukvaruteknik",
+        "title": "Lärarassistent och datavetenskapsstudent",
+        "programName": "Datavetenskapsstudent",
         "degreeLevel": "Kandidatprogram",
-        "description": "Här skriver jag på svenska!"
+        "description": "Hej! Jag är för närvarande utbytesstudent på LNU, ursprungligen från Brasilien. Jag arbetar som TA och forskar inom datavisualisering, och jag bygger även projekt på TEP.",
+        "bio": "Hej! Jag är för närvarande utbytesstudent på LNU, ursprungligen från Brasilien. Jag arbetar som TA och forskar inom datavisualisering, och jag bygger även projekt på TEP.",
+        "focusAreas": [
+          "Datavisualisering", 
+          "Datavetenskap",
+          "Studentstöd"
+        ]
       }
     }
   },
