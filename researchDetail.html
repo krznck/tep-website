@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-supported-languages="en,sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Detail</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/projects/projectDetail.css">
+    <link rel="stylesheet" href="./style/projects/researchList.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/logo/Logomark, black.png">
+    <link rel="icon" type="image/svg+xml" href="assets/logo/Logomark, black.svg">
+    <script src="./script/webComponents/Header.js" defer></script>
+    <script src="./script/webComponents/Footer.js" defer></script>
+    <script src="./script/utils/localization.js" defer></script>
+    <script src="./script/handleLanguage.js" defer></script>
+    <script src="./script/burgerifyMenu.js" defer></script>
+    <script src="./script/highlightActiveView.js" defer></script>
+    <script src="./script/researchDetail.js" defer></script>
+</head>
+<body>
+    <global-header></global-header>
+    <main class="project-page">
+        <section class="project-hero">
+            <div class="project-image">
+                <img id="research-image" src="" alt="Research cover image">
+            </div>
+            <div class="project-summary">
+                <p class="project-breadcrumb"><a href="research.html" data-i18n="back_to_research">← Back to research</a></p>
+                <h1 id="research-title">Research Title</h1>
+                <p id="research-category" class="project-category">Research category</p>
+                <p id="research-date" class="project-date">Research date</p>
+            </div>
+        </section>
+        <section class="project-overview">
+            <h2 data-i18n="elevator_pitch">Elevator pitch</h2>
+            <p id="research-elevator">Elevator pitch will appear here.</p>
+        </section>
+        <section class="project-overview">
+                <h2 data-i18n="students">Students</h2>
+                <div id="research-students" class="students-card-list"></div>
+        </section>
+        <section class="project-overview">
+            <h2 data-i18n="supervisor">Supervisor</h2>
+            <p id="research-supervisor">Supervisor will appear here.</p>
+        </section>
+    </main>
+    <global-footer></global-footer>
+</body>
+</html>

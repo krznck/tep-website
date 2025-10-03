@@ -2,6 +2,41 @@
 // We attach them to window because modules aren’t available in this build setup.
 
 (function attachLocalizationHelpers() {
+  // Traduções globais para labels
+  window.globalTranslations = {
+    en: {
+      back_to_research: "← Back to research",
+      elevator_pitch: "Elevator pitch",
+      students: "Students",
+      supervisor: "Supervisor",
+      back_to_projects: "← Back to projects",
+      overview: "Overview",
+      key_outcomes: "Key Outcomes",
+      project_team: "Project Team",
+      meet_team: "Meet the TEP members who delivered this project."
+    },
+    sv: {
+      back_to_research: "← Tillbaka till forskning",
+      elevator_pitch: "Hisspresentation",
+      students: "Studenter",
+      supervisor: "Handledare",
+      back_to_projects: "← Tillbaka till projekt",
+      overview: "Översikt",
+      key_outcomes: "Viktiga resultat",
+      project_team: "Projektteam",
+      meet_team: "Möt TEP-medlemmarna som levererade detta projekt."
+    }
+  };
+
+  window.applyGlobalTranslations = function applyGlobalTranslations(lang) {
+    const dict = window.globalTranslations[lang] || window.globalTranslations['en'];
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key]) {
+        el.textContent = dict[key];
+      }
+    });
+  };
   if (window.getCurrentLanguage) {
     return; // already defined
   }

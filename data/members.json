@@ -7,7 +7,10 @@
     "degreeLevel": "Master",
     "yearOfStudy": "1",
     "description": "Hi, I am Meichen Ji, a first-year Master's student in Software Technology at LNU. Now I am TA for the course 1DT301 Computer Technolgy.",
-    "projects": [1, 2],
+    "projects": [
+      1,
+      2
+    ],
     "translations": {
       "sv": {
         "programName": "Mjukvaruteknik",
@@ -15,7 +18,6 @@
         "description": "Hej, jag är Meichen Ji, en förstaårs masterstudent i mjukvaruteknik vid LNU. Jag är labbassistent för kursen 1DT301 Datorteknik."
       }
     }
-
   },
   {
     "id": 2,
@@ -25,7 +27,9 @@
     "degreeLevel": "Master",
     "yearOfStudy": "1",
     "description": "Hi! I have completed my bachelor’s program at LNU in 2024, and now I am a master’s student here at LNU. Currently I work as TA for the course 1DT301 Computer Technology 1.",
-    "projects": [1],
+    "projects": [
+      1
+    ],
     "translations": {
       "sv": {
         "programName": "Mjukvaruteknik",
@@ -51,7 +55,10 @@
       "Student support",
       "Machine Learning"
     ],
-    "projects": [1, 2],
+    "projects": [
+      1,
+      2
+    ],
     "translations": {
       "sv": {
         "title": "Labbassistent & student i mjukvaruteknik",
@@ -84,7 +91,10 @@
       "Data Science",
       "Student support"
     ],
-    "projects": [1, 2],
+    "projects": [
+      1,
+      2
+    ],
     "translations": {
       "sv": {
         "title": "Lärarassistent och datavetenskapsstudent",
@@ -93,7 +103,7 @@
         "description": "Hej! Jag är för närvarande utbytesstudent på LNU, ursprungligen från Brasilien. Jag arbetar som TA och forskar inom datavisualisering, och jag bygger även projekt på TEP.",
         "bio": "Hej! Jag är för närvarande utbytesstudent på LNU, ursprungligen från Brasilien. Jag arbetar som TA och forskar inom datavisualisering, och jag bygger även projekt på TEP.",
         "focusAreas": [
-          "Datavisualisering", 
+          "Datavisualisering",
           "Datavetenskap",
           "Studentstöd"
         ]

@@ -33,22 +33,22 @@
 <body>
     <global-header></global-header>
 
-    <div class="research-wrapper">
+    <div class="project-wrapper">
         <div class="centered">
-            <!-- Research page section -->
+             <!-- Research page section -->
             <div class="header">
-                <h2 class="title">Student Research Gallery</h2>
-                <p class="title-desc">Explore the innovative research projects conducted by our students</p>
+                <h2 class="title">Research Gallery</h2>
+                <p class="title-desc">Browse through our latest research and initiatives</p>
                 <div class="slideshow-container">
                     <button class="carousel-button carousel-button--left is-hidden">
-                        <img src="/assets/projects/arrow_left.svg" alt="Previous">
+                        <img src="/assets/projects/arrow_left.svg" alt="">
                     </button>
                     <div class="carousel-container">
                         <ul class="carousel-track" id="research-carousel-track">
-                            <!-- Placeholder slide -->
+                            <!-- Placeholder slide that will be replaced -->
                             <li class="slide current-slide">
                                 <div style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                    <p>Loading research projects...</p>
+                                    <p>Loading research...</p>
                                 </div>
                                 <div class="slide-name">
                                     <h4>Loading...</h4>
@@ -57,7 +57,7 @@
                         </ul>
                     </div>
                     <button class="carousel-button carousel-button--right is-hidden">
-                        <img src="/assets/projects/arrow_right.svg" alt="Next">
+                        <img src="/assets/projects/arrow_right.svg" alt="">
                     </button>
                     <div class="carousel-navigator" id="research-carousel-navigator">
                         <button class="carousel-indicator current-slide"></button>
@@ -66,21 +66,14 @@
             </div>
             <hr class="black-line">
             <!-- Container for the research projects -->
-            <div class="research-container" id="research-container">
-                <p>Loading research projects...</p>
+            <div class="project-container" id="research-container">
+                <p>Loading research...</p>
             </div>  
         </div>
     </div>
 
-    <!-- Popup elements -->
-    <div id="overlay" class="overlay"></div>
-    <div id="popup" class="popup">
-        <button id="popupclose" class="popupclose">&times;</button>
-        <div class="popupcontent"></div>
-    </div>
-
-    <!-- RESEARCH PROJECT ENTRIES LOADED USING JAVASCRIPT -->
-    <script src="/script/reserach.js"></script>
+    <!-- PROJECT ENTRIES ARE LOADED USING JAVASCRIPT -->
+    <script src="./script/research.js" defer></script>
 
     <global-footer></global-footer>
 </body>

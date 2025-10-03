@@ -88,12 +88,22 @@ function populateHero(project, lang) {
     imageEl.alt = lang === 'sv' ? `Bild för ${project.title}` : project.title;
   }
 
+  // Tradução do título
   if (titleEl) {
-    titleEl.textContent = project.title;
+    if (lang === 'sv' && project.translations && project.translations.sv && project.translations.sv.title) {
+      titleEl.textContent = project.translations.sv.title;
+    } else {
+      titleEl.textContent = project.title;
+    }
   }
 
+  // Tradução da categoria
   if (categoryEl) {
-    categoryEl.textContent = project.category || '';
+    if (lang === 'sv' && project.translations && project.translations.sv && project.translations.sv.category) {
+      categoryEl.textContent = project.translations.sv.category;
+    } else {
+      categoryEl.textContent = project.category || '';
+    }
   }
 
   if (dateEl) {
@@ -118,7 +128,12 @@ function populateHero(project, lang) {
 function populateOverview(project) {
   const overviewEl = document.getElementById('project-overview');
   if (overviewEl) {
-    overviewEl.textContent = project.overview || project.description || '';
+    const lang = getCurrentLanguage();
+    if (lang === 'sv' && project.translations && project.translations.sv) {
+      overviewEl.textContent = project.translations.sv.overview || project.translations.sv.description || project.overview || project.description || '';
+    } else {
+      overviewEl.textContent = project.overview || project.description || '';
+    }
   }
 }
 
@@ -130,8 +145,12 @@ function populateOutcomes(project, lang) {
 
   outcomesEl.innerHTML = '';
 
-  if (Array.isArray(project.outcomes) && project.outcomes.length > 0) {
-    project.outcomes.forEach(outcome => {
+  let outcomes = project.outcomes;
+  if (lang === 'sv' && project.translations && project.translations.sv && project.translations.sv.outcomes) {
+    outcomes = project.translations.sv.outcomes;
+  }
+  if (Array.isArray(outcomes) && outcomes.length > 0) {
+    outcomes.forEach(outcome => {
       const li = document.createElement('li');
       li.textContent = outcome;
       outcomesEl.appendChild(li);
@@ -157,7 +176,19 @@ function populateTeam(project, members, lang) {
 
   const projectMembers = Array.isArray(project.members)
     ? project.members
-        .map(memberId => members.find(member => member.id === memberId))
+        .map(memberId => {
+          const member = members.find(member => member.id === memberId);
+          if (!member) return null;
+          // Tradução do nome e título do membro
+          if (lang === 'sv' && member.translations && member.translations.sv) {
+            return {
+              ...member,
+              name: member.translations.sv.name || member.name,
+              title: member.translations.sv.title || member.title
+            };
+          }
+          return member;
+        })
         .filter(Boolean)
     : [];
 

@@ -1,26 +1,85 @@
 [
   {
-    "id": 1,
+    "id": 4,
     "title": "Bridging Structure and Attributes: Interpretable Graph Visualization with t-SNE and Embeddings",
-    "date": "2025-09-01 — Ongoing",
-    "description": "asd",
-    "category": "Visualization",
-    "image": "./assets/projects_pic/ta.jpg"
+    "date": "2025-09-01",
+    "description": "This project develops new methods for interpretable graph visualization by combining structure and node attributes with graph embeddings and t-SNE.",
+    "category": "Dimensionality Reduction, Graph Embeddings, Graph Drawing",
+    "image": "./assets/researchs_pic/research-pedro-gagini.png",
+    "elevator": "Graphs are central to domains such as social networks, biology, and cybersecurity, but current visualization methods often fail to integrate both structural connections and node attributes, limiting interpretability and trust. The challenge lies in balancing structure-preserving layouts with attribute-driven dimensionality reduction in a way that remains scalable and meaningful. This project proposes to systematically compare pipelines combining graph embeddings and t-SNE, while also introducing interpretability techniques such as axis-based categorization and ranked neighborhood lists. Evaluation will be carried out through quantitative metrics (trustworthiness, neighborhood preservation, Spearman correlation) and qualitative analysis across synthetic and real datasets to ensure robustness and generalizability.",
+    "students": [
+      {
+        "name": "Pedro Gagini",
+        "slug": "pedro-gagini",
+        "image": "./assets/members_pic/pedro-gagini.jpg"
+      }
+    ],
+    "supervisor": "Claudio Linhares, Rafael Messias Martins, Amílcar Soares Júnior",
+    "translations": {
+      "sv": {
+        "title": "Att överbrygga struktur och attribut: Tolkbar grafvisualisering med t-SNE och inbäddningar",
+        "description": "Detta projekt utvecklar nya metoder för tolkbar grafvisualisering genom att kombinera struktur och nodattribut med grafinbäddningar och t-SNE.",
+        "category": "Dimensionell reduktion, Grafinbäddningar, Grafritning",
+        "elevator": "Grafer är centrala inom områden som sociala nätverk, biologi och cybersäkerhet, men nuvarande visualiseringsmetoder misslyckas ofta med att integrera både strukturella kopplingar och nodattribut, vilket begränsar tolkbarhet och förtroende. Utmaningen ligger i att balansera strukturbevarande layout med attributdriven dimensionell reduktion på ett sätt som förblir skalbart och meningsfullt. Detta projekt föreslår att systematiskt jämföra processer som kombinerar grafinbäddningar och t-SNE, samtidigt som tolkningsmetoder som axelbaserad kategorisering och rankade grannskapslistor introduceras. Utvärderingen kommer att genomföras genom kvantitativa mått (tillförlitlighet, bevarande av grannskap, Spearman-korrelation) och kvalitativ analys av både syntetiska och verkliga dataset för att säkerställa robusthet och generaliserbarhet."
+      }
+    }
   },
   {
-    "id": 2,
-    "title": "Research 2",
-    "date": "2025-09-01 — Ongoing",
-    "description": "Description for Research 2.",
-    "category": "Development",
-    "image": "./assets/projects_pic/web-development.jpg"
+    "id": 5,
+    "title": "Vestibulum Ante Ipsum",
+    "date": "2025-10-02",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus.",
+    "category": "Experiment",
+    "image": "./assets/projects_pic/ta.jpg",
+    "elevator": "Short summary of Vestibulum Ante Ipsum research.",
+    "students": [
+      {
+        "name": "Carol",
+        "slug": "carol",
+        "image": "./assets/members_pic/user-placeholder.jpg"
+      },
+      {
+        "name": "Dave",
+        "slug": "dave",
+        "image": "./assets/members_pic/user-placeholder.jpg"
+      }
+    ],
+    "supervisor": "Prof. Johnson",
+    "translations": {
+      "sv": {
+        "title": "Vestibulum Ante Ipsum",
+        "description": "Vestibulum ante ipsum primis in faucibus orci luctus.",
+        "category": "Experiment"
+      }
+    }
   },
   {
-    "id": 3,
-    "title": "Research 3",
-    "date": "2025-09-01 — Ongoing",
-    "description": "Description for Research 3.",
-    "category": "Data Science",
-    "image": "./assets/projects_pic/placeholder.png"
+    "id": 6,
+    "title": "Curabitur Blandit Tempus",
+    "date": "2025-10-03",
+    "description": "Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "category": "Analysis",
+    "image": "./assets/projects_pic/placeholder.png",
+    "elevator": "Short summary of Curabitur Blandit Tempus research.",
+    "students": [
+      {
+        "name": "Eve",
+        "slug": "eve",
+        "image": "./assets/members_pic/user-placeholder.jpg"
+      },
+      {
+        "name": "Frank",
+        "slug": "frank",
+        "image": "./assets/members_pic/user-placeholder.jpg"
+      }
+    ],
+    "supervisor": "Dr. Lee",
+    "translations": {
+      "sv": {
+        "title": "Curabitur Blandit Tempus",
+        "description": "Curabitur blandit tempus porttitor.",
+        "category": "Analys"
+      }
+    }
   }
 ]
