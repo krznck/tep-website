@@ -102,18 +102,18 @@
   },
   {
     "id": 5,
-    "name": "Member 5",
-    "photo": "./assets/members_pic/user-placeholder.jpg",
-    "programName": "Computer Science",
-    "degreeLevel": "Master",
-    "yearOfStudy": "1",
-    "description": "Here I am writing in English!",
+    "name": "Dr. Claudio Linhares",
+    "photo": "./assets/members_pic/claudio-linhares.jpg",
+    "programName": "Department of Computer Science and Media Technology",
+    "degreeLevel": "SENIOR LECTURER",
+    "yearOfStudy": "-",
+    "description": "Dr. Claudio Linhares is a Senior Lecturer at Linnaeus University, at the Department of Computer Science and Media Technology Faculty of Technology, in Växjö, Sweden.",
     "projects": [],
     "translations": {
       "sv": {
-        "programName": "Datavetenskap",
-        "degreeLevel": "Masterprogram",
-        "description": "Här skriver jag på svenska!"
+        "programName": "Institutionen för datavetenskap och medieteknik",
+        "degreeLevel": "UNIVERSITETSLEKTOR",
+        "description": "Dr. Claudio Linhares är universitetslektor vid Linnéuniversitetet, vid Institutionen för datavetenskap och medieteknik, Tekniska fakulteten, i Växjö, Sverige."
       }
     }
   },
