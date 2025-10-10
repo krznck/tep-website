@@ -37,6 +37,13 @@
   };
 
   window.formatMemberAcademicInfo = function formatMemberAcademicInfo(member, lang) {
+    if (member.yearOfStudy === '-') {
+      if (lang === 'sv') {
+        return `${member.degreeLevel} på ${member.programName}`;
+      }
+      return `${member.degreeLevel} in ${member.programName}`;
+    }
+    
     if (lang === 'sv') {
       return `${member.degreeLevel} på ${member.programName}, år ${member.yearOfStudy}`;
     }
