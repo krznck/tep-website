@@ -82,7 +82,7 @@ function createProjectEntries(projects, lang) {
                 ${technologiesHtml}
                 <div class="project-card-cta">
                     <a class="project-arrow" href="${detailUrl}" aria-label="${ctaLabel}">
-                        <img src="/assets/projects/rightArrow.svg" alt="" aria-hidden="true">
+                        <img src="assets/projects/rightArrow.svg" alt="" aria-hidden="true">
                         <span class="sr-only">${formatProjectCardCta(lang)}</span>
                     </a>
                 </div>
