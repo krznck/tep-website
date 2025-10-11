@@ -1,7 +1,7 @@
 [
   {
-    "id": "digitalidag-2024",
-    "endDate": "2024-10-10",
+    "id": "digitalidag-2025",
+    "endDate": "2025-10-10",
     "nameKey": "event-digitalidag-name",
     "name": "Digitalidag",
     "dateKey": "event-digitalidag-datetime",
@@ -20,8 +20,28 @@
     ]
   },
   {
-    "id": "digitala-kompetensdagen-2024",
-    "endDate": "2024-10-28",
+    "id": "vera-day-2025",
+    "endDate": "2025-10-16",
+    "nameKey": "event-vera-dagen-name",
+    "name": "VERA-dagen på Volvo",
+    "dateKey": "event-vera-dagen-datetime",
+    "date": "October 16th",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-vera-dagen-location",
+        "text": "Location: Volvo (details coming soon)"
+      },
+      {
+        "key": "event-vera-dagen-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "digitala-kompetensdagen-2025",
+    "endDate": "2025-10-28",
     "nameKey": "event-digitala-kompetensdagen-name",
     "name": "Digitala kompetensdagen",
     "dateKey": "event-digitala-kompetensdagen-datetime",
@@ -40,12 +60,12 @@
     ]
   },
   {
-    "id": "kids-programming-oct-2024",
-    "endDate": "2024-10-29",
+    "id": "kids-programming-oct-2025",
+    "endDate": "2025-10-29",
     "nameKey": "event-october-programming-name",
     "name": "Programming course for kids",
     "dateKey": "event-october-programming-datetime",
-    "date": "October 27–29th · 09.00–12.00 or 13.00–16.00",
+    "date": "October 27th–29th · 09.00–12.00",
     "tagKey": "event-tag-course",
     "tagLabel": "Course",
     "details": [
@@ -60,8 +80,8 @@
     ]
   },
   {
-    "id": "prao-week-45-2024",
-    "endDate": "2024-11-08",
+    "id": "prao-week-45-2025",
+    "endDate": "2025-11-09",
     "nameKey": "event-prao-45-name",
     "name": "PRAO Week 45",
     "dateKey": "event-prao-45-datetime",
@@ -80,8 +100,8 @@
     ]
   },
   {
-    "id": "karriardag-teknik-2024",
-    "endDate": "2024-11-18",
+    "id": "karriardag-teknik-2025",
+    "endDate": "2025-11-18",
     "nameKey": "event-karriardag-name",
     "name": "Karriärdag teknik",
     "dateKey": "event-karriardag-datetime",
@@ -100,8 +120,28 @@
     ]
   },
   {
-    "id": "prao-week-47-2024",
-    "endDate": "2024-11-22",
+    "id": "student-life-talk-2025",
+    "endDate": "2025-11-18",
+    "nameKey": "event-student-life-talk-name",
+    "name": "Talk about student life at LNU",
+    "dateKey": "event-student-life-talk-datetime",
+    "date": "November 18th · 1 hour",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-student-life-talk-location",
+        "text": "Location: Local high schools (details provided upon request)"
+      },
+      {
+        "key": "event-student-life-talk-language",
+        "text": "Languages: Swedish (information in English available)"
+      }
+    ]
+  },
+  {
+    "id": "prao-week-47-2025",
+    "endDate": "2025-11-23",
     "nameKey": "event-prao-47-name",
     "name": "PRAO Week 47",
     "dateKey": "event-prao-47-datetime",
@@ -120,12 +160,12 @@
     ]
   },
   {
-    "id": "kids-programming-feb-2025",
-    "endDate": "2025-02-18",
+    "id": "kids-programming-feb-2026",
+    "endDate": "2026-02-18",
     "nameKey": "event-february-programming-name",
     "name": "Programming course for kids",
     "dateKey": "event-february-programming-datetime",
-    "date": "February 16–18th · 09.00–12.00 or 13.00–16.00",
+    "date": "February 16th–18th · 09.00–12.00 or 13.00–16.00",
     "tagKey": "event-tag-course",
     "tagLabel": "Course",
     "details": [
@@ -140,8 +180,8 @@
     ]
   },
   {
-    "id": "oppet-hus-vaxjo-2025",
-    "endDate": "2025-02-26",
+    "id": "oppet-hus-vaxjo-2026",
+    "endDate": "2026-02-26",
     "nameKey": "event-oppet-hus-vaxjo-name",
     "name": "Öppet hus · Växjö",
     "dateKey": "event-oppet-hus-vaxjo-datetime",
@@ -160,8 +200,8 @@
     ]
   },
   {
-    "id": "oppet-hus-kalmar-2025",
-    "endDate": "2025-03-04",
+    "id": "oppet-hus-kalmar-2026",
+    "endDate": "2026-03-04",
     "nameKey": "event-oppet-hus-kalmar-name",
     "name": "Öppet hus · Kalmar",
     "dateKey": "event-oppet-hus-kalmar-datetime",
@@ -180,8 +220,8 @@
     ]
   },
   {
-    "id": "igeday-2025",
-    "endDate": "2025-03-20",
+    "id": "igeday-2026",
+    "endDate": "2026-03-20",
     "nameKey": "event-igeday-name",
     "name": "IGEDAY",
     "dateKey": "event-igeday-datetime",
@@ -200,8 +240,8 @@
     ]
   },
   {
-    "id": "kids-programming-mar-2025",
-    "endDate": "2025-04-01",
+    "id": "kids-programming-mar-2026",
+    "endDate": "2026-04-01",
     "nameKey": "event-march-programming-name",
     "name": "Programming course for kids",
     "dateKey": "event-march-programming-datetime",
@@ -220,12 +260,12 @@
     ]
   },
   {
-    "id": "science-linne-2025",
-    "endDate": "2025-04-25",
+    "id": "science-linne-2026",
+    "endDate": "2026-04-25",
     "nameKey": "event-science-linne-name",
     "name": "Science Linné",
     "dateKey": "event-science-linne-datetime",
-    "date": "April 24–25th",
+    "date": "April 24th–25th",
     "tagKey": "event-tag-outreach",
     "tagLabel": "Outreach",
     "details": [
@@ -240,12 +280,12 @@
     ]
   },
   {
-    "id": "kids-programming-jun-2025",
-    "endDate": "2025-06-17",
+    "id": "kids-programming-jun-2026",
+    "endDate": "2026-06-17",
     "nameKey": "event-june-programming-name",
     "name": "Programming course for kids",
     "dateKey": "event-june-programming-datetime",
-    "date": "June 15–17th · 09.00–12.00 or 13.00–16.00",
+    "date": "June 15th–17th · 09.00–12.00 or 13.00–16.00",
     "tagKey": "event-tag-course",
     "tagLabel": "Course",
     "details": [
