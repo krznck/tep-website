@@ -1,0 +1,262 @@
+[
+  {
+    "id": "digitalidag-2024",
+    "endDate": "2024-10-10",
+    "nameKey": "event-digitalidag-name",
+    "name": "Digitalidag",
+    "dateKey": "event-digitalidag-datetime",
+    "date": "October 10th · 13.00–17.00",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-digitalidag-location",
+        "text": "Location: Linnaeus University (details coming soon)"
+      },
+      {
+        "key": "event-digitalidag-language",
+        "text": "Languages: Swedish (information in English available)"
+      }
+    ]
+  },
+  {
+    "id": "digitala-kompetensdagen-2024",
+    "endDate": "2024-10-28",
+    "nameKey": "event-digitala-kompetensdagen-name",
+    "name": "Digitala kompetensdagen",
+    "dateKey": "event-digitala-kompetensdagen-datetime",
+    "date": "October 28th · 08.00–16.00",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-digitala-kompetensdagen-location",
+        "text": "Location: Kalmar campus"
+      },
+      {
+        "key": "event-digitala-kompetensdagen-language",
+        "text": "Languages: Swedish only"
+      }
+    ]
+  },
+  {
+    "id": "kids-programming-oct-2024",
+    "endDate": "2024-10-29",
+    "nameKey": "event-october-programming-name",
+    "name": "Programming course for kids",
+    "dateKey": "event-october-programming-datetime",
+    "date": "October 27–29th · 09.00–12.00 or 13.00–16.00",
+    "tagKey": "event-tag-course",
+    "tagLabel": "Course",
+    "details": [
+      {
+        "key": "event-october-programming-location",
+        "text": "Location: Växjö learning labs"
+      },
+      {
+        "key": "event-october-programming-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "prao-week-45-2024",
+    "endDate": "2024-11-08",
+    "nameKey": "event-prao-45-name",
+    "name": "PRAO Week 45",
+    "dateKey": "event-prao-45-datetime",
+    "date": "Week 45 · 3h per day (flexible)",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-prao-45-location",
+        "text": "Location: Outreach venues in Växjö & Kalmar"
+      },
+      {
+        "key": "event-prao-45-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "karriardag-teknik-2024",
+    "endDate": "2024-11-18",
+    "nameKey": "event-karriardag-name",
+    "name": "Karriärdag teknik",
+    "dateKey": "event-karriardag-datetime",
+    "date": "November 18th · 08.00–15.30",
+    "tagKey": "event-tag-career",
+    "tagLabel": "Career",
+    "details": [
+      {
+        "key": "event-karriardag-location",
+        "text": "Location: Växjö campus"
+      },
+      {
+        "key": "event-karriardag-language",
+        "text": "Languages: Swedish (information in English available)"
+      }
+    ]
+  },
+  {
+    "id": "prao-week-47-2024",
+    "endDate": "2024-11-22",
+    "nameKey": "event-prao-47-name",
+    "name": "PRAO Week 47",
+    "dateKey": "event-prao-47-datetime",
+    "date": "Week 47 · 3h per day (flexible)",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-prao-47-location",
+        "text": "Location: Outreach venues in Växjö & Kalmar"
+      },
+      {
+        "key": "event-prao-47-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "kids-programming-feb-2025",
+    "endDate": "2025-02-18",
+    "nameKey": "event-february-programming-name",
+    "name": "Programming course for kids",
+    "dateKey": "event-february-programming-datetime",
+    "date": "February 16–18th · 09.00–12.00 or 13.00–16.00",
+    "tagKey": "event-tag-course",
+    "tagLabel": "Course",
+    "details": [
+      {
+        "key": "event-february-programming-location",
+        "text": "Location: Växjö learning labs"
+      },
+      {
+        "key": "event-february-programming-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "oppet-hus-vaxjo-2025",
+    "endDate": "2025-02-26",
+    "nameKey": "event-oppet-hus-vaxjo-name",
+    "name": "Öppet hus · Växjö",
+    "dateKey": "event-oppet-hus-vaxjo-datetime",
+    "date": "February 26th · 09.00–15.00",
+    "tagKey": "event-tag-openhouse",
+    "tagLabel": "Open House",
+    "details": [
+      {
+        "key": "event-oppet-hus-vaxjo-location",
+        "text": "Location: Växjö campus"
+      },
+      {
+        "key": "event-oppet-hus-vaxjo-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "oppet-hus-kalmar-2025",
+    "endDate": "2025-03-04",
+    "nameKey": "event-oppet-hus-kalmar-name",
+    "name": "Öppet hus · Kalmar",
+    "dateKey": "event-oppet-hus-kalmar-datetime",
+    "date": "March 4th · 09.00–15.00",
+    "tagKey": "event-tag-openhouse",
+    "tagLabel": "Open House",
+    "details": [
+      {
+        "key": "event-oppet-hus-kalmar-location",
+        "text": "Location: Kalmar campus"
+      },
+      {
+        "key": "event-oppet-hus-kalmar-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "igeday-2025",
+    "endDate": "2025-03-20",
+    "nameKey": "event-igeday-name",
+    "name": "IGEDAY",
+    "dateKey": "event-igeday-datetime",
+    "date": "March 20th · 09.00–15.00",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-igeday-location",
+        "text": "Location: Växjö campus"
+      },
+      {
+        "key": "event-igeday-language",
+        "text": "Languages: Swedish (information in English available · women only)"
+      }
+    ]
+  },
+  {
+    "id": "kids-programming-mar-2025",
+    "endDate": "2025-04-01",
+    "nameKey": "event-march-programming-name",
+    "name": "Programming course for kids",
+    "dateKey": "event-march-programming-datetime",
+    "date": "March 30th–April 1st · 09.00–12.00 or 13.00–16.00",
+    "tagKey": "event-tag-course",
+    "tagLabel": "Course",
+    "details": [
+      {
+        "key": "event-march-programming-location",
+        "text": "Location: Växjö learning labs"
+      },
+      {
+        "key": "event-march-programming-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  },
+  {
+    "id": "science-linne-2025",
+    "endDate": "2025-04-25",
+    "nameKey": "event-science-linne-name",
+    "name": "Science Linné",
+    "dateKey": "event-science-linne-datetime",
+    "date": "April 24–25th",
+    "tagKey": "event-tag-outreach",
+    "tagLabel": "Outreach",
+    "details": [
+      {
+        "key": "event-science-linne-location",
+        "text": "Location: Kalmar & Växjö campuses"
+      },
+      {
+        "key": "event-science-linne-language",
+        "text": "Languages: Swedish (information in English available)"
+      }
+    ]
+  },
+  {
+    "id": "kids-programming-jun-2025",
+    "endDate": "2025-06-17",
+    "nameKey": "event-june-programming-name",
+    "name": "Programming course for kids",
+    "dateKey": "event-june-programming-datetime",
+    "date": "June 15–17th · 09.00–12.00 or 13.00–16.00",
+    "tagKey": "event-tag-course",
+    "tagLabel": "Course",
+    "details": [
+      {
+        "key": "event-june-programming-location",
+        "text": "Location: Växjö learning labs"
+      },
+      {
+        "key": "event-june-programming-language",
+        "text": "Languages: Swedish (support in English)"
+      }
+    ]
+  }
+]
