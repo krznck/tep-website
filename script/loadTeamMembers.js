@@ -5,13 +5,23 @@
 
 let cachedMembers = null;
 
-// Load and display members from JSON data
-async function loadTeamMembers() {
-  const container = document.getElementById('team-members-container');
-  if (!container) {
-    return;
+function normalizeMembersPayload(payload) {
+  if (Array.isArray(payload)) {
+    return { current: payload, alumni: [] };
   }
 
+  if (!payload || typeof payload !== 'object') {
+    return { current: [], alumni: [] };
+  }
+
+  const current = Array.isArray(payload.current) ? payload.current : [];
+  const alumni = Array.isArray(payload.alumni) ? payload.alumni : [];
+
+  return { current, alumni };
+}
+
+// Load and display members from JSON data
+async function loadTeamMembers() {
   if (!cachedMembers) {
     try {
       const response = await fetch('./data/members.json');
@@ -19,7 +29,8 @@ async function loadTeamMembers() {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
 
-      cachedMembers = await response.json();
+      const payload = await response.json();
+      cachedMembers = normalizeMembersPayload(payload);
     } catch (error) {
       console.error('Error loading team members:', error);
       return;
@@ -30,33 +41,75 @@ async function loadTeamMembers() {
 }
 
 function renderMembers() {
-  const container = document.getElementById('team-members-container');
-  if (!container || !Array.isArray(cachedMembers)) {
+  const currentContainer = document.getElementById('team-members-container');
+  const alumniContainer = document.getElementById('team-alumni-container');
+
+  if (!currentContainer && !alumniContainer) {
     return;
   }
 
   const lang = getCurrentLanguage();
-  const membersToRender = cachedMembers
-    .map(member => mergeLocalizedFields(member, lang))
-    .sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
+  const { current = [], alumni = [] } = cachedMembers || { current: [], alumni: [] };
+  const currentMembers = current.map(member => mergeLocalizedFields(member, lang));
+  const alumniMembers = alumni.map(member => mergeLocalizedFields(member, lang));
 
-  container.innerHTML = '';
+  currentMembers.sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
+  alumniMembers.sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
 
-  membersToRender.forEach(member => {
-    const memberCard = createMemberCard(member, lang);
-    container.appendChild(memberCard);
-  });
+  if (currentContainer) {
+    currentContainer.innerHTML = '';
+
+    if (!currentMembers.length) {
+      const empty = document.createElement('p');
+      empty.className = 'team-empty';
+      empty.setAttribute('data-lang', 'team-empty-current');
+      empty.textContent = lang === 'sv'
+        ? 'Inga aktiva medlemmar att visa just nu.'
+        : 'No active members to show right now.';
+      currentContainer.appendChild(empty);
+    } else {
+      currentMembers.forEach(member => {
+        const memberCard = createMemberCard(member, lang, { isAlumni: false });
+        currentContainer.appendChild(memberCard);
+      });
+    }
+  }
+
+  if (alumniContainer) {
+    alumniContainer.innerHTML = '';
+
+    if (!alumniMembers.length) {
+      const empty = document.createElement('p');
+      empty.className = 'team-empty team-empty--alumni';
+      empty.setAttribute('data-lang', 'team-empty-alumni');
+      empty.textContent = lang === 'sv'
+        ? 'Alumner presenteras snart.'
+        : 'Alumni will be listed soon.';
+      alumniContainer.appendChild(empty);
+    } else {
+      alumniMembers.forEach(member => {
+        const memberCard = createMemberCard(member, lang, { isAlumni: true });
+        alumniContainer.appendChild(memberCard);
+      });
+    }
+  }
 }
 
 // Create a horizontal member card
-function createMemberCard(member, lang) {
+function createMemberCard(member, lang, options = {}) {
+  const { isAlumni = false } = options;
+
   const card = document.createElement('div');
-  card.className = 'member-card';
+  card.className = isAlumni ? 'member-card member-card--alumni' : 'member-card';
 
   // Create the HTML structure for the card
   const profileUrl = member.slug
     ? `member.html?slug=${encodeURIComponent(member.slug)}`
     : `member.html?id=${encodeURIComponent(member.id)}`;
+
+  const badge = isAlumni
+    ? `<span class="member-status-badge" data-lang="team-alumni-badge">${lang === 'sv' ? 'Alumn' : 'Alumni'}</span>`
+    : '';
 
   card.innerHTML = `
     <div class="member-image">
@@ -65,9 +118,12 @@ function createMemberCard(member, lang) {
       </a>
     </div>
     <div class="member-info">
-      <h3>
-        <a href="${profileUrl}">${member.name}</a>
-      </h3>
+      <div class="member-info__top">
+        <h3>
+          <a href="${profileUrl}">${member.name}</a>
+        </h3>
+        ${badge}
+      </div>
       <p class="program-info">
         ${formatMemberAcademicInfo(member, lang)}
       </p>

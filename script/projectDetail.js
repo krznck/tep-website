@@ -2,6 +2,27 @@ let projectCache = null;
 let memberCache = null;
 let selectedProjectBase = null;
 
+function normalizeMembersPayload(payload) {
+  if (Array.isArray(payload)) {
+    return { current: payload, alumni: [] };
+  }
+
+  if (!payload || typeof payload !== 'object') {
+    return { current: [], alumni: [] };
+  }
+
+  const current = Array.isArray(payload.current) ? payload.current : [];
+  const alumni = Array.isArray(payload.alumni) ? payload.alumni : [];
+  return { current, alumni };
+}
+
+function flattenMembers(payload) {
+  if (!payload) {
+    return [];
+  }
+  return [...payload.current, ...payload.alumni];
+}
+
 async function loadProjectPage() {
   const params = new URLSearchParams(window.location.search);
   const slugParam = params.get('slug');
@@ -17,13 +38,13 @@ async function loadProjectPage() {
       throw new Error('Failed to fetch project data.');
     }
 
-    const [projects, members] = await Promise.all([
+    const [projects, membersPayload] = await Promise.all([
       projectsResponse.json(),
       membersResponse.json(),
     ]);
 
     projectCache = projects;
-    memberCache = members;
+    memberCache = normalizeMembersPayload(membersPayload);
 
     const project = findProject(projects, { slug: slugParam, id: idParam });
 
@@ -47,9 +68,7 @@ function renderProjectPage() {
 
   const lang = getCurrentLanguage();
   const localizedProject = mergeLocalizedFields(selectedProjectBase, lang);
-  const localizedMembers = Array.isArray(memberCache)
-    ? memberCache.map(member => mergeLocalizedFields(member, lang))
-    : [];
+  const localizedMembers = flattenMembers(memberCache).map(member => mergeLocalizedFields(member, lang));
 
   populateHero(localizedProject, lang);
   populateOverview(localizedProject);

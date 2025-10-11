@@ -2,6 +2,27 @@ let membersCache = null;
 let projectsCache = null;
 let selectedMemberBase = null;
 
+function normalizeMembersPayload(payload) {
+  if (Array.isArray(payload)) {
+    return { current: payload, alumni: [] };
+  }
+
+  if (!payload || typeof payload !== 'object') {
+    return { current: [], alumni: [] };
+  }
+
+  const current = Array.isArray(payload.current) ? payload.current : [];
+  const alumni = Array.isArray(payload.alumni) ? payload.alumni : [];
+  return { current, alumni };
+}
+
+function flattenMembers(payload) {
+  if (!payload) {
+    return [];
+  }
+  return [...payload.current, ...payload.alumni];
+}
+
 async function loadMemberProfile() {
   const params = new URLSearchParams(window.location.search);
   const slugParam = params.get('slug');
@@ -17,15 +38,16 @@ async function loadMemberProfile() {
       throw new Error('Failed to load profile data.');
     }
 
-    const [members, projects] = await Promise.all([
+    const [membersPayload, projects] = await Promise.all([
       membersResponse.json(),
       projectsResponse.json(),
     ]);
 
-    membersCache = members;
+    membersCache = normalizeMembersPayload(membersPayload);
     projectsCache = projects;
 
-    const member = findMember(members, { slug: slugParam, id: idParam });
+    const allMembers = flattenMembers(membersCache);
+    const member = findMember(allMembers, { slug: slugParam, id: idParam });
 
     if (!member) {
       renderMissingMember();
