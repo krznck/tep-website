@@ -42,6 +42,40 @@
   justify-content: center;
 }
 
+.team-header-wrapper--alumni {
+  background-color: color-mix(in srgb, var(--lnu-yellow) 6%, var(--lnu-background-shade) 94%);
+}
+
+.team-wrapper--alumni {
+  background-color: var(--lnu-background-shade);
+}
+
+.team-title--alumni {
+  color: #2e7d32;
+}
+
+.team-description--alumni {
+  color: rgba(18, 13, 38, 0.72);
+}
+
+.team-members--alumni {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.team-empty {
+  width: 100%;
+  margin: 0;
+  padding: 40px 0;
+  font-size: clamp(0.9rem, calc(0.8vw + 0.4rem), 1.2rem);
+  color: rgba(18, 13, 38, 0.7);
+  text-align: center;
+}
+
+.team-empty--alumni {
+  color: rgba(46, 125, 50, 0.9);
+}
+
 /* Outer Box (bb) */
 .bb {
   width: clamp(220px, 90%, 300px); /* Adjust width for different screen sizes */
@@ -227,6 +261,12 @@
   overflow: hidden;
 }
 
+.member-card--alumni {
+  background: #f3f8f2;
+  border-left: 6px solid #2e7d32;
+  box-shadow: 0px 16px 40px rgba(46, 125, 50, 0.12);
+}
+
 .member-image {
   flex: 0 0 250px;
   max-width: 250px;
@@ -248,6 +288,19 @@
   text-align: left;
 }
 
+.member-info__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.member-info .member-info__top h3 {
+  margin: 0;
+  margin-bottom: 0;
+}
+
 .member-info h3 {
   font-size: clamp(1rem, calc(1vw + 0.5rem), 1.5rem);
   margin-top: 0;
@@ -264,6 +317,19 @@
   display: block;
   margin: 15px 0;
   font-style: italic;
+}
+
+.member-status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: rgba(46, 125, 50, 0.12);
+  color: #2e7d32;
+  font-weight: 600;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
 .project-container {

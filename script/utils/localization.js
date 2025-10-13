@@ -37,6 +37,13 @@
   };
 
   window.formatMemberAcademicInfo = function formatMemberAcademicInfo(member, lang) {
+    if (member.alumni) {
+      if (lang === 'sv') {
+        return `${member.degreeLevel} inom ${member.programName}, examen ${member.yearOfStudy}`;
+      }
+      return `${member.degreeLevel} in ${member.programName}, graduated ${member.yearOfStudy}`;
+    }
+
     if (member.yearOfStudy === '-') {
       if (lang === 'sv') {
         return `${member.degreeLevel} på ${member.programName}`;
