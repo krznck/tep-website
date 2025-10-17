@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "username": "student",
+    "passwordHash": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "student",
+    "permissions": ["edit_members", "add_members", "edit_projects", "add_projects"]
+  },
+  {
+    "id": 2,
+    "username": "alumni",
+    "passwordHash": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "alumni",
+    "permissions": ["edit_alumni", "add_alumni"]
+  }
+]

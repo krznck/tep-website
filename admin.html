@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - TEP</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/admin/login.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo/Logomark, black.png">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="logo">
+                <img src="./assets/logo/Logomark, black.png" alt="TEP Logo">
+                <h1>TEP Admin</h1>
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="error-message" id="errorMessage"></div>
+                
+                <button type="submit">Sign In</button>
+            </form>
+            
+            <div class="login-info">
+                <p><strong>Demo Credentials:</strong></p>
+                <p>Student Admin: username: <code>student</code>, password: <code>password</code></p>
+                <p>Alumni Admin: username: <code>alumni</code>, password: <code>password</code></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script/admin/login.js"></script>
+</body>
+</html>

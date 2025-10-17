@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - TEP</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/admin/dashboard.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo/Logomark, black.png">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="admin-header">
+            <div class="logo">
+                <img src="./assets/logo/Logomark, black.png" alt="TEP Logo">
+                <h1>TEP Admin Dashboard</h1>
+            </div>
+            <div class="user-info">
+                <span id="welcomeMessage"></span>
+                <button id="downloadAllBtn" class="download-btn">Download All Changes</button>
+                <button id="resetDataBtn" class="reset-btn">Reset to Original</button>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </header>
+        
+        <nav class="admin-nav">
+            <button class="nav-btn active" data-section="members">Members</button>
+            <button class="nav-btn" data-section="projects" id="projectsBtn">Projects</button>
+        </nav>
+        
+        <main class="admin-content">
+            <!-- Members Section -->
+            <section id="membersSection" class="content-section active">
+                <div class="section-header">
+                    <h2>Members Management</h2>
+                    <button id="addMemberBtn" class="add-btn">Add New Member</button>
+                </div>
+                
+                <div class="filter-tabs">
+                    <button class="tab-btn active" data-tab="current">Current Members</button>
+                    <button class="tab-btn" data-tab="alumni" id="alumniTab">Alumni</button>
+                </div>
+                
+                <div class="members-list" id="membersList">
+                    <!-- Members will be loaded here -->
+                </div>
+            </section>
+            
+            <!-- Projects Section -->
+            <section id="projectsSection" class="content-section">
+                <div class="section-header">
+                    <h2>Projects Management</h2>
+                    <button id="addProjectBtn" class="add-btn">Add New Project</button>
+                </div>
+                
+                <div class="projects-list" id="projectsList">
+                    <!-- Projects will be loaded here -->
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Member Edit Modal -->
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="memberModalTitle">Add New Member</h3>
+                <span class="close" id="closeMemberModal">&times;</span>
+            </div>
+            <form id="memberForm">
+                <input type="hidden" id="memberId" name="id">
+                <input type="hidden" id="memberType" name="type">
+                
+                <div class="form-group">
+                    <label for="memberName">Name *</label>
+                    <input type="text" id="memberName" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="memberPhoto">Photo URL</label>
+                    <input type="text" id="memberPhoto" name="photo" placeholder="./assets/members_pic/example.jpg">
+                </div>
+                
+                <div class="form-group">
+                    <label for="memberProgram">Program Name</label>
+                    <input type="text" id="memberProgram" name="programName" placeholder="Software Technology">
+                </div>
+                
+                <div class="form-group">
+                    <label for="memberDegree">Degree Level</label>
+                    <select id="memberDegree" name="degreeLevel">
+                        <option value="Bachelor">Bachelor</option>
+                        <option value="Master">Master</option>
+                        <option value="PhD">PhD</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="memberYear">Year of Study</label>
+                    <input type="text" id="memberYear" name="yearOfStudy" placeholder="1">
+                </div>
+                
+                <div class="form-group">
+                    <label for="memberDescription">Description</label>
+                    <textarea id="memberDescription" name="description" rows="3"></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" id="cancelMemberEdit">Cancel</button>
+                    <button type="submit">Save Member</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Project Edit Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="projectModalTitle">Add New Project</h3>
+                <span class="close" id="closeProjectModal">&times;</span>
+            </div>
+            <form id="projectForm">
+                <input type="hidden" id="projectId" name="id">
+                
+                <div class="form-group">
+                    <label for="projectTitle">Title *</label>
+                    <input type="text" id="projectTitle" name="title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="projectDate">Date</label>
+                    <input type="date" id="projectDate" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea id="projectDescription" name="description" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="projectCategory">Category</label>
+                    <input type="text" id="projectCategory" name="category" placeholder="Development, Education, etc.">
+                </div>
+                
+                <div class="form-group">
+                    <label for="projectImage">Image URL</label>
+                    <input type="text" id="projectImage" name="image" placeholder="./assets/projects_pic/example.jpg">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" id="cancelProjectEdit">Cancel</button>
+                    <button type="submit">Save Project</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    
+    <script src="./script/admin/dashboard.js"></script>
+</body>
+</html>
