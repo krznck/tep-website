@@ -127,7 +127,7 @@
         renderHeroImage(selectedEvent, language, baseTitle);
         renderHighlights(selectedEvent, language);
         renderDescription(selectedEvent, language);
-        renderDetails(selectedEvent, language);
+        renderQuickInfo(selectedEvent, language);
         renderExtras(selectedEvent, language);
         renderGallery(selectedEvent);
     }
@@ -233,6 +233,33 @@
         fillTextBlock(expectationsContainer, event.expectations, language, ["More text goes here."]);
     }
 
+    function renderQuickInfo(event, language) {
+        const quickInfo = document.getElementById("event-quick-info");
+        if (!quickInfo) {
+            return;
+        }
+
+        quickInfo.innerHTML = "";
+
+        const items = Array.isArray(event.details) ? event.details.filter(Boolean).slice(0, 3) : [];
+
+        if (items.length) {
+            items.forEach((detail) => {
+                const badge = document.createElement("li");
+                applyText(badge, language, detail.key, detail.text || "");
+                if (!badge.textContent.trim()) {
+                    badge.textContent = language === "sv" ? "Info kommer snart" : "Details coming soon";
+                }
+                quickInfo.appendChild(badge);
+            });
+            return;
+        }
+
+        const fallback = document.createElement("li");
+        fallback.textContent = language === "sv" ? "Info kommer snart" : "Details coming soon";
+        quickInfo.appendChild(fallback);
+    }
+
     function renderExtras(event, language) {
         const scheduleHeading = document.getElementById("event-schedule-heading");
         const scheduleContainer = document.getElementById("event-schedule");
@@ -247,8 +274,8 @@
             participationHeading.textContent = resolveTextContent(language, event.participationHeading, "Participation");
         }
 
-        fillTextBlock(scheduleContainer, event.schedule, language, ["Details coming soon."]);
-        fillTextBlock(participationContainer, event.participation, language, ["Text goes here."]);
+        fillListBlock(scheduleContainer, event.schedule, language, ["Details coming soon."]);
+        fillListBlock(participationContainer, event.participation, language, ["Text goes here."]);
     }
 
     function fillTextBlock(container, content, language, fallbackItems) {
@@ -280,6 +307,23 @@
         });
     }
 
+    function fillListBlock(container, content, language, fallbackItems) {
+        if (!container) {
+            return;
+        }
+
+        container.innerHTML = "";
+
+        const items = normalizeContentArray(content, language);
+        const source = items.length ? items : (Array.isArray(fallbackItems) ? fallbackItems : ["Text goes here."]);
+
+        source.forEach((text) => {
+            const item = document.createElement("li");
+            item.textContent = text;
+            container.appendChild(item);
+        });
+    }
+
     function normalizeContentArray(content, language) {
         if (!content) {
             return [];
@@ -289,35 +333,16 @@
 
         return source
             .map((item) => resolveTextContent(language, item, ""))
-            .map((text) => (typeof text === "string" ? text.trim() : ""))
+            .map((text) => (typeof text === "string" ? enhanceInlineSpacing(text.trim()) : ""))
             .filter((text) => text.length > 0);
     }
 
-    function renderDetails(event, language) {
-        const detailsList = document.getElementById("event-details");
-        if (!detailsList) {
-            return;
+    function enhanceInlineSpacing(value) {
+        if (typeof value !== "string") {
+            return "";
         }
 
-        detailsList.innerHTML = "";
-
-        if (Array.isArray(event.details) && event.details.length) {
-            event.details.forEach((detail) => {
-                if (!detail) {
-                    return;
-                }
-                const item = document.createElement("li");
-                applyText(item, language, detail.key, detail.text || "Text goes here.");
-                detailsList.appendChild(item);
-            });
-            return;
-        }
-
-        ["Text goes here.", "More text goes here."].forEach((placeholder) => {
-            const item = document.createElement("li");
-            item.textContent = placeholder;
-            detailsList.appendChild(item);
-        });
+        return value.replace(/(\d)\s([ap]m)\b/gi, "$1\u00a0$2");
     }
 
     function renderGallery(event) {

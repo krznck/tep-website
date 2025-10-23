@@ -57,6 +57,8 @@
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.06);
+    outline: 1px solid rgba(0, 0, 0, 0.06);
+    outline-offset: -1px;
     box-shadow: 0 15px 45px rgba(18, 13, 38, 0.08);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     overflow: hidden;
@@ -168,8 +170,13 @@
     box-shadow: 0 12px 45px rgba(18, 13, 38, 0.06);
 }
 
+.event-card--past {
+    border-color: rgba(46, 125, 50, 0.35);
+    background: color-mix(in srgb, #2e7d32 12%, white 88%);
+}
+
 .event-card--past .event-card__body {
-    background: color-mix(in srgb, #2e7d32 10%, white 90%);
+    background: transparent;
 }
 
 .event-card--past .event-date {
