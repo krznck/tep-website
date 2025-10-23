@@ -37,6 +37,23 @@
         "key": "event-vera-dagen-language",
         "text": "Languages: Swedish (support in English)"
       }
+    ],
+    "images": [
+      {
+        "src": "assets/events/placeholders/vera-gallery-1.svg",
+        "alt": "Placeholder image of the event",
+        "caption": "Caption placeholder text goes here."
+      },
+      {
+        "src": "assets/events/placeholders/vera-gallery-2.svg",
+        "alt": "Another placeholder event image",
+        "caption": "Another caption placeholder goes here."
+      },
+      {
+        "src": "assets/events/placeholders/vera-gallery-3.svg",
+        "alt": "Third placeholder event image",
+        "caption": "More caption text goes here."
+      }
     ]
   },
   {

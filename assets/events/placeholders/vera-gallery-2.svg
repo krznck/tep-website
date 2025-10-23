@@ -1,0 +1,7 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#f08a5d"/>
+  <g fill="#ffffff" font-family="Poppins, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="150" font-size="44" font-weight="600">Photo Mock</text>
+    <text x="320" y="200" font-size="28">More text here</text>
+  </g>
+</svg>

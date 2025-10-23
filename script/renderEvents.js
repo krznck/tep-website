@@ -34,28 +34,41 @@
         element.textContent = getTranslation(language, key, fallback);
     }
 
-    function createDetailParagraph(detail, language) {
-        const paragraph = document.createElement("p");
-        applyText(paragraph, language, detail.key, detail.text);
-        return paragraph;
-    }
-
     function createEventCard(event, language) {
-        const detailsElement = document.createElement("details");
-        detailsElement.className = "event-card";
+        const detailUrl = event.slug
+            ? `event.html?slug=${encodeURIComponent(event.slug)}`
+            : event.id
+                ? `event.html?id=${encodeURIComponent(event.id)}`
+                : "event.html";
+
+        const card = document.createElement("a");
+        card.className = "event-card";
+        card.href = detailUrl;
+        const eventNameLabel = applyTextToString(
+            language,
+            event.nameKey,
+            event.name,
+            ""
+        ).trim();
+        const ariaLabel = eventNameLabel
+            ? language === "sv"
+                ? `Visa ${eventNameLabel}`
+                : `View ${eventNameLabel}`
+            : language === "sv"
+                ? "Visa evenemang"
+                : "View event";
+        card.setAttribute("aria-label", ariaLabel);
 
         if (event.id) {
-            detailsElement.dataset.eventId = event.id;
+            card.dataset.eventId = event.id;
         }
 
         if (event.endDate) {
-            detailsElement.dataset.eventEnd = event.endDate;
+            card.dataset.eventEnd = event.endDate;
         }
 
-        const summary = document.createElement("summary");
-
-        const summaryContent = document.createElement("div");
-        summaryContent.className = "event-summary";
+        const body = document.createElement("div");
+        body.className = "event-card__body";
 
         const title = document.createElement("h2");
         title.className = "event-name";
@@ -65,37 +78,37 @@
         date.className = "event-date";
         applyText(date, language, event.dateKey, event.date);
 
+        const summaryContent = document.createElement("div");
+        summaryContent.className = "event-summary";
         summaryContent.appendChild(title);
         summaryContent.appendChild(date);
 
-        const tagGroup = document.createElement("div");
-        tagGroup.className = "event-tags";
+        const footer = document.createElement("div");
+        footer.className = "event-card__footer";
 
         const tag = document.createElement("span");
         tag.className = "event-pill";
         applyText(tag, language, event.tagKey, event.tagLabel);
-        tagGroup.appendChild(tag);
 
-        summary.appendChild(summaryContent);
-        summary.appendChild(tagGroup);
+        const tagsWrapper = document.createElement("div");
+        tagsWrapper.className = "event-tags";
+        tagsWrapper.appendChild(tag);
 
-        const detailsContainer = document.createElement("div");
-        detailsContainer.className = "event-details";
+        footer.appendChild(tagsWrapper);
 
-        if (Array.isArray(event.details)) {
-            event.details.forEach((detail) => {
-                if (!detail) {
-                    return;
-                }
+        body.appendChild(summaryContent);
+        body.appendChild(footer);
 
-                detailsContainer.appendChild(createDetailParagraph(detail, language));
-            });
+        card.appendChild(body);
+        return card;
+    }
+
+    function applyTextToString(language, key, fallback, defaultLabel) {
+        if (!key) {
+            return fallback || defaultLabel;
         }
-
-        detailsElement.appendChild(summary);
-        detailsElement.appendChild(detailsContainer);
-
-        return detailsElement;
+        const translated = getTranslation(language, key, fallback);
+        return translated || defaultLabel;
     }
 
     function clearExistingCards() {

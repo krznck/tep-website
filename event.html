@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Overview</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/events/eventDetail.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="assets/logo/Logomark, black.png">
+    <link rel="icon" type="image/svg+xml" href="assets/logo/Logomark, black.svg">
+
+    <script src="./script/webComponents/Header.js" defer></script>
+    <script src="./script/webComponents/Footer.js" defer></script>
+
+    <script src="./script/utils/localization.js" defer></script>
+    <script src="./script/handleLanguage.js" defer></script>
+    <script src="./script/burgerifyMenu.js" defer></script>
+    <script src="./script/highlightActiveView.js" defer></script>
+    <script src="./script/eventDetail.js" defer></script>
+</head>
+<body>
+    <global-header></global-header>
+
+    <main class="event-page">
+        <section id="event-missing" class="event-missing" hidden>
+            <h1>Event not found</h1>
+            <p>The event you are looking for is not available. Please browse the <a href="events.html">events list</a>.</p>
+        </section>
+
+        <div data-event-content>
+            <section class="event-hero">
+                <div class="event-hero-media">
+                    <img id="event-hero-image" src="assets/events/placeholders/event-hero-placeholder.svg" alt="Event cover placeholder">
+                </div>
+                <div class="event-summary">
+                    <p class="event-breadcrumb"><a href="events.html">← Back to events</a></p>
+                    <h1 id="event-title">Event Title</h1>
+                    <p id="event-date" class="event-date">Event date will appear here.</p>
+                    <div class="event-tag-group">
+                        <span id="event-tag" class="event-pill">Event tag</span>
+                    </div>
+                    <div class="event-highlights-card">
+                        <h2>Highlights</h2>
+                        <ul class="event-highlights">
+                            <li>Text goes here.</li>
+                            <li>Another placeholder goes here.</li>
+                            <li>More text goes here.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-body">
+                <article class="event-description">
+                    <h2>Overview</h2>
+                    <p>Text goes here.</p>
+                    <h3>What to expect</h3>
+                    <p>More text goes here.</p>
+                </article>
+                <aside class="event-info-card">
+                    <h2>Key info</h2>
+                    <ul id="event-details" class="event-detail-list">
+                        <li>Text goes here.</li>
+                        <li>More text goes here.</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section class="event-extras">
+                <div class="event-extra-card">
+                    <h2>Schedule</h2>
+                    <p>Details coming soon.</p>
+                </div>
+                <div class="event-extra-card">
+                    <h2>Participation</h2>
+                    <p>Text goes here.</p>
+                </div>
+            </section>
+
+            <section class="event-gallery" data-event-gallery hidden>
+                <h2>Gallery</h2>
+                <div id="event-gallery" class="event-gallery-grid"></div>
+            </section>
+        </div>
+    </main>
+
+    <global-footer></global-footer>
+</body>
+</html>
