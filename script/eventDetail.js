@@ -274,8 +274,8 @@
             participationHeading.textContent = resolveTextContent(language, event.participationHeading, "Participation");
         }
 
-        fillListBlock(scheduleContainer, event.schedule, language, ["Details coming soon."]);
-        fillListBlock(participationContainer, event.participation, language, ["Text goes here."]);
+        fillTextBlock(scheduleContainer, event.schedule, language, ["Details coming soon."]);
+        fillTextBlock(participationContainer, event.participation, language, ["Text goes here."]);
     }
 
     function fillTextBlock(container, content, language, fallbackItems) {
@@ -304,23 +304,6 @@
             const paragraph = document.createElement("p");
             paragraph.textContent = text;
             container.appendChild(paragraph);
-        });
-    }
-
-    function fillListBlock(container, content, language, fallbackItems) {
-        if (!container) {
-            return;
-        }
-
-        container.innerHTML = "";
-
-        const items = normalizeContentArray(content, language);
-        const source = items.length ? items : (Array.isArray(fallbackItems) ? fallbackItems : ["Text goes here."]);
-
-        source.forEach((text) => {
-            const item = document.createElement("li");
-            item.textContent = text;
-            container.appendChild(item);
         });
     }
 

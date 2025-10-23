@@ -157,50 +157,31 @@
 
 .event-side {
     display: grid;
-    gap: 28px;
+    gap: 22px;
 }
 
 .event-side-card {
     background: #ffffff;
     border-radius: 24px;
-    padding: 24px;
+    padding: 24px 24px 20px;
     box-shadow: 0 22px 48px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
 }
 
 .event-side-card h2 {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
-.event-side-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: grid;
-    gap: 10px;
+.event-side-card .event-text-block {
+    gap: 12px;
 }
 
-.event-side-list li {
-    position: relative;
-    padding-left: 18px;
+.event-side-card .event-text-block p {
     font-size: 1rem;
-    color: rgba(0, 0, 0, 0.7);
-    line-height: 1.55;
-    word-break: keep-all;
-}
-
-.event-side-list li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.75em;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 1.5;
 }
 
 .event-gallery {
