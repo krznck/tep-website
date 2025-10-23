@@ -86,6 +86,10 @@
         const footer = document.createElement("div");
         footer.className = "event-card__footer";
 
+        const cta = document.createElement("span");
+        cta.className = "event-card__cta";
+        cta.textContent = formatEventCta(language);
+
         const tag = document.createElement("span");
         tag.className = "event-pill";
         applyText(tag, language, event.tagKey, event.tagLabel);
@@ -94,6 +98,7 @@
         tagsWrapper.className = "event-tags";
         tagsWrapper.appendChild(tag);
 
+        footer.appendChild(cta);
         footer.appendChild(tagsWrapper);
 
         body.appendChild(summaryContent);
@@ -109,6 +114,10 @@
         }
         const translated = getTranslation(language, key, fallback);
         return translated || defaultLabel;
+    }
+
+    function formatEventCta(language) {
+        return language === "sv" ? "Visa evenemang" : "View event";
     }
 
     function clearExistingCards() {

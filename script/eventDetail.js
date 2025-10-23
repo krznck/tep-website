@@ -20,6 +20,23 @@
         return fallback || "";
     }
 
+    function resolveTextContent(language, item, fallback) {
+        if (typeof item === "string") {
+            return item;
+        }
+
+        if (item && typeof item === "object") {
+            if (item.key) {
+                return getTranslation(language, item.key, item.text || fallback || "");
+            }
+            if (item.text) {
+                return item.text;
+            }
+        }
+
+        return fallback || "";
+    }
+
     function applyText(element, language, key, fallback) {
         if (!element) {
             return;
@@ -108,7 +125,10 @@
         document.title = `${baseTitle} | TEP`;
 
         renderHeroImage(selectedEvent, language, baseTitle);
+        renderHighlights(selectedEvent, language);
+        renderDescription(selectedEvent, language);
         renderDetails(selectedEvent, language);
+        renderExtras(selectedEvent, language);
         renderGallery(selectedEvent);
     }
 
@@ -125,6 +145,7 @@
                 ? "evenemanget"
                 : "the event";
 
+        const heroImageData = event.heroImage && event.heroImage.src ? event.heroImage : null;
         const images = Array.isArray(event.images) ? event.images : [];
         const firstImage = images.find(Boolean);
 
@@ -133,7 +154,16 @@
             ? `Platsbild för ${safeTitle}`
             : `Placeholder visual for ${safeTitle}`;
 
-        if (firstImage) {
+        if (heroImageData) {
+            src = heroImageData.src;
+            if (heroImageData.alt) {
+                alt = heroImageData.alt;
+            } else {
+                alt = language === "sv"
+                    ? `Illustration av ${safeTitle}`
+                    : `Illustration of ${safeTitle}`;
+            }
+        } else if (firstImage) {
             if (typeof firstImage === "string") {
                 src = firstImage;
                 alt = baseTitle && baseTitle.trim().length ? baseTitle : alt;
@@ -151,6 +181,116 @@
 
         heroImage.src = src;
         heroImage.alt = alt || (language === "sv" ? "Evenemangsbild" : "Event image placeholder");
+    }
+
+    function renderHighlights(event, language) {
+        const list = document.getElementById("event-highlights");
+        if (!list) {
+            return;
+        }
+
+        const heading = document.getElementById("event-highlights-heading");
+        if (heading && event.highlightsHeading) {
+            heading.textContent = resolveTextContent(language, event.highlightsHeading, "Highlights");
+        }
+
+        list.innerHTML = "";
+
+        const highlights = Array.isArray(event.highlights) ? event.highlights : [];
+
+        highlights.forEach((item) => {
+            const text = resolveTextContent(language, item, "");
+            if (!text) {
+                return;
+            }
+            const li = document.createElement("li");
+            li.textContent = text;
+            list.appendChild(li);
+        });
+
+        if (!list.children.length) {
+            const li = document.createElement("li");
+            li.textContent = "Text goes here.";
+            list.appendChild(li);
+        }
+    }
+
+    function renderDescription(event, language) {
+        const overviewHeading = document.getElementById("event-overview-heading");
+        const overviewContainer = document.getElementById("event-overview");
+        const expectationsHeading = document.getElementById("event-expectations-heading");
+        const expectationsContainer = document.getElementById("event-expectations");
+
+        if (overviewHeading && event.overviewHeading) {
+            overviewHeading.textContent = resolveTextContent(language, event.overviewHeading, "Overview");
+        }
+
+        if (expectationsHeading && event.expectationsHeading) {
+            expectationsHeading.textContent = resolveTextContent(language, event.expectationsHeading, "What to expect");
+        }
+
+        fillTextBlock(overviewContainer, event.overview, language, ["Text goes here."]);
+        fillTextBlock(expectationsContainer, event.expectations, language, ["More text goes here."]);
+    }
+
+    function renderExtras(event, language) {
+        const scheduleHeading = document.getElementById("event-schedule-heading");
+        const scheduleContainer = document.getElementById("event-schedule");
+        const participationHeading = document.getElementById("event-participation-heading");
+        const participationContainer = document.getElementById("event-participation");
+
+        if (scheduleHeading && event.scheduleHeading) {
+            scheduleHeading.textContent = resolveTextContent(language, event.scheduleHeading, "Schedule");
+        }
+
+        if (participationHeading && event.participationHeading) {
+            participationHeading.textContent = resolveTextContent(language, event.participationHeading, "Participation");
+        }
+
+        fillTextBlock(scheduleContainer, event.schedule, language, ["Details coming soon."]);
+        fillTextBlock(participationContainer, event.participation, language, ["Text goes here."]);
+    }
+
+    function fillTextBlock(container, content, language, fallbackItems) {
+        if (!container) {
+            return;
+        }
+
+        container.innerHTML = "";
+
+        const items = normalizeContentArray(content, language);
+        const fallback = Array.isArray(fallbackItems) ? fallbackItems : ["Text goes here."];
+
+        if (items.length) {
+            items.forEach((text) => {
+                if (!text) {
+                    return;
+                }
+                const paragraph = document.createElement("p");
+                paragraph.textContent = text;
+                container.appendChild(paragraph);
+            });
+            return;
+        }
+
+        fallback.forEach((text) => {
+            const paragraph = document.createElement("p");
+            paragraph.textContent = text;
+            container.appendChild(paragraph);
+        });
+    }
+
+    function normalizeContentArray(content, language) {
+        if (!content) {
+            return [];
+        }
+
+        const source = Array.isArray(content) ? content : [content];
+
+        return source
+            .map((item) => resolveTextContent(language, item, ""))
+            .map((text) => (typeof text === "string" ? text.trim() : ""))
+            .filter((text) => text.length > 0);
     }
 
     function renderDetails(event, language) {

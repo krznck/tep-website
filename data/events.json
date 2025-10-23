@@ -205,6 +205,10 @@
     "date": "February 26th · 09.00–15.00",
     "tagKey": "event-tag-openhouse",
     "tagLabel": "Open House",
+    "heroImage": {
+      "src": "assets/events/open-house/open-house-hero.jpg",
+      "alt": "Student ambassadors greeting visitors at Linnaeus University Open House."
+    },
     "details": [
       {
         "key": "event-oppet-hus-vaxjo-location",
@@ -213,6 +217,52 @@
       {
         "key": "event-oppet-hus-vaxjo-language",
         "text": "Languages: Swedish (support in English)"
+      }
+    ],
+    "highlights": [
+      "Recruit future students through inspirational sessions and fair activities.",
+      "Offer guided tours, open labs, or sample lectures that showcase your programme.",
+      "Plan for both morning and afternoon timeslots to meet visiting school groups."
+    ],
+    "overview": [
+      "Open House is a perfect opportunity to recruit more students to your programme. During the events, you can increase visibility by running inspirational sessions and by taking part as an exhibitor at the fair. You can also register a guided tour or another activity of your choice—such as a visit to your programme’s facilities, an open lab, or a sample lecture.",
+      "Open House is one of Linnaeus University’s largest recruitment initiatives of the academic year, and in 2025 nearly 2 500 people visited across both the Växjö and Kalmar campuses. Most visitors come from upper secondary schools in Småland and Blekinge, but we also welcome many from further afield across Sweden.",
+      "Since 2025, Open House has been a joint event for both campuses, with the project group aiming to present a similar range of activities for visitors regardless of whether they choose to attend in Växjö or in Kalmar."
+    ],
+    "expectationsHeading": "Different ways to take part",
+    "expectations": [
+      "The inspirational sessions give you the opportunity to explain why students should choose your programme. They may be led by the programme coordinator, a study counsellor, or current students. We recommend involving students in some way so they can describe everyday life as a student. Each session lasts 20 minutes, during which you present your programme and host a Q&A.",
+      "The fair is an opportunity to have in-depth conversations with prospective students. It's also a great way to make your programme visible and generate interest among visitors who may not attend your specific inspiration session. We recommend planning an activity at your stand to make it easier to attract visitors.",
+      "Guided tours and activities offer a chance to showcase a specific learning environment or highlight an aspect of your programme. This could include opening up a lab, a tour of a studio, a concert with students, or a hands-on activity. Feel free to come up with your own ideas!"
+    ],
+    "scheduleHeading": "Open House 2026 schedule",
+    "schedule": [
+      "Campus Växjö — Thursday 26 February at 9 am–2 pm",
+      "Campus Kalmar — Wednesday 4 March at 9 am–2 pm",
+      "Each inspirational session should be offered at least once in the morning and once in the afternoon to accommodate visiting schools."
+    ],
+    "participationHeading": "Participation & registration",
+    "participation": [
+      "Registration for participation at Open House 2026 is open from 1 September and closes on 31 October.",
+      "Register here.",
+      "Any questions? Contact the project group for Open House at oppethus@lnu.se.",
+      "See information published for external visitors."
+    ],
+    "images": [
+      {
+        "src": "assets/events/open-house/open-house-1.jpg",
+        "alt": "Student ambassador speaking with visitors at the Open House fair stand.",
+        "caption": "Inspiration stand conversations with prospective students."
+      },
+      {
+        "src": "assets/events/open-house/open-house-2.jpg",
+        "alt": "Student demonstrating a project during Open House.",
+        "caption": "Hands-on demos that showcase programme highlights."
+      },
+      {
+        "src": "assets/events/open-house/open-house-3.jpg",
+        "alt": "Overview of the Open House fair floor with visitors exploring exhibits.",
+        "caption": "Fair floor buzzing with activity throughout the day."
       }
     ]
   },

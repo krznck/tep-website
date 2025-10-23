@@ -88,6 +88,18 @@
     color: rgba(0, 0, 0, 0.72);
 }
 
+.event-text-block {
+    display: grid;
+    gap: 16px;
+}
+
+.event-text-block p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: rgba(0, 0, 0, 0.74);
+    line-height: 1.7;
+}
+
 .event-body {
     display: grid;
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
