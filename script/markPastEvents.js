@@ -26,24 +26,18 @@
     }
 
     function ensureTagGroup(card) {
-        const summary = card.querySelector("summary");
 
-        if (!summary) {
-            return null;
+        let group = card.querySelector(".event-tags");
+
+        if (group) {
+            return group;
         }
 
-        let group = summary.querySelector(".event-tags");
+        const footer = card.querySelector(".event-card__footer") || card.querySelector(".event-card__body") || card;
 
-        if (!group) {
-            group = document.createElement("div");
-            group.className = "event-tags";
-            summary.appendChild(group);
-        }
-
-        const pill = summary.querySelector(".event-pill");
-        if (pill && pill.parentElement !== group) {
-            group.appendChild(pill);
-        }
+        group = document.createElement("div");
+        group.className = "event-tags";
+        footer.appendChild(group);
 
         return group;
     }
@@ -98,7 +92,7 @@
 
     document.addEventListener("DOMContentLoaded", () => {
         const currentLanguage = document.documentElement.lang || "en";
-        document.querySelectorAll(".event-card").forEach(ensureTagGroup);
+        document.querySelectorAll(".event-card").forEach((card) => ensureTagGroup(card));
         refreshStatuses(currentLanguage);
     });
 
@@ -109,7 +103,7 @@
 
     window.addEventListener("eventsrendered", (event) => {
         const language = event.detail?.language || document.documentElement.lang || "en";
-        document.querySelectorAll(".event-card").forEach(ensureTagGroup);
+        document.querySelectorAll(".event-card").forEach((card) => ensureTagGroup(card));
         refreshStatuses(language);
     });
 })();

@@ -1,0 +1,7 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#f4d35e"/>
+  <g fill="#1f1f1f" font-family="Poppins, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="150" font-size="44" font-weight="600">Image Placeholder</text>
+    <text x="320" y="200" font-size="28">Text goes here</text>
+  </g>
+</svg>

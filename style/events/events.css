@@ -57,9 +57,14 @@
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.06);
+    outline: 1px solid rgba(0, 0, 0, 0.06);
+    outline-offset: -1px;
     box-shadow: 0 15px 45px rgba(18, 13, 38, 0.08);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    min-height: 200px;
 }
 
 .event-card:hover {
@@ -67,36 +72,24 @@
     box-shadow: 0 24px 60px rgba(18, 13, 38, 0.12);
 }
 
-.event-card summary {
-    list-style: none;
-    padding: 28px 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 16px;
-    row-gap: 12px;
-    cursor: pointer;
-}
-
-.event-card summary::-webkit-details-marker,
-.event-card summary::marker {
-    display: none;
-}
-
-.event-card summary:focus-visible {
+.event-card:focus-visible {
     outline: 3px solid var(--lnu-black);
     outline-offset: 4px;
 }
 
-.event-card[open] summary {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+.event-card__body {
+    padding: 28px 32px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 16px;
+    row-gap: 12px;
+    align-items: center;
 }
 
 .event-summary {
     display: grid;
     gap: 6px;
-    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .event-name {
@@ -129,10 +122,18 @@
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
-    flex-wrap: wrap;
     gap: 8px;
     margin-left: auto;
     flex: 0 1 auto;
+}
+
+.event-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+    gap: 12px;
+    margin-top: 8px;
 }
 
 .event-status {
@@ -155,7 +156,7 @@
 }
 
 @media (max-width: 720px) {
-    .event-card summary {
+    .event-card__body {
         flex-direction: column;
     }
 
@@ -169,35 +170,32 @@
     box-shadow: 0 12px 45px rgba(18, 13, 38, 0.06);
 }
 
-.event-card--past summary {
-    background: color-mix(in srgb, #2e7d32 10%, white 90%);
+.event-card--past {
+    border-color: rgba(46, 125, 50, 0.35);
+    background: color-mix(in srgb, #2e7d32 12%, white 88%);
+}
+
+.event-card--past .event-card__body {
+    background: transparent;
 }
 
 .event-card--past .event-date {
     color: rgba(51, 51, 51, 0.7);
 }
 
-.event-details {
-    padding: 0 32px;
-    display: grid;
-    gap: 10px;
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: max-height 0.35s ease, padding 0.3s ease, opacity 0.25s ease;
+.event-card__cta {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
 }
 
-.event-card[open] .event-details {
-    padding: 24px 32px 28px;
-    max-height: 260px;
-    opacity: 1;
-}
-
-.event-details p {
-    margin: 0;
-    font-size: 0.95rem;
-    color: var(--lnu-gray);
-    line-height: 1.5;
+.event-card__cta::after {
+    content: "→";
+    font-size: 1rem;
 }
 
 @media (max-width: 1024px) {
@@ -221,10 +219,5 @@
 
     .events-grid {
         grid-template-columns: 1fr;
-    }
-
-    .event-card summary,
-    .event-details {
-        padding: 24px;
     }
 }
