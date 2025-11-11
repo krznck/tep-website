@@ -28,21 +28,48 @@
     <script src="./script/handleLanguage.js" defer></script>
     <script src="./script/burgerifyMenu.js" defer></script>
     <script src="./script/highlightActiveView.js" defer></script>
+    <script src="./script/heroStats.js" defer></script>
 </head>
 <body> 
     <global-header></global-header>
 
-    <div class="main-wrapper ">
-        <div class="mainContainer centered">
-
-            <div class="explanationText">
-                <p data-lang="TEP-description">Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.</p>
+    <section class="hero">
+        <div class="hero__inner centered">
+            <div class="hero__content">
+                <span class="hero__eyebrow" data-lang="hero-eyebrow">Tutorial Education Program</span>
+                <h1 class="hero__heading" data-lang="hero-heading">Make an impact while you study.</h1>
+                <p class="hero__lead" data-lang="TEP-description">Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.</p>
+                <div class="hero__actions">
+                    <a class="primary-button" href="./about.html" data-lang="hero-cta-primary">Meet the team</a>
+                    <a class="secondary-button" href="./projects.html" data-lang="hero-cta-secondary">Explore current projects</a>
+                </div>
             </div>
-            <div class="imageContainer">
-                <img src="assets/homePage/HomePlaceholderPicture.png" width="200px" height="200px" alt="Placeholder Picture" class="responsiveImage" />
+            <div class="hero__media">
+                <div class="hero-highlights">
+                    <header class="hero-highlights__header">
+                        <p class="hero-highlights__eyebrow" data-lang="hero-highlight-eyebrow">Right now at TEP</p>
+                    </header>
+                    <div class="hero-highlights__stats">
+                        <article class="hero-stat-card">
+                            <p class="hero-stat-card__label" data-lang="hero-stat-projects-label">Running projects</p>
+                            <p class="hero-stat-card__value" id="hero-project-count">--</p>
+                            <p class="hero-stat-card__subtext" data-lang="hero-stat-projects-sub">Updated weekly</p>
+                        </article>
+                        <article class="hero-stat-card">
+                            <p class="hero-stat-card__label" data-lang="hero-stat-events-label">Upcoming events</p>
+                            <p class="hero-stat-card__value" id="hero-event-count">--</p>
+                            <p class="hero-stat-card__subtext" data-lang="hero-stat-events-sub">Across Växjö & Kalmar</p>
+                        </article>
+                    </div>
+                    <div class="hero-highlight-event">
+                        <p class="hero-highlight-event__eyebrow" data-lang="hero-next-event-eyebrow">Next on our calendar</p>
+                        <h3 class="hero-highlight-event__name" id="hero-next-event-name">—</h3>
+                        <p class="hero-highlight-event__date" id="hero-next-event-date">—</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
         <section class="mission-section">
             <div class="centered mission-grid">
                 <div class="mission-col">

@@ -1,100 +1,210 @@
-.main-wrapper {
+.hero {
     margin-top: 95px;
-    background-color: white;
+    background:
+        radial-gradient(circle at 15% 15%, rgba(255, 224, 0, 0.45), transparent 55%),
+        radial-gradient(circle at 85% -10%, rgba(255, 248, 196, 0.9), transparent 55%),
+        linear-gradient(180deg, #fffdf5 0%, #ffffff 45%, #fff9d4 100%);
+    padding: clamp(3rem, 7vw, 6rem) 0 clamp(2.5rem, 5vw, 5.5rem);
 }
 
-.headingContainer {
-    display: block; 
-    margin-bottom: 8%;
+.hero__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(2rem, 4vw, 4.5rem);
+    align-items: center;
 }
 
-.heading {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: clamp(3.8rem, calc(8vw + 1rem), 5.5rem);
-    line-height: 94%;
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.hero__eyebrow {
+    font-size: 0.95rem;
+    font-weight: 600;
     letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: var(--lnu-black);
-    margin-bottom: -10px;
-    margin-top: 0;
+    background-color: rgba(255, 224, 0, 0.35);
+    border-radius: 999px;
+    padding: 0.5rem 1.25rem;
+    align-self: flex-start;
+    border: 1px solid rgba(255, 224, 0, 0.45);
 }
 
-.mainContainer {
+.hero__heading {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    margin: 0;
+    color: var(--lnu-black);
+}
+
+.hero__lead {
+    font-size: 1.1rem;
+    color: var(--lnu-gray);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.hero__actions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 20px 0;
-    margin-bottom: 10px;
+    gap: 12px;
+    margin-top: 0.5rem;
 }
 
-.explanationText {
-    /* Text setting */
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: clamp(1.1rem, calc(1.1vw + 0.6rem), 1.6rem);
-    color: var(--lnu-black);
-    word-wrap: break-word;
-    
-    /* Div settings */
-    max-width: 90%;
+.hero__media {
     display: flex;
-    flex-basis: 50%;
-    padding-bottom: 30px;
-
-    /* Background design settings */
-    background-image: url('/assets/aboutPage/blob.svg');
-    background-repeat: no-repeat;
-    background-position: 20% 50%;
-    background-size: 230px;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
 }
 
-.imageContainer {
-    background-image: url('/assets/aboutPage/dots_design.svg');
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    padding-bottom: 30px;
-    padding-left: 44px;
+.hero-highlights {
+    position: relative;
+    border-radius: 32px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(255, 224, 0, 0.95) 0%, rgba(255, 224, 0, 0.8) 50%, #fff6b0 110%);
+    box-shadow: 0 30px 65px rgba(0, 0, 0, 0.15);
+    color: var(--lnu-black);
+    overflow: hidden;
+    border: 1px solid rgba(255, 224, 0, 0.35);
 }
 
-.responsiveImage {
-    /* 350px was originally, now it is relative to the screen size */
-    max-width: clamp(12rem, calc(12vw + 1rem), 16rem); 
-    height: auto;
-    flex-basis: 50%;
-  }
- 
-  @media (max-width: 750px) {
-    .mainContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+.hero-highlights::before,
+.hero-highlights::after {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    filter: blur(4px);
+}
+
+.hero-highlights::before {
+    top: -40px;
+    right: -30px;
+}
+
+.hero-highlights::after {
+    bottom: -50px;
+    left: -10px;
+    background: rgba(255, 224, 0, 0.25);
+}
+
+.hero-highlights__header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 24px;
+}
+
+.hero-highlights__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 0.85rem;
+    margin: 0 0 6px;
+    color: rgba(18, 13, 38, 0.75);
+}
+
+.hero-highlights__caption {
+    margin: 0;
+    color: rgba(18, 13, 38, 0.7);
+}
+
+.hero-highlights__stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-stat-card {
+    background: #fff;
+    border: 1px solid rgba(18, 13, 38, 0.08);
+    border-radius: 20px;
+    padding: 18px 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
+}
+
+.hero-stat-card__label {
+    margin: 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(18, 13, 38, 0.6);
+}
+
+.hero-stat-card__value {
+    margin: 10px 0 4px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--lnu-black);
+}
+
+.hero-stat-card__subtext {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(18, 13, 38, 0.55);
+}
+
+.hero-highlight-event {
+    position: relative;
+    z-index: 1;
+    border-radius: 22px;
+    background: #fff;
+    color: var(--lnu-black);
+    padding: 20px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+.hero-highlight-event__eyebrow {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+    color: rgba(255, 180, 0, 0.9);
+}
+
+.hero-highlight-event__name {
+    margin: 6px 0;
+    font-size: 1.3rem;
+}
+
+.hero-highlight-event__date {
+    margin: 0;
+    color: var(--lnu-gray);
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding-top: 6rem;
     }
-    
-    .explanationText {
+
+    .hero__inner {
         text-align: center;
-        flex-basis: 100%;
-        max-width: 80%;
-        background-image: none;
-        padding-bottom: 0px;
-        /* There was too small place for it, so it looked out of place */
-        /* background-position: 0% 20%;
-        background-size: 150px; */
     }
 
-    .responsiveImage {
-        flex-basis: 100%;
-        margin-left: 25px; /* bring the image back to the center */
+    .hero__content {
+        align-items: center;
     }
-    .imageContainer {
-        margin-top: 0;
-        background-position: top right;
-        padding-top: 15px;
-        padding-right: 15px;
-        margin-top: 10px;
-        margin-right: 10px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+
+    .hero__eyebrow {
+        align-self: center;
+    }
+
+    .hero__actions {
+        justify-content: center;
+    }
+
+    .hero-highlights {
+        padding: 24px;
+    }
+
+    .hero-highlights__stats {
+        grid-template-columns: 1fr;
     }
 }

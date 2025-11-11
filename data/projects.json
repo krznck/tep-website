@@ -1,20 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Teaching Assistant",
-    "date": "2025-09-01",
-    "description": "Assisting in grading assignments, holding office hours, and supporting students in understanding course material.",
-    "category": "Education",
-    "image": "./assets/projects_pic/ta.jpg",
-    "translations": {
-      "sv": {
-        "title": "Labbassistent",
-        "description": "Hjälper till med rättning, håller öppna mottagningar och stöttar studenter i att förstå kursmaterial.",
-        "category": "Utbildning"
-      }
-    }
-  },
-  {
     "id": 2,
     "slug": "tep-website-development",
     "title": "TEP Website Development",
