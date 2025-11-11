@@ -3,15 +3,9 @@ var htmlName = 'global-footer'; // note: we can't just call it footer, since tha
 var structure = `
     <div class="footer-wrapper">
         <footer class="centered">
-            <div class="footer-row">
-                <div class="column">
-                    <img src="assets/logo/Combined mark, black.png" width="200px" height="74px" id="footer-logotype" alt="logo">
-                </div>
-                <div class="column">
-                    <a href="" class="footer-header footer-header-h2 right-side-text">Contacts</a>
-                    <h3 class="footer-header footer-header-h3 right-side-text">Email</h3>
-                    <a href="" class="footer-link right-side-text">info@tep.lnu.se</a> <!-- Obviously illustrative, we don't know what domain we'll have -->
-                </div>
+            <div class="footer-brand">
+                <img src="assets/logo/Combined mark, black.png" id="footer-logotype" alt="Tutorial Education Program logo">
+                <p class="footer-description">Tutorial Education Program · Linnaeus University</p>
             </div>
             <hr class="footer-seperator">
             <div class="footer-row">

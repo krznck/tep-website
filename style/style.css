@@ -13,6 +13,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 :root {
     --lnu-yellow: rgb(255, 224, 0);
     --lnu-gray: #333333;
@@ -25,4 +29,12 @@ html, body {
     max-width: 75em;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .centered {
+        padding-left: clamp(1rem, 5vw, 2rem);
+        padding-right: clamp(1rem, 5vw, 2rem);
+    }
 }

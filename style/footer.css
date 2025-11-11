@@ -12,44 +12,28 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: right;
+    align-items: center;
 }
 
-.footer-link {
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--lnu-gray);
-    font-weight: 300; /* "normal" is 400, so this is between lighter and normal - I think that looks better with Poppins */
-    margin-bottom: 0.5em;
-    display: block;
-}
-
-.column {
-    flex: 1; /* makes sure columns take up the same space */
-}
-
-.footer-header {
-    color: inherit; /* since some footer-headers are links, we want them to have the same color */
-    display: block;
-}
-
-.footer-header-h2 {
-    font-size: 1.5em; /* h2 size */
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.footer-header-h3 {
-    font-size: 1.25em; /* h3 size */
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.right-side-text {
-    text-align: right;
 }
 
 #footer-logotype {
-    max-width: 200px;
+    width: clamp(160px, 45vw, 220px);
+    height: auto;
 }
 
 .footer-seperator {
@@ -86,6 +70,10 @@ footer {
     }
 
     #footer-logotype {
-        max-width: 150px;
+        width: clamp(140px, 60vw, 180px);
+    }
+
+    .footer-description {
+        font-size: 0.95rem;
     }
 }

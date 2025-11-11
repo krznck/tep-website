@@ -8,11 +8,11 @@ function initializeMenu() {
         menu.onclick = function () {
             menu.classList.toggle("openmenu");
             if (menu.classList.contains("openmenu")) {
-                listContainer.style.display = "block";
-                body.style.overflow = "hidden";
+                listContainer.style.display = "flex";
+                body.style.overflowY = "hidden";
             } else {
                 listContainer.style.display = "none";
-                body.style.overflow = "scroll";
+                body.style.overflowY = "auto";
             }
         }
     } else {
@@ -25,7 +25,7 @@ function initializeMenu() {
             // Reset menu for larger screens
             menu.classList.remove("openmenu");
             listContainer.style.display = "";
-            body.style.overflow = "scroll"; 
+            body.style.overflowY = "auto";
         } else {
             // On small screens, hide menu if not open
             if (!menu.classList.contains("openmenu")) {
@@ -35,17 +35,20 @@ function initializeMenu() {
     });
 
     // Ensure the change language button closes menu if it's open
-    const button = document.getElementById("change-language");
-    if (button) {
-        button.addEventListener("click", (e) => {
-            if (menu.classList.contains("openmenu")) {
-                menu.classList.remove("openmenu");
-                listContainer.style.display = "none";
-                body.style.overflow = "scroll";
-            }
+    const languageButtons = document.querySelectorAll(".language-button");
+
+    if (languageButtons.length) {
+        languageButtons.forEach((languageButton) => {
+            languageButton.addEventListener("click", () => {
+                if (menu.classList.contains("openmenu")) {
+                    menu.classList.remove("openmenu");
+                    listContainer.style.display = "none";
+                    body.style.overflowY = "auto";
+                }
+            });
         });
     } else {
-        console.error("Language toggle button not found.");
+        console.error("Language toggle buttons not found.");
     }
 };
 

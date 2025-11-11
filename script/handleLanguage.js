@@ -5,7 +5,7 @@ const translations = {
         "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming.",
         "header-projects": "Projects",
         "header-events": "Events",
-        "header-aboutUs": "US",
+        "header-aboutUs": "About Us",
         "header-english": "English",
         "header-swedish": "Swedish",
         "TEP-description": "Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.",
@@ -466,26 +466,48 @@ function changeLanguage(language) {
         }
     });
 
+    updateLanguageButtons(language);
+
     window.dispatchEvent(new CustomEvent("languagechange", {
         detail: { language }
     }));
 }
 
+function updateLanguageButtons(language) {
+    const buttons = document.querySelectorAll(".language-button");
+
+    if (!buttons.length) {
+        return;
+    }
+
+    buttons.forEach((button) => {
+        const isActive = button.dataset.language === language;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+}
 
 // Attach language toggle event
 function attachLanguageToggle() {
-    const button = document.getElementById("change-language");
+    const buttons = document.querySelectorAll(".language-button");
 
-    if (button) {
+    if (!buttons.length) {
+        console.error("Language toggle buttons not found.");
+        return;
+    }
+
+    // Ensure correct default state once buttons exist in the DOM
+    updateLanguageButtons(document.documentElement.lang || "en");
+
+    buttons.forEach((button) => {
         button.addEventListener("click", (e) => {
             e.preventDefault();
-            const currentLang = document.documentElement.lang || "en";
-            const newLang = currentLang === "en" ? "sv" : "en";
-            changeLanguage(newLang);
+            const selectedLanguage = button.dataset.language;
+            if (selectedLanguage) {
+                changeLanguage(selectedLanguage);
+            }
         });
-    } else {
-        console.error("Language toggle button not found.");
-    }
+    });
 }
 
 loadSavedLanguage(); // first apply the cookie to set the document language

@@ -17,14 +17,14 @@ var structure = `
                         <ul class="nav__items-con">
                             <li class="nav__item"><a href="./projects.html" data-lang="header-projects">Projects</a></li>
                             <li class="nav__item"><a href="./events.html" data-lang="header-events">Events</a></li>
-                            <li class="nav__item"><a href="./about.html" data-lang="header-aboutUs">US</a></li>
-                            <div class="header-line"></div>
-                            <div class="dropdown__li">
-                                <li class="nav-lang nav__item"><a data-lang="header-english">English</a><span class="right__arrow"></span></li>
-                                <div class="dropdown__content">
-                                    <a href="#" id="change-language" data-lang="header-swedish">Swedish</a>
+                            <li class="nav__item"><a href="./about.html" data-lang="header-aboutUs">About Us</a></li>
+                            <li class="header-line" aria-hidden="true"></li>
+                            <li class="nav__language">
+                                <div class="language-switcher" role="group" aria-label="Select site language">
+                                    <button type="button" class="language-button is-active" data-language="en" data-lang="header-english">English</button>
+                                    <button type="button" class="language-button" data-language="sv" data-lang="header-swedish">Swedish</button>
                                 </div>
-                            </div>
+                            </li>
                         </ul>
                     </nav>
                 </div>
