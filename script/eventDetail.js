@@ -294,7 +294,7 @@
                     return;
                 }
                 const paragraph = document.createElement("p");
-                paragraph.textContent = text;
+                appendTextWithLinks(paragraph, text);
                 container.appendChild(paragraph);
             });
             return;
@@ -302,7 +302,7 @@
 
         fallback.forEach((text) => {
             const paragraph = document.createElement("p");
-            paragraph.textContent = text;
+            appendTextWithLinks(paragraph, text);
             container.appendChild(paragraph);
         });
     }
@@ -326,6 +326,38 @@
         }
 
         return value.replace(/(\d)\s([ap]m)\b/gi, "$1\u00a0$2");
+    }
+
+    function appendTextWithLinks(element, text) {
+        if (!element || !text) {
+            return;
+        }
+
+        const urlRegex = /(https?:\/\/[^\s]+)/gi;
+        let lastIndex = 0;
+        let match;
+
+        while ((match = urlRegex.exec(text)) !== null) {
+            const [url] = match;
+            const matchIndex = match.index;
+
+            if (matchIndex > lastIndex) {
+                element.appendChild(document.createTextNode(text.slice(lastIndex, matchIndex)));
+            }
+
+            const link = document.createElement("a");
+            link.href = url;
+            link.textContent = url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            element.appendChild(link);
+
+            lastIndex = matchIndex + url.length;
+        }
+
+        if (lastIndex < text.length) {
+            element.appendChild(document.createTextNode(text.slice(lastIndex)));
+        }
     }
 
     function renderGallery(event) {

@@ -34,56 +34,62 @@
             <p>The event you are looking for is not available. Please browse the <a href="events.html">events list</a>.</p>
         </section>
 
-        <div data-event-content>
-            <section class="event-hero">
-                <div class="event-hero-media">
-                    <img id="event-hero-image" src="assets/events/placeholders/event-hero-placeholder.svg" alt="Event cover placeholder">
-                </div>
-                <div class="event-summary">
-                    <p class="event-breadcrumb"><a href="events.html">← Back to events</a></p>
-                    <h1 id="event-title">Event Title</h1>
-                    <p id="event-date" class="event-date">Event date will appear here.</p>
-                    <div class="event-tag-group">
-                        <span id="event-tag" class="event-pill">Event tag</span>
-                    </div>
-                    <ul id="event-quick-info" class="event-quick-info">
-                        <li>Text goes here.</li>
-                    </ul>
-                    <div class="event-highlights-card">
-                        <h2 id="event-highlights-heading">Highlights</h2>
-                        <ul id="event-highlights" class="event-highlights">
-                            <li>Text goes here.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="event-body">
-                <article class="event-description">
-                    <h2 id="event-overview-heading">Overview</h2>
-                    <div id="event-overview" class="event-text-block">
-                        <p>Text goes here.</p>
-                    </div>
-                    <h3 id="event-expectations-heading">What to expect</h3>
-                    <div id="event-expectations" class="event-text-block">
-                        <p>More text goes here.</p>
-                    </div>
-                </article>
-                <aside class="event-side">
-                    <div class="event-side-card">
-                        <h2 id="event-schedule-heading">Schedule</h2>
-                        <div id="event-schedule" class="event-text-block">
-                            <p>Details coming soon.</p>
+        <div data-event-content class="event-layout">
+            <div class="event-columns">
+                <div class="event-column event-column--main">
+                    <section class="event-hero">
+                        <div class="event-hero-media">
+                            <img id="event-hero-image" src="assets/events/placeholders/event-hero-placeholder.svg" alt="Event cover placeholder">
                         </div>
-                    </div>
-                    <div class="event-side-card">
-                        <h2 id="event-participation-heading">Participation</h2>
-                        <div id="event-participation" class="event-text-block">
+                    </section>
+
+                    <article class="event-description">
+                        <h2 id="event-overview-heading">Overview</h2>
+                        <div id="event-overview" class="event-text-block">
                             <p>Text goes here.</p>
                         </div>
+                        <h3 id="event-expectations-heading">What to expect</h3>
+                        <div id="event-expectations" class="event-text-block">
+                            <p>More text goes here.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="event-column event-column--side">
+                    <div class="event-summary">
+                        <p class="event-breadcrumb"><a href="events.html">← Back to events</a></p>
+                        <h1 id="event-title">Event Title</h1>
+                        <p id="event-date" class="event-date">Event date will appear here.</p>
+                        <div class="event-tag-group">
+                            <span id="event-tag" class="event-pill">Event tag</span>
+                        </div>
+                        <ul id="event-quick-info" class="event-quick-info">
+                            <li>Text goes here.</li>
+                        </ul>
+                        <div class="event-highlights-card">
+                            <h2 id="event-highlights-heading">Highlights</h2>
+                            <ul id="event-highlights" class="event-highlights">
+                                <li>Text goes here.</li>
+                            </ul>
+                        </div>
                     </div>
-                </aside>
-            </section>
+
+                    <aside class="event-side">
+                        <div class="event-side-card">
+                            <h2 id="event-schedule-heading">Schedule</h2>
+                            <div id="event-schedule" class="event-text-block">
+                                <p>Details coming soon.</p>
+                            </div>
+                        </div>
+                        <div class="event-side-card">
+                            <h2 id="event-participation-heading">Participation</h2>
+                            <div id="event-participation" class="event-text-block">
+                                <p>Text goes here.</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
 
             <section class="event-gallery" data-event-gallery hidden>
                 <h2>Gallery</h2>

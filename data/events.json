@@ -17,6 +17,129 @@
         "key": "event-digitalidag-language",
         "text": "Languages: Swedish (information in English available)"
       }
+    ],
+    "heroImage": {
+      "src": "assets/events/digitalidag-2025/Image20241127160745.jpg",
+      "alt": "Visitors exploring interactive demo stands during Digitalidag at Linnaeus University."
+    },
+    "highlightsHeading": {
+      "key": "event-digitalidag-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-digitalidag-highlight-1",
+        "text": "Nationwide Digitalidag programming with unique sessions hosted by Linnaeus University."
+      },
+      {
+        "key": "event-digitalidag-highlight-2",
+        "text": "Activities span both campuses and extend into community venues in Kalmar and Växjö."
+      },
+      {
+        "key": "event-digitalidag-highlight-3",
+        "text": "Focus on cybersecurity, AI, digital transformation, and playful learning for all ages."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-digitalidag-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-digitalidag-overview-1",
+        "text": "Digitalidag is a nationwide theme day filled with digital activities, hands-on workshops, and discussions across Sweden."
+      },
+      {
+        "key": "event-digitalidag-overview-2",
+        "text": "Linnaeus University contributes with expert talks, interactive labs, and public events tailored for students, families, professionals, and local communities."
+      },
+      {
+        "key": "event-digitalidag-overview-3",
+        "text": "Sessions cover cybersecurity, AI, digital transformation, and playful learning at Universitetskajen in Kalmar, Växjö campus, Araby Park Arena, and Växjö Stadsbibliotek."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-digitalidag-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-digitalidag-activity-1",
+        "text": "Panel discussion on cybersecurity (Kalmar · Hus Stella) — municipal leaders, industry experts, and LNU IT specialists discuss hacker attacks on workplaces, authorities, and private individuals. Speakers include Christoffer Carlsson Schött, Niklas Hörling, Louise Östlund, Henrik Ryttergard, Peter Bergehamn, and Pär Igevik. A recording is available on the event page."
+      },
+      {
+        "key": "event-digitalidag-activity-2",
+        "text": "Breakfast meeting “Konkurrenskraft genom digitalisering” (Kalmar Business Lab) — in collaboration with Smålandsnavet, researchers John Jeansson and Krister Bredmar show how organizations can strengthen competitiveness through digital transformation."
+      },
+      {
+        "key": "event-digitalidag-activity-3",
+        "text": "Experiment workshop on Generative AI (Växjö campus) — Jonas Svensson leads a hands-on exploration of AI tools, human–machine interaction, and the project Människa, maskin, samhälle."
+      },
+      {
+        "key": "event-digitalidag-activity-4",
+        "text": "“Lek och lär” play lab (Araby Park Arena, Växjö) — children discover digital creativity through playful stations that make technology easy to understand."
+      },
+      {
+        "key": "event-digitalidag-activity-5",
+        "text": "Public lecture on IoT & AI (Växjö Stadsbibliotek) — Jonas Nordqvist shares practical examples of how IoT, data-driven development, and AI drive innovation, together with Kronobergs Läns Tekniska Förening."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-digitalidag-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-digitalidag-schedule-1",
+        "text": "Universitetskajen, Kalmar — cybersecurity panel, business breakfast, and outreach activations."
+      },
+      {
+        "key": "event-digitalidag-schedule-2",
+        "text": "Växjö campus — experiment workshops on Generative AI plus student-led demos."
+      },
+      {
+        "key": "event-digitalidag-schedule-3",
+        "text": "Community venues — Araby Park Arena play lab and Växjö Stadsbibliotek public lecture the day before Digitalidag."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-digitalidag-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-digitalidag-participation-1",
+        "text": "Digitalidag is Sweden’s national initiative to strengthen digital participation and knowledge."
+      },
+      {
+        "key": "event-digitalidag-participation-2",
+        "text": "Linnaeus University contributes every year with a broad cross-campus programme for learners of all ages."
+      },
+      {
+        "key": "event-digitalidag-participation-3",
+        "text": "More information: Digitalidag at Linnaeus University · Digitalidag Sweden."
+      },
+      {
+        "key": "event-digitalidag-participation-4",
+        "text": "Read the latest update: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/digitalidag-2024/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/digitalidag-2025/IMG_0162.jpg",
+        "alt": "Students experimenting with VR headsets during Digitalidag in Växjö.",
+        "caption": "Curious visitors testing immersive technology demos together."
+      },
+      {
+        "src": "assets/events/digitalidag-2025/IMG_0179.jpg",
+        "alt": "Panel speakers discussing cybersecurity strategies at Digitalidag.",
+        "caption": "Regional leaders and LNU experts sharing insights on digital safety."
+      },
+      {
+        "src": "assets/events/digitalidag-2025/IMG_0190.jpg",
+        "alt": "Families gathered around a programming station during Digitalidag.",
+        "caption": "Inclusive sessions welcome both students and families on campus."
+      }
     ]
   },
   {
@@ -68,11 +191,112 @@
     "details": [
       {
         "key": "event-digitala-kompetensdagen-location",
-        "text": "Location: Kalmar campus"
+        "text": "Location: Växjö campus · Hus K"
       },
       {
         "key": "event-digitala-kompetensdagen-language",
         "text": "Languages: Swedish only"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/digitala-kompetensdagen-2025/digitala-kompetensdagen-hero.jpg",
+      "alt": "Educators listening to a keynote during Digitala kompetensdagen on Växjö campus."
+    },
+    "highlightsHeading": {
+      "key": "event-digitala-kompetensdagen-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-digitala-kompetensdagen-highlight-1",
+        "text": "Annual conference for educators and school leaders in Kronoberg County."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-highlight-2",
+        "text": "Focus on digital competence, new tools, pedagogical innovation, and digital transformation."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-highlight-3",
+        "text": "Co-arranged by AV-Media Region Kronoberg and Linnaeus University on Växjö campus."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-digitala-kompetensdagen-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-digitala-kompetensdagen-overview-1",
+        "text": "Digitala kompetensdagen is a full-day conference designed to strengthen digital competence among the region’s educators and school leaders."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-overview-2",
+        "text": "Participants receive new ideas, tools, and knowledge while monitoring the latest developments in digital learning."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-overview-3",
+        "text": "The 2025 edition takes place on 28 October at Linnaeus University in Växjö, arranged in collaboration with AV-Media Region Kronoberg."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-digitala-kompetensdagen-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-digitala-kompetensdagen-activity-1",
+        "text": "Presentations and workshops on digital pedagogical tools and digital transformation in schools."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-activity-2",
+        "text": "Classroom innovation sessions sharing new methods and best practices for digital learning."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-activity-3",
+        "text": "Facilitated discussions about opportunities, challenges, and future-ready skills."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-digitala-kompetensdagen-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-digitala-kompetensdagen-schedule-1",
+        "text": "Växjö campus · Hus K hosts the plenary talks and main sessions."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-schedule-2",
+        "text": "Surrounding learning spaces on campus accommodate workshops and breakout discussions."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-digitala-kompetensdagen-participation-heading",
+      "text": "Participation & partners"
+    },
+    "participation": [
+      {
+        "key": "event-digitala-kompetensdagen-participation-1",
+        "text": "Digitala kompetensdagen is jointly organized by AV-Media Region Kronoberg and Linnaeus University."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-participation-2",
+        "text": "Programme updates and registration details will be published on the event webpage."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-participation-3",
+        "text": "Visitor information, including travel tips and campus access, is available online."
+      },
+      {
+        "key": "event-digitala-kompetensdagen-participation-4",
+        "text": "Learn more: https://lnu.se/mot-linneuniversitetet/aktuellt/kalender/2025/digitala-kompetensdagen-2025/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/digitala-kompetensdagen-2025/digitala-kompetensdagen-hero.jpg",
+        "alt": "Participants networking between sessions at Digitala kompetensdagen.",
+        "caption": "Regional educators and school leaders exchanging ideas on digital learning."
       }
     ]
   },
@@ -92,7 +316,134 @@
       },
       {
         "key": "event-october-programming-language",
-        "text": "Languages: Swedish (support in English)"
+        "text": "Languages: Swedish & English"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "alt": "Children collaborating on Scratch projects during the programming course for kids."
+    },
+    "highlightsHeading": {
+      "key": "event-kids-programming-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-kids-programming-highlight-1",
+        "text": "Scratch programming course for children aged 10–12."
+      },
+      {
+        "key": "event-kids-programming-highlight-2",
+        "text": "Delivered by TeMa Linné together with Kodcentrum."
+      },
+      {
+        "key": "event-kids-programming-highlight-3",
+        "text": "Supported by Linnaeus University students plus new industry and community partners."
+      },
+      {
+        "key": "event-kids-programming-highlight-4",
+        "text": "Offered in both Swedish and English to welcome all participants."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-kids-programming-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-kids-programming-overview-1",
+        "text": "During school holidays, TeMa Linné invites children aged 10–12 to an introductory Scratch course built on Kodcentrum’s learning material and led by skilled student instructors."
+      },
+      {
+        "key": "event-kids-programming-overview-2",
+        "text": "Successful sessions throughout 2023–2024 sparked new collaborations with local companies and community organizations, allowing the course to keep growing."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-kids-programming-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-kids-programming-activity-1",
+        "text": "Hands-on Scratch programming sessions that build logic, creativity, and problem-solving skills."
+      },
+      {
+        "key": "event-kids-programming-activity-2",
+        "text": "Guided instruction from student leaders from the Department of Computer Science and Media Technology."
+      },
+      {
+        "key": "event-kids-programming-activity-3",
+        "text": "Inspirational visits and Q&As with developers from Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-activity-4",
+        "text": "Mixed-language teaching (Swedish and English) so every participant feels included."
+      },
+      {
+        "key": "event-kids-programming-activity-5",
+        "text": "Opportunities for children to explore campus and meet university student role models."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-kids-programming-instructors-heading",
+      "text": "Instructors & partners"
+    },
+    "schedule": [
+      {
+        "key": "event-kids-programming-instructors-1",
+        "text": "Course leaders: Shota Napetvaridze, Maria Ihrmark, and Floris van Der Staaij."
+      },
+      {
+        "key": "event-kids-programming-instructors-2",
+        "text": "Industry partners: Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-instructors-3",
+        "text": "Community collaborators: Araby Park Arena and Centrumskolan in Växjö."
+      },
+      {
+        "key": "event-kids-programming-instructors-4",
+        "text": "Content provider: Kodcentrum, together with TeMa Linné’s student instructors."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-kids-programming-participation-heading",
+      "text": "Additional notes"
+    },
+    "participation": [
+      {
+        "key": "event-kids-programming-participation-1",
+        "text": "Collaborations with Araby Park Arena inspired deeper Scratch workshops and campus visits."
+      },
+      {
+        "key": "event-kids-programming-participation-2",
+        "text": "Next course opportunity is planned for the upcoming school break (Påsklovet)."
+      },
+      {
+        "key": "event-kids-programming-participation-3",
+        "text": "Extra learning resources are available at Kodboken.se for children who want to keep coding at home."
+      },
+      {
+        "key": "event-kids-programming-participation-4",
+        "text": "Read more: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/lyckat-samarbete-pa-programmeringskurs-for-barn/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
+        "caption": "Small-group coaching builds creativity before moving into the lab."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Participant sharing a Scratch project on a laptop with the group.",
+        "caption": "Hands-on labs let every child present their own project."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Kids collaborating around computers during the programming course.",
+        "caption": "TeMa Linné tutors support each participant throughout the session."
       }
     ]
   },
@@ -133,6 +484,127 @@
       {
         "key": "event-karriardag-language",
         "text": "Languages: Swedish (information in English available)"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/karriardag-teknik-2025/karriardag-teknik-hero.jpg",
+      "alt": "Students meeting company representatives during Karriärdag Teknik at Växjö campus."
+    },
+    "highlightsHeading": {
+      "key": "event-karriardag-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-karriardag-highlight-1",
+        "text": "Full day of networking between companies, organisations, and students within construction, IT, and technology."
+      },
+      {
+        "key": "event-karriardag-highlight-2",
+        "text": "Large career fair with exhibitors spread across multiple campus buildings."
+      },
+      {
+        "key": "event-karriardag-highlight-3",
+        "text": "Speed-dating sessions for internships, thesis projects, and job opportunities."
+      },
+      {
+        "key": "event-karriardag-highlight-4",
+        "text": "Open lectures from industry partners, startups, and university staff."
+      },
+      {
+        "key": "event-karriardag-highlight-5",
+        "text": "Programme streams tailored for construction, technology, and IT students."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-karriardag-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-karriardag-overview-1",
+        "text": "Karriärdag Teknik/Byggardagen is Linnaeus University’s annual career event connecting students with companies in the technology, IT, and construction sectors."
+      },
+      {
+        "key": "event-karriardag-overview-2",
+        "text": "The event helps students build professional networks, explore internships, find thesis partners, and map future career paths."
+      },
+      {
+        "key": "event-karriardag-overview-3",
+        "text": "Visitors can meet employers at the fair, attend lectures, join speed-dating sessions, and take part in activities across Växjö campus."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-karriardag-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-karriardag-activity-1",
+        "text": "Career fair with regional and national exhibitors placed across Hus M, K, N, and nearby buildings."
+      },
+      {
+        "key": "event-karriardag-activity-2",
+        "text": "Speed-dating sessions where students book short meetings for internships, thesis projects, and jobs."
+      },
+      {
+        "key": "event-karriardag-activity-3",
+        "text": "Guest lectures by Volvo, Sigma Industry South, Skanska, Softwerk, and other partners."
+      },
+      {
+        "key": "event-karriardag-activity-4",
+        "text": "Startup sessions hosted by LNU Innovation and Växjö Linnaeus Science Park about the journey from idea to company."
+      },
+      {
+        "key": "event-karriardag-activity-5",
+        "text": "Student-focused talks covering AI in studies, consulting vs employment, and career planning."
+      },
+      {
+        "key": "event-karriardag-activity-6",
+        "text": "Meme competition with prizes handed out in Glasgallerian plus lunch wraps for registered participants."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-karriardag-locations-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-karriardag-location-1",
+        "text": "Växjö campus — Hus M, Hus K, Hus N, and surrounding buildings hosting fairs and lectures."
+      },
+      {
+        "key": "event-karriardag-location-2",
+        "text": "Glasgallerian — prize ceremony for the Meme competition."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-karriardag-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-karriardag-participation-1",
+        "text": "Open to students in construction, data/IT, engineering, and related programmes."
+      },
+      {
+        "key": "event-karriardag-participation-2",
+        "text": "Resources include exhibitor lists (PDF), building maps, speed-dating registration, exhibitor info, and travel guidance between Kalmar ↔ Växjö."
+      },
+      {
+        "key": "event-karriardag-participation-3",
+        "text": "Questions: samverkan.ftk@lnu.se."
+      },
+      {
+        "key": "event-karriardag-participation-4",
+        "text": "Official event page: https://lnu.se/mot-linneuniversitetet/aktuellt/kalender/2025/konferenser/karriardag-teknikbyggardagen-2025/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/karriardag-teknik-2025/karriardag-teknik-hero.jpg",
+        "alt": "Recruiters and students networking beside the Karriärdag Teknik stands.",
+        "caption": "Växjö campus fair floor buzzing with conversations between visitors and companies."
       }
     ]
   },
@@ -192,7 +664,134 @@
       },
       {
         "key": "event-february-programming-language",
-        "text": "Languages: Swedish (support in English)"
+        "text": "Languages: Swedish & English"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "alt": "Children collaborating on Scratch projects during the programming course for kids."
+    },
+    "highlightsHeading": {
+      "key": "event-kids-programming-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-kids-programming-highlight-1",
+        "text": "Scratch programming course for children aged 10–12."
+      },
+      {
+        "key": "event-kids-programming-highlight-2",
+        "text": "Delivered by TeMa Linné together with Kodcentrum."
+      },
+      {
+        "key": "event-kids-programming-highlight-3",
+        "text": "Supported by Linnaeus University students plus new industry and community partners."
+      },
+      {
+        "key": "event-kids-programming-highlight-4",
+        "text": "Offered in both Swedish and English to welcome all participants."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-kids-programming-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-kids-programming-overview-1",
+        "text": "During school holidays, TeMa Linné invites children aged 10–12 to an introductory Scratch course built on Kodcentrum’s learning material and led by skilled student instructors."
+      },
+      {
+        "key": "event-kids-programming-overview-2",
+        "text": "Successful sessions throughout 2023–2024 sparked new collaborations with local companies and community organizations, allowing the course to keep growing."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-kids-programming-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-kids-programming-activity-1",
+        "text": "Hands-on Scratch programming sessions that build logic, creativity, and problem-solving skills."
+      },
+      {
+        "key": "event-kids-programming-activity-2",
+        "text": "Guided instruction from student leaders from the Department of Computer Science and Media Technology."
+      },
+      {
+        "key": "event-kids-programming-activity-3",
+        "text": "Inspirational visits and Q&As with developers from Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-activity-4",
+        "text": "Mixed-language teaching (Swedish and English) so every participant feels included."
+      },
+      {
+        "key": "event-kids-programming-activity-5",
+        "text": "Opportunities for children to explore campus and meet university student role models."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-kids-programming-instructors-heading",
+      "text": "Instructors & partners"
+    },
+    "schedule": [
+      {
+        "key": "event-kids-programming-instructors-1",
+        "text": "Course leaders: Shota Napetvaridze, Maria Ihrmark, and Floris van Der Staaij."
+      },
+      {
+        "key": "event-kids-programming-instructors-2",
+        "text": "Industry partners: Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-instructors-3",
+        "text": "Community collaborators: Araby Park Arena and Centrumskolan in Växjö."
+      },
+      {
+        "key": "event-kids-programming-instructors-4",
+        "text": "Content provider: Kodcentrum, together with TeMa Linné’s student instructors."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-kids-programming-participation-heading",
+      "text": "Additional notes"
+    },
+    "participation": [
+      {
+        "key": "event-kids-programming-participation-1",
+        "text": "Collaborations with Araby Park Arena inspired deeper Scratch workshops and campus visits."
+      },
+      {
+        "key": "event-kids-programming-participation-2",
+        "text": "Next course opportunity is planned for the upcoming school break (Påsklovet)."
+      },
+      {
+        "key": "event-kids-programming-participation-3",
+        "text": "Extra learning resources are available at Kodboken.se for children who want to keep coding at home."
+      },
+      {
+        "key": "event-kids-programming-participation-4",
+        "text": "Read more: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/lyckat-samarbete-pa-programmeringskurs-for-barn/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
+        "caption": "Small-group coaching builds creativity before moving into the lab."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Participant sharing a Scratch project on a laptop with the group.",
+        "caption": "Hands-on labs let every child present their own project."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Kids collaborating around computers during the programming course.",
+        "caption": "TeMa Linné tutors support each participant throughout the session."
       }
     ]
   },
@@ -349,6 +948,100 @@
         "key": "event-oppet-hus-kalmar-language",
         "text": "Languages: Swedish (support in English)"
       }
+    ],
+    "highlightsHeading": {
+      "key": "event-openhouse-kalmar-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-openhouse-kalmar-highlight-1",
+        "text": "Meet university staff, students, and study counsellors on Kalmar campus."
+      },
+      {
+        "key": "event-openhouse-kalmar-highlight-2",
+        "text": "Explore programmes through inspirational sessions, info talks, and hands-on activities."
+      },
+      {
+        "key": "event-openhouse-kalmar-highlight-3",
+        "text": "Fair area open all day with opportunities to ask about student life, housing, and admissions."
+      },
+      {
+        "key": "event-openhouse-kalmar-highlight-4",
+        "text": "Campus-wide tours and programme showcases running throughout the event."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-openhouse-kalmar-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-openhouse-kalmar-overview-1",
+        "text": "On 4 March 2026, Linnaeus University invites prospective students to Kalmar campus for Öppet hus to inspire and inform future applicants."
+      },
+      {
+        "key": "event-openhouse-kalmar-overview-2",
+        "text": "Visitors can join talks, explore learning environments, meet current students, and get answers about programmes, applications, and student life."
+      },
+      {
+        "key": "event-openhouse-kalmar-overview-3",
+        "text": "The fair runs 09.00–14.00 with inspirational sessions, general info talks, tours, and activities scheduled across campus."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-openhouse-kalmar-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-openhouse-kalmar-activity-1",
+        "text": "Inspirational programme sessions led by teachers, students, and staff."
+      },
+      {
+        "key": "event-openhouse-kalmar-activity-2",
+        "text": "General information sessions about studying at LNU, admissions, and campus services."
+      },
+      {
+        "key": "event-openhouse-kalmar-activity-3",
+        "text": "Guided campus tours showcasing Kalmar’s labs, learning spaces, and programme facilities."
+      },
+      {
+        "key": "event-openhouse-kalmar-activity-4",
+        "text": "Fair area where visitors meet academic departments and university services."
+      },
+      {
+        "key": "event-openhouse-kalmar-activity-5",
+        "text": "Opportunities to talk with current students about their experiences in Kalmar."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-openhouse-kalmar-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-openhouse-kalmar-schedule-1",
+        "text": "Kalmar campus — university fair, presentation rooms, and guided tour starting points."
+      },
+      {
+        "key": "event-openhouse-kalmar-schedule-2",
+        "text": "Faculty buildings and labs hosting activities and programme showcases."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-openhouse-kalmar-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-openhouse-kalmar-participation-1",
+        "text": "More information and updates will be published on the official event page."
+      },
+      {
+        "key": "event-openhouse-kalmar-participation-2",
+        "text": "Learn more: https://lnu.se/mot-linneuniversitetet/aktuellt/kalender/2026/oppet-hus-kalmar/"
+      }
     ]
   },
   {
@@ -387,7 +1080,134 @@
       },
       {
         "key": "event-march-programming-language",
-        "text": "Languages: Swedish (support in English)"
+        "text": "Languages: Swedish & English"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "alt": "Children collaborating on Scratch projects during the programming course for kids."
+    },
+    "highlightsHeading": {
+      "key": "event-kids-programming-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-kids-programming-highlight-1",
+        "text": "Scratch programming course for children aged 10–12."
+      },
+      {
+        "key": "event-kids-programming-highlight-2",
+        "text": "Delivered by TeMa Linné together with Kodcentrum."
+      },
+      {
+        "key": "event-kids-programming-highlight-3",
+        "text": "Supported by Linnaeus University students plus new industry and community partners."
+      },
+      {
+        "key": "event-kids-programming-highlight-4",
+        "text": "Offered in both Swedish and English to welcome all participants."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-kids-programming-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-kids-programming-overview-1",
+        "text": "During school holidays, TeMa Linné invites children aged 10–12 to an introductory Scratch course built on Kodcentrum’s learning material and led by skilled student instructors."
+      },
+      {
+        "key": "event-kids-programming-overview-2",
+        "text": "Successful sessions throughout 2023–2024 sparked new collaborations with local companies and community organizations, allowing the course to keep growing."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-kids-programming-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-kids-programming-activity-1",
+        "text": "Hands-on Scratch programming sessions that build logic, creativity, and problem-solving skills."
+      },
+      {
+        "key": "event-kids-programming-activity-2",
+        "text": "Guided instruction from student leaders from the Department of Computer Science and Media Technology."
+      },
+      {
+        "key": "event-kids-programming-activity-3",
+        "text": "Inspirational visits and Q&As with developers from Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-activity-4",
+        "text": "Mixed-language teaching (Swedish and English) so every participant feels included."
+      },
+      {
+        "key": "event-kids-programming-activity-5",
+        "text": "Opportunities for children to explore campus and meet university student role models."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-kids-programming-instructors-heading",
+      "text": "Instructors & partners"
+    },
+    "schedule": [
+      {
+        "key": "event-kids-programming-instructors-1",
+        "text": "Course leaders: Shota Napetvaridze, Maria Ihrmark, and Floris van Der Staaij."
+      },
+      {
+        "key": "event-kids-programming-instructors-2",
+        "text": "Industry partners: Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-instructors-3",
+        "text": "Community collaborators: Araby Park Arena and Centrumskolan in Växjö."
+      },
+      {
+        "key": "event-kids-programming-instructors-4",
+        "text": "Content provider: Kodcentrum, together with TeMa Linné’s student instructors."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-kids-programming-participation-heading",
+      "text": "Additional notes"
+    },
+    "participation": [
+      {
+        "key": "event-kids-programming-participation-1",
+        "text": "Collaborations with Araby Park Arena inspired deeper Scratch workshops and campus visits."
+      },
+      {
+        "key": "event-kids-programming-participation-2",
+        "text": "Next course opportunity is planned for the upcoming school break (Påsklovet)."
+      },
+      {
+        "key": "event-kids-programming-participation-3",
+        "text": "Extra learning resources are available at Kodboken.se for children who want to keep coding at home."
+      },
+      {
+        "key": "event-kids-programming-participation-4",
+        "text": "Read more: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/lyckat-samarbete-pa-programmeringskurs-for-barn/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
+        "caption": "Small-group coaching builds creativity before moving into the lab."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Participant sharing a Scratch project on a laptop with the group.",
+        "caption": "Hands-on labs let every child present their own project."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Kids collaborating around computers during the programming course.",
+        "caption": "TeMa Linné tutors support each participant throughout the session."
       }
     ]
   },
@@ -403,11 +1223,148 @@
     "details": [
       {
         "key": "event-science-linne-location",
-        "text": "Location: Kalmar & Växjö campuses"
+        "text": "Location: Växjö campus"
       },
       {
         "key": "event-science-linne-language",
         "text": "Languages: Swedish (information in English available)"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/science-linne-2026/sciencecity2304218.jpg",
+      "alt": "Families exploring hands-on science experiments during Science Linné."
+    },
+    "highlightsHeading": {
+      "key": "event-science-linne-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-science-linne-highlight-1",
+        "text": "Annual science and technology festival attracting over 1,000 visitors."
+      },
+      {
+        "key": "event-science-linne-highlight-2",
+        "text": "Hands-on experiments, demonstrations, and challenges for students and the public."
+      },
+      {
+        "key": "event-science-linne-highlight-3",
+        "text": "Exhibitors from Linnaeus University and regional tech companies."
+      },
+      {
+        "key": "event-science-linne-highlight-4",
+        "text": "Activities across LEGO engineering, robotics, biology, VR, and structural engineering."
+      },
+      {
+        "key": "event-science-linne-highlight-5",
+        "text": "Designed to spark curiosity for technology, natural sciences, and mathematics."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-science-linne-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-science-linne-overview-1",
+        "text": "Science City transforms the Växjö campus into a vibrant environment filled with technology, science, and excitement."
+      },
+      {
+        "key": "event-science-linne-overview-2",
+        "text": "The latest edition drew more than 1,000 visitors who explored interactive stations, live demonstrations, and creative challenges."
+      },
+      {
+        "key": "event-science-linne-overview-3",
+        "text": "Exhibitors included LNU departments and regional companies showing everything from robotics to environmental science."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-science-linne-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-science-linne-activity-1",
+        "text": "Full-scale LEGO Volvo V70 exhibited by David Gustafsson, winner of LEGO Masters Sverige."
+      },
+      {
+        "key": "event-science-linne-activity-2",
+        "text": "Engineering challenges: build-a-catapult stations, 3D virtual airplanes, and remote-controlled car testing."
+      },
+      {
+        "key": "event-science-linne-activity-3",
+        "text": "Creative making: turning wooden apples, building structures, and testing math magic tricks."
+      },
+      {
+        "key": "event-science-linne-activity-4",
+        "text": "Science exploration: observing algae through microscopes and tasting algae smoothies."
+      },
+      {
+        "key": "event-science-linne-activity-5",
+        "text": "Technology showcases: industrial robots, student-built dance mats, and VR experiences of student life."
+      },
+      {
+        "key": "event-science-linne-activity-6",
+        "text": "“Starkast vinner!” bridge-building competition with wooden bridges holding over 40 kg."
+      },
+      {
+        "key": "event-science-linne-activity-7",
+        "text": "Morning entry for pre-booked grade 5–9 groups; afternoon open to upper-secondary students and the public."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-science-linne-partners-heading",
+      "text": "Partners & collaborators"
+    },
+    "schedule": [
+      {
+        "key": "event-science-linne-partners-1",
+        "text": "Organized by Linnaeus University with Epic, sponsored by Teknikcollege and Växjö kommun."
+      },
+      {
+        "key": "event-science-linne-partners-2",
+        "text": "Powered by university staff, student volunteers, and regional tech companies."
+      },
+      {
+        "key": "event-science-linne-partners-3",
+        "text": "Project leaders Laure Fournier and Katrin Lindwall highlight the importance of inspiring young people."
+      }
+    ],
+    "keyLocationsHeading": {
+      "key": "event-science-linne-locations-heading",
+      "text": "Key locations"
+    },
+    "keyLocations": [
+      {
+        "key": "event-science-linne-location-1",
+        "text": "Växjö campus — multiple buildings and open areas hosting exhibition booths, workshops, and demonstrations."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-science-linne-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-science-linne-participation-1",
+        "text": "More information and photos: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2023/dricka-alger-bygga-broar-och-svarva-applen--science-city-gav-manga-smakprov-for-den-teknikintresserade/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/science-linne-2026/sciencecity23042113.jpg",
+        "alt": "Young visitors programming robots together with student ambassadors.",
+        "caption": "Robotics stations invite curious minds to test automation and coding."
+      },
+      {
+        "src": "assets/events/science-linne-2026/sciencecity23042117.jpg",
+        "alt": "Participants experimenting with engineering challenges inside the expo hall.",
+        "caption": "Interactive build stations encourage teamwork and creative problem solving."
+      },
+      {
+        "src": "assets/events/science-linne-2026/sciencecity23042120.jpg",
+        "alt": "Attendees wearing VR headsets to explore immersive learning experiences.",
+        "caption": "VR demos showcase future study environments and student projects."
       }
     ]
   },
@@ -427,7 +1384,134 @@
       },
       {
         "key": "event-june-programming-language",
-        "text": "Languages: Swedish (support in English)"
+        "text": "Languages: Swedish & English"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "alt": "Children collaborating on Scratch projects during the programming course for kids."
+    },
+    "highlightsHeading": {
+      "key": "event-kids-programming-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-kids-programming-highlight-1",
+        "text": "Scratch programming course for children aged 10–12."
+      },
+      {
+        "key": "event-kids-programming-highlight-2",
+        "text": "Delivered by TeMa Linné together with Kodcentrum."
+      },
+      {
+        "key": "event-kids-programming-highlight-3",
+        "text": "Supported by Linnaeus University students plus new industry and community partners."
+      },
+      {
+        "key": "event-kids-programming-highlight-4",
+        "text": "Offered in both Swedish and English to welcome all participants."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-kids-programming-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-kids-programming-overview-1",
+        "text": "During school holidays, TeMa Linné invites children aged 10–12 to an introductory Scratch course built on Kodcentrum’s learning material and led by skilled student instructors."
+      },
+      {
+        "key": "event-kids-programming-overview-2",
+        "text": "Successful sessions throughout 2023–2024 sparked new collaborations with local companies and community organizations, allowing the course to keep growing."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-kids-programming-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-kids-programming-activity-1",
+        "text": "Hands-on Scratch programming sessions that build logic, creativity, and problem-solving skills."
+      },
+      {
+        "key": "event-kids-programming-activity-2",
+        "text": "Guided instruction from student leaders from the Department of Computer Science and Media Technology."
+      },
+      {
+        "key": "event-kids-programming-activity-3",
+        "text": "Inspirational visits and Q&As with developers from Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-activity-4",
+        "text": "Mixed-language teaching (Swedish and English) so every participant feels included."
+      },
+      {
+        "key": "event-kids-programming-activity-5",
+        "text": "Opportunities for children to explore campus and meet university student role models."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-kids-programming-instructors-heading",
+      "text": "Instructors & partners"
+    },
+    "schedule": [
+      {
+        "key": "event-kids-programming-instructors-1",
+        "text": "Course leaders: Shota Napetvaridze, Maria Ihrmark, and Floris van Der Staaij."
+      },
+      {
+        "key": "event-kids-programming-instructors-2",
+        "text": "Industry partners: Sigma Technology AB and Softhouse."
+      },
+      {
+        "key": "event-kids-programming-instructors-3",
+        "text": "Community collaborators: Araby Park Arena and Centrumskolan in Växjö."
+      },
+      {
+        "key": "event-kids-programming-instructors-4",
+        "text": "Content provider: Kodcentrum, together with TeMa Linné’s student instructors."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-kids-programming-participation-heading",
+      "text": "Additional notes"
+    },
+    "participation": [
+      {
+        "key": "event-kids-programming-participation-1",
+        "text": "Collaborations with Araby Park Arena inspired deeper Scratch workshops and campus visits."
+      },
+      {
+        "key": "event-kids-programming-participation-2",
+        "text": "Next course opportunity is planned for the upcoming school break (Påsklovet)."
+      },
+      {
+        "key": "event-kids-programming-participation-3",
+        "text": "Extra learning resources are available at Kodboken.se for children who want to keep coding at home."
+      },
+      {
+        "key": "event-kids-programming-participation-4",
+        "text": "Read more: https://lnu.se/mot-linneuniversitetet/aktuellt/nyheter/2024/lyckat-samarbete-pa-programmeringskurs-for-barn/"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
+        "caption": "Small-group coaching builds creativity before moving into the lab."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Participant sharing a Scratch project on a laptop with the group.",
+        "caption": "Hands-on labs let every child present their own project."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Kids collaborating around computers during the programming course.",
+        "caption": "TeMa Linné tutors support each participant throughout the session."
       }
     ]
   }
