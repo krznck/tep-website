@@ -5,7 +5,7 @@ const translations = {
         "about-description": "We are a group of students who take part in different projects at the university. We help other students as Teaching Assistants in Lab Sessions, we contribute to the current research going on at the university, and support the community work that is done to interest more people in computer science and programming.",
         "header-projects": "Projects",
         "header-events": "Events",
-        "header-aboutUs": "US",
+        "header-aboutUs": "About Us",
         "header-english": "English",
         "header-swedish": "Swedish",
         "TEP-description": "Discover flexible roles that blend teaching support, research practice, and outreach while you study at Linnaeus University.",

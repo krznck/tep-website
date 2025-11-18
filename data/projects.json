@@ -147,6 +147,7 @@
     "date": "2025-01-10",
     "description": "This study examines Python library tools designed\nfor temporal networks under criteria such as how well-documented they are,\nwhat they can do, community support, and popularity, among others.",
     "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
     "members": [
       8
     ],
@@ -163,6 +164,7 @@
     "date": "2025-06-03",
     "description": "This study investigates the effectiveness of advanced deep learning models, based on stacked and bidirectional LSTM\nand transformer-based, in predicting energy use based on time series data collected\nfrom a residential environment. In addition, we investigate the effects of histori-\ncal training window size and seasonal variability on energy consumption prediction.\nMultiple input window lengths were used in the four seasons: Spring, Summer, Fall,\nand Winter.",
     "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
     "members": [
       8
     ],
@@ -187,6 +189,7 @@
     "date": "2025-09-20",
     "description": "AIS-LLM is an ongoing research project which integrates time-series AIS data with a large language model (LLM).",
     "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
     "members": [
       8
     ],
