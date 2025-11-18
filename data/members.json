@@ -2,13 +2,17 @@
   "current": [
     {
       "id": 1,
+      "slug": "meichen-ji",
       "name": "Meichen Ji",
       "photo": "./assets/members_pic/meichen-ji.png",
       "programName": "Software Technology",
       "degreeLevel": "Master",
       "yearOfStudy": "1",
       "description": "Hi, I am Meichen Ji, a first-year Master's student in Software Technology at LNU. Now I am TA for the course 1DT301 Computer Technolgy.",
-      "projects": [1, 2],
+      "projects": [
+        1,
+        2
+      ],
       "translations": {
         "sv": {
           "programName": "Mjukvaruteknik",
@@ -19,13 +23,16 @@
     },
     {
       "id": 2,
+      "slug": "yan-song",
       "name": "Yan Song",
       "photo": "./assets/members_pic/yan-song.jpg",
       "programName": "Software Technology",
       "degreeLevel": "Master",
       "yearOfStudy": "1",
       "description": "Hi! I have completed my bachelor’s program at LNU in 2024, and now I am a master’s student here at LNU. Currently I work as TA for the course 1DT301 Computer Technology 1.",
-      "projects": [1],
+      "projects": [
+        1
+      ],
       "translations": {
         "sv": {
           "programName": "Mjukvaruteknik",
@@ -51,7 +58,10 @@
         "Student support",
         "Machine Learning"
       ],
-      "projects": [1, 2],
+      "projects": [
+        1,
+        2
+      ],
       "translations": {
         "sv": {
           "title": "Labbassistent & student i mjukvaruteknik",
@@ -84,7 +94,10 @@
         "Data Science",
         "Student support"
       ],
-      "projects": [1, 2],
+      "projects": [
+        1,
+        2
+      ],
       "translations": {
         "sv": {
           "title": "Lärarassistent och datavetenskapsstudent",
@@ -102,6 +115,7 @@
     },
     {
       "id": 5,
+      "slug": "dr.-claudio-linhares",
       "name": "Dr. Claudio Linhares",
       "photo": "./assets/members_pic/claudio-linhares.jpg",
       "programName": "Department of Computer Science and Media Technology",
@@ -116,46 +130,196 @@
           "description": "Dr. Claudio Linhares är universitetslektor vid Linnéuniversitetet, vid Institutionen för datavetenskap och medieteknik, Tekniska fakulteten, i Växjö, Sverige."
         }
       }
+    },
+    {
+      "id": 6,
+      "slug": "maciej-jan-korzenecki",
+      "name": "Maciej Jan Korzenecki",
+      "photo": "./assets/members_pic/maciej-jan-korzenecki.jpg",
+      "title": "Teaching Assistant & Software Technology Student",
+      "programName": "Software Technology",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Currently working with an eye-tracker as a long-term project while simultaneously helping the department with teaching assistant duties and community outreach. Into programming and computer stuff enough to call it a hobby.",
+      "projects": [
+        4
+      ],
+      "translations": {
+        "sv": {
+          "title": "Amanuens och programvaruteknikstudent",
+          "programName": "Programvaruteknik",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Arbetar för närvarande med en ögonspårare som ett långsiktigt projekt samtidigt som jag hjälper avdelningen med undervisningsassistentuppgifter och samhällsengagemang. Intresserad av programmering och datorer tillräckligt mycket för att kalla det ett hobby."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "slug": "hanna-szalai",
+      "name": "Hanna Szalai",
+      "photo": "./assets/members_pic/hanna-szalai.jpg",
+      "title": "Teaching Assistant & Software Technology Student",
+      "programName": "Software Technology",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Hey! I'm Hanna, a last-year Software Technology student at LNU. I am TA for the courses Introduction to Programming with Python and Database Technology.",
+      "projects": [
+        1,
+        3
+      ],
+      "translations": {
+        "sv": {
+          "title": "Amanuens och programvaruteknikstudent",
+          "programName": "Programvaruteknik",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej! Jag heter Hanna och är sistaårsstudent i mjukvaruteknik på LNU. Jag är assistent för kurserna Introduktion till programmering med Python och Databasteknik."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "slug": "martim-oliveira",
+      "name": "Martim Oliveira",
+      "photo": "./assets/members_pic/MartimOlv.png",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Software Technology",
+      "degreeLevel": "Master",
+      "yearOfStudy": "1",
+      "description": "I am Martim Oliveira and I am currently on my Masters Programme in Software Technology. Focusing my career in Deep Learning, LLM and NLP. I have been working on different Machine Learning research projects, focused on the intersection of Deep Learning models with LLMs.",
+      "focusAreas": [
+        "Deep Learning",
+        "LLMs",
+        "RAG",
+        "Backend",
+        "and MLOps"
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Mjukvaruteknik",
+          "degreeLevel": "Masterprogram",
+          "focusAreas": [
+            "Djupinlärning",
+            "LLM",
+            "RAG",
+            "Backend och MLOps"
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "slug": "arseny-isaev",
+      "name": "Arseny Isaev",
+      "photo": "./assets/members_pic/arseny_i.png",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Software Technology",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "2",
+      "description": "Studying Software Technology, TA for Python 1 & 2, and working on an indoor greenhouse project",
+      "projects": [
+        1,
+        3
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Mjukvaruteknik",
+          "degreeLevel": "Kandidatprogram"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "slug": "michelle-weber",
+      "name": "Michelle Weber",
+      "photo": "./assets/members_pic/michelle_passfoto.jpg",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Network Security",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "2",
+      "description": "I'm Michelle Weber and I'm currently studying Network Security. I work as a TA for Python 1 & 2, and also so various Community Outreach Activities like teaching programming to kids.",
+      "projects": [
+        1
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Nätverksäkerhet",
+          "degreeLevel": "Kandidatprogram"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "slug": "alina-schwertfeger",
+      "name": "Alina Schwertfeger",
+      "photo": "./assets/members_pic/Alina-Schwertfeger.jpg",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Network Security",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Hey! I am Alina Schwertfeger, a third year Network Security Student. I work as a TA for 1DV501 and 1DV505",
+      "projects": [
+        1
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Nätverksäkerhet",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej! Jag är Alina Schwertfeger och jag går min tredje år på nätverksäkerhet vid Linnéuniversitetet. Just nu jobbar jag som labbassistent för kurserna 1DV501 och 1DV505"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "slug": "fatimah-olamide-ibrahim",
+      "name": "Fatimah Olamide Ibrahim",
+      "photo": "./assets/members_pic/fatimah-ibrahim.JPG",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Network Security",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Hi, I’m Fatimah Olamide Ibrahim, a third-year Network Security student. I’m currently working on a VR visualization project and also serving as a teaching assistant for the course 1DV505.",
+      "projects": [
+        11
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Nätverksäkerhet",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej, jag heter Fatimah Olamide Ibrahim, och jag studerar nätverkssäkerhet i mitt tredje år. Just nu arbetar jag med ett VR-visualiseringsprojekt och är även lärarassistent i kursen 1DV505."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "slug": "danial-gholamian",
+      "name": "Danial Gholamian",
+      "photo": "./assets/members_pic/user-placeholder.jpg",
+      "title": "Teaching Assistant & Computer Science Student",
+      "programName": "Network Security",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "projects": [
+        11
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Nätverksäkerhet",
+          "degreeLevel": "Kandidatprogram"
+        }
+      }
     }
   ],
   "alumni": [
     {
       "id": 101,
-      "name": "Example Alumni Member",
-      "photo": "./assets/members_pic/user-placeholder.jpg",
+      "slug": "petra-horváth",
+      "name": "Petra Horváth",
+      "photo": "./assets/members_pic/petra-horvath.jpg",
       "programName": "Software Technology",
-      "degreeLevel": "Master",
-      "yearOfStudy": "2024",
-      "description": "Focused on outreach and inclusive programming workshops while at TEP.",
-      "projects": [1],
-      "alumni": true,
-      "translations": {
-        "sv": {
-          "programName": "Mjukvaruteknik",
-          "degreeLevel": "Master",
-          "yearOfStudy": "2024",
-          "description": "Fokuserade på outreach och inkluderande programmeringsworkshops inom TEP."
-        }
-      }
-    },
-    {
-      "id": 102,
-      "name": "Sample Alumni",
-      "photo": "./assets/members_pic/user-placeholder.jpg",
-      "programName": "Computer Science",
       "degreeLevel": "Bachelor",
-      "yearOfStudy": "2023",
-      "description": "Built the first version of the TEP events dashboard.",
-      "alumni": true,
-      "projects": [],
-      "translations": {
-        "sv": {
-          "programName": "Datavetenskap",
-          "degreeLevel": "Kandidat",
-          "yearOfStudy": "2023",
-          "description": "Byggde den första versionen av TEP:s evenemangsdashboard."
-        }
-      }
+      "yearOfStudy": "3.0",
+      "description": "Hi! I used to be a part of TEP for 9 months.",
+      "alumni": true
     }
   ]
 }
