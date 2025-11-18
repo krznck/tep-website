@@ -412,7 +412,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
       "alt": "Children collaborating on Scratch projects during the programming course for kids."
     },
     "highlightsHeading": {
@@ -523,17 +523,17 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "src": "assets/events/kids-programming/kids-programming-mentors.jpg",
         "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
         "caption": "Small-group coaching builds creativity before moving into the lab."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/kids-programming/kids-programming-showcase.jpg",
         "alt": "Participant sharing a Scratch project on a laptop with the group.",
         "caption": "Hands-on labs let every child present their own project."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
         "alt": "Kids collaborating around computers during the programming course.",
         "caption": "TeMa Linné tutors support each participant throughout the session."
       }
@@ -559,7 +559,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+      "src": "assets/events/prao/prao-mentors.jpg",
       "alt": "Linnaeus University mentors guiding PRAO pupils through Scratch activities."
     },
     "highlightsHeading": {
@@ -698,12 +698,12 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/prao/prao-scratch-demo.jpg",
         "alt": "Two pupils presenting a Scratch project while mentors listen.",
         "caption": "Small-group Scratch sessions make it easy to ask questions throughout PRAO week."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/prao/prao-python-lab.jpg",
         "alt": "Students collaborating on laptops during an introductory Python exercise.",
         "caption": "Python practice shows how variables, input, and conditionals work in real time."
       }
@@ -862,11 +862,97 @@
     "details": [
       {
         "key": "event-student-life-talk-location",
-        "text": "Location: Local high schools (details provided upon request)"
+        "text": "Location: Växjö campus · Karriärdag Teknik fair area"
       },
       {
         "key": "event-student-life-talk-language",
         "text": "Languages: Swedish (information in English available)"
+      }
+    ],
+    "highlightsHeading": {
+      "key": "event-student-life-talk-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-student-life-talk-highlight-1",
+        "text": "Informal Q&A with current Linnaeus University students during Career Day in Technology."
+      },
+      {
+        "key": "event-student-life-talk-highlight-2",
+        "text": "Chance for high school visitors to ask about programmes, campus life, and the transition to university."
+      },
+      {
+        "key": "event-student-life-talk-highlight-3",
+        "text": "Real stories about courses, housing, student associations, and everyday life on campus."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-student-life-talk-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-student-life-talk-overview-1",
+        "text": "The Student Life Information Session is a short, conversational event held during Karriärdag Teknik."
+      },
+      {
+        "key": "event-student-life-talk-overview-2",
+        "text": "High school students visiting the career fair meet current LNU students from multiple programmes for honest discussions about studies."
+      },
+      {
+        "key": "event-student-life-talk-overview-3",
+        "text": "Hosts share experiences of courses, campus environment, housing, student associations, and everyday life to help visitors picture their future."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-student-life-talk-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-student-life-talk-activity-1",
+        "text": "Ask questions directly to current university students about programmes and workload."
+      },
+      {
+        "key": "event-student-life-talk-activity-2",
+        "text": "Hear tips about teaching formats, study balance, and transitioning from high school to university."
+      },
+      {
+        "key": "event-student-life-talk-activity-3",
+        "text": "Learn about housing, campus services, student associations, and social life."
+      },
+      {
+        "key": "event-student-life-talk-activity-4",
+        "text": "Explore next steps such as visiting Open House events or applying to programmes."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-student-life-talk-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-student-life-talk-schedule-1",
+        "text": "Växjö campus — hosted in a presentation room or fair area during Karriärdag Teknik."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-student-life-talk-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-student-life-talk-participation-1",
+        "text": "Open to high school groups attending Career Day in Technology."
+      },
+      {
+        "key": "event-student-life-talk-participation-2",
+        "text": "Designed to build confidence and clarity about studying at Linnaeus University."
+      },
+      {
+        "key": "event-student-life-talk-participation-3",
+        "text": "For more information, contact the Career Day organising team."
       }
     ]
   },
@@ -890,7 +976,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+      "src": "assets/events/prao/prao-mentors.jpg",
       "alt": "Linnaeus University mentors guiding PRAO pupils through Scratch activities."
     },
     "highlightsHeading": {
@@ -1029,12 +1115,12 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/prao/prao-scratch-demo.jpg",
         "alt": "Two pupils presenting a Scratch project while mentors listen.",
         "caption": "Small-group Scratch sessions make it easy to ask questions throughout PRAO week."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/prao/prao-python-lab.jpg",
         "alt": "Students collaborating on laptops during an introductory Python exercise.",
         "caption": "Python practice shows how variables, input, and conditionals work in real time."
       }
@@ -1060,7 +1146,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
       "alt": "Children collaborating on Scratch projects during the programming course for kids."
     },
     "highlightsHeading": {
@@ -1171,17 +1257,17 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "src": "assets/events/kids-programming/kids-programming-mentors.jpg",
         "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
         "caption": "Small-group coaching builds creativity before moving into the lab."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/kids-programming/kids-programming-showcase.jpg",
         "alt": "Participant sharing a Scratch project on a laptop with the group.",
         "caption": "Hands-on labs let every child present their own project."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
         "alt": "Kids collaborating around computers during the programming course.",
         "caption": "TeMa Linné tutors support each participant throughout the session."
       }
@@ -1455,6 +1541,10 @@
         "text": "Languages: Swedish (information in English available · women only)"
       }
     ],
+    "heroImage": {
+      "src": "assets/events/igeday-2026/igeday-workshop.webp",
+      "alt": "Participants collaborating during an IGEday workshop at Volvo CE."
+    },
     "highlightsHeading": {
       "key": "event-igeday-highlights-heading",
       "text": "Highlights"
@@ -1576,6 +1666,18 @@
         "key": "event-igeday-participation-6",
         "text": "More information, FAQs, and inspiration from previous years are available on the official website: https://igeday.com."
       }
+    ],
+    "images": [
+      {
+        "src": "assets/events/igeday-2026/igeday-vr.webp",
+        "alt": "Participant testing VR equipment during IGEday.",
+        "caption": "Immersive demos make engineering concepts easier to understand."
+      },
+      {
+        "src": "assets/events/igeday-2026/igeday-mentors.webp",
+        "alt": "Linnaeus University students guiding IGEday visitors.",
+        "caption": "Student mentors from LNU help pupils navigate each activity."
+      }
     ]
   },
   {
@@ -1598,7 +1700,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
       "alt": "Children collaborating on Scratch projects during the programming course for kids."
     },
     "highlightsHeading": {
@@ -1709,17 +1811,17 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "src": "assets/events/kids-programming/kids-programming-mentors.jpg",
         "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
         "caption": "Small-group coaching builds creativity before moving into the lab."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/kids-programming/kids-programming-showcase.jpg",
         "alt": "Participant sharing a Scratch project on a laptop with the group.",
         "caption": "Hands-on labs let every child present their own project."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
         "alt": "Kids collaborating around computers during the programming course.",
         "caption": "TeMa Linné tutors support each participant throughout the session."
       }
@@ -1902,7 +2004,7 @@
       }
     ],
     "heroImage": {
-      "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+      "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
       "alt": "Children collaborating on Scratch projects during the programming course for kids."
     },
     "highlightsHeading": {
@@ -2013,17 +2115,17 @@
     ],
     "images": [
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+        "src": "assets/events/kids-programming/kids-programming-mentors.jpg",
         "alt": "Student mentors guiding children as they plan Scratch stories on paper.",
         "caption": "Small-group coaching builds creativity before moving into the lab."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "src": "assets/events/kids-programming/kids-programming-showcase.jpg",
         "alt": "Participant sharing a Scratch project on a laptop with the group.",
         "caption": "Hands-on labs let every child present their own project."
       },
       {
-        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "src": "assets/events/kids-programming/kids-programming-collaboration.jpg",
         "alt": "Kids collaborating around computers during the programming course.",
         "caption": "TeMa Linné tutors support each participant throughout the session."
       }
