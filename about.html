@@ -9,6 +9,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/shared/pageHero.css">
     <link rel="stylesheet" href="./style/aboutPage/about.css">
     <link rel="stylesheet" href="./style/aboutPage/team.css">
     
@@ -39,30 +40,38 @@
 <body>
     <global-header></global-header>
 
-    <!-- About Us Section -->
-    <div class="about-wrapper">
-        <div class="centered">
-            <div class="about_us_section">
-                <div class="text-container">
-                    <!-- Page Title -->
-                    <h1 class="about_us_title" data-lang="about-title">About Us</h1>
-
-                    <!-- Description -->
-                    <p class="about_us_description" data-lang="about-description">
-                        We are a group of students who take part in different projects at the university.
-                        We help other students as Teaching Assistants in Lab Sessions, we contribute to
-                        the current research going on at the university, and support the community work
-                        that is done to interest more people in computer science and programming.
-                    </p>
+    <section class="page-hero page-hero--calm about-hero">
+        <div class="centered page-hero__inner">
+            <div class="page-hero__content">
+                <span class="page-hero__eyebrow" data-lang="about-hero-eyebrow">Behind TEP</span>
+                <h1 class="page-hero__heading" data-lang="about-title">About Us</h1>
+                <p class="page-hero__lead" data-lang="about-description">
+                    We are a group of students who take part in different projects at the university.
+                    We help other students as Teaching Assistants in Lab Sessions, we contribute to
+                    the current research going on at the university, and support the community work
+                    that is done to interest more people in computer science and programming.
+                </p>
+                <ul class="about-hero__list">
+                    <li data-lang="about-hero-list-1">Teaching labs &amp; mentoring support</li>
+                    <li data-lang="about-hero-list-2">Outreach events across the university</li>
+                    <li data-lang="about-hero-list-3">Outreach events across Sweden</li>
+                </ul>
+                <div class="page-hero__actions about-hero__actions">
+                    <a class="secondary-button about-hero__projects-button" href="./projects.html">
+                        <span data-lang="hero-cta-secondary">Explore current projects</span>
+                        <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+                            <path d="M5 12h14m0 0-5-5m5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
                 </div>
-
-                <!-- Placeholder Divs for Additional Content -->
-                <div class="image-container">
-                    <img class="about_us_team_image" src="assets/aboutPage/TEPteam.png" alt="TEP team group photo">
+            </div>
+            <div class="page-hero__visual about-hero__visual">
+                <div class="about-hero__image-frame">
+                    <img class="about-hero__image" src="assets/aboutPage/TEPteam.png" alt="TEP team group photo" loading="lazy">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Team Section -->
     <div class="team-header-wrapper">

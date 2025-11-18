@@ -37,7 +37,7 @@ function renderProjects() {
     const localizedProjects = cachedProjects.map(project => mergeLocalizedFields(project, lang));
 
     createProjectEntries(localizedProjects, lang);
-    updateCarousel(localizedProjects, lang);
+    updateProjectsHero(localizedProjects, lang);
 }
 
 // Function to format date for display
@@ -93,181 +93,61 @@ function createProjectEntries(projects, lang) {
     });
 }
 
-// Update the carousel with project data
-function updateCarousel(projects, lang) {
-    const carouselTrack = document.querySelector('.carousel-track');
-    const navDotsContainer = document.querySelector('.carousel-navigator');
-    
-    if (!carouselTrack || !navDotsContainer) {
-        console.error('Carousel elements not found');
-        return;
+function updateProjectsHero(projects, lang) {
+    const activeCountEl = document.getElementById('project-active-count');
+    if (activeCountEl) {
+        activeCountEl.textContent = projects.length.toString();
     }
-    
-    // Clear existing content
-    carouselTrack.innerHTML = '';
-    navDotsContainer.innerHTML = '';
-    
-    // Create new carousel items
-    projects.forEach((project, index) => {
-        const slide = document.createElement('li');
-        slide.className = 'slide' + (index === 0 ? ' current-slide' : '');
-        const detailUrl = project.slug
-            ? `project.html?slug=${encodeURIComponent(project.slug)}`
-            : `project.html?id=${encodeURIComponent(project.id)}`;
 
-        slide.innerHTML = `
-            <a href="${detailUrl}">
-                <img src="${project.image}" alt="${project.title}">
-                <div class="slide-name">
-                    <h4>${project.title}</h4>
-                </div>
-            </a>
-        `;
-        carouselTrack.appendChild(slide);
-        
-        // Create dot indicator
-        const dot = document.createElement('button');
-        dot.className = 'carousel-indicator' + (index === 0 ? ' current-slide' : '');
-        navDotsContainer.appendChild(dot);
-    });
-    
-    // After all slides are created, set up the carousel
-    setupCarousel();
-}
-
-// Set up carousel functionality after slides are created
-function setupCarousel() {
-    const carousel_track = document.querySelector(".carousel-track");
-    const slides = Array.from(carousel_track.children);
-    const nextButton = document.querySelector(".carousel-button--right");
-    const prevButton = document.querySelector(".carousel-button--left");
-    const navDots = document.querySelector(".carousel-navigator");
-    const dots = Array.from(navDots.children);
-    
-    // Make sure we have slides before proceeding
-    if (slides.length === 0) {
-        console.log("No slides to display");
-        return;
-    }
-    
-    // Get the width of the first slide
-    const slideWidth = slides[0].getBoundingClientRect().width;
-    
-    // Position slides horizontally
-    slides.forEach((slide, index) => {
-        slide.style.left = slideWidth * index + "px";
-    });
-    
-    // Show/hide buttons based on initial state
-    if (slides.length > 1) {
-        nextButton.classList.remove('is-hidden');
-    } else {
-        nextButton.classList.add('is-hidden');
-    }
-    prevButton.classList.add('is-hidden');
-    
-    // Move to a specific slide
-    function moveToSlide(currentSlide, targetSlide) {
-        carousel_track.style.transform = `translateX(-${targetSlide.style.left})`;
-        currentSlide.classList.remove('current-slide');
-        targetSlide.classList.add('current-slide');
-    }
-    
-    // Update the dot indicators
-    function updateDots(currentDot, targetDot) {
-        currentDot.classList.remove('current-slide');
-        targetDot.classList.add('current-slide');
-    }
-    
-    // Update arrow visibility
-    function updateArrows(targetIndex) {
-        if (targetIndex === 0) {
-            prevButton.classList.add('is-hidden');
-            nextButton.classList.remove('is-hidden');
-        } else if (targetIndex === slides.length - 1) {
-            prevButton.classList.remove('is-hidden');
-            nextButton.classList.add('is-hidden');
-        } else {
-            prevButton.classList.remove('is-hidden');
-            nextButton.classList.remove('is-hidden');
+    const memberIds = new Set();
+    projects.forEach(project => {
+        if (Array.isArray(project.members)) {
+            project.members.forEach(memberId => memberIds.add(memberId));
         }
+    });
+    const memberCountEl = document.getElementById('project-member-count');
+    if (memberCountEl) {
+        memberCountEl.textContent = memberIds.size > 0 ? memberIds.size.toString() : '—';
     }
-    
-    // Next button click handler
-    nextButton.addEventListener('click', () => {
-        const currentSlide = carousel_track.querySelector('.current-slide');
-        const nextSlide = currentSlide.nextElementSibling;
-        if (!nextSlide) return;
-        
-        const currentDot = navDots.querySelector('.current-slide');
-        const nextDot = currentDot.nextElementSibling;
-        const nextIndex = slides.indexOf(nextSlide);
-        
-        moveToSlide(currentSlide, nextSlide);
-        updateDots(currentDot, nextDot);
-        updateArrows(nextIndex);
-    });
-    
-    // Previous button click handler
-    prevButton.addEventListener('click', () => {
-        const currentSlide = carousel_track.querySelector('.current-slide');
-        const prevSlide = currentSlide.previousElementSibling;
-        if (!prevSlide) return;
-        
-        const currentDot = navDots.querySelector('.current-slide');
-        const prevDot = currentDot.previousElementSibling;
-        const prevIndex = slides.indexOf(prevSlide);
-        
-        moveToSlide(currentSlide, prevSlide);
-        updateDots(currentDot, prevDot);
-        updateArrows(prevIndex);
-    });
-    
-    // Dot navigation click handler
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            const currentSlide = carousel_track.querySelector('.current-slide');
-            const targetSlide = slides[index];
-            const currentDot = navDots.querySelector('.current-slide');
 
-            moveToSlide(currentSlide, targetSlide);
-            updateDots(currentDot, dot);
-            updateArrows(index);
+    const datedProjects = projects
+        .filter(project => Boolean(project.date))
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    const latestNameEl = document.getElementById('project-latest-name');
+    const latestDateEl = document.getElementById('project-latest-date');
+    if (datedProjects.length > 0 && latestNameEl && latestDateEl) {
+        const latestProject = datedProjects[0];
+        latestNameEl.textContent = latestProject.title;
+        latestDateEl.textContent = formatDate(latestProject.date, lang);
+    } else if (latestNameEl && latestDateEl) {
+        latestNameEl.textContent = lang === 'sv' ? 'Uppdateras' : 'Updating';
+        latestDateEl.textContent = lang === 'sv' ? 'Snart tillgängligt' : 'Available soon';
+    }
+
+    const focusAreas = Array.from(
+        new Set(
+            projects
+                .map(project => project.category)
+                .filter(Boolean)
+        )
+    );
+    const focusList = document.getElementById('project-focus-areas');
+    if (focusList) {
+        focusList.innerHTML = '';
+        if (focusAreas.length === 0) {
+            const fallbackItem = document.createElement('li');
+            fallbackItem.textContent = lang === 'sv' ? 'Detaljer kommer snart' : 'Details coming soon';
+            focusList.appendChild(fallbackItem);
+            return;
+        }
+
+        focusAreas.forEach(area => {
+            const li = document.createElement('li');
+            li.textContent = area;
+            focusList.appendChild(li);
         });
-    });
-
-    // Touch swipe functionality
-    let startX;
-    let endX;
-
-    carousel_track.addEventListener('touchstart', e => {
-        startX = e.touches[0].clientX;
-    });
-
-    carousel_track.addEventListener('touchmove', e => {
-        endX = e.touches[0].clientX;
-    });
-
-    carousel_track.addEventListener('touchend', () => {
-        if (startX == null || endX == null) return;
-
-        const currentSlide = carousel_track.querySelector('.current-slide');
-
-        if (startX > endX + 50) {
-            const nextSlide = currentSlide.nextElementSibling;
-            if (nextSlide) {
-                nextButton.click();
-            }
-        } else if (startX + 50 < endX) {
-            const prevSlide = currentSlide.previousElementSibling;
-            if (prevSlide) {
-                prevButton.click();
-            }
-        }
-
-        startX = null;
-        endX = null;
-    });
+    }
 }
 
 window.addEventListener('languagechange', () => {

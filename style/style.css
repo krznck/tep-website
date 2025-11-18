@@ -32,6 +32,38 @@ body {
     width: 100%;
 }
 
+.primary-button,
+.secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 14px 22px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.primary-button {
+    background-color: var(--lnu-black);
+    color: #fff;
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: var(--lnu-black);
+    border: 2px solid var(--lnu-black);
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    opacity: 0.9;
+}
+
 @media (max-width: 1100px) {
     .centered {
         padding-left: clamp(1rem, 5vw, 2rem);

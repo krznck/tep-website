@@ -1,89 +1,68 @@
-.about-wrapper {
-    background-color: white;
+.about-hero {
+    position: relative;
+    overflow: hidden;
 }
 
-.about_us_section {
-  max-width: 1440px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 75px;
-  gap: 60px;
-  margin: 0 50px;
-  background-image: url('/assets/aboutPage/blob.svg');
-  background-repeat: no-repeat;
-  background-position: 0% 60%;
-  background-size: 375px;
+.about-hero__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
 }
 
-.text-container {
-  width: 50%;
+.about-hero__list li {
+    background: rgba(18, 13, 38, 0.05);
+    border-radius: 16px;
+    padding: 0.85rem 1rem;
+    font-weight: 600;
+    color: var(--lnu-black);
+    border: 1px solid rgba(18, 13, 38, 0.08);
 }
 
-.image-container {
-  background-image: url('/assets/aboutPage/dots_design.svg');
-  background-repeat: no-repeat;  /* Prevents tiling */
-  background-position: bottom left; /* Moves the image to the bottom-left corner */
-  padding: 40px 45px;
-  margin: 30px 0;
+.about-hero__actions {
+    margin-top: 0.5rem;
 }
 
-.about_us_title {
-  font-size: clamp(1.5rem, calc(1.4vw + 1rem), 2.5rem);
-  font-weight: bolder;
-  display: block;
-  word-wrap: break-word;
-  text-wrap: nowrap;
-  margin-bottom: 0;
+.about-hero__projects-button {
+    gap: 0.65rem;
+    font-weight: 600;
 }
 
-.about_us_description {
-  color: var(--lnu-black);
-  flex-direction: column;
-  max-width: 90%;
-  display: block;
-  margin-top: 0;
-  margin-bottom: 100px;
-  font-size: clamp(0.8rem, calc(1vw + 0.3rem), 1.25rem);
-  /* font size from 12.8px to 20px */
+.about-hero__projects-button svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease-in-out;
 }
 
-.about_us_team_image {
-  /* originally width was 350px */
-  max-width: clamp(12.5rem, calc(20vw + 4rem), 21.875rem);
-  /* font size from 200px to 350px */
-  height: auto;
-  border-radius: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+.about-hero__projects-button:hover svg {
+    transform: translateX(4px);
 }
 
-@media (max-width: 850px) {
-  .about_us_section {
+.about-hero__visual {
+    display: flex;
     flex-direction: column;
-    gap: 0;
-    background-position: 0% 20%;
-    background-size: 250px;
-  }
+    gap: 1.5rem;
+    align-items: stretch;
+}
 
-  .about_us_description {
-    margin-bottom: 30px;
-  }
+.about-hero__image-frame {
+    position: relative;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 35px 70px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(18, 13, 38, 0.05);
+}
 
-  .text-container {
+.about-hero__image {
     width: 100%;
-  }
+    display: block;
+    object-fit: cover;
+}
 
-  .image-container {
-    margin-top: 0;
-    background-position: top right;
-    padding: 16px 20px;
-    margin-bottom: 10px;
-  }  
-
-  .about_us_team_image {
-    margin: 0px;
-  }
+@media (max-width: 640px) {
+    .about-hero__list {
+        grid-template-columns: 1fr;
+    }
 }

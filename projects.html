@@ -8,6 +8,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/shared/pageHero.css">
     <link rel="stylesheet" href="./style/projects/projectList.css">
     
     <!-- Our font -->
@@ -32,45 +33,67 @@
 <body>
     <global-header></global-header>
 
-    <div class="project-wrapper">
-        <div class="centered">
-             <!-- Project page section -->
-            <div class="header">
-                <h2 class="title">Project Gallery</h2>
-                <p class="title-desc">Browse through our latest projects and initiatives</p>
-                <div class="slideshow-container">
-                    <button class="carousel-button carousel-button--left is-hidden">
-                        <img src="assets/projects/arrow_left.svg" alt="">
-                    </button>
-                    <div class="carousel-container">
-                        <ul class="carousel-track">
-                            <!-- Placeholder slide that will be replaced -->
-                            <li class="slide current-slide">
-                                <div style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                    <p>Loading projects...</p>
-                                </div>
-                                <div class="slide-name">
-                                    <h4>Loading...</h4>
-                                </div>
-                            </li>
-                        </ul>
+    <main class="projects-page">
+        <section class="page-hero page-hero--sunrise projects-hero">
+            <div class="centered page-hero__inner">
+                <div class="page-hero__content">
+                    <span class="page-hero__eyebrow" data-lang="projects-hero-eyebrow">Projects &amp; Initiatives</span>
+                    <h1 class="page-hero__heading" data-lang="projects-hero-heading">Student-built solutions across LNU.</h1>
+                    <p class="page-hero__lead" data-lang="projects-hero-lead">
+                        Explore how Tutorial Education Program teams support labs, research pilots, and outreach experiences every term.
+                    </p>
+                    <div class="page-hero__actions">
+                        <a class="primary-button" href="#project-container" data-lang="projects-hero-cta-primary">Browse active projects</a>
+                        <a class="secondary-button" href="mailto:info@tep.lnu.se" data-lang="projects-hero-cta-secondary">Pitch a new idea</a>
                     </div>
-                    <button class="carousel-button carousel-button--right is-hidden">
-                        <img src="assets/projects/arrow_right.svg" alt="">
-                    </button>
-                    <div class="carousel-navigator">
-                        <!-- Placeholder indicator -->
-                        <button class="carousel-indicator current-slide"></button>
+                </div>
+                <div class="projects-hero__panel">
+                    <div class="projects-hero__stats">
+                        <article class="page-hero__metric-card">
+                            <p class="page-hero__metric-label" data-lang="projects-hero-stat-active-label">Active projects</p>
+                            <p class="page-hero__metric-value" id="project-active-count">--</p>
+                            <p class="page-hero__metric-subtext" data-lang="projects-hero-stat-active-sub">Collaborations this term</p>
+                        </article>
+                        <article class="page-hero__metric-card">
+                            <p class="page-hero__metric-label" data-lang="projects-hero-stat-members-label">Students involved</p>
+                            <p class="page-hero__metric-value" id="project-member-count">--</p>
+                            <p class="page-hero__metric-subtext" data-lang="projects-hero-stat-members-sub">Across Växjö &amp; Kalmar</p>
+                        </article>
+                        <article class="page-hero__metric-card projects-hero__latest">
+                            <p class="page-hero__metric-label" data-lang="projects-hero-latest-label">Latest kickoff</p>
+                            <p class="page-hero__metric-value projects-hero__latest-name" id="project-latest-name">—</p>
+                            <p class="page-hero__metric-subtext" id="project-latest-date">—</p>
+                        </article>
+                    </div>
+                    <div class="projects-hero__pill-group">
+                        <p class="page-hero__pill-label" data-lang="projects-hero-pill-label">Focus areas</p>
+                        <ul class="page-hero__pill-list" id="project-focus-areas">
+                            <li>Lab coaching</li>
+                            <li>Research pilots</li>
+                            <li>Community outreach</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <hr class="black-line">
-            <!-- Container for the projects -->
-            <div class="project-container" id="project-container">
-                <p>Loading projects...</p>
-            </div>  
-        </div>
-    </div>
+        </section>
+
+        <section class="project-wrapper">
+            <div class="centered">
+                <header class="project-section__header">
+                    <div class="project-section__eyebrow" data-lang="projects-library-eyebrow">Project Library</div>
+                    <div>
+                        <h2 class="project-section__title" data-lang="projects-library-title">Browse every initiative</h2>
+                        <p class="project-section__description" data-lang="projects-library-description">
+                            Sorted from most recent. Tap a card to open the detail page, meet the team, and explore the outcomes.
+                        </p>
+                    </div>
+                </header>
+                <div class="project-container" id="project-container">
+                    <p>Loading projects...</p>
+                </div>  
+            </div>
+        </section>
+    </main>
 
     <!-- PROJECT ENTRIES ARE LOADED USING JAVASCRIPT -->
     <script src="./script/projects.js" defer></script>

@@ -154,28 +154,120 @@
     "details": [
       {
         "key": "event-vera-dagen-location",
-        "text": "Location: Volvo (details coming soon)"
+        "text": "Location: Volvo CE, Braås"
       },
       {
         "key": "event-vera-dagen-language",
         "text": "Languages: Swedish (support in English)"
       }
     ],
+    "heroImage": {
+      "src": "assets/events/vera-day-2025/Volvo-logo-2014-1920x1080.png",
+      "alt": "Volvo CE logotype displayed during VERA Day in Braås."
+    },
+    "highlightsHeading": {
+      "key": "event-vera-dagen-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-vera-dagen-highlight-1",
+        "text": "Inspirational tech day for 5th-grade pupils focused on creativity and engineering thinking."
+      },
+      {
+        "key": "event-vera-dagen-highlight-2",
+        "text": "Hosted by Volvo CE in Braås together with participating Linnaeus University students."
+      },
+      {
+        "key": "event-vera-dagen-highlight-3",
+        "text": "Hands-on sessions exploring safety, innovation, VR demos, and introductory coding."
+      },
+      {
+        "key": "event-vera-dagen-highlight-4",
+        "text": "Encourages young girls to stay curious about technology and consider future engineering careers."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-vera-dagen-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-vera-dagen-overview-1",
+        "text": "VERA Day at Volvo is an initiative designed to inspire young girls to explore technology, innovation, and engineering."
+      },
+      {
+        "key": "event-vera-dagen-overview-2",
+        "text": "Volvo CE in Braås welcomes two classes of 5th-grade pupils to learn how engineers think, create, and solve real-world problems."
+      },
+      {
+        "key": "event-vera-dagen-overview-3",
+        "text": "Two students from Linnaeus University join the Volvo team on-site to help facilitate activities and answer questions."
+      },
+      {
+        "key": "event-vera-dagen-overview-4",
+        "text": "The day aims to spark early interest in STEM by showing that technology is creative, meaningful, and accessible to everyone."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-vera-dagen-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-vera-dagen-activity-1",
+        "text": "Innovation challenges such as brainstorming how technology can make traffic safer."
+      },
+      {
+        "key": "event-vera-dagen-activity-2",
+        "text": "Group problem-solving where pupils present ideas to classmates and compare approaches."
+      },
+      {
+        "key": "event-vera-dagen-activity-3",
+        "text": "VR demonstrations that let pupils experience engineering concepts virtually."
+      },
+      {
+        "key": "event-vera-dagen-activity-4",
+        "text": "Introductory coding exercises that highlight logic, creativity, and digital creation."
+      },
+      {
+        "key": "event-vera-dagen-activity-5",
+        "text": "Tech exploration stations showing how Volvo CE engineers design machinery, safety features, and future mobility."
+      },
+      {
+        "key": "event-vera-dagen-activity-6",
+        "text": "Sharing session at the end of the day where pupils present their creative solutions."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-vera-dagen-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-vera-dagen-schedule-1",
+        "text": "Volvo CE, Braås — engineering facilities and activity rooms used for workshops, VR, and innovation sessions."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-vera-dagen-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-vera-dagen-participation-1",
+        "text": "VERA Day is arranged by Volvo CE to promote early interest in engineering among young pupils, especially girls."
+      },
+      {
+        "key": "event-vera-dagen-participation-2",
+        "text": "Two Linnaeus University students assist on-site, supporting workshops and guiding discussions. For more information or photos, contact the organizing team."
+      }
+    ],
     "images": [
       {
-        "src": "assets/events/placeholders/vera-gallery-1.svg",
-        "alt": "Placeholder image of the event",
-        "caption": "Caption placeholder text goes here."
-      },
-      {
-        "src": "assets/events/placeholders/vera-gallery-2.svg",
-        "alt": "Another placeholder event image",
-        "caption": "Another caption placeholder goes here."
-      },
-      {
-        "src": "assets/events/placeholders/vera-gallery-3.svg",
-        "alt": "Third placeholder event image",
-        "caption": "More caption text goes here."
+        "src": "assets/events/vera-day-2025/Volvo-logo-2014-1920x1080.png",
+        "alt": "Volvo CE logotype prepared for VERA Day signage.",
+        "caption": "Branding and onsite signage welcome pupils to VERA Day in Braås."
       }
     ]
   },
@@ -465,6 +557,156 @@
         "key": "event-prao-45-language",
         "text": "Languages: Swedish (support in English)"
       }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+      "alt": "Linnaeus University mentors guiding PRAO pupils through Scratch activities."
+    },
+    "highlightsHeading": {
+      "key": "event-prao-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-prao-highlight-1",
+        "text": "Internship-style visit for pupils in grades 8–9 to explore programming and technology."
+      },
+      {
+        "key": "event-prao-highlight-2",
+        "text": "Small-group teaching sessions with hands-on activities in Scratch and Python."
+      },
+      {
+        "key": "event-prao-highlight-3",
+        "text": "Guided by students and staff from Linnaeus University."
+      },
+      {
+        "key": "event-prao-highlight-4",
+        "text": "Focus on understanding basic programming concepts, problem-solving, and digital thinking."
+      },
+      {
+        "key": "event-prao-highlight-5",
+        "text": "Offered twice per semester with a maximum of two pupils per week."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-prao-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-prao-overview-1",
+        "text": "PRAO Week (Praktisk arbetslivsorientering) gives pupils in grades 8–9 the chance to explore working life and gain insight into technology and programming at Linnaeus University."
+      },
+      {
+        "key": "event-prao-overview-2",
+        "text": "During their visit, pupils take part in structured teaching sessions prepared by LNU students and staff, combining visual programming in Scratch with introductory Python coding."
+      },
+      {
+        "key": "event-prao-overview-3",
+        "text": "The goal is to introduce fundamental concepts in computer science, build confidence in problem-solving, and show young learners what studying or working in the tech field can look like."
+      },
+      {
+        "key": "event-prao-overview-4",
+        "text": "PRAO weeks are hosted twice per semester, with two pupils per week to ensure a personalized learning experience."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-prao-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-prao-activity-1",
+        "text": "Scratch programming basics that build sequences and event-driven thinking."
+      },
+      {
+        "key": "event-prao-activity-2",
+        "text": "Asking for input and storing responses inside Scratch variables."
+      },
+      {
+        "key": "event-prao-activity-3",
+        "text": "Logical comparisons with integer values that drive decisions."
+      },
+      {
+        "key": "event-prao-activity-4",
+        "text": "Using if–else statements to explore multiple outcomes."
+      },
+      {
+        "key": "event-prao-activity-5",
+        "text": "Changing sprites and costumes based on conditions to visualize logic."
+      },
+      {
+        "key": "event-prao-activity-6",
+        "text": "Understanding how the structure of code leads to the on-screen behavior pupils see."
+      },
+      {
+        "key": "event-prao-activity-7",
+        "text": "Guided transition from Scratch concepts to introductory Python."
+      },
+      {
+        "key": "event-prao-activity-8",
+        "text": "Discussing the difference between strings and integers when working with data."
+      },
+      {
+        "key": "event-prao-activity-9",
+        "text": "Taking user input and storing it in Python variables."
+      },
+      {
+        "key": "event-prao-activity-10",
+        "text": "Printing and combining text with numeric values inside Python programs."
+      },
+      {
+        "key": "event-prao-activity-11",
+        "text": "Writing simple conditional statements in Python using if/else."
+      },
+      {
+        "key": "event-prao-activity-12",
+        "text": "Reading and interpreting basic error messages together with mentors."
+      },
+      {
+        "key": "event-prao-activity-13",
+        "text": "Introduction to debugging techniques that help pupils fix mistakes."
+      },
+      {
+        "key": "event-prao-activity-14",
+        "text": "Every session starts with a short concept presentation followed by hands-on practice."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-prao-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-prao-schedule-1",
+        "text": "Linnaeus University, Växjö campus — teaching labs and learning environments used for introductory programming workshops."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-prao-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-prao-participation-1",
+        "text": "PRAO Week is intended for pupils in grades 8–9 as part of their practical workplace orientation period."
+      },
+      {
+        "key": "event-prao-participation-2",
+        "text": "Participation is arranged together with schools, and each PRAO period hosts two pupils for tailored instruction."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Two pupils presenting a Scratch project while mentors listen.",
+        "caption": "Small-group Scratch sessions make it easy to ask questions throughout PRAO week."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Students collaborating on laptops during an introductory Python exercise.",
+        "caption": "Python practice shows how variables, input, and conditionals work in real time."
+      }
     ]
   },
   {
@@ -645,6 +887,156 @@
       {
         "key": "event-prao-47-language",
         "text": "Languages: Swedish (support in English)"
+      }
+    ],
+    "heroImage": {
+      "src": "assets/events/kids-programming-oct-2025/IMG_1183.JPG",
+      "alt": "Linnaeus University mentors guiding PRAO pupils through Scratch activities."
+    },
+    "highlightsHeading": {
+      "key": "event-prao-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-prao-highlight-1",
+        "text": "Internship-style visit for pupils in grades 8–9 to explore programming and technology."
+      },
+      {
+        "key": "event-prao-highlight-2",
+        "text": "Small-group teaching sessions with hands-on activities in Scratch and Python."
+      },
+      {
+        "key": "event-prao-highlight-3",
+        "text": "Guided by students and staff from Linnaeus University."
+      },
+      {
+        "key": "event-prao-highlight-4",
+        "text": "Focus on understanding basic programming concepts, problem-solving, and digital thinking."
+      },
+      {
+        "key": "event-prao-highlight-5",
+        "text": "Offered twice per semester with a maximum of two pupils per week."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-prao-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-prao-overview-1",
+        "text": "PRAO Week (Praktisk arbetslivsorientering) gives pupils in grades 8–9 the chance to explore working life and gain insight into technology and programming at Linnaeus University."
+      },
+      {
+        "key": "event-prao-overview-2",
+        "text": "During their visit, pupils take part in structured teaching sessions prepared by LNU students and staff, combining visual programming in Scratch with introductory Python coding."
+      },
+      {
+        "key": "event-prao-overview-3",
+        "text": "The goal is to introduce fundamental concepts in computer science, build confidence in problem-solving, and show young learners what studying or working in the tech field can look like."
+      },
+      {
+        "key": "event-prao-overview-4",
+        "text": "PRAO weeks are hosted twice per semester, with two pupils per week to ensure a personalized learning experience."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-prao-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-prao-activity-1",
+        "text": "Scratch programming basics that build sequences and event-driven thinking."
+      },
+      {
+        "key": "event-prao-activity-2",
+        "text": "Asking for input and storing responses inside Scratch variables."
+      },
+      {
+        "key": "event-prao-activity-3",
+        "text": "Logical comparisons with integer values that drive decisions."
+      },
+      {
+        "key": "event-prao-activity-4",
+        "text": "Using if–else statements to explore multiple outcomes."
+      },
+      {
+        "key": "event-prao-activity-5",
+        "text": "Changing sprites and costumes based on conditions to visualize logic."
+      },
+      {
+        "key": "event-prao-activity-6",
+        "text": "Understanding how the structure of code leads to the on-screen behavior pupils see."
+      },
+      {
+        "key": "event-prao-activity-7",
+        "text": "Guided transition from Scratch concepts to introductory Python."
+      },
+      {
+        "key": "event-prao-activity-8",
+        "text": "Discussing the difference between strings and integers when working with data."
+      },
+      {
+        "key": "event-prao-activity-9",
+        "text": "Taking user input and storing it in Python variables."
+      },
+      {
+        "key": "event-prao-activity-10",
+        "text": "Printing and combining text with numeric values inside Python programs."
+      },
+      {
+        "key": "event-prao-activity-11",
+        "text": "Writing simple conditional statements in Python using if/else."
+      },
+      {
+        "key": "event-prao-activity-12",
+        "text": "Reading and interpreting basic error messages together with mentors."
+      },
+      {
+        "key": "event-prao-activity-13",
+        "text": "Introduction to debugging techniques that help pupils fix mistakes."
+      },
+      {
+        "key": "event-prao-activity-14",
+        "text": "Every session starts with a short concept presentation followed by hands-on practice."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-prao-schedule-heading",
+      "text": "Key locations"
+    },
+    "schedule": [
+      {
+        "key": "event-prao-schedule-1",
+        "text": "Linnaeus University, Växjö campus — teaching labs and learning environments used for introductory programming workshops."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-prao-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-prao-participation-1",
+        "text": "PRAO Week is intended for pupils in grades 8–9 as part of their practical workplace orientation period."
+      },
+      {
+        "key": "event-prao-participation-2",
+        "text": "Participation is arranged together with schools, and each PRAO period hosts two pupils for tailored instruction."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_1187.JPG",
+        "alt": "Two pupils presenting a Scratch project while mentors listen.",
+        "caption": "Small-group Scratch sessions make it easy to ask questions throughout PRAO week."
+      },
+      {
+        "src": "assets/events/kids-programming-oct-2025/IMG_2643.jpg",
+        "alt": "Students collaborating on laptops during an introductory Python exercise.",
+        "caption": "Python practice shows how variables, input, and conditionals work in real time."
       }
     ]
   },
@@ -1061,6 +1453,128 @@
       {
         "key": "event-igeday-language",
         "text": "Languages: Swedish (information in English available · women only)"
+      }
+    ],
+    "highlightsHeading": {
+      "key": "event-igeday-highlights-heading",
+      "text": "Highlights"
+    },
+    "highlights": [
+      {
+        "key": "event-igeday-highlight-1",
+        "text": "National initiative introducing girls and non-binary youth to life as an engineer."
+      },
+      {
+        "key": "event-igeday-highlight-2",
+        "text": "Participants aged 13–19 get hands-on experiences at real engineering workplaces across Sweden."
+      },
+      {
+        "key": "event-igeday-highlight-3",
+        "text": "Company participation is open to organizations with at least one woman engineer."
+      },
+      {
+        "key": "event-igeday-highlight-4",
+        "text": "Supported and organized by the Womengineer Foundation."
+      },
+      {
+        "key": "event-igeday-highlight-5",
+        "text": "Focus on empowering young people to explore engineering and choose their future with confidence."
+      }
+    ],
+    "overviewHeading": {
+      "key": "event-igeday-overview-heading",
+      "text": "Overview"
+    },
+    "overview": [
+      {
+        "key": "event-igeday-overview-1",
+        "text": "IGEday is a nationwide event where girls and non-binary individuals aged 13–19 explore what it's like to work as an engineer while companies across Sweden host interactive sessions, workshops, and hands-on activities."
+      },
+      {
+        "key": "event-igeday-overview-2",
+        "text": "The next IGEday takes place on March 20, 2026, with participant registration opening on January 7."
+      },
+      {
+        "key": "event-igeday-overview-3",
+        "text": "The initiative inspires young people to view engineering as an exciting, accessible career path, with recurring hosts such as Siemens Energy, E.ON, and Tetra Pak."
+      }
+    ],
+    "expectationsHeading": {
+      "key": "event-igeday-activities-heading",
+      "text": "Activities & sessions"
+    },
+    "expectations": [
+      {
+        "key": "event-igeday-activity-1",
+        "text": "Guided tours of engineering workplaces that showcase labs, control rooms, and project spaces."
+      },
+      {
+        "key": "event-igeday-activity-2",
+        "text": "Hands-on problem-solving sessions where participants build prototypes, test ideas, and collaborate with engineers."
+      },
+      {
+        "key": "event-igeday-activity-3",
+        "text": "Talks from engineers and role models sharing study paths, daily work, and tips for choosing programmes."
+      },
+      {
+        "key": "event-igeday-activity-4",
+        "text": "Group challenges, teamwork activities, and Q&A opportunities about studies and career paths."
+      },
+      {
+        "key": "event-igeday-activity-5",
+        "text": "Teachers, mentors, and student counsellors are welcome to accompany groups and support the experience."
+      },
+      {
+        "key": "event-igeday-activity-6",
+        "text": "Inspirational stories from women engineers and young participants highlighting different futures within technology."
+      }
+    ],
+    "scheduleHeading": {
+      "key": "event-igeday-schedule-heading",
+      "text": "Key dates & host updates"
+    },
+    "schedule": [
+      {
+        "key": "event-igeday-schedule-1",
+        "text": "Company participation is open to any organization with at least one woman engineer, and registration for IGEday 2026 hosts closes on November 30."
+      },
+      {
+        "key": "event-igeday-schedule-2",
+        "text": "Participant registration opens on January 7, with the list of participating companies updated continuously at https://igeday.com so applicants can choose their preferred workplace."
+      },
+      {
+        "key": "event-igeday-schedule-3",
+        "text": "On March 20, 2026, hosts across Sweden run morning or full-day sessions, from factory tours to innovation workshops."
+      }
+    ],
+    "participationHeading": {
+      "key": "event-igeday-participation-heading",
+      "text": "Participation & resources"
+    },
+    "participation": [
+      {
+        "key": "event-igeday-participation-1",
+        "text": "Anyone aged 13–19 who identifies as a girl or non-binary can sign up individually or as part of a school group."
+      },
+      {
+        "key": "event-igeday-participation-2",
+        "text": "Hosts need at least one woman engineer and can design tours, workshops, or lab sessions that reflect their workplace and teams."
+      },
+      {
+        "key": "event-igeday-participation-3",
+        "text": "Quotes from previous participants include \"The best part was hearing what life as an engineer is like.\", \"The most fun part was solving tasks together.\", and \"I got to see what my future workplace might look like!\""
+      },
+      {
+        "key": "event-igeday-participation-4",
+        "text": "IGEday is organized by the Womengineer Foundation, whose goal is for Sweden to graduate as many female engineers as male engineers by 2030 while supporting UN Sustainable Development Goals 4, 5, and 10."
+      },
+      {
+        "key": "event-igeday-participation-5",
+        "text": "The initiative is made possible through partners, schools, companies, and volunteers across Sweden who coordinate logistics and mentoring."
+      },
+      {
+        "key": "event-igeday-participation-6",
+        "text": "More information, FAQs, and inspiration from previous years are available on the official website: https://igeday.com."
       }
     ]
   },
