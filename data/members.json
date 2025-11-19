@@ -293,18 +293,20 @@
       "id": 13,
       "slug": "danial-gholamian",
       "name": "Danial Gholamian",
-      "photo": "./assets/members_pic/user-placeholder.jpg",
-      "title": "Teaching Assistant & Computer Science Student",
+      "photo": "./assets/members_pic/danial-gholamian.jpg",
+      "title": "Teaching Assistant & Network Security Student",
       "programName": "Network Security",
       "degreeLevel": "Bachelor",
       "yearOfStudy": "3",
+      "description": "Hi, I'm Danial Gholamian, a third-year Network Security student and TEP member since December 2024. I support the 1DV607 Object Oriented UML and Design course as a teaching assistant while working on the Data Visualization for VR Systems project.",
       "projects": [
         11
       ],
       "translations": {
         "sv": {
           "programName": "Nätverksäkerhet",
-          "degreeLevel": "Kandidatprogram"
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej, jag heter Danial Gholamian och läser tredje året i nätverkssäkerhet. Jag har varit med i TEP sedan december 2024, är labbassistent för kursen 1DV607 Objektorienterad UML och design och arbetar med projektet Datavisualisering för VR-system."
         }
       }
     }
