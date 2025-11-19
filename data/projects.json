@@ -1,5 +1,39 @@
 [
   {
+    "id": 1,
+    "slug": "teaching-assistant",
+    "title": "Teaching Assistant",
+    "date": "2025-09-01",
+    "description": "Assisting in grading assignments, holding office hours, and supporting students in understanding course material.",
+    "overview": "This Teaching Assistant (TA) project focuses on delivering comprehensive instructional support across a course’s lifecycle to enhance student learning and improve course operations. The TA will play a central role in grading assignments, hosting office hours, and providing individualized and group-based academic support that deepens understanding of core concepts and skills.",
+    "category": "Education",
+    "image": "./assets/projects_pic/ta.jpg",
+    "members": [
+      1,
+      2,
+      3,
+      4,
+      10
+    ],
+    "technologies": [],
+    "outcomes": [
+      "Graded assignments with clear, consistent rubrics and timely feedback",
+      "Held lab sessions to reinforce concepts and provide hands-on support"
+    ],
+    "translations": {
+      "sv": {
+        "title": "Labbassistent",
+        "description": "Hjälper till med rättning, håller öppna mottagningar och stöttar studenter i att förstå kursmaterial.",
+        "overview": "Detta projekt för undervisningsassistent (TA) fokuserar på att leverera heltäckande pedagogiskt stöd under hela kursens livscykel för att stärka studenternas lärande och förbättra kursens genomförande. TA:n kommer att spela en central roll i att bedöma inlämningar, hålla mottagnings- och handledningstider samt ge individuellt och gruppbaserat akademiskt stöd som fördjupar förståelsen av grundläggande koncept och färdigheter.",
+        "category": "Utbildning",
+        "outcomes": [
+          "Betygsatte inlämningar med tydliga, konsekventa bedömningskriterier och snabb återkoppling",
+          "Höll labsessioner för att förstärka koncept och ge praktiskt stöd"
+        ]
+      }
+    }
+  },
+  {
     "id": 2,
     "slug": "tep-website-development",
     "title": "TEP Website Development",
