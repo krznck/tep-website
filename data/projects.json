@@ -13,7 +13,10 @@
       2,
       3,
       4,
-      10
+      7,
+      9,
+      10,
+      11
     ],
     "technologies": [],
     "outcomes": [
@@ -68,15 +71,164 @@
   },
   {
     "id": 3,
+    "slug": "green-house-monitoring-system",
     "title": "Green House Monitoring System",
     "date": "2025-09-19",
     "description": "Implementing a smart monitoring system for greenhouses using IoT devices and data analytics.",
+    "overview": "This project explores indoor plant growing and monitoring, automatically adjusting environmental conditions based on sensor data and desired settings. A fun and practical experiment in automation!",
     "category": "Research",
-    "image": "./assets/projects_pic/placeholder.png",
+    "image": "./assets/projects_pic/green_house.png",
+    "members": [
+      7,
+      9
+    ],
+    "technologies": [
+      "[“MicroPython”",
+      "“Python”",
+      "“Raspberry Pi”",
+      "“Raspberry Pi Pico”]"
+    ],
+    "outcomes": [
+      "[“Learn automation“",
+      "“Design a dashboard connecting different interfaces“",
+      "“Make a reusable base plant growing station for others to experiment with“",
+      "“Have some fun making it“]"
+    ],
     "translations": {
       "sv": {
         "title": "Växthusövervakningssystem",
         "description": "Implementerar ett smart övervakningssystem för växthus med IoT-enheter och dataanalys.",
+        "category": "Forskning"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "slug": "open-gaze-visualization-project",
+    "title": "Open Gaze Visualization Project",
+    "date": "2025-02-26",
+    "description": "Developing a free and open-source solution to collecting and visualizing eye-tracked gaze data.",
+    "overview": "Eye-tracking software facilitating gaze data collection and visualizations is commonly proprietary and vendor-locked. This project aims to create a free and open-source solution that facilitates simple gaze analysis. It is currently integrated with the Tobii Pro Spark.",
+    "category": "Research",
+    "image": "./assets/projects_pic/code-heatmap.png",
+    "members": [
+      6
+    ],
+    "technologies": [
+      "Python",
+      "Qt",
+      "Tobii SDK"
+    ],
+    "outcomes": [
+      "Learned a lot in the domain of eye-tracking and visual analytics",
+      "Increased personal proficiency  in Python",
+      "Real-time visualization of screen coordinates the user is looking at",
+      "Recording gaze data into storage",
+      "Analyzing gaze data based on adjustable parameters",
+      "Generation of visual attention maps and gaze plots"
+    ],
+    "translations": {
+      "sv": {
+        "title": "Projekt för öppen visualisering av blickar",
+        "description": "Utveckling av en gratis och öppen källkodslösning för insamling och visualisering av ögonspårningsdata.",
+        "overview": "Ögonspårningsprogramvara som underlättar insamling och visualisering av blickdata är vanligtvis proprietär och leverantörsberoende. Detta projekt syftar till att skapa en gratis och öppen källkod som underlättar enkel blickanalys. Den är för närvarande integrerad med Tobii Pro Spark.",
+        "category": "Forskning",
+        "outcomes": [
+          "[”Realtidsvisualisering av skärmkoordinater som användaren tittar på”",
+          "”Inspelning av blickdata i lagringsutrymme”",
+          "”Analys av blickdata baserat på justerbara parametrar”",
+          "”Generering av visuella uppmärksamhetskartor och blickdiagram”]"
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "a-review-on-python-libraries-for-temporal-network-analysis",
+    "title": "A Review on Python Libraries for Temporal Network Analysis",
+    "date": "2025-01-10",
+    "description": "This study examines Python library tools designed\nfor temporal networks under criteria such as how well-documented they are,\nwhat they can do, community support, and popularity, among others.",
+    "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
+    "members": [
+      8
+    ],
+    "technologies": [
+      "Temporal Networks",
+      "Python",
+      "Network Metrics"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "forecasting-electricity-consumption-in-sweden-using-deep-neural-networks",
+    "title": "Forecasting Electricity Consumption in Sweden using Deep Neural Networks",
+    "date": "2025-06-03",
+    "description": "This study investigates the effectiveness of advanced deep learning models, based on stacked and bidirectional LSTM\nand transformer-based, in predicting energy use based on time series data collected\nfrom a residential environment. In addition, we investigate the effects of histori-\ncal training window size and seasonal variability on energy consumption prediction.\nMultiple input window lengths were used in the four seasons: Spring, Summer, Fall,\nand Winter.",
+    "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
+    "members": [
+      8
+    ],
+    "technologies": [
+      "Deep Learning",
+      "Recurrent Neural\nNetworks",
+      "Stacked LSTM",
+      "Bidirectional LSTM",
+      "Transformers",
+      "PyTorch",
+      "Pandas",
+      "Matplotlib",
+      "Keras",
+      "TensorFlow",
+      "Python"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "ais-llm:-maritime-trajectory-prediction-and-anomaly-detection",
+    "title": "AIS-LLM: Maritime Trajectory Prediction and Anomaly Detection",
+    "date": "2025-09-20",
+    "description": "AIS-LLM is an ongoing research project which integrates time-series AIS data with a large language model (LLM).",
+    "category": "Research",
+    "image": "./assets/projects_pic/placeholder2.jpg",
+    "members": [
+      8
+    ],
+    "technologies": [
+      "Deep Learning",
+      "LLMs",
+      "Python",
+      "React",
+      "Pandas",
+      "Matplotlib",
+      "PyTorch",
+      "Keras"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "data-visualization-for-vr-systems",
+    "title": "Data Visualization for VR systems",
+    "description": "Developing a collaborative virtual reality system allows multiple users to explore and analyze temporal graphs networks whose structures change over time in a shared immersive 3D environment.",
+    "overview": "Developed using WebXR and THREE.js, the system presents successive timestamps of a graph side by side in a 3D timeline, enabling users to observe the evolution of nodes and connections over time.",
+    "category": "Research",
+    "image": "./assets/projects_pic/vr0-pic.jpeg",
+    "members": [
+      12,
+      13
+    ],
+    "technologies": [
+      "[Python",
+      "Temporal Networks",
+      "THREE.js",
+      "WebXR]"
+    ],
+    "translations": {
+      "sv": {
+        "title": "Datavisualisering för VR-system",
+        "description": "Att utveckla ett samarbetsinriktat virtual reality-system gör det möjligt för flera användare att utforska och analysera temporala grafnätverk, vars strukturer förändras över tid, i en gemensam immersiv 3D-miljö.",
+        "overview": "Systemet, som är utvecklat med WebXR och THREE.js, visar successiva tidsstämplar av en graf sida vid sida i en tredimensionell tidslinje, vilket gör det möjligt för användare att observera hur noder och kopplingar utvecklas över tid.",
         "category": "Forskning"
       }
     }

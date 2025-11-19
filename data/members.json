@@ -193,6 +193,11 @@
         "Backend",
         "and MLOps"
       ],
+      "projects": [
+        8,
+        9,
+        10
+      ],
       "translations": {
         "sv": {
           "programName": "Mjukvaruteknik",
