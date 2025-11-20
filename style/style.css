@@ -70,3 +70,18 @@ body {
         padding-right: clamp(1rem, 5vw, 2rem);
     }
 }
+
+body [data-lang] {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+body.is-language-switching [data-lang] {
+    opacity: 0;
+    transform: translateY(6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body [data-lang] {
+        transition: none;
+    }
+}

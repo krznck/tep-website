@@ -973,26 +973,53 @@ function loadSavedLanguage() {
     document.documentElement.lang = savedLanguage; // Set language at document level immediately
 }
 
-function changeLanguage(language) {
+const LANGUAGE_TRANSITION_DURATION = 220;
+let languageTransitionTimeout;
+
+function changeLanguage(language, options = {}) {
+    const shouldAnimate = options.animate !== false;
     document.documentElement.lang = language;
     setCookie("selectedLanguage", language, 30); // Save language preference
 
-    const elements = document.querySelectorAll("[data-lang]");
-    elements.forEach((el) => {
-        const key = el.getAttribute("data-lang");
-        const newText = translations[language][key];
+    const applyLanguage = () => {
+        const elements = document.querySelectorAll("[data-lang]");
+        elements.forEach((el) => {
+            const key = el.getAttribute("data-lang");
+            const newText = translations[language][key];
 
-        // only update if the text is different
-        if (newText && el.textContent !== newText) {
-            el.textContent = newText;
-        }
-    });
+            // only update if the text is different
+            if (newText && el.textContent !== newText) {
+                el.textContent = newText;
+            }
+        });
 
-    updateLanguageButtons(language);
+        updateLanguageButtons(language);
 
-    window.dispatchEvent(new CustomEvent("languagechange", {
-        detail: { language }
-    }));
+        window.dispatchEvent(new CustomEvent("languagechange", {
+            detail: { language }
+        }));
+    };
+
+    if (!shouldAnimate) {
+        applyLanguage();
+        return;
+    }
+
+    const transitionTarget = document.body;
+
+    if (!transitionTarget) {
+        applyLanguage();
+        return;
+    }
+
+    transitionTarget.classList.add("is-language-switching");
+    window.clearTimeout(languageTransitionTimeout);
+    languageTransitionTimeout = window.setTimeout(() => {
+        applyLanguage();
+        window.requestAnimationFrame(() => {
+            transitionTarget.classList.remove("is-language-switching");
+        });
+    }, LANGUAGE_TRANSITION_DURATION);
 }
 
 function updateLanguageButtons(language) {
@@ -1033,7 +1060,7 @@ function attachLanguageToggle() {
 }
 
 loadSavedLanguage(); // first apply the cookie to set the document language
-changeLanguage(document.documentElement.lang); // then apply the language to the document right away
+changeLanguage(document.documentElement.lang, { animate: false }); // then apply the language to the document right away
 // then set it up so that once the DOM is loaded, the language toggle button gets its functioanlity
 document.addEventListener("DOMContentLoaded", function () {
     attachLanguageToggle(); 
