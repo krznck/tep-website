@@ -200,8 +200,10 @@
       ],
       "translations": {
         "sv": {
+          "title": "Amanuens och programvaruteknikstudent",
           "programName": "Mjukvaruteknik",
           "degreeLevel": "Masterprogram",
+          "description": "Jag heter Martim Oliveira och läser masterprogrammet i mjukvaruteknik. Jag fokuserar på djupinlärning, LLM:er och NLP och har arbetat i flera forskningsprojekt i skärningspunkten mellan djupinlärningsmodeller och LLM:er.",
           "focusAreas": [
             "Djupinlärning",
             "LLM",
@@ -227,8 +229,10 @@
       ],
       "translations": {
         "sv": {
+          "title": "Amanuens och programvaruteknikstudent",
           "programName": "Mjukvaruteknik",
-          "degreeLevel": "Kandidatprogram"
+          "degreeLevel": "Kandidatprogram",
+          "description": "Studerar programvaruteknik, labbassistent för Python 1 och 2 och arbetar med ett inomhusväxthusprojekt."
         }
       }
     },
@@ -247,8 +251,10 @@
       ],
       "translations": {
         "sv": {
+          "title": "Amanuens och student i nätverkssäkerhet",
           "programName": "Nätverksäkerhet",
-          "degreeLevel": "Kandidatprogram"
+          "degreeLevel": "Kandidatprogram",
+          "description": "Jag heter Michelle Weber och studerar nätverkssäkerhet. Jag arbetar som labbassistent för Python 1 och 2 och gör också olika samhällsinsatser som att lära ut programmering till barn."
         }
       }
     },
@@ -326,6 +332,13 @@
       "degreeLevel": "Bachelor",
       "yearOfStudy": "2026",
       "description": "Hi! I used to be a part of TEP for 9 months.",
+      "translations": {
+        "sv": {
+          "programName": "Mjukvaruteknik",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej! Jag var en del av TEP i 9 månader."
+        }
+      },
       "alumni": true
     }
   ]

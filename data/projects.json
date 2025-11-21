@@ -13,10 +13,14 @@
       2,
       3,
       4,
+      6,
       7,
+      8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "technologies": [],
     "outcomes": [
@@ -157,7 +161,19 @@
       "Temporal Networks",
       "Python",
       "Network Metrics"
-    ]
+    ],
+    "translations": {
+      "sv": {
+        "title": "En genomgång av Python-bibliotek för temporal nätverksanalys",
+        "description": "Studien granskar Python-bibliotek för temporala nätverk utifrån hur väl de är dokumenterade, vad de kan göra, communitystöd och popularitet.",
+        "category": "Forskning",
+        "technologies": [
+          "Temporala nätverk",
+          "Python",
+          "Nätverksmått"
+        ]
+      }
+    }
   },
   {
     "id": 9,
@@ -182,7 +198,27 @@
       "Keras",
       "TensorFlow",
       "Python"
-    ]
+    ],
+    "translations": {
+      "sv": {
+        "title": "Prognostisering av elförbrukning i Sverige med djupa neurala nätverk",
+        "description": "Studien utvärderar avancerade djupa neurala nätverk baserade på staplade och bidirektionella LSTM- samt transformer-modeller för att förutsäga energiförbrukning från tidsseriedata i en bostadsmiljö. Vi undersöker också hur storleken på det historiska träningsfönstret och säsongsvariationer påverkar prognoserna, med olika inmatningsfönster för vår, sommar, höst och vinter.",
+        "category": "Forskning",
+        "technologies": [
+          "Djupinlärning",
+          "Rekurrenta neurala nätverk",
+          "Staplad LSTM",
+          "Bidirektionell LSTM",
+          "Transformers",
+          "PyTorch",
+          "Pandas",
+          "Matplotlib",
+          "Keras",
+          "TensorFlow",
+          "Python"
+        ]
+      }
+    }
   },
   {
     "id": 10,
@@ -204,7 +240,24 @@
       "Matplotlib",
       "PyTorch",
       "Keras"
-    ]
+    ],
+    "translations": {
+      "sv": {
+        "title": "AIS-LLM: Prognos av maritima rutter och avvikelsedetektering",
+        "description": "AIS-LLM är ett pågående forskningsprojekt som kopplar tidsserier av AIS-data till en stor språkmodell (LLM).",
+        "category": "Forskning",
+        "technologies": [
+          "Djupinlärning",
+          "LLM",
+          "Python",
+          "React",
+          "Pandas",
+          "Matplotlib",
+          "PyTorch",
+          "Keras"
+        ]
+      }
+    }
   },
   {
     "id": 11,
