@@ -178,6 +178,14 @@
     }
 
     .project-summary {
-        padding: 24px;
+        padding: 22px;
+    }
+
+    .project-hero {
+        gap: 28px;
+    }
+
+    .project-image img {
+        border-radius: 18px;
     }
 }

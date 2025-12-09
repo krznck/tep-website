@@ -244,7 +244,11 @@
     }
 
     .member-hero {
-        padding: 28px;
+        padding: 24px;
         gap: 28px;
+    }
+
+    .member-hero.member-hero--founder {
+        padding: 24px;
     }
 }
