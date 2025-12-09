@@ -103,6 +103,8 @@ function populateHero(member, lang) {
   const titleEl = document.getElementById('member-title');
   const academicEl = document.getElementById('member-academic');
   const focusEl = document.getElementById('member-focus');
+  const highlightEl = document.getElementById('member-highlight');
+  const heroSection = document.querySelector('.member-hero');
 
   if (photoEl) {
     photoEl.src = member.photo;
@@ -121,6 +123,19 @@ function populateHero(member, lang) {
 
   if (academicEl) {
     academicEl.textContent = formatMemberAcademicInfo(member, lang);
+  }
+
+  if (highlightEl) {
+    if (member.isFounder) {
+      highlightEl.hidden = false;
+      highlightEl.textContent = lang === 'sv' ? 'Grundare av TEP' : 'Founder of TEP';
+    } else {
+      highlightEl.hidden = true;
+    }
+  }
+
+  if (heroSection) {
+    heroSection.classList.toggle('member-hero--founder', Boolean(member.isFounder));
   }
 
   if (focusEl) {

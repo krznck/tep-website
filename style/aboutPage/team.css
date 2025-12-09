@@ -289,12 +289,41 @@
   box-shadow: 0px 16px 40px rgba(46, 125, 50, 0.12);
 }
 
+.member-card--founder {
+  position: relative;
+  border-left: 10px solid var(--lnu-yellow);
+  padding: 14px 18px;
+  gap: 18px;
+  align-items: center;
+  background: linear-gradient(145deg, rgba(255, 242, 191, 0.85), rgba(255, 255, 255, 0.95));
+  box-shadow: 0px 18px 46px rgba(255, 200, 0, 0.22);
+}
+
 .member-image {
   flex: 0 0 250px;
   max-width: 250px;
   height: 250px; /* Make it a perfect square */
   overflow: hidden;
   position: relative;
+  border-radius: 18px;
+}
+
+.member-card--founder .member-image {
+  border-right: 4px solid rgba(255, 209, 0, 0.35);
+  max-width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+}
+
+.member-card--founder .member-image img {
+  object-position: center;
+}
+
+.member-image--abdullah-saeed img {
+  object-position: 50% 35%;
 }
 
 .member-image img {
@@ -303,6 +332,7 @@
   object-fit: cover;
   object-position: center;
   display: block;
+  border-radius: 16px;
 }
 
 .member-info {
@@ -331,6 +361,30 @@
   font-size: clamp(1rem, calc(1vw + 0.5rem), 1.5rem);
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.member-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.member-founder-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffe24a, #ffd100);
+  color: #120d26;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid rgba(18, 13, 38, 0.08);
+  box-shadow: 0 10px 24px rgba(255, 200, 0, 0.24);
 }
 
 .program-info {
@@ -390,6 +444,10 @@
   
   .member-info {
     padding: 20px;
+  }
+
+  .member-badges {
+    margin-left: 0;
   }
   
   /* These cards no longer use the original BB class */

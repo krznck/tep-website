@@ -117,14 +117,17 @@
       "id": 5,
       "slug": "dr.-claudio-linhares",
       "name": "Dr. Claudio Linhares",
+      "title": "Founder of TEP",
       "photo": "./assets/members_pic/claudio-linhares.jpg",
       "programName": "Department of Computer Science and Media Technology",
       "degreeLevel": "SENIOR LECTURER",
       "yearOfStudy": "-",
       "description": "Dr. Claudio Linhares is a Senior Lecturer at Linnaeus University, at the Department of Computer Science and Media Technology Faculty of Technology, in Växjö, Sweden.",
       "projects": [],
+      "isFounder": true,
       "translations": {
         "sv": {
+          "title": "Grundare av TEP",
           "programName": "Institutionen för datavetenskap och medieteknik",
           "degreeLevel": "UNIVERSITETSLEKTOR",
           "description": "Dr. Claudio Linhares är universitetslektor vid Linnéuniversitetet, vid Institutionen för datavetenskap och medieteknik, Tekniska fakulteten, i Växjö, Sverige."

@@ -20,6 +20,21 @@ function normalizeMembersPayload(payload) {
   return { current, alumni };
 }
 
+function sortMembersByPriority(members, lang) {
+  const locale = lang === 'sv' ? 'sv' : undefined;
+
+  return members.sort((a, b) => {
+    const priorityA = a.isFounder ? 0 : 1;
+    const priorityB = b.isFounder ? 0 : 1;
+
+    if (priorityA !== priorityB) {
+      return priorityA - priorityB;
+    }
+
+    return a.name.localeCompare(b.name, locale);
+  });
+}
+
 // Load and display members from JSON data
 async function loadTeamMembers() {
   if (!cachedMembers) {
@@ -50,11 +65,14 @@ function renderMembers() {
 
   const lang = getCurrentLanguage();
   const { current = [], alumni = [] } = cachedMembers || { current: [], alumni: [] };
-  const currentMembers = current.map(member => mergeLocalizedFields(member, lang));
-  const alumniMembers = alumni.map(member => mergeLocalizedFields(member, lang));
-
-  currentMembers.sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
-  alumniMembers.sort((a, b) => a.name.localeCompare(b.name, lang === 'sv' ? 'sv' : undefined));
+  const currentMembers = sortMembersByPriority(
+    current.map(member => mergeLocalizedFields(member, lang)),
+    lang
+  );
+  const alumniMembers = sortMembersByPriority(
+    alumni.map(member => mergeLocalizedFields(member, lang)),
+    lang
+  );
 
   if (currentContainer) {
     currentContainer.innerHTML = '';
@@ -100,19 +118,40 @@ function createMemberCard(member, lang, options = {}) {
   const { isAlumni = false } = options;
 
   const card = document.createElement('div');
-  card.className = isAlumni ? 'member-card member-card--alumni' : 'member-card';
+  const cardClasses = ['member-card'];
+  if (isAlumni) {
+    cardClasses.push('member-card--alumni');
+  }
+  if (member.isFounder) {
+    cardClasses.push('member-card--founder');
+  }
+  card.className = cardClasses.join(' ');
 
   // Create the HTML structure for the card
   const profileUrl = member.slug
     ? `member.html?slug=${encodeURIComponent(member.slug)}`
     : `member.html?id=${encodeURIComponent(member.id)}`;
 
-  const badge = isAlumni
-    ? `<span class="member-status-badge" data-lang="team-alumni-badge">${lang === 'sv' ? 'Alumn' : 'Alumni'}</span>`
+  const badges = [];
+
+  if (member.isFounder) {
+    badges.push(`<span class="member-founder-badge">${lang === 'sv' ? 'Grundare av TEP' : 'Founder of TEP'}</span>`);
+  }
+
+  if (isAlumni) {
+    badges.push(`<span class="member-status-badge" data-lang="team-alumni-badge">${lang === 'sv' ? 'Alumn' : 'Alumni'}</span>`);
+  }
+
+  const badgesHtml = badges.length
+    ? `<div class="member-badges">${badges.join('')}</div>`
     : '';
 
+  const imageClassName = member.slug
+    ? `member-image member-image--${member.slug}`
+    : 'member-image';
+
   card.innerHTML = `
-    <div class="member-image">
+    <div class="${imageClassName}">
       <a href="${profileUrl}">
         <img src="${member.photo}" alt="${member.name}">
       </a>
@@ -122,7 +161,7 @@ function createMemberCard(member, lang, options = {}) {
         <h3>
           <a href="${profileUrl}">${member.name}</a>
         </h3>
-        ${badge}
+        ${badgesHtml}
       </div>
       <p class="program-info">
         ${formatMemberAcademicInfo(member, lang)}
