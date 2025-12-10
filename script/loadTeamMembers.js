@@ -153,7 +153,10 @@ function createMemberCard(member, lang, options = {}) {
   card.innerHTML = `
     <div class="${imageClassName}">
       <a href="${profileUrl}">
-        <img src="${member.photo}" alt="${member.name}">
+        <img src="${member.photo}" 
+             alt="${member.name}"
+             loading="lazy"
+             decoding="async">
       </a>
     </div>
     <div class="member-info">

@@ -111,6 +111,8 @@ function populateHero(member, lang) {
     photoEl.alt = lang === 'sv'
       ? `Porträtt av ${member.name}`
       : `Portrait of ${member.name}`;
+    photoEl.loading = 'eager'; // Load hero image immediately
+    photoEl.decoding = 'async';
   }
 
   if (nameEl) {
@@ -212,7 +214,10 @@ function populateProjects(member, projects, lang) {
 
     card.innerHTML = `
       <div class="member-project-image">
-        <img src="${project.image}" alt="${project.title}">
+        <img src="${project.image}" 
+             alt="${project.title}"
+             loading="lazy"
+             decoding="async">
       </div>
       <div class="member-project-body">
         <p class="member-project-date">${formatDate(project.date, lang)}</p>
