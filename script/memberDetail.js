@@ -103,12 +103,16 @@ function populateHero(member, lang) {
   const titleEl = document.getElementById('member-title');
   const academicEl = document.getElementById('member-academic');
   const focusEl = document.getElementById('member-focus');
+  const highlightEl = document.getElementById('member-highlight');
+  const heroSection = document.querySelector('.member-hero');
 
   if (photoEl) {
     photoEl.src = member.photo;
     photoEl.alt = lang === 'sv'
       ? `Porträtt av ${member.name}`
       : `Portrait of ${member.name}`;
+    photoEl.loading = 'eager'; // Load hero image immediately
+    photoEl.decoding = 'async';
   }
 
   if (nameEl) {
@@ -121,6 +125,19 @@ function populateHero(member, lang) {
 
   if (academicEl) {
     academicEl.textContent = formatMemberAcademicInfo(member, lang);
+  }
+
+  if (highlightEl) {
+    if (member.isFounder) {
+      highlightEl.hidden = false;
+      highlightEl.textContent = lang === 'sv' ? 'Grundare av TEP' : 'Founder of TEP';
+    } else {
+      highlightEl.hidden = true;
+    }
+  }
+
+  if (heroSection) {
+    heroSection.classList.toggle('member-hero--founder', Boolean(member.isFounder));
   }
 
   if (focusEl) {
@@ -197,7 +214,10 @@ function populateProjects(member, projects, lang) {
 
     card.innerHTML = `
       <div class="member-project-image">
-        <img src="${project.image}" alt="${project.title}">
+        <img src="${project.image}" 
+             alt="${project.title}"
+             loading="lazy"
+             decoding="async">
       </div>
       <div class="member-project-body">
         <p class="member-project-date">${formatDate(project.date, lang)}</p>

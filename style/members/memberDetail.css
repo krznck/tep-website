@@ -24,12 +24,34 @@
     border-radius: 22px;
     border: 4px solid rgba(0, 0, 0, 0.05);
     background-color: #fff;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .member-summary {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.member-highlight {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #ffe24a, #ffd100);
+    color: #120d26;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow: 0 14px 28px rgba(255, 200, 0, 0.28);
+}
+
+.member-highlight[hidden] {
+    display: none;
 }
 
 .member-breadcrumb a {
@@ -78,6 +100,21 @@
 .member-projects-section h2 {
     font-size: 2rem;
     margin-bottom: 16px;
+}
+
+.member-hero--founder {
+    border: 2px solid rgba(255, 200, 0, 0.45);
+    background: linear-gradient(135deg, rgba(255, 237, 170, 0.65), rgba(255, 255, 255, 0.95));
+    box-shadow: 0 42px 88px rgba(255, 200, 0, 0.28);
+}
+
+.member-hero--founder .member-photo img {
+    border-color: rgba(255, 200, 0, 0.6);
+    box-shadow: 0 28px 48px rgba(255, 200, 0, 0.22);
+}
+
+.member-hero--founder .member-title {
+    color: #8a6a00;
 }
 
 .member-bio-section p {
@@ -210,7 +247,11 @@
     }
 
     .member-hero {
-        padding: 28px;
+        padding: 24px;
         gap: 28px;
+    }
+
+    .member-hero.member-hero--founder {
+        padding: 24px;
     }
 }

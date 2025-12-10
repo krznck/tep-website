@@ -25,7 +25,7 @@
       "id": 2,
       "slug": "yan-song",
       "name": "Yan Song",
-      "photo": "./assets/members_pic/yan-song.jpg",
+      "photo": "./assets/members_pic/yan-song-official.jpg",
       "programName": "Software Technology",
       "degreeLevel": "Master",
       "yearOfStudy": "1",
@@ -45,7 +45,7 @@
       "id": 3,
       "slug": "abdullah-saeed",
       "name": "Abdullah Saeed",
-      "photo": "./assets/members_pic/abdullah-saeed.jpg",
+      "photo": "./assets/members_pic/abdullah-saeed-official.jpg",
       "title": "Teaching Assistant & Software Technology Student",
       "programName": "Software Technology",
       "degreeLevel": "Bachelor",
@@ -82,7 +82,7 @@
       "id": 4,
       "slug": "pedro-gagini",
       "name": "Pedro Gagini",
-      "photo": "./assets/members_pic/pedro-gagini.jpg",
+      "photo": "./assets/members_pic/pedro-gagini-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Computer Science",
       "degreeLevel": "Bachelor",
@@ -117,14 +117,17 @@
       "id": 5,
       "slug": "dr.-claudio-linhares",
       "name": "Dr. Claudio Linhares",
-      "photo": "./assets/members_pic/claudio-linhares.jpg",
+      "title": "Founder of TEP",
+      "photo": "./assets/members_pic/claudio-linhares-official.jpg",
       "programName": "Department of Computer Science and Media Technology",
       "degreeLevel": "SENIOR LECTURER",
       "yearOfStudy": "-",
       "description": "Dr. Claudio Linhares is a Senior Lecturer at Linnaeus University, at the Department of Computer Science and Media Technology Faculty of Technology, in Växjö, Sweden.",
       "projects": [],
+      "isFounder": true,
       "translations": {
         "sv": {
+          "title": "Grundare av TEP",
           "programName": "Institutionen för datavetenskap och medieteknik",
           "degreeLevel": "UNIVERSITETSLEKTOR",
           "description": "Dr. Claudio Linhares är universitetslektor vid Linnéuniversitetet, vid Institutionen för datavetenskap och medieteknik, Tekniska fakulteten, i Växjö, Sverige."
@@ -135,7 +138,7 @@
       "id": 6,
       "slug": "maciej-jan-korzenecki",
       "name": "Maciej Jan Korzenecki",
-      "photo": "./assets/members_pic/maciej-jan-korzenecki.jpg",
+      "photo": "./assets/members_pic/maciej-jan-korzenecki-official.jpg",
       "title": "Teaching Assistant & Software Technology Student",
       "programName": "Software Technology",
       "degreeLevel": "Bachelor",
@@ -180,7 +183,7 @@
       "id": 8,
       "slug": "martim-oliveira",
       "name": "Martim Oliveira",
-      "photo": "./assets/members_pic/MartimOlv.png",
+      "photo": "./assets/members_pic/martim-oliveira-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Software Technology",
       "degreeLevel": "Master",
@@ -193,17 +196,10 @@
         "Backend",
         "and MLOps"
       ],
-      "projects": [
-        8,
-        9,
-        10
-      ],
       "translations": {
         "sv": {
-          "title": "Amanuens och programvaruteknikstudent",
           "programName": "Mjukvaruteknik",
           "degreeLevel": "Masterprogram",
-          "description": "Jag heter Martim Oliveira och läser masterprogrammet i mjukvaruteknik. Jag fokuserar på djupinlärning, LLM:er och NLP och har arbetat i flera forskningsprojekt i skärningspunkten mellan djupinlärningsmodeller och LLM:er.",
           "focusAreas": [
             "Djupinlärning",
             "LLM",
@@ -217,7 +213,7 @@
       "id": 9,
       "slug": "arseny-isaev",
       "name": "Arseny Isaev",
-      "photo": "./assets/members_pic/arseny_i.png",
+      "photo": "./assets/members_pic/arseny-isaev-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Software Technology",
       "degreeLevel": "Bachelor",
@@ -229,10 +225,8 @@
       ],
       "translations": {
         "sv": {
-          "title": "Amanuens och programvaruteknikstudent",
           "programName": "Mjukvaruteknik",
-          "degreeLevel": "Kandidatprogram",
-          "description": "Studerar programvaruteknik, labbassistent för Python 1 och 2 och arbetar med ett inomhusväxthusprojekt."
+          "degreeLevel": "Kandidatprogram"
         }
       }
     },
@@ -240,7 +234,7 @@
       "id": 10,
       "slug": "michelle-weber",
       "name": "Michelle Weber",
-      "photo": "./assets/members_pic/michelle_passfoto.jpg",
+      "photo": "./assets/members_pic/michelle-weber-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Network Security",
       "degreeLevel": "Bachelor",
@@ -251,10 +245,8 @@
       ],
       "translations": {
         "sv": {
-          "title": "Amanuens och student i nätverkssäkerhet",
           "programName": "Nätverksäkerhet",
-          "degreeLevel": "Kandidatprogram",
-          "description": "Jag heter Michelle Weber och studerar nätverkssäkerhet. Jag arbetar som labbassistent för Python 1 och 2 och gör också olika samhällsinsatser som att lära ut programmering till barn."
+          "degreeLevel": "Kandidatprogram"
         }
       }
     },
@@ -262,7 +254,7 @@
       "id": 11,
       "slug": "alina-schwertfeger",
       "name": "Alina Schwertfeger",
-      "photo": "./assets/members_pic/Alina-Schwertfeger.jpg",
+      "photo": "./assets/members_pic/alina-schwertfeger-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Network Security",
       "degreeLevel": "Bachelor",
@@ -283,7 +275,7 @@
       "id": 12,
       "slug": "fatimah-olamide-ibrahim",
       "name": "Fatimah Olamide Ibrahim",
-      "photo": "./assets/members_pic/fatimah-ibrahim.JPG",
+      "photo": "./assets/members_pic/fatimah-olamide-ibrahim-official.jpg",
       "title": "Teaching Assistant & Computer Science Student",
       "programName": "Network Security",
       "degreeLevel": "Bachelor",
@@ -304,20 +296,57 @@
       "id": 13,
       "slug": "danial-gholamian",
       "name": "Danial Gholamian",
-      "photo": "./assets/members_pic/danial-gholamian.jpg",
-      "title": "Teaching Assistant & Network Security Student",
+      "photo": "./assets/members_pic/danial-gholamian-official.jpg",
+      "title": "Teaching Assistant & Computer Science Student",
       "programName": "Network Security",
       "degreeLevel": "Bachelor",
       "yearOfStudy": "3",
-      "description": "Hi, I'm Danial Gholamian, a third-year Network Security student and TEP member since December 2024. I support the 1DV607 Object Oriented UML and Design course as a teaching assistant while working on the Data Visualization for VR Systems project.",
       "projects": [
         11
       ],
       "translations": {
         "sv": {
           "programName": "Nätverksäkerhet",
+          "degreeLevel": "Kandidatprogram"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "slug": "jakob-nyström",
+      "name": "Jakob Nyström",
+      "photo": "./assets/members_pic/jakob-nyström-official.jpg",
+      "title": "Teaching Assistant & Software Technology Student",
+      "programName": "Master of Science in Engineering, Software Engineering",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Hi, my name is Jakob Nyström and I am a third-year student in Master of Science in Engineering, Software Engineering. I also work as a Teaching Assistant as well as in projects within TEP.",
+      "translations": {
+        "sv": {
+          "programName": "Civilingenjör i mjukvaruteknik",
           "degreeLevel": "Kandidatprogram",
-          "description": "Hej, jag heter Danial Gholamian och läser tredje året i nätverkssäkerhet. Jag har varit med i TEP sedan december 2024, är labbassistent för kursen 1DV607 Objektorienterad UML och design och arbetar med projektet Datavisualisering för VR-system."
+          "description": "Hej! Jag heter Jakob Nyström och jag läser mitt tredje år i programmet Civilingenjör i mjukvaruteknik. Jag jobbar även som lärarassistent samt inom projekt för TEP."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "slug": "julia-bergön",
+      "name": "Julia Bergön",
+      "photo": "./assets/members_pic/julia-bergön-official.jpg",
+      "title": "Teaching Assistant & Software Technology Student",
+      "programName": "Master of Science in Engineering, Software Engineering",
+      "degreeLevel": "Bachelor",
+      "yearOfStudy": "3",
+      "description": "Hi! My name is Julia Bergön, and I’m currently in my third year of the Master of Science in Software Engineering program. Alongside my studies, I also work as a teaching assistant and on projects within TEP.",
+      "projects": [
+        3
+      ],
+      "translations": {
+        "sv": {
+          "programName": "Civilingenjör i mjukvaruteknik",
+          "degreeLevel": "Kandidatprogram",
+          "description": "Hej! Jag heter Julia Bergön och går mitt tredje år på civilingenjörsprogrammet i mjukvaruteknik. Vid sidan av studierna jobbar jag också som amanuens och med projekt inom TEP."
         }
       }
     }
@@ -332,13 +361,6 @@
       "degreeLevel": "Bachelor",
       "yearOfStudy": "2026",
       "description": "Hi! I used to be a part of TEP for 9 months.",
-      "translations": {
-        "sv": {
-          "programName": "Mjukvaruteknik",
-          "degreeLevel": "Kandidatprogram",
-          "description": "Hej! Jag var en del av TEP i 9 månader."
-        }
-      },
       "alumni": true
     }
   ]

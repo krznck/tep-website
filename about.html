@@ -34,6 +34,7 @@
     <script src="./script/handleLanguage.js" defer></script>
     <script src="./script/burgerifyMenu.js" defer></script>
     <script src="./script/highlightActiveView.js" defer></script>
+    <script src="./script/aboutHeroSlider.js" defer></script>
     <script src="./script/loadTeamMembers.js" defer></script>
 </head>
 
@@ -67,7 +68,25 @@
             </div>
             <div class="page-hero__visual about-hero__visual">
                 <div class="about-hero__image-frame">
-                    <img class="about-hero__image" src="assets/aboutPage/TEPteam.png" alt="TEP team group photo" loading="lazy">
+                    <div class="about-hero__slider" data-about-slider aria-label="TEP team photos" tabindex="0">
+                        <figure class="about-hero__slide" data-about-slide>
+                            <img class="about-hero__image" src="assets/aboutPage/TEPteam2.jpg" alt="TEP team group photo during event" loading="lazy">
+                        </figure>
+                        <figure class="about-hero__slide is-active" data-about-slide>
+                            <img class="about-hero__image" src="assets/aboutPage/TEPteam.png" alt="TEP team group photo on campus" loading="lazy">
+                        </figure>
+                        <button class="about-hero__nav about-hero__nav--prev" type="button" data-about-prev aria-label="Previous photo">
+                            <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+                                <path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="about-hero__nav about-hero__nav--next" type="button" data-about-next aria-label="Next photo">
+                            <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+                                <path d="m9 19 7-7-7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <span class="about-hero__counter" data-about-counter>1/2</span>
+                    </div>
                 </div>
             </div>
         </div>
