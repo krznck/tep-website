@@ -13,14 +13,7 @@
       2,
       3,
       4,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
+      10
     ],
     "technologies": [],
     "outcomes": [
@@ -49,7 +42,11 @@
     "overview": "The TEP Website project delivers a modern, responsive site for the Teaching and Engagement Program. The team restructured content, implemented reusable web components, and built a JSON-driven workflow so updates stay simple.",
     "category": "Development",
     "image": "./assets/projects_pic/web-development.jpg",
-    "members": [1, 3, 4],
+    "members": [
+      1,
+      3,
+      4
+    ],
     "technologies": [
       "HTML5",
       "CSS Modules",
@@ -82,10 +79,7 @@
     "overview": "This project explores indoor plant growing and monitoring, automatically adjusting environmental conditions based on sensor data and desired settings. A fun and practical experiment in automation!",
     "category": "Research",
     "image": "./assets/projects_pic/green_house.png",
-    "members": [
-      7,
-      9
-    ],
+    "members": [],
     "technologies": [
       "[“MicroPython”",
       "“Python”",
@@ -161,19 +155,7 @@
       "Temporal Networks",
       "Python",
       "Network Metrics"
-    ],
-    "translations": {
-      "sv": {
-        "title": "En genomgång av Python-bibliotek för temporal nätverksanalys",
-        "description": "Studien granskar Python-bibliotek för temporala nätverk utifrån hur väl de är dokumenterade, vad de kan göra, communitystöd och popularitet.",
-        "category": "Forskning",
-        "technologies": [
-          "Temporala nätverk",
-          "Python",
-          "Nätverksmått"
-        ]
-      }
-    }
+    ]
   },
   {
     "id": 9,
@@ -198,27 +180,7 @@
       "Keras",
       "TensorFlow",
       "Python"
-    ],
-    "translations": {
-      "sv": {
-        "title": "Prognostisering av elförbrukning i Sverige med djupa neurala nätverk",
-        "description": "Studien utvärderar avancerade djupa neurala nätverk baserade på staplade och bidirektionella LSTM- samt transformer-modeller för att förutsäga energiförbrukning från tidsseriedata i en bostadsmiljö. Vi undersöker också hur storleken på det historiska träningsfönstret och säsongsvariationer påverkar prognoserna, med olika inmatningsfönster för vår, sommar, höst och vinter.",
-        "category": "Forskning",
-        "technologies": [
-          "Djupinlärning",
-          "Rekurrenta neurala nätverk",
-          "Staplad LSTM",
-          "Bidirektionell LSTM",
-          "Transformers",
-          "PyTorch",
-          "Pandas",
-          "Matplotlib",
-          "Keras",
-          "TensorFlow",
-          "Python"
-        ]
-      }
-    }
+    ]
   },
   {
     "id": 10,
@@ -240,24 +202,7 @@
       "Matplotlib",
       "PyTorch",
       "Keras"
-    ],
-    "translations": {
-      "sv": {
-        "title": "AIS-LLM: Prognos av maritima rutter och avvikelsedetektering",
-        "description": "AIS-LLM är ett pågående forskningsprojekt som kopplar tidsserier av AIS-data till en stor språkmodell (LLM).",
-        "category": "Forskning",
-        "technologies": [
-          "Djupinlärning",
-          "LLM",
-          "Python",
-          "React",
-          "Pandas",
-          "Matplotlib",
-          "PyTorch",
-          "Keras"
-        ]
-      }
-    }
+    ]
   },
   {
     "id": 11,
@@ -266,11 +211,8 @@
     "description": "Developing a collaborative virtual reality system allows multiple users to explore and analyze temporal graphs networks whose structures change over time in a shared immersive 3D environment.",
     "overview": "Developed using WebXR and THREE.js, the system presents successive timestamps of a graph side by side in a 3D timeline, enabling users to observe the evolution of nodes and connections over time.",
     "category": "Research",
-    "image": "./assets/projects_pic/vr0-pic.jpeg",
-    "members": [
-      12,
-      13
-    ],
+    "image": "./assets/projects_pic/vr0-pic.png",
+    "members": [],
     "technologies": [
       "[Python",
       "Temporal Networks",
